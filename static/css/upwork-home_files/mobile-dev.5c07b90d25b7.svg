@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="23px" viewBox="0 0 16 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Icon-mobile dev</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.7142857,0.76525116 C19.7142857,0.342614614 19.3776848,0 18.9401593,0 L5.70269788,0 C5.27515965,0 4.92857144,0.342979982 4.92857144,0.76525116 L4.92857143,22.2347488 C4.92857143,22.6573854 5.26517234,23 5.70269786,23 L18.9401593,23 C19.3676975,23 19.7142857,22.65702 19.7142857,22.2347488 L19.7142857,0.76525116 Z M13.1428571,19.7142857 L13.1428571,21.3571429 L11.5,21.3571429 L11.5,19.7142857 L13.1428571,19.7142857 Z M17.25,3.28571429 L17.25,18.0714286 L7.39285714,18.0714286 L7.39285714,3.28571429 L17.25,3.28571429 Z" id="path-1"></path>
+    </defs>
+    <g id="Design-Sprint" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="T1---LG---HP11" transform="translate(-322.000000, -2939.000000)">
+            <g id="use-casse-CAT" transform="translate(129.000000, 2809.000000)">
+                <g id="Icon/14/mobile-development" transform="translate(189.000000, 130.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#A0A0A0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <g id="Color/Midnight-Blue" mask="url(#mask-2)" fill="#1D4354" fill-rule="evenodd">
+                        <rect id="color" x="0" y="0" width="23" height="23"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

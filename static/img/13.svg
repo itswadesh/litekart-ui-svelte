@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Icon-marketing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.28571429,-0.000657142857 L3.28571429,19.7152714 L23,19.7152714 L23,22.9993429 L0,22.9993429 L0,-0.000657142857 L3.28571429,-0.000657142857 Z M9.85714286,7.12014286 L9.85714286,18.0714286 L5.20128571,18.0714286 L5.20128571,7.12014286 L9.85714286,7.12014286 Z M16.4285714,3.28571429 L16.4285714,18.0714286 L11.5,18.0714286 L11.5,3.28571429 L16.4285714,3.28571429 Z M22.9983571,0.00164285714 L22.9983571,18.0714286 L18.0697857,18.0714286 L18.0697857,0.00164285714 L22.9983571,0.00164285714 Z" id="path-1"></path>
+    </defs>
+    <g id="Design-Sprint" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="T1---LG---HP11" transform="translate(-723.000000, -2939.000000)">
+            <g id="use-casse-CAT" transform="translate(129.000000, 2809.000000)">
+                <g id="Icon/14/marketing-sales" transform="translate(594.000000, 130.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#A0A0A0" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <g id="Color/Midnight-Blue" mask="url(#mask-2)" fill="#1D4354" fill-rule="evenodd">
+                        <rect id="color" x="0" y="0" width="23" height="23"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -7,21 +7,18 @@
     }
     .big{background-color: #2b5468;}
     </style>
-<div class="big flex   justify-center   ">
+<div class="big flex p-10   justify-center text-6xl text-gray-200  ">
       <div>
-        <div class="text-6xl   m-10 text-gray-200 ">
-          In-demand talent on
-          <div>demand.</div>
+          In-demand features 
           <div class="capital   ">
-            Upwork is how.
+            Unlimited customizations
           </div>
           <div class=" text-2xl">
-            Upwork expertly connects professionals and agencies to businesses
+            Customize it and standout from the competitors
           </div>
-          <div class="  text-2xl">seeking specialized talent.</div>
-          <div class="   flex justify-left  m-0 p-2 text-lg my-6 ">
+          <div class="   flex p-2 text-lg my-6 ">
             <button
-              class="touch rounded text-sm justify-left text-white py-3 px-6 bg-green-300 mx-0"
+              class="touch rounded text-sm justify-left text-white py-3 px-6 bg-green-300"
             >
               Get started
             </button>
@@ -31,9 +28,8 @@
               Get a demo
             </button>
           </div>
-        </div>
       </div>
-      <div class="flex  item justify-end ">
+      <div>
         <img src="img/b img 2.svg" alt="" hight="860" width="660" />
       </div>
     </div>

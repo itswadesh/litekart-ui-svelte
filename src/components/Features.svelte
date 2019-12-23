@@ -8,7 +8,7 @@
     }
    
     </style>
-<div class="  bg-gray-200 flex justify-center  shadow ">
+<div class="  bg-gray-200 flex justify-center overflow-x-scroll shadow ">
       <div class=" flex justify-around  bg-gray-200">
         <div class="seperater flex flex-col items-center">
           <img src="img/8.svg" alt="" class="m-5 h-6 w-12" /> Web Dev

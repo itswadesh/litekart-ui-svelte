@@ -5,4 +5,4 @@ sapper.start({
   target: document.querySelector("#sapper")
 });
 
-if (ANALYTICS_TRACKING_ID) googleAnalytics(ANALYTICS_TRACKING_ID);
+// if (ANALYTICS_TRACKING_ID) googleAnalytics(ANALYTICS_TRACKING_ID);

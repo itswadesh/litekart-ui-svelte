@@ -1,14 +1,29 @@
  <style>
     
-    
-   
-    
+   .yt{background-color: #1D4353;}
+    .yt2{color: #f5efef;
+    background-color: #37a000;
+    border-color: #730a0a00; }
+    .yt2:hover{
+      color: #fff;
+    background-color: #008329;
+    transition: all .3s;
+    outline: none;
+    box-shadow: 0 2px 10px 1px rgba(57,73,76,.4), 0 1px 2px rgba(57,73,76,.25);
+    }
   </style>
     
-<div class="flex justify-center bg-gray-200   ">
+<div class="flex flex-col p-12 bg-gray-200   ">
     <!-- first-colom -->
-    <div class="bg-white shadow mx-6">
-          <h1 class="mx-24  py-4 text-2xl"><b>Custom engagements</b></h1>
+    <div class=" talent flex justify-center text-4xl  mb-12 "><b>Talent solutions for every business need</b></div>
+    <div  class="flex justify-center">
+     <div class="bg-white shadow mx-6">
+     <div class="justify-center  bg-gray-500">
+     <div class="yt flex text-center py-8 text-white text-4xl flex-col "> <h1><b>Self Service</b></h1>
+    <button class="yt2 text-sm p-3 mx-48  mt-3 rounded">Get a demo</button>
+     </div>
+     </div>
+          <h1 class="mx-24  py-2  text-2xl"><b>Custom engagements</b></h1>
           <div class="mx-24">
             Configure custom contracting and onboarding
             <p>programs, including compliance services.</p>
@@ -39,8 +54,14 @@
         </div>
         <!-- second-colom -->
         <div class="bg-white shadow mx-6">
+        <div class="justify-center   bg-gray-500">
+     <div class="yt flex text-center  py-8 text-white text-4xl flex-col "> <h1><b>Enterprise</b></h1>
+     <button class=" yt2 text-sm p-3 mx-48 mt-3 rounded " >Get Started</button>
+     </div>
+     </div>
           <h1 class="mx-24  py-4 text-2xl"><b>Custom engagements</b></h1>
           <div class="mx-24">
+          
             Configure custom contracting and onboarding
             <p>programs, including compliance services.</p>
           </div>
@@ -68,4 +89,5 @@
             <p>contingent worker policies.</p>
           </div>
         </div>
+      </div>
       </div>

@@ -17,15 +17,14 @@
   }
 </style>
 
-<div class="flex flex-col p-12 bg-gray-200 ">
- 
-  <div class=" talent flex justify-center text-4xl mb-12 ">
+<div class="flex flex-col p-2 lg:p-12 bg-gray-200 shadow">
+  <div class=" talent text-center text-4xl mb-12 ">
     <b>Talent solutions for every business need</b>
   </div>
-  
+
   <div class="flex justify-center flex-wrap">
-  <!-- first-colom -->
-    <div class="bg-white shadow mb-12 mx-6  flex-1">
+    <!-- first-colom -->
+    <div class=" lg:mr-4 bg-white shadow mb-12 flex-1 rounded">
       <div class="justify-center bg-gray-500">
         <div
           class="yt flex text-center py-8 text-white text-4xl flex-col
@@ -38,45 +37,42 @@
           </button>
         </div>
       </div>
-      <div class="pr px-20 py-6 ">
+      <div class="pr px-10 lg:px-20 py-6 ">
         <h1 class=" text-2xl">
           <b>Custom engagements</b>
         </h1>
         <div class="mb-6 mt-2">
-          Configure custom contracting and onboarding
-          programs, including compliance services.
+          Configure custom contracting and onboarding programs, including
+          compliance services.
         </div>
         <h2 class=" text-2xl">
           <b>Custom settings</b>
         </h2>
         <div class="mb-6 mt-2">
-          Create custom settings and controls, such as net
-          30 terms, purchase order requirements, and more.
+          Create custom settings and controls, such as net 30 terms, purchase
+          order requirements, and more.
         </div>
         <h3 class=" text-2xl">
           <b>Flexible engagement options</b>
         </h3>
         <div class="mb-6 mt-2">
-          Engage with professionals on Upwork on a 1099
-          basis, W-2 (through Upwork Payroll), SOW, or
-          managed solution.
+          Engage with professionals on Upwork on a 1099 basis, W-2 (through
+          Upwork Payroll), SOW, or managed solution.
         </div>
         <h4 class=" text-2xl">
           <b>Professional services</b>
         </h4>
         <div class="mb-6 mt-2">
-          Get white-glove support from our team to assist
-          with your job postings, shortlisting, onboarding,
-          and driving company adoption. Plus, we design a
-          solution that aligns with your needs and existing
+          Get white-glove support from our team to assist with your job
+          postings, shortlisting, onboarding, and driving company adoption.
+          Plus, we design a solution that aligns with your needs and existing
           contingent worker policies.
         </div>
       </div>
     </div>
     <!-- second-colom -->
-    <div class="flex justify-center flex-1">
-    
-      <div class="bg-white shadow mb-12 mx-6">
+    <div class="flex-1 lg:ml-4">
+      <div class="bg-white shadow mb-12 rounded">
         <div class="justify-center bg-gray-500">
           <div
             class="yt flex text-center py-8 text-white text-4xl flex-col
@@ -89,41 +85,39 @@
             </button>
           </div>
         </div>
-        <div class="pr px-20 py-6 ">
+        <div class="pr px-10 lg:px-20 py-6 ">
           <h1 class=" text-2xl">
             <b>Custom engagements</b>
           </h1>
           <div class="mb-6 mt-2">
-            Configure custom contracting and onboarding
-            programs, including compliance services.
+            Configure custom contracting and onboarding programs, including
+            compliance services.
           </div>
           <h2 class=" text-2xl">
             <b>Custom settings</b>
           </h2>
           <div class="mb-6 mt-2">
-            Create custom settings and controls, such as net
-            30 terms, purchase order requirements, and more.
+            Create custom settings and controls, such as net 30 terms, purchase
+            order requirements, and more.
           </div>
           <h3 class=" text-2xl">
             <b>Flexible engagement options</b>
           </h3>
           <div class="mb-6 mt-2">
-            Engage with professionals on Upwork on a 1099
-            basis, W-2 (through Upwork Payroll), SOW, or
-            managed solution.
+            Engage with professionals on Upwork on a 1099 basis, W-2 (through
+            Upwork Payroll), SOW, or managed solution.
           </div>
           <h4 class=" text-2xl">
             <b>Professional services</b>
           </h4>
           <div class="mb-6 mt-2">
-            Get white-glove support from our team to assist
-            with your job postings, shortlisting, onboarding,
-            and driving company adoption. Plus, we design a
-            solution that aligns with your needs and existing
+            Get white-glove support from our team to assist with your job
+            postings, shortlisting, onboarding, and driving company adoption.
+            Plus, we design a solution that aligns with your needs and existing
             contingent worker policies.
           </div>
         </div>
       </div>
     </div>
-    </div>
+  </div>
 </div>

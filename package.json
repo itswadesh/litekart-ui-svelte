@@ -7,7 +7,7 @@
     "dev": "run-p watch:tailwind sapper:dev",
     "sapper:dev": "sapper dev --port 4000",
     "export": "sapper export --legacy",
-    "start": "PORT=4000 node __sapper__/build",
+    "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",

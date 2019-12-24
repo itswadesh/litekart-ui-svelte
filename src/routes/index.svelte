@@ -5,6 +5,8 @@
   import Features  from "./../components/Features.svelte";
   import Clients  from "./../components/Clients.svelte";
   import Pricing from "./../components/Pricing.svelte";
+  import Dad from "./../components/Dad.svelte";
+  import Footer from "./../components/Footer.svelte";
 </script>
  
 
@@ -16,5 +18,6 @@
     <Highlight/>
    <Clients/>
   <Pricing/>
-    
+    <Dad/>
+    <Footer/>
     

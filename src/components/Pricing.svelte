@@ -18,12 +18,14 @@
 </style>
 
 <div class="flex flex-col p-12 bg-gray-200 ">
-  <!-- first-colom -->
+ 
   <div class=" talent flex justify-center text-4xl mb-12 ">
     <b>Talent solutions for every business need</b>
   </div>
+  
   <div class="flex justify-center flex-wrap">
-    <div class="bg-white shadow mx-6">
+  <!-- first-colom -->
+    <div class="bg-white shadow mb-12 mx-6  flex-1">
       <div class="justify-center bg-gray-500">
         <div
           class="yt flex text-center py-8 text-white text-4xl flex-col
@@ -42,38 +44,39 @@
         </h1>
         <div class="mb-6 mt-2">
           Configure custom contracting and onboarding
-          <p>programs, including compliance services.</p>
+          programs, including compliance services.
         </div>
         <h2 class=" text-2xl">
           <b>Custom settings</b>
         </h2>
         <div class="mb-6 mt-2">
           Create custom settings and controls, such as net
-          <p>30 terms, purchase order requirements, and more.</p>
+          30 terms, purchase order requirements, and more.
         </div>
         <h3 class=" text-2xl">
           <b>Flexible engagement options</b>
         </h3>
         <div class="mb-6 mt-2">
           Engage with professionals on Upwork on a 1099
-          <p>basis, W-2 (through Upwork Payroll), SOW, or</p>
-          <p>managed solution.</p>
+          basis, W-2 (through Upwork Payroll), SOW, or
+          managed solution.
         </div>
         <h4 class=" text-2xl">
           <b>Professional services</b>
         </h4>
         <div class="mb-6 mt-2">
           Get white-glove support from our team to assist
-          <p>with your job postings, shortlisting, onboarding,</p>
-          <p>and driving company adoption. Plus, we design a</p>
+          with your job postings, shortlisting, onboarding,
+          and driving company adoption. Plus, we design a
           solution that aligns with your needs and existing
-          <p>contingent worker policies.</p>
+          contingent worker policies.
         </div>
       </div>
     </div>
     <!-- second-colom -->
-    <div class="flex justify-center">
-      <div class="bg-white shadow mx-6">
+    <div class="flex justify-center flex-1">
+    
+      <div class="bg-white shadow mb-12 mx-6">
         <div class="justify-center bg-gray-500">
           <div
             class="yt flex text-center py-8 text-white text-4xl flex-col
@@ -92,35 +95,35 @@
           </h1>
           <div class="mb-6 mt-2">
             Configure custom contracting and onboarding
-            <p>programs, including compliance services.</p>
+            programs, including compliance services.
           </div>
           <h2 class=" text-2xl">
             <b>Custom settings</b>
           </h2>
           <div class="mb-6 mt-2">
             Create custom settings and controls, such as net
-            <p>30 terms, purchase order requirements, and more.</p>
+            30 terms, purchase order requirements, and more.
           </div>
           <h3 class=" text-2xl">
             <b>Flexible engagement options</b>
           </h3>
           <div class="mb-6 mt-2">
             Engage with professionals on Upwork on a 1099
-            <p>basis, W-2 (through Upwork Payroll), SOW, or</p>
-            <p>managed solution.</p>
+            basis, W-2 (through Upwork Payroll), SOW, or
+            managed solution.
           </div>
           <h4 class=" text-2xl">
             <b>Professional services</b>
           </h4>
           <div class="mb-6 mt-2">
             Get white-glove support from our team to assist
-            <p>with your job postings, shortlisting, onboarding,</p>
-            <p>and driving company adoption. Plus, we design a</p>
+            with your job postings, shortlisting, onboarding,
+            and driving company adoption. Plus, we design a
             solution that aligns with your needs and existing
-            <p>contingent worker policies.</p>
+            contingent worker policies.
           </div>
         </div>
       </div>
     </div>
-  </div>
+    </div>
 </div>

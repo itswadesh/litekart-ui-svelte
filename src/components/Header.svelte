@@ -2,26 +2,32 @@
   .post {
     background-color: #37a000;
   }
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
 </style>
 
+<!-- for mobile -->
 <div
-  class="md:hidden flex mb-1 shaow justify-between items-center px-2 bg-white
-  text-gray-200">
-  <div class="flex justify-around items-center">
-    <i class="fa fa-bars h-12 w-32" />
+  class="sticky md:hidden flex mb-1 shadow justify-between items-center px-2
+  bg-white text-gray-200">
+  <button class="flex justify-around items-center">
+    <i class="fa fa-bars text-gray-700 text-2xl" />
 
-  </div>
-  <div class="text-gray-700 items-center">
+  </button>
+  <button class="text-gray-700 items-center">
     <img src="img/logo.svg" alt="" class="h-12 w-32" />
-  </div>
-  <div class="flex justify-around items-center">
-    <i class="fa fa-search h-12 w-32" />
-  </div>
+  </button>
+  <button class="flex justify-around items-center">
+    <i class="fa fa-search text-gray-700 text-2xl" />
+  </button>
 </div>
-
+<!-- for desktop -->
 <div
-  class="hidden md:flex md:mb-1 md:shaow md:justify-around md:items-center
-  md:px-6 md:bg-white md:text-gray-200">
+  class="sticky hidden md:flex md:mb-1 md:shadow md:justify-around
+  md:items-center md:px-6 md:bg-white md:text-gray-200">
   <div>
     <img src="img/logo.svg" alt="" class="h-12 w-32" />
   </div>

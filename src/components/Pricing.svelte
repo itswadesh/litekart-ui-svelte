@@ -24,7 +24,7 @@
 
   <div class="flex justify-center flex-wrap">
     <!-- first-colom -->
-    <div class=" lg:mr-4 bg-white shadow mb-12 flex-1 rounded">
+    <div class=" lg:mr-4 bg-white shadow mb-4 flex-1 rounded">
       <div class="justify-center bg-gray-500">
         <div
           class="yt flex text-center py-8 text-white text-4xl flex-col
@@ -72,7 +72,7 @@
     </div>
     <!-- second-colom -->
     <div class="flex-1 lg:ml-4">
-      <div class="bg-white shadow mb-12 rounded">
+      <div class="bg-white shadow mb-4 rounded">
         <div class="justify-center bg-gray-500">
           <div
             class="yt flex text-center py-8 text-white text-4xl flex-col

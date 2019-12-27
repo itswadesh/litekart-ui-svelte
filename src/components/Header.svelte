@@ -5,8 +5,23 @@
 </style>
 
 <div
-  class=" flex mb-1 shadow justify-around items-center px-6 py-2 bg-white
+  class="md:hidden flex mb-1 shaow justify-between items-center px-2 bg-white
   text-gray-200">
+  <div class="flex justify-around items-center">
+    <i class="fa fa-bars h-12 w-32" />
+
+  </div>
+  <div class="text-gray-700 items-center">
+    <img src="img/logo.svg" alt="" class="h-12 w-32" />
+  </div>
+  <div class="flex justify-around items-center">
+    <i class="fa fa-search h-12 w-32" />
+  </div>
+</div>
+
+<div
+  class="hidden md:flex md:mb-1 md:shaow md:justify-around md:items-center
+  md:px-6 md:bg-white md:text-gray-200">
   <div>
     <img src="img/logo.svg" alt="" class="h-12 w-32" />
   </div>

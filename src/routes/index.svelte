@@ -7,7 +7,7 @@
   import Pricing from "./../components/Pricing.svelte";
   import Display from "./../components/Display.svelte";
   import Dad from "./../components/Dad.svelte";
-  import Footer from "./../components/Footer.svelte";
+  import Footer from "./../components/footer.svelte";
 </script>
 
 <svelte:head>

@@ -13,7 +13,7 @@
   }
 </style>
 
-<div class="flex flex-wrap bg-gray-200 justify-center px-2 lg:px-12 ">
+<div class="flex flex-wrap bg-gray-200 justify-center mb-0 px-2 lg:px-12 ">
   <!-- blue -->
   <div class="flex nisan p-4 flex-col py-12 shadow rounded">
     <img src="img/nishanimg.svg" alt="" />
@@ -50,11 +50,11 @@
 
   </div>
   <!-- blue end-->
-  <div class="flex my-8 justify-between flex-wrap">
+  <div class="flex mt-8 justify-between flex-wrap">
     <!-- pink -->
     <div class="flex-1 lg:mr-2">
       <div
-        class="pink flex flex-col mb-6 p-4 text-white items-center rounded
+        class="pink flex flex-col mb-8 p-4 text-white items-center rounded
         shadow ">
         <img src="img/logo-ge.587a356740a5.svg" class="h-12" alt="" />
         <h1 class="text-2xl m-3 ">
@@ -73,7 +73,7 @@
     <!-- yellow -->
     <div class="flex-1 lg:ml-2">
       <div
-        class="yellow flex flex-col items-center mb-6 p-4 text-white
+        class="yellow flex flex-col items-center mb-8 p-4 text-white
         items-center rounded shadow ">
         <img src="img/logo-GoDaddy.svg" class="h-12" alt="" />
         <h1 class="text-2xl m-3">

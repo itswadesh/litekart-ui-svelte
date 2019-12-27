@@ -10,6 +10,9 @@
   import Footer from "./../components/Footer.svelte";
 </script>
 
+<svelte:head>
+  <title>Litekart - Experience the fastest ecommerce of 2020</title>
+</svelte:head>
 <Header />
 <Hero />
 <Features />

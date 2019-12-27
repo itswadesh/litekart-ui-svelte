@@ -1,37 +1,17 @@
-import sirv from "sirv";
-import polka from "polka";
-import compression from "compression";
-import * as sapper from "@sapper/server";
-import { authenticationMiddleware } from "./lib/auth";
-import { apiUrl } from "./config";
-const dotenv = require("dotenv");
-dotenv.config({ path: ".env" });
-const { PORT, NODE_ENV, API_URL } = process.env;
+import sirv from 'sirv';
+import polka from 'polka';
+import compression from 'compression';
+import * as sapper from '@sapper/server';
 
-const proxy = require("http-proxy-middleware");
-const apiProxy = proxy("/api", {
-  target: API_URL || apiUrl,
-  changeOrigin: true
-});
-const imgProxy = proxy("/images", {
-  target: API_URL || apiUrl,
-  changeOrigin: true
-});
+const { PORT, NODE_ENV } = process.env;
+const dev = NODE_ENV === 'development';
 
-const dev = NODE_ENV === "development";
-polka()
+polka() // You can also use Express
   .use(
     compression({ threshold: 0 }),
-    sirv("static", { dev }),
-    apiProxy,
-    imgProxy,
-    authenticationMiddleware,
-    sapper.middleware({
-      session: (req, res) => ({
-        token: req.token
-      })
-    })
+    sirv('static', { dev }),
+    sapper.middleware()
   )
   .listen(PORT, err => {
-    if (err) console.log("error", err);
+    if (err) console.log('error', err);
   });

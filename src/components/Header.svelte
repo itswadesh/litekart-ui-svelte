@@ -1,3 +1,9 @@
+<script>
+  import MobileNav from "./MobileNav.svelte";
+  import { slide, fade } from "svelte/transition";
+  let showDrawer = false;
+</script>
+
 <style>
   .post {
     background-color: #37a000;
@@ -13,9 +19,10 @@
 <div
   class="sticky md:hidden flex mb-1 shadow justify-between items-center px-2
   bg-white text-gray-200">
-  <button class="flex justify-around items-center">
+  <button
+    class="focus:outline-none flex justify-around items-center"
+    on:click={() => (showDrawer = true)}>
     <i class="fa fa-bars text-gray-700 text-2xl" />
-
   </button>
   <button class="text-gray-700 items-center">
     <img src="img/logo.svg" alt="" class="h-12 w-32" />
@@ -41,3 +48,8 @@
     </button>
   </div>
 </div>
+{#if showDrawer}
+  <p in:fade out:fade>
+    <MobileNav on:close={() => (showDrawer = false)} />
+  </p>
+{/if}

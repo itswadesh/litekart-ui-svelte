@@ -4,8 +4,7 @@
   }
 </style>
 
-<div class="communication justify-between flex px-24 py-6 shadow ">
-
+<div class="communication justify-between flex px-6 lg:px-24 py-6 shadow ">
   <div class="justify-left text-white">
     follow us on
     <button class="bg-blue-600 text-white rounded-full p-1">
@@ -23,7 +22,6 @@
     <button class="bg-orange-600 text-white rounded-full p-1">
       <b>IG</b>
     </button>
-
   </div>
   <div class=" text-white">
     Mobile app

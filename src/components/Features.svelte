@@ -15,7 +15,7 @@
   }
 </style>
 
-<div class="bg-gray-200 flex justify-center shadow flex-wrap ">
+<div class="bg-gray-200 flex justify-center shadow flex-wrap">
   <div class="scroll flex">
     <div class="border-r border-gray-400 p-2 w-1/2 flex flex-col items-center">
       <img src="img/8.svg" alt="" class="m-5 h-12" />

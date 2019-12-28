@@ -1,3 +1,8 @@
+<script>
+  import Header from "./../components/Header.svelte";
+  import Footer from "./../components/Footer.svelte";
+</script>
+
 <style>
   .teacher {
     background-color: #ed64a6;
@@ -13,6 +18,7 @@
   }
 </style>
 
+<Header />
 <div class="teacher flex justify-around p-10">
   <!-- student 1 -->
   <div class="text-center border rounded shadow-lg bg-white p-12">
@@ -65,3 +71,4 @@
   </div>
   <!-- student 3 -->
 </div>
+<Footer />

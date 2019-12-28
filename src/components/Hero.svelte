@@ -42,15 +42,18 @@
       Customize it and standout from the competitors
     </div>
     <div class="flex text-lg my-6 ">
-      <button
+      <a
+        href="/features"
         class="touch rounded text-sm justify-left text-white py-3 px-6
         bg-green-300">
-        Get started
-      </button>
-      <button
+        FEATURES
+      </a>
+      <a
+        target="_blank"
+        href="https://demo.litekart.in"
         class=" get demo rounded text-sm text-green-400 py-3 px-6 bg-white mx-8">
         Get a demo
-      </button>
+      </a>
     </div>
   </div>
 </div>

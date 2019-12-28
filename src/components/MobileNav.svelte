@@ -25,9 +25,9 @@
     <button class="flex justify-around items-center" on:click={close}>
       <i class="fa fa-times text-gray-700 text-2xl" />
     </button>
-    <button class="text-gray-700 items-center">
+    <a href="/" class="text-gray-700 items-center">
       <img src="img/logo.svg" alt="" class="h-12 w-32" />
-    </button>
+    </a>
     <button class="flex justify-around items-center">
       <i class="fa fa-search text-gray-700 text-2xl" />
     </button>
@@ -36,18 +36,18 @@
   <div class="h-full">
     <ul class="px-2">
       <li class="px-6 py-4 border-b border-gray">
-        <a href="/login">LOG IN</a>
+        <a href="/features" on:click={close}>FEATURES</a>
       </li>
       <li class="px-6 py-4 border-gray">
-        <a href="/signin">SIGN IN</a>
+        <a href="/pricing" on:click={close}>PRICING</a>
       </li>
     </ul>
   </div>
   <div
     class="bg-gray-200 py-3 mt-4 flex justify-center bg-gray-200 shadow border-t
     ">
-    <button class="bg-green-500 px-6 py-1 rounded text-white text-xl">
+    <a href="/" class="bg-green-500 px-6 py-1 rounded text-white text-xl">
       Post a Job
-    </button>
+    </a>
   </div>
 </div>

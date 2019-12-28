@@ -23,7 +23,7 @@
     </div>
     <div
       class="border-r border-gray-400 p-2 f w-1/2 flex flex-col items-center">
-      <img src="img/mob.svg" alt="" class="m-5 h-12" />
+      <i class="fa fa-mobile text-gray-600 text-4xl" />
       mobile
     </div>
     <div class="border-r border-gray-400 p-2 w-1/2 flex flex-col items-center">

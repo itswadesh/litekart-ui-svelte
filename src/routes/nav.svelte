@@ -3,6 +3,12 @@
     transition: transform 0.5s ease;
     transform: translateX(0);
   }
+  .post {
+    background-color: #37a000;
+  }
+  .footer {
+    background-color: #f9f9f9;
+  }
 </style>
 
 <div class="off w-full h-screen fixed md:hidden flex flex-col justify-between">
@@ -25,16 +31,23 @@
     <!-- <div class="flex flex-col justify-center items-start"> -->
     <ul>
       <li>
-        <button class=" m-2 P-4 border-gray">LOG IN</button>
+        <hr class="mt-2" />
+        <button class=" m-2 py-2 px-6 border-gray">LOG IN</button>
       </li>
       <li>
-        <button class=" m-2 P-4">SIGN IN</button>
+        <hr />
+        <button class="flex m-2 px-6 py-2">SIGN IN</button>
       </li>
     </ul>
+    <hr />
+
     <!-- </div> -->
 
   </div>
-  <div class="flex ">
-    <button class="post">Features</button>
+  <div
+    class="footer py-3 mt-4 flex justify-center bg-gray-200 shadow border-t ">
+    <button class="post px-6 py-1 rounded text-white text-xl">
+      Post a Job
+    </button>
   </div>
 </div>

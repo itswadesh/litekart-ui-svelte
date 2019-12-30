@@ -1,7 +1,7 @@
 <style>
   .c1 {
-    height: 250px;
-    width: 300px;
+    height: 200px;
+    width: 400px;
   }
 </style>
 
@@ -14,15 +14,18 @@
     pricing
   </h2>
   <div class="">
-    <div class="c1 flex border p-4 justify- shadow-2xl m-12 ">
-      <i class="fa fa-clock text-indigo-500 text-6xl mr-4" />
+    <div
+      class="c1 flex border rounded-lg border-indigo-400 px-4 py-4 shadow-2xl
+      m-12 ">
+      <!-- <i class="fa fa-clock text-indigo-500 text-6xl mr-4" /> -->
+      <img src="img/rocket.svg" class="flex " alt="" />
       <div class="flex flex-col">
-        <b class="mb-2">Fast, predictable payouts to your bank accounts</b>
-        <t1>
-          Control payout timing Unified payouts Like-for-like settlement
-          Transparent payouts
+        <h1 class="mb-2 text-xl">Getting Started</h1>
+        <t1 class="text-ms">
+          Get up to speed. Follow our Quick Start Guide to begin building
+          flexible, scalable technical solutions for businesses.
         </t1>
-        <img src="img/aerrow.png" class="flex ml-24 h-12 w-12" alt="" />
+
       </div>
     </div>
   </div>

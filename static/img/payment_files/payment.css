@@ -1,0 +1,138 @@
+.bgcolor{
+    background: linear-gradient(150deg, #53f 15%, #05d5ff 70%, #a6ffcb 94%);
+    /* background: linear-gradient(-120deg,#95e3f5 ,#4615b2); */
+    /* clip-path: polygon(0 0,100% 0, 100% 70%,0 100%); */
+}
+.pay h3{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin: 25px 25px;
+}
+.card-direction{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.card{
+    background: #fff;
+    width: 300px;
+    height: 500px; 
+}
+h5{
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.card-direction ul li{
+    text-align: center;
+    line-height: 40px;
+}
+.c1{
+    border-top: 20px solid rgb(45, 182, 45);
+}
+.c2{
+border-top: 20px solid #6A2AC4;
+}
+.c3{
+border-top: 20px solid #2196F3;
+}
+.b1{
+    margin: 80px 40px;
+}
+.b2{
+    margin: 45px 40px;
+}
+.b4{
+    margin: 10px 40px;
+}
+.title-bar ul{
+    display: flex;
+    color: rgb(22, 208, 255);
+}
+.title-bar ul li{
+    padding: 10px 100px;
+    cursor: pointer;
+}
+.title-bar ul li:hover{
+    color: rgb(0, 0, 0);
+}
+.bar-content{
+    display: flex;
+    justify-content: space-around;
+}
+.title-bar .b2{
+    margin:0px;
+}
+.line{
+    margin-top: 7px;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.features .card{
+    background: transparent;
+    transition: transform .2s;
+    height: 50%;
+    border-radius: 5px;
+    padding: 12% 25px;
+    text-align: left;
+    line-height: 20px;
+}
+.features .card:hover{
+    transform: scale(1.1);
+}
+.include{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0px;
+    font-size:20px;
+}
+.include h6{
+    font-size: 25px;
+}
+.include h6:hover{
+    color: #6A2AC4;
+}
+.common-BodyTitle{
+    color: #000000;
+    font-size: 17px;
+}
+@media(max-width:800px){
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-direction{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.line{
+    display: none;
+}
+.title-bar{
+    display: none;
+}
+.include{
+    line-height:30px;
+}
+}
+svg{
+    margin-left: 90px;
+    margin-bottom: 10px;
+    
+}
+.include p{
+    color: #9a9898;
+    margin-top: -20px;
+}
+.list{
+    padding-top: 10px;
+    text-align: start;
+    font-size: 15px;
+}

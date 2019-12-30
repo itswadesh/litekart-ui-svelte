@@ -39,6 +39,10 @@
   }
 </style>
 
+<svelte:head>
+  <title>Litekart - Pricing & fees</title>
+</svelte:head>
+
 <Header />
 <div class="teacher flex flex-wrap justify-center">
   <!-- student 1 -->
@@ -55,7 +59,7 @@
         <li class="mb-4">Shared Component CI</li>
       </ul>
     </div>
-    <button class="gs-1 text-white rounded p-2 shadow-lg ">Get Started</button>
+    <button class="gs-1 text-white p-2 rounded shadow-lg ">Get Started</button>
   </div>
   <!-- student 1 -->
   <!-- student 2 -->
@@ -73,7 +77,7 @@
         <li class="mb-4">Priority Component CI</li>
       </ul>
     </div>
-    <button class="gs-2 text-white rounded p-2 shadow-lg">Get Started</button>
+    <button class="gs-2 text-white p-2 rounded shadow-lg">Get Started</button>
   </div>
   <!-- student 2 -->
   <!-- student 3 -->

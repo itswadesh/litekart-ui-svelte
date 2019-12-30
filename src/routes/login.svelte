@@ -13,6 +13,10 @@
   }
 </style>
 
+<svelte:head>
+  <title>Litekart - Login</title>
+</svelte:head>
+
 <div class="full flex justify-center">
   <div
     class="card rounded-lg shadow-lg flex bg-white m-12 pb-12 justify-center ">

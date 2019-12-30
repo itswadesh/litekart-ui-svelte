@@ -13,5 +13,5 @@
 <Footer />
 
 <svelte:head>
-  <title>Litekart - Experience the fastest ecommerce of 2020</title>
+  <title>Litekart - Features that power ecommerce</title>
 </svelte:head>

@@ -30,43 +30,53 @@
           class="yt flex text-center py-8 text-white text-4xl flex-col
           items-center ">
           <h1>
-            <b>Self Service</b>
+            <b>Open Source</b>
           </h1>
           <button class="yt2 text-lg py-2 px-12 mt-3 rounded ">
-            Get a demo
+            Demo laptop store
           </button>
         </div>
       </div>
       <div class="pr px-10 lg:px-20 py-6 ">
         <h1 class=" text-2xl">
-          <b>Custom engagements</b>
+          <b>Customize</b>
         </h1>
         <div class="mb-6 mt-2">
-          Configure custom contracting and onboarding programs, including
-          compliance services.
+          Download the project free and customize the way you want.
+          <p>
+            Litekarts headless architecture allows us with an option to choose
+            from any technology stack
+          </p>
         </div>
-        <h2 class=" text-2xl">
-          <b>Custom settings</b>
+        <h2 class="text-2xl">
+          <b>Svelte / Sapper</b>
         </h2>
         <div class="mb-6 mt-2">
-          Create custom settings and controls, such as net 30 terms, purchase
-          order requirements, and more.
+          Store front build over the latest and lightweight javascript approach.
+          This framework gained popularity withing few days of its launch.
+          Maintained by an active community with over 28k starts on github.
         </div>
-        <h3 class=" text-2xl">
-          <b>Flexible engagement options</b>
+        <h3 class="text-2xl">
+          <b>Over 60 stars within 60 day of its launch</b>
         </h3>
         <div class="mb-6 mt-2">
-          Engage with professionals on Upwork on a 1099 basis, W-2 (through
-          Upwork Payroll), SOW, or managed solution.
+          Loved by people arround the world and growing.
+          <p>* 60 github stars | * 12 github forks</p>
         </div>
-        <h4 class=" text-2xl">
-          <b>Professional services</b>
+        <h4 class="text-2xl">
+          <b>Ecommerce Essentials integrated</b>
         </h4>
         <div class="mb-6 mt-2">
-          Get white-glove support from our team to assist with your job
-          postings, shortlisting, onboarding, and driving company adoption.
-          Plus, we design a solution that aligns with your needs and existing
-          contingent worker policies.
+          Important features like Animations, lazy loading, Carousel are shipped
+          out of the box. This adds up towards a great user experience.
+        </div>
+        <h4 class="text-2xl">
+          <b>PWA as standard</b>
+        </h4>
+        <div class="mb-6 mt-2">
+          <img
+            src="https://github.com/itswadesh/sapper-ecommerce/raw/master/static/light-house-search.jpg?raw=true"
+            alt="" />
         </div>
       </div>
     </div>
@@ -78,43 +88,57 @@
             class="yt flex text-center py-8 text-white text-4xl flex-col
             items-center ">
             <h1>
-              <b>Self Service</b>
+              <b>Enterprise</b>
             </h1>
-            <button class="yt2 text-lg py-2 px-12 mt-3 rounded ">
-              Get a demo
-            </button>
+            <a
+              href="https://demo.litekart.in"
+              class="yt2 text-lg py-2 px-12 mt-3 rounded ">
+              Demo fashion store
+            </a>
           </div>
         </div>
         <div class="pr px-10 lg:px-20 py-6 ">
-          <h1 class=" text-2xl">
-            <b>Custom engagements</b>
+          <h1 class="text-2xl">
+            <b>Headless API based architecture</b>
           </h1>
           <div class="mb-6 mt-2">
-            Configure custom contracting and onboarding programs, including
-            compliance services.
+            Store front, Store Administration, API, Images are separated. Hence
+            gives us flexibility of choosing and integrating with any other
+            service.
           </div>
-          <h2 class=" text-2xl">
+          <h2 class="text-2xl">
             <b>Custom settings</b>
           </h2>
           <div class="mb-6 mt-2">
-            Create custom settings and controls, such as net 30 terms, purchase
-            order requirements, and more.
+            An fully customizable interactive ecommerce dashboard created with
+            latest javascript stack which delivers speed and ease of use for
+            admin, managers, vendors
           </div>
-          <h3 class=" text-2xl">
-            <b>Flexible engagement options</b>
+          <h3 class="text-2xl">
+            <b>Lightweight and modern javascript full stack</b>
           </h3>
-          <div class="mb-6 mt-2">
-            Engage with professionals on Upwork on a 1099 basis, W-2 (through
-            Upwork Payroll), SOW, or managed solution.
-          </div>
-          <h4 class=" text-2xl">
-            <b>Professional services</b>
+          <div class="mb-6 mt-2">With NodeJS and MongoDB at back</div>
+          <h4 class="text-2xl">
+            <b>Great Search Experience</b>
           </h4>
           <div class="mb-6 mt-2">
-            Get white-glove support from our team to assist with your job
-            postings, shortlisting, onboarding, and driving company adoption.
-            Plus, we design a solution that aligns with your needs and existing
-            contingent worker policies.
+            With elastic search technology at the edge, it gives the end
+            customers immence power of search with facet based filters.
+          </div>
+          <h4 class="text-2xl">
+            <b>Progressive ecommerce based on VueJS</b>
+          </h4>
+          <div class="mb-6 mt-2">
+            Based on one of the most loved javascript frontend library (VueJS)
+            with over 155k github stars
+          </div>
+          <h4 class="text-2xl">
+            <b>Seemless developer experience</b>
+          </h4>
+          <div class="mb-6 mt-2">
+            <img
+              src="https://github.com/itswadesh/sapper-ecommerce/raw/master/static/litekart-banner.png?raw=true"
+              alt="" />
           </div>
         </div>
       </div>

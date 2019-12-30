@@ -58,14 +58,15 @@
         shadow ">
         <img src="img/logo-ge.587a356740a5.svg" class="h-12" alt="" />
         <h1 class="text-2xl m-3 ">
-          How GE Designed an Agile high-Performance Talent Strategy.
+          How Clicky designed an agile and highperformance ecommerce.
         </h1>
-        To serve customers in 180+ countries accross its business segment ,
-        general electric needed quick and reliable accross to a variety of
-        skills with upwork, they tripled their external talent pool and
-        completed 100+ projects accross 7 categories
+        To serve over 1 million customers and 20k daily orders, clicky needed
+        quick and reliable ecommerce solution, they tripled their sales and
+        achieved 2nd milestone target under 6 months of migration their exising
+        cs-cart platform. With an expenditure of 1/4 of their investment in the
+        exising platform.
         <h2 class="text-center pt-2 pb-12 text-white ">
-          Read fill customer story
+          Read full customer story
         </h2>
       </div>
     </div>
@@ -77,14 +78,15 @@
         items-center rounded shadow ">
         <img src="img/logo-GoDaddy.svg" class="h-12" alt="" />
         <h1 class="text-2xl m-3">
-          How GoDaddy stays on Top with a fleaxible,Global Work Force.
+          How Tesoro stays on top with a flexible e-commerce platform.
         </h1>
-        To serve customers in 180+ countries accross its business segment ,
-        general electric needed quick and reliable accross to a variety of
-        skills with upwork, they tripled their external talent pool and
-        completed 100+ projects accross 7 categories
+        For their growing jewellery store, there was a requirement to up-lift
+        the exising ecommerce from wordpress (woocommerce) to a modern and more
+        performant platform and they choose Litekart. The page loading and
+        browing time decreased by 10 times resulting 3x increase in delightfull
+        customers.
         <h2 class="text-center pt-2 pb-12 text-white ">
-          Read fill customer story
+          Read full customer story
         </h2>
       </div>
     </div>

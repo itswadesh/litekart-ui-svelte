@@ -30,5 +30,5 @@
   </div>
 </div>
 <div class="communication text-center text-white py-4 border-t border-gray-600">
-  © 2015 - 2019 Upwork® Global Inc.
+  © 2015 - 2020 Misiki Technologies.
 </div>

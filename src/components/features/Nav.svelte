@@ -9,9 +9,15 @@
   .scroll div {
     min-width: 150px;
   }
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
 </style>
 
-<div class="flex justify-center lg:mb-10">
+<div class="flex justify-center lg:mb-10 sticky">
   <div class="scroll flex justify-between my-2">
     <div>
       <button

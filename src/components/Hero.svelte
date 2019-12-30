@@ -21,19 +21,21 @@
     md:py-16 lg:py-24">
     Javascript e-commerce
     <div class="capital text-lg md:text-2xl lg:text-5xl">Starts at $5999</div>
-    <div class="text-md md:text-xl lg:text-2xl">
+    <div class="text-xs md:text-xl lg:text-2xl">
       Customizations that standout from the competitors
     </div>
     <div class="flex text-lg my-6 ">
       <a
         href="/features"
-        class="touch rounded text-sm justify-left text-white py-3 bg-green-300">
+        class="w-1/3 mr-2 text-center touch rounded text-sm justify-left
+        text-white py-2 lg:py-3 bg-green-300">
         FEATURES
       </a>
       <a
         target="_blank"
         href="https://demo.litekart.in"
-        class=" get demo rounded text-sm text-green-400 py-3 bg-white mx-8">
+        class="w-1/3 text-center rounded text-sm text-green-400 py-2 lg:py-3
+        bg-white">
         GET A DEMO
       </a>
     </div>

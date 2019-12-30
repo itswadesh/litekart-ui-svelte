@@ -26,7 +26,7 @@
       <i class="fa fa-times text-gray-700 text-2xl" />
     </button>
     <a href="/" class="text-gray-700 items-center">
-      <img src="img/logo.svg" alt="" class="h-12 w-32" />
+      <img src="img/litekart-logo.png" alt="" class="h-12 w-32" />
     </a>
     <button class="flex justify-around items-center">
       <i class="fa fa-search text-gray-700 text-2xl" />

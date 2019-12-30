@@ -16,12 +16,35 @@
   .green {
     color: rgb(45, 182, 45);
   }
+  .gs-1 {
+    background-color: rgb(45, 182, 45);
+  }
+  .gs-2 {
+    background-color: rgb(106, 42, 196);
+  }
+  .gs-3 {
+    background-color: rgb(5, 213, 255);
+  }
+  .c1 {
+    border-top-width: 16px;
+    border-color: rgb(45, 182, 45);
+  }
+  .c2 {
+    border-top-width: 16px;
+    border-color: rgb(106, 42, 196);
+  }
+  .c3 {
+    border-top-width: 16px;
+    border-color: rgb(5, 213, 255);
+  }
 </style>
 
 <Header />
-<div class="teacher flex justify-around p-10">
+<div class="teacher flex flex-wrap justify-center p-2">
   <!-- student 1 -->
-  <div class="text-center border rounded shadow-lg bg-white p-12">
+  <div
+    class="c1 flex flex-col border-t-8 border-green-500 mb-4 lg:mr-2
+    justify-between text-center border rounded shadow-lg bg-white p-12">
     <h1 class="green text-3xl mb-6">Free 1 Month For Trial</h1>
     <div class="text-center">
       <ul class="text-gray-600">
@@ -32,11 +55,13 @@
         <li class="mb-4">Shared Component CI</li>
       </ul>
     </div>
-    <button class=" bg-green-800 text-white rounded p-2">Get Started</button>
+    <button class="gs-1 text-white rounded p-2">Get Started</button>
   </div>
   <!-- student 1 -->
   <!-- student 2 -->
-  <div class="text-center border rounded shadow-lg bg-white p-12">
+  <div
+    class="c2 flex flex-col border-t-8 border-purple-600 mb-4 lg:mr-2
+    justify-between text-center border rounded shadow-lg bg-white p-12">
     <h2 class="voulate text-3xl mb-6">6 Months Pay For 130$</h2>
     <div class="text-center">
       <ul class="text-gray-600">
@@ -48,12 +73,13 @@
         <li class="mb-4">Priority Component CI</li>
       </ul>
     </div>
-    <button class="bg-indigo-700 text-white rounded p-2">Get Started</button>
+    <button class="gs-2 text-white rounded p-2">Get Started</button>
   </div>
   <!-- student 2 -->
   <!-- student 3 -->
   <div
-    class=" text-center shadow-lg border hover shadow:lg rounded bg-white p-12">
+    class="c3 flex flex-col mb-4 justify-between text-center shadow-lg border
+    hover shadow:lg rounded bg-white p-12">
 
     <h1 class="sky text-3xl mb-6">1 Year Pay For 200$</h1>
     <div class="text-center">
@@ -67,7 +93,7 @@
         <li class="mb-4">Dedicated Component CI</li>
       </ul>
     </div>
-    <button class="bg-blue-700 text-white p-2 rounded ">Get Started</button>
+    <button class="gs-3 text-white p-2 rounded ">Get Started</button>
   </div>
   <!-- student 3 -->
 </div>

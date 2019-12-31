@@ -1,8 +1,8 @@
 <style>
-  .c1 {
+  /* .c1 {
     height: 200px;
     width: 400px;
-  }
+  } */
 </style>
 
 <div>
@@ -13,9 +13,9 @@
     Get 100+ features out of the box with Next Cart's integrated per-transaction
     pricing
   </h2>
-  <div class="flex">
+  <div class="flex justify-between">
     <div
-      class="w-1/2 flex flex-col md:flex-row border rounded-lg px-4 py-4
+      class="w-1/2 flex flex-col md:flex-row border rounded-lg px-6 py-8
       shadow-2xl m-2 text-center md:text-left">
       <i class="fa fa-clock text-indigo-500 text-6xl md:mr-8" />
       <!-- <img src="img/rocket.svg" class="flex " alt="" /> -->
@@ -28,7 +28,7 @@
       </div>
     </div>
     <div
-      class="w-1/2 flex flex-col md:flex-row border rounded-lg px-4 py-4
+      class="w-1/2 flex flex-col md:flex-row border rounded-lg px-6 py-8
       shadow-2xl m-2 text-center md:text-left">
       <i class="fa fa-clock text-indigo-500 text-6xl md:mr-8" />
       <!-- <img src="img/rocket.svg" class="flex " alt="" /> -->

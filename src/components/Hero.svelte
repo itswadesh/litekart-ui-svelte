@@ -27,15 +27,15 @@
     <div class="flex text-lg my-6 ">
       <a
         href="/features"
-        class="w-1/3 mr-2 text-center touch rounded text-sm justify-left
-        text-white py-2 lg:py-3 bg-green-300">
+        class="w-1/3 lg:w-1/6 mr-2 text-center touch rounded text-sm
+        justify-left text-white py-2 lg:py-3 bg-green-300">
         FEATURES
       </a>
       <a
         target="_blank"
         href="https://demo.litekart.in"
-        class="w-1/3 text-center rounded text-sm text-green-400 py-2 lg:py-3
-        bg-white">
+        class="w-1/3 lg:w-1/6 text-center rounded text-sm text-green-400 py-2
+        lg:py-3 bg-white">
         GET A DEMO
       </a>
     </div>

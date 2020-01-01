@@ -1,22 +1,43 @@
 <script>
   let features = [
     {
-      h: "Payment Gateways",
+      h: "Products Management",
       img: "lady-left.png",
       data: [
-        "Support for multiple payment gateways",
-        "Wallets Store Credits",
-        "SSL certified and secure payment gateways",
-        "Location auto­detection for currency",
-        "Offline payments &amp; Cash on Delivery",
-        "Support for multiple payment gateways",
-        "SSL certified and secure payment gateways",
-        "Multiple payment options- Debit Card, Credit Card, Netbanking,            Prepaid Wallets Store Credits",
-        "Offline payments & Cash on Delivery"
+        "Sell physical products, services or digital products",
+        "Unlimited product variants (color, size etc), categories and collections",
+        "Minimum & maximum order quantity",
+        "Description & attributes of products and other cus tom fields",
+        "Upload files for product",
+        "Catalogue only mode",
+        "Inventory Management",
+        "Embed Videos in Product Description",
+        "Unlimited product search filters",
+        "Retail and Selling price",
+        "Reviews, comments, testimonials and product comparison",
+        "Wishlist, Cart and Call for enquiry option"
       ]
     },
     {
       h: "Order Management",
+      img: "lady-left.png",
+      data: [
+        "Abandoned Cart Recovery",
+        "Single Page Checkout",
+        "Guest Checkout",
+        "Product update on the order page",
+        "Use store credits to place the order",
+        "Order options",
+        "Custom checkout opt fields",
+        "Order Tracking",
+        "Email + SMS notifications to admin, customer and vendors",
+        "Re­Order",
+        "Custom OrderID",
+        "Orders integration with Flipkart, Amazon, eBay, Snapdeal and offline orders"
+      ]
+    },
+    {
+      h: "Shopping Cart",
       img: "lady-left.png",
       data: [
         "Abandoned Cart Recovery",
@@ -51,6 +72,23 @@
       ]
     },
     {
+      h: "Performance and Analytics Tools",
+      img: "lady-left.png",
+      data: [
+        "Top customers report",
+        "Top selling products report",
+        "Integration with Google Analytics",
+        "Dashboard Reports to analyze store performance",
+        "Visitor tracker through Zoho SalesIQ",
+        "Top selling brands report",
+        "Conversion rate",
+        "COD vs Online payments report",
+        "Category­wise and Collectionwise performance reports",
+        "Reports export functionality for strategy and planning",
+        "Performance comparison based upon dates/months/year"
+      ]
+    },
+    {
       h: "Marketing, Discounts & Promotions",
       img: "lady-left.png",
       data: [
@@ -69,21 +107,9 @@
       ]
     },
     {
-      h: "Performance and Analytics Tools",
+      h: "Security & Hosting",
       img: "lady-left.png",
-      data: [
-        "Top customers report",
-        "        Top selling products report",
-        "Integration with Google Analytics",
-        "Dashboard Reports to analyze store performance",
-        "Visitor tracker through Zoho SalesIQ",
-        "Top selling brands report",
-        "Conversion rate",
-        "COD vs Online payments report",
-        "Category­wise and Collectionwise performance reports",
-        "Reports export functionality for strategy and planning",
-        "Performance comparison based upon dates/months/year"
-      ]
+      data: []
     },
     {
       h: "Developer Tools",
@@ -105,19 +131,18 @@
       ]
     },
     {
-      h: "Mobile Commerce Advantage",
+      h: "Payment Gateways",
       img: "lady-left.png",
       data: [
-        "Mobile Ready Store Front",
-        "Mobile Apps",
-        "Mobile Application for Store Management(mobile apps page)",
-        "Mobile Push Notifications",
-        "SMS notifications ",
-        "Customized mobile app",
-        "Device-based content and design",
-        "Product Comparison",
-        "Integration with popular mobile apps like Whatsapp",
-        "Track mobile visitors"
+        "Support for multiple payment gateways",
+        "Wallets Store Credits",
+        "SSL certified and secure payment gateways",
+        "Location auto­detection for currency",
+        "Offline payments &amp; Cash on Delivery",
+        "Support for multiple payment gateways",
+        "SSL certified and secure payment gateways",
+        "Multiple payment options- Debit Card, Credit Card, Netbanking,            Prepaid Wallets Store Credits",
+        "Offline payments & Cash on Delivery"
       ]
     },
     {
@@ -139,21 +164,19 @@
       ]
     },
     {
-      h: "Products Management",
+      h: "Mobile Commerce Advantage",
       img: "lady-left.png",
       data: [
-        "Sell physical products, services or digital products",
-        "Unlimited product variants (color, size etc), categories and collections",
-        "Minimum & maximum order quantity",
-        "Description & attributes of products and other cus tom fields",
-        "Upload files for product",
-        "Catalogue only mode",
-        "Inventory Management",
-        "Embed Videos in Product Description",
-        "Unlimited product search filters",
-        "Retail and Selling price",
-        "Reviews, comments, testimonials and product comparison",
-        "Wishlist, Cart and Call for enquiry option"
+        "Mobile Ready Store Front",
+        "Mobile Apps",
+        "Mobile Application for Store Management(mobile apps page)",
+        "Mobile Push Notifications",
+        "SMS notifications ",
+        "Customized mobile app",
+        "Device-based content and design",
+        "Product Comparison",
+        "Integration with popular mobile apps like Whatsapp",
+        "Track mobile visitors"
       ]
     }
   ];

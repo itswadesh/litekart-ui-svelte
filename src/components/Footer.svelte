@@ -6,28 +6,30 @@
 
 <div
   class="communication justify-between flex flex-wrap px-6 lg:px-24 py-6 shadow ">
-  <div class=" flex justify-left text-white">
-    follow us on
-    <div
-      class="bg-blue-600 text-white rounded-full w-8 h-8 flex justify-center
-      items-center">
-      <a href="https://www.facebook.com">
-        <i class="fa fa-robot text-xl" />
-      </a>
-    </div>
-    <div
-      class="bg-blue-600 text-white rounded-full w-8 h-8 flex justify-center
-      items-center">
-      <a href="https://www.twiter.com">
-        <i class="fa fa-twiter text-xl" />
-      </a>
-    </div>
-    <div
-      class="bg-blue-600 text-white rounded-full w-8 h-8 flex justify-center
-      items-center">
-      <a href="https://www.github.com">
-        <i class="fa fa-github text-xl" />
-      </a>
+  <div class="flex ">
+    <div class=" flex justify-left text-white">
+      follow us on
+      <div
+        class="bg-blue-600 mx-1 text-white rounded-full w-8 h-8 flex
+        justify-center items-center">
+        <a href="https://www.facebook.com">
+          <i class="fa fa-robot text-xl" />
+        </a>
+      </div>
+      <div
+        class="bg-blue-600 mx-1 text-white rounded-full w-8 h-8 flex
+        justify-center items-center">
+        <a href="https://www.twitter.com">
+          <i class="fa fa-twitter text-xl" />
+        </a>
+      </div>
+      <div
+        class="bg-blue-600 mx-1 text-white rounded-full w-8 h-8 flex
+        justify-center items-center">
+        <a href="https://www.github.com">
+          <i class="fa fa-github-alt text-xl" />
+        </a>
+      </div>
     </div>
     <!-- <button
         class=" bg-blue-400 text-white fa fa-linkedin rounded-full w-12 h-12">
@@ -52,15 +54,15 @@
   </div>
   <div class=" text-white">
     Mobile app
-    <button class="bg-blue-600 text-white rounded-full w-8 h-8">
+    <button class="bg-blue-600 mx-1 text-white rounded-full w-8 h-8">
       <a href="http://www.apple.com">
-        <i class="fa fa-robot" />
+        <i class="fa fa-apple-alt" />
       </a>
 
     </button>
     <button class="bg-blue-600 text-white rounded-full w-8 h-8">
       <a href="http://www.android.com">
-        <i class="fa fa-robot" />
+        <i class="fa fa-android" />
       </a>
     </button>
   </div>

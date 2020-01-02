@@ -33,8 +33,10 @@
     </button>
   </div>
   <!-- Content -->
+
   <div class="h-full">
     <ul class="px-2">
+
       <li class="px-6 py-4 border-b border-gray">
         <a href="/features" on:click={close}>FEATURES</a>
       </li>

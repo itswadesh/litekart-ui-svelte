@@ -47,4 +47,3 @@
     </button>
   </div>
 </div>
-<h1 class="text-gray-900">See why companies love Upwork</h1>

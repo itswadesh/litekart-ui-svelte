@@ -2,7 +2,7 @@
   .scroll {
     display: flex;
     flex-wrap: nowrap;
-    overflow: auto;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
   }
@@ -18,7 +18,7 @@
 </style>
 
 <div class="flex justify-center lg:mb-10 sticky">
-  <div class="scroll flex justify-center my-2">
+  <div class="scroll flex justify-start my-2">
     <div>
       <a
         href="#Products Management"

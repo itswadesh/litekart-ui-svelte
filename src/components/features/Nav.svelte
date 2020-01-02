@@ -46,7 +46,7 @@
   }
 </style>
 
-<div class="flex justify-center lg:mb-10 sticky">
+<div class="flex justify-center lg:mb-10 sticky shadow-lg">
   <div class="scroll flex justify-start my-2">
     {#each features as f, ix}
       <button on:click={() => scrollTo('h1-' + ix)}>

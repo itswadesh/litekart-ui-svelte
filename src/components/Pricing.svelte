@@ -19,7 +19,10 @@
 
 <div class="flex flex-col p-2 lg:p-12 bg-gray-200 shadow">
   <div class=" talent text-center text-4xl mb-12 ">
-    <b>Talent solutions for every business need</b>
+    <b>
+      We take the hassles of technology so you can focus on what you do best —
+      selling
+    </b>
   </div>
 
   <div class="flex justify-center flex-wrap">

@@ -18,33 +18,40 @@
   <div class="flex nisan p-4 flex-col py-12 shadow rounded">
     <img src="img/nishanimg.svg" alt="" />
     <div class="text-white text-center">
-      <h1 class="my-8 text-2xl ">
-        How Nasdaq Differentiates Itself As a Digital Media Leader
-      </h1>
-      Nasdaq's social team lacked in-house skills and ability to scale up and
-      down quickly.With Upwork, they adopted a hybrid workforce model where the
-      in-house team Leads the creative vision and leverages fleaxible talent to
-      execute whitin their area expertise...
+      <h1 class="my-8 text-2xl ">Performance</h1>
+      When we add more features and traffic to a web app or mobile app, the
+      speed goes down. Its our duty to keep it upto the industry best while
+      having all the essential features of a traffic heavy ecommerce.
+      <!-- Progressive web app are the future of Mobile APP. All our products are PWA in build -->
     </div>
-    <p class="text-center p-12 text-white ">Read fill customer story</p>
+    <p class="text-center p-12 text-white ">
+      Here are some of the google lighthouse / page speed stats, that proves
+      what we say.
+    </p>
     <div class="flex flex-wrap justify-around ">
       <div class="justify center mx-8 mb-6 text-center text-white">
         <h1 class="te text-4xl">
-          <b>20K to 3M+</b>
+          <b>91+</b>
         </h1>
-        social followers growth
+        Performance
       </div>
       <div class="justify center mx-8 mb-6 text-center text-white">
         <h2 class="te text-4xl">
-          <b>80-100/month</b>
+          <b>100</b>
         </h2>
-        facebook live shows produced
+        Accessibility
       </div>
       <div class="justify center mx-8 mb-6 text-center text-white">
         <h3 class="te text-4xl">
-          <b>1 Emmey winning</b>
+          <b>100</b>
         </h3>
-        program produced
+        Best practices
+      </div>
+      <div class="justify center mx-8 mb-6 text-center text-white">
+        <h3 class="te text-4xl">
+          <b>100</b>
+        </h3>
+        SEO
       </div>
     </div>
 
@@ -56,7 +63,7 @@
       <div
         class="pink flex flex-col mb-8 p-4 text-white items-center rounded
         shadow ">
-        <img src="img/logo-ge.587a356740a5.svg" class="h-12" alt="" />
+        <img src="/img/clicky_logo.png" class="h-12" alt="" />
         <h1 class="text-2xl m-3 ">
           How Clicky designed an agile and highperformance ecommerce.
         </h1>
@@ -76,7 +83,7 @@
       <div
         class="yellow flex flex-col items-center mb-8 p-4 text-white
         items-center rounded shadow ">
-        <img src="img/logo-GoDaddy.svg" class="h-12" alt="" />
+        <img src="/img/tesoro_logo.png" class="h-12" alt="" />
         <h1 class="text-2xl m-3">
           How Tesoro stays on top with a flexible e-commerce platform.
         </h1>

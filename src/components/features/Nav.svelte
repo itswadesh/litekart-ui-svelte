@@ -1,3 +1,32 @@
+<script>
+  // import { onMount } from "svelte";
+
+  // onMount(() => {
+  //   scrollTo("h1-1");
+  // });
+  let features = [
+    { icon: "star", data: "Products Management" },
+    { icon: "shopping-cart", data: "Order Management" },
+    { icon: "store", data: "Shoping Cart" },
+    { icon: "tools", data: "SEO" },
+    { icon: "charts", data: "Performance" },
+    { icon: "search", data: "Marketing" },
+    { icon: "shield-alt", data: "Secure & Hosting" },
+    { icon: "headset", data: "Developer Tools" },
+    { icon: "credit-card", data: "Payment Gateways" },
+    { icon: "mobile", data: "Technology" },
+    { icon: "mobile", data: "Mobile & E-commerce" }
+  ];
+  function scrollTo(h1) {
+    if (window) var elmnt = document.getElementById(h1);
+    elmnt.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+      inline: "start"
+    });
+  }
+</script>
+
 <style>
   .scroll {
     display: flex;
@@ -19,115 +48,16 @@
 
 <div class="flex justify-center lg:mb-10 sticky">
   <div class="scroll flex justify-start my-2">
-    <div>
-      <a
-        href="#Products Management"
-        class=" w-32 h-32 m-2 flex flex-col text-gray-500 border hover:shadow-lg
-        hover:text-red-400 border-b-8 hover:border-red-400 text-center
-        items-center p-4 rounded ">
-        <i class="fa fa-star text-2xl mb-3" />
-        <h1 class="text-ms text-black ">Products Management</h1>
-      </a>
-    </div>
-    <div>
-      <a
-        href="#into"
-        class="w-32 h-32 m-2 flex flex-col text-gray-500 border hover:shadow-lg
-        hover:text-red-400 border-b-8 hover:border-red-400 text-center p-4
-        rounded ">
-        <i class="fa fa-shopping-cart text-2xl mb-3 " />
-        <h1 class="text-ms text-black ">Order Management</h1>
-      </a>
-    </div>
-    <div>
-      <a
-        href="#into"
-        class="w-32 h-32 m-2 flex flex-col text-gray-500 border hover:shadow-lg
-        hover:text-red-400 border-b-8 hover:border-red-400 text-center p-4
-        rounded ">
-        <i class=" fa fa-store text-2xl mb-3 " />
-        <h1 class="text-ms text-black ">Shoping Cart</h1>
-      </a>
-    </div>
-    <div>
-      <a
-        href="#into"
-        class="w-32 h-32 m-2 flex flex-col text-gray-500 border hover:shadow-lg
-        hover:text-red-400 border-b-8 hover:border-red-400 text-center p-4
-        rounded">
-        <i class="fa fa-tools text-2xl mb-3" />
-        <h1 class="text-ms text-black ">SEO</h1>
-      </a>
-    </div>
-    <div>
-      <a
-        href="#into"
-        class="w-32 h-32 m-2 flex flex-col text-gray-500 border hover:shadow-lg
-        hover:text-red-400 border-b-8 hover:border-red-400 text-center p-4
-        rounded ">
-        <i class=" fa fa-box text-2xl mb-3" />
-        <h1 class="text-ms text-black ">Performance</h1>
-      </a>
-    </div>
-    <div>
-      <a
-        href="#into"
-        class="w-32 h-32 m-2 flex flex-col text-gray-500 border hover:shadow-lg
-        hover:text-red-400 border-b-8 hover:border-red-400 text-center p-4
-        rounded ">
-        <i class="fa fa-search text-2xl mb-3" />
-        <h1 class="text-ms text-black ">Marketing</h1>
-      </a>
-    </div>
-    <div>
-      <a
-        href="#into"
-        class="w-32 h-32 m-2 flex flex-col text-gray-500 border hover:shadow-lg
-        hover:text-red-400 border-b-8 hover:border-red-400 text-center p-4
-        rounded ">
-        <i class=" fa fa-shield-alt text-2xl mb-3 " />
-        <h1 class="text-ms text-black ">Secure & Hosting</h1>
-      </a>
-    </div>
-    <div>
-      <a
-        href="#into"
-        class="w-32 h-32 m-2 flex flex-col text-gray-500 border hover:shadow-lg
-        hover:text-red-400 border-b-8 hover:border-red-400 text-center p-4
-        rounded">
-        <i class=" fa fa-headset text-2xl mb-3" />
-        <h1 class="text-ms text-black ">Developer Tools</h1>
-      </a>
-    </div>
-    <div>
-      <a
-        href="#into"
-        class="w-32 h-32 m-2 flex flex-col text-gray-500 border hover:shadow-lg
-        hover:text-red-400 border-b-8 hover:border-red-400 text-center p-4
-        rounded">
-        <i class=" fa fa-credit-card text-2xl mb-3" />
-        <h1 class="text-ms text-black ">Payment Gateways</h1>
-      </a>
-    </div>
-    <div>
-      <a
-        href="#into"
-        class="w-32 h-32 m-2 flex flex-col text-gray-500 border hover:shadow-lg
-        hover:text-red-400 border-b-8 hover:border-red-400 text-center p-4
-        rounded">
-        <i class=" fa fa-mobile text-2xl mb-3" />
-        <h1 class="text-ms text-black ">Technology</h1>
-      </a>
-    </div>
-    <div>
-      <a
-        href="#into"
-        class="w-32 h-32 m-2 flex flex-col text-gray-500 border hover:shadow-lg
-        hover:text-red-400 border-b-8 hover:border-red-400 text-center p-4
-        rounded">
-        <i class=" fa fa-mobile text-2xl mb-3" />
-        <h1 class="text-ms text-black ">Mobile & E-commerce</h1>
-      </a>
-    </div>
+    {#each features as f, ix}
+      <button on:click={() => scrollTo('h1-' + ix)}>
+        <div
+          class=" w-32 h-32 m-2 flex flex-col text-gray-500 border
+          hover:shadow-lg hover:text-red-400 border-b-8 hover:border-red-400
+          text-center items-center p-4 rounded ">
+          <i class={'fa fa-' + f.icon + ' text-2xl mb-3'} />
+          <h1 class="text-ms text-black ">{f.data}</h1>
+        </div>
+      </button>
+    {/each}
   </div>
 </div>

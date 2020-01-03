@@ -3,6 +3,7 @@
   import Hero from "./../components/Hero.svelte";
   import Highlight from "./../components/Highlight.svelte";
   import Features from "./../components/Features.svelte";
+  import Features1 from "./../components/Features1.svelte";
   import Clients from "./../components/Clients.svelte";
   import Pricing from "./../components/Pricing.svelte";
   import Display from "./../components/Display.svelte";
@@ -17,6 +18,7 @@
 <Hero />
 <Features />
 <Highlight />
+<Features1 />
 <Clients />
 <Pricing />
 <Display />

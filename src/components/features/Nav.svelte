@@ -5,16 +5,16 @@
   //   scrollTo("h1-1");
   // });
   let features = [
-    { icon: "star", data: "Products Management" },
-    { icon: "shopping-cart", data: "Order Management" },
-    { icon: "store", data: "Shoping Cart" },
-    { icon: "tools", data: "SEO" },
-    { icon: "charts", data: "Performance" },
-    { icon: "search", data: "Marketing" },
+    { icon: "box", data: "Products Management" },
+    { icon: "database", data: "Order Management" },
+    { icon: "shopping-cart", data: "Shoping Cart" },
+    { icon: "search", data: "SEO" },
+    { icon: "chart-line", data: "Performance" },
+    { icon: "users", data: "Marketing" },
     { icon: "shield-alt", data: "Secure & Hosting" },
-    { icon: "headset", data: "Developer Tools" },
+    { icon: "terminal", data: "Developer Tools" },
     { icon: "credit-card", data: "Payment Gateways" },
-    { icon: "mobile", data: "Technology" },
+    { icon: "microchip", data: "Technology" },
     { icon: "mobile", data: "Mobile & E-commerce" }
   ];
   function scrollTo(h1) {

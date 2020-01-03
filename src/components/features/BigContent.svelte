@@ -2,7 +2,7 @@
   let features = [
     {
       h: "Products Management",
-      img: "img/lady-left.png",
+      img: "svg/box.svg",
       data: [
         "Sell physical products, services or digital products",
         "Unlimited product variants (color, size etc), categories and collections",
@@ -20,7 +20,7 @@
     },
     {
       h: "Order Management",
-      img: "lady-left.png",
+      img: "svg/factory.svg",
       data: [
         "Abandoned Cart Recovery",
         "Single Page Checkout",

@@ -113,7 +113,7 @@
     },
     {
       h: "Developer Tools",
-      img: "svg/game-developer.svg",
+      img: "png,Untitled.png",
       data: [
         "Mobile ready site design",
         "        Cross­device & Cross-browser compatibility",
@@ -214,7 +214,7 @@
         </div>
       </div>
       <div class="lg:order-last order-first w-full lg:w-1/2">
-        <img src={`/${f.img}`} class="w-full" alt="" />
+        <img src={`/${f.img}`} class="w-48 h-48 m-24" alt="" />
       </div>
     </div>
   {/if}
@@ -223,7 +223,7 @@
   {#if ix % 2 == 1}
     <div class="flex flex-wrap px-2 lg:px-64 lg:mb-12">
       <div class="leading-loose w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
-        <img src={`/${f.img}`} class="w-full" alt="" />
+        <img src={`/${f.img}`} class="" alt="" />
       </div>
       <div class="w-full lg:w-1/2">
         <h1 id={'h1-' + ix} class="text-4xl mb-2">{f.h}</h1>

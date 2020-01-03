@@ -41,6 +41,10 @@
   <div class="text-gray-700 items-center" />
   <div class=" flex justify-between text-gray-700 ">
     <a href="/features" class="p-2 rounded text-xs ml-4">FEATURES</a>
+    <a href="/customizations" class="p-2 rounded text-xs ml-4">
+      customizations
+    </a>
+    <a href="/details" class="p-2 rounded text-xs ml-4">details</a>
     <a href="/pricing" class="p-2 rounded text-xs ml-4">PRICING</a>
     <a
       href="/"

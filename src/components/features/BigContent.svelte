@@ -214,7 +214,7 @@
         </div>
       </div>
       <div class="lg:order-last order-first w-full lg:w-1/2">
-        <img src={`/${f.img}`} class="w-48 h-48 m-24" alt="" />
+        <img src={`/${f.img}`} class="" alt="" />
       </div>
     </div>
   {/if}
@@ -226,7 +226,7 @@
         <img src={`/${f.img}`} class="" alt="" />
       </div>
       <div class="w-full lg:w-1/2">
-        <h1 id={'h1-' + ix} class="text-4xl mb-2">{f.h}</h1>
+        <h1 id={'h1-' + ix} class="text-4xl mb-2 mb-12">{f.h}</h1>
         <div class="flex">
           <ul class="w-1/2 mx-6">
             {#each f.data as i, ix}

@@ -38,7 +38,7 @@
     },
     {
       h: "Shopping Cart",
-      img: "lady-left.png",
+      img: "svg/shopping-cart.svg",
       data: [
         "Abandoned Cart Recovery",
         "Single Page Checkout",
@@ -56,7 +56,7 @@
     },
     {
       h: "SEO Ready Sites",
-      img: "lady-left.png",
+      img: "svg/web.svg",
       data: [
         "SEO ready platform for faster SERP ranking",
         "Inbuilt features to automate and simplify digital marketing",
@@ -73,7 +73,7 @@
     },
     {
       h: "Performance and Analytics Tools",
-      img: "lady-left.png",
+      img: "svg/seo.svg",
       data: [
         "Top customers report",
         "Top selling products report",
@@ -90,7 +90,7 @@
     },
     {
       h: "Marketing, Discounts & Promotions",
-      img: "lady-left.png",
+      img: "svg/shopping-online.svg",
       data: [
         "Email marketing through MailChimp, Sendgrid etc",
         "Advanced discount engine for multi­tier discounting based on category, product, quantity order, device, seller and customer ",
@@ -108,12 +108,12 @@
     },
     {
       h: "Security & Hosting",
-      img: "lady-left.png",
+      img: "svg/secure-payment.svg",
       data: []
     },
     {
       h: "Developer Tools",
-      img: "lady-left.png",
+      img: "svg/game-developer.svg",
       data: [
         "Mobile ready site design",
         "        Cross­device & Cross-browser compatibility",
@@ -132,7 +132,7 @@
     },
     {
       h: "Payment Gateways",
-      img: "lady-left.png",
+      img: "svg/payment.svg",
       data: [
         "Support for multiple payment gateways",
         "Wallets Store Credits",
@@ -147,7 +147,7 @@
     },
     {
       h: "Technology, Hosting & Security",
-      img: "lady-left.png",
+      img: "svg/techonology.svg",
       data: [
         "Inherently Mobile Ready Platform",
         "Google-backed Progressive Web Apps(PWA) ",
@@ -165,7 +165,7 @@
     },
     {
       h: "Mobile Commerce Advantage",
-      img: "lady-left.png",
+      img: "svg/online-shop.svg",
       data: [
         "Mobile Ready Store Front",
         "Mobile Apps",

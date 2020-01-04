@@ -10,21 +10,21 @@
     <div class=" flex justify-left text-white">
       follow us on
       <div
-        class="bg-blue-600 mx-1 text-white rounded-full w-8 h-8 flex
+        class="bg-primary mx-1 text-white rounded-full w-8 h-8 flex
         justify-center items-center">
         <a href="https://www.facebook.com">
           <i class="fa fa-robot text-xl" />
         </a>
       </div>
       <div
-        class="bg-blue-600 mx-1 text-white rounded-full w-8 h-8 flex
+        class="bg-primary mx-1 text-white rounded-full w-8 h-8 flex
         justify-center items-center">
         <a href="https://www.twitter.com">
           <i class="fa fa-twitter text-xl" />
         </a>
       </div>
       <div
-        class="bg-blue-600 mx-1 text-white rounded-full w-8 h-8 flex
+        class="bg-primary mx-1 text-white rounded-full w-8 h-8 flex
         justify-center items-center">
         <a href="https://www.github.com">
           <i class="fa fa-github-alt text-xl" />
@@ -54,13 +54,13 @@
   </div>
   <div class=" text-white">
     Mobile app
-    <button class="bg-blue-600 mx-1 text-white rounded-full w-8 h-8">
+    <button class="bg-primary mx-1 text-white rounded-full w-8 h-8">
       <a href="http://www.apple.com">
         <i class="fa fa-apple-alt" />
       </a>
 
     </button>
-    <button class="bg-blue-600 text-white rounded-full w-8 h-8">
+    <button class="bg-primary text-white rounded-full w-8 h-8">
       <a href="http://www.android.com">
         <i class="fa fa-android" />
       </a>

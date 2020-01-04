@@ -1,7 +1,5 @@
 <style>
-  .start {
-    background-color: #37a000;
-  }
+
 </style>
 
 <div class="py-12 px-2">
@@ -41,8 +39,10 @@
     </div>
   </div>
   <div class=" flex justify-center mt-6 ">
-    <button class="start mr-5 px-2 py-1 text-white rounded">Get started</button>
-    <button class="ml-2 shadow-md bg-gray-100 py-2 px-1 text-green rounded">
+    <button class="bg-primary mr-5 px-2 py-1 text-white rounded">
+      Get started
+    </button>
+    <button class="ml-2 shadow-md bg-gray-100 py-2 px-1 primary rounded">
       Get a Demo
     </button>
   </div>

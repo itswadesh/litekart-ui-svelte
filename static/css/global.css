@@ -1,4 +1,27 @@
 /* .shadow {
   box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
 } */
-button{outline: none !important;}
+button {
+  outline: none !important;
+}
+.btn-primary {
+  background-color: #ff7426;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  /* padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; */
+  color: white;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.primary {
+  color: #ff7426;
+}
+.bg-primary {
+  background-color: #ff7426;
+}
+.hover-primary {
+  color: #ff7426;
+}

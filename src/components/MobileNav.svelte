@@ -13,6 +13,9 @@
     transition: transform 0.5s ease;
     transform: translateX(0);
   }
+  .job {
+    background-color: #ff7426;
+  }
 </style>
 
 <div
@@ -48,8 +51,6 @@
   <div
     class="bg-gray-200 py-3 mt-4 flex justify-center bg-gray-200 shadow border-t
     ">
-    <a href="/" class="bg-green-500 px-6 py-1 rounded text-white text-xl">
-      Post a Job
-    </a>
+    <a href="/" class="job px-6 py-1 rounded text-white text-xl">Post a Job</a>
   </div>
 </div>

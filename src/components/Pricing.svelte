@@ -4,7 +4,7 @@
   }
   .yt2 {
     color: #f5efef;
-    background-color: #37a000;
+
     border-color: #730a0a00;
   }
   .yt2:hover {
@@ -35,7 +35,7 @@
           <h1>
             <b>Open Source</b>
           </h1>
-          <button class="yt2 text-lg py-2 px-12 mt-3 rounded ">
+          <button class="bg-primary yt2 text-lg py-2 px-12 mt-3 rounded ">
             Demo laptop store
           </button>
         </div>
@@ -95,7 +95,7 @@
             </h1>
             <a
               href="https://demo.litekart.in"
-              class="yt2 text-lg py-2 px-12 mt-3 rounded ">
+              class="bg-primary yt2 text-lg py-2 px-12 mt-3 rounded ">
               Demo fashion store
             </a>
           </div>

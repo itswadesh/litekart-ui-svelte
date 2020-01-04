@@ -5,9 +5,6 @@
 </script>
 
 <style>
-  .post {
-    background-color: #37a000;
-  }
   .sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -46,11 +43,7 @@
     </a>
     <a href="/details" class="p-2 rounded text-xs ml-4">details</a>
     <a href="/pricing" class="p-2 rounded text-xs ml-4">PRICING</a>
-    <a
-      href="/"
-      class="post shadow px-4 ml-6 flex py-2 py-auto rounded text-white text-xs ">
-      <b>Post a Job</b>
-    </a>
+    <a href="/" class="btn-primary px-4 ml-6 flex py-2 py-auto ">Post a Job</a>
   </div>
 </div>
 {#if showDrawer}

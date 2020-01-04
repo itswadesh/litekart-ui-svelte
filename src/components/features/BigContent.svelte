@@ -113,7 +113,7 @@
     },
     {
       h: "Developer Tools",
-      img: "png,Untitled.png",
+      img: "svg/game-developer.svg",
       data: [
         "Mobile ready site design",
         "        Cross­device & Cross-browser compatibility",
@@ -186,6 +186,10 @@
   ul {
     list-style-type: disc;
   }
+  .img {
+    height: 350px;
+    width: 350px;
+  }
 </style>
 
 <!-- 2nd section -->
@@ -214,7 +218,7 @@
         </div>
       </div>
       <div class="lg:order-last order-first w-full lg:w-1/2">
-        <img src={`/${f.img}`} class="" alt="" />
+        <img src={`/${f.img}`} class="img m-auto" alt="" />
       </div>
     </div>
   {/if}
@@ -223,7 +227,7 @@
   {#if ix % 2 == 1}
     <div class="flex flex-wrap px-2 lg:px-64 lg:mb-12">
       <div class="leading-loose w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
-        <img src={`/${f.img}`} class="" alt="" />
+        <img src={`/${f.img}`} class="img m-auto" alt="" />
       </div>
       <div class="w-full lg:w-1/2">
         <h1 id={'h1-' + ix} class="text-4xl mb-2 mb-12">{f.h}</h1>

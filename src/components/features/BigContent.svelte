@@ -148,9 +148,9 @@
 <!-- 2nd section -->
 {#each features as f, ix}
   {#if ix % 2 == 0}
-    <div class="flex flex-wrap px-2 lg:px-64 lg:mb-12">
+    <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
       <div class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
-        <h1 id={'h1-' + ix} class="text-4xl mb-2">{f.h}</h1>
+        <h1 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h1>
         <div class="flex leading-loose">
           <ul class="w-1/2 mx-6 ">
             {#each f.data as i, ix}
@@ -176,12 +176,12 @@
   <!-- 2nd section -->
   <!-- 3rd section -->
   {#if ix % 2 == 1}
-    <div class="flex flex-wrap px-2 lg:px-64 lg:mb-12">
+    <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
       <div class=" w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
         <img src={`/${f.img}`} class="img m-auto" alt="" />
       </div>
       <div class=" w-full lg:w-1/2">
-        <h1 id={'h1-' + ix} class="text-4xl mb-2">{f.h}</h1>
+        <h1 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h1>
         <div class="flex leading-loose">
           <ul class="w-1/2 mx-6">
             {#each f.data as i, ix}

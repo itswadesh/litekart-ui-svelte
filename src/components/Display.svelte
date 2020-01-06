@@ -1,5 +1,27 @@
 <style>
-
+  .button {
+    transition: all 0.5s;
+  }
+  .button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover span {
+    padding-right: 15px;
+  }
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 </style>
 
 <div class="my-2 py-12 px-2">
@@ -18,14 +40,13 @@
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
       <img src="img/get-a-smater.svg" alt="" />
       <h3 class="mb-2">Superfast image processing</h3>
-      Based on NodeJS, it empowers database and file system access.
+      Based on NodeJS, it empowers faster database and file system access.
     </div>
     <div
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
       <img src="img/manage-everythinng.svg" alt="" />
       <h4 class="mb-2">Best in class uptime, performance</h4>
-      Litekart takes advantage of the cloud platforms providing most bandwidth,
-      blazing-fast speed and option to choose a server location near to you.
+      Litekart takes advantage of the cloud platforms providing 99.99% uptime.
     </div>
     <div
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
@@ -35,11 +56,12 @@
     </div>
   </div>
   <div class="flex justify-center mt-6 ">
-    <button class="bg-primary mr-5 px-8 py-1 text-white rounded-full">
-      Get started
+    <button class="button bg-primary mr-5 px-8 py-1 text-white rounded-full">
+      <span>Get started</span>
     </button>
-    <button class="ml-2 shadow-md bg-gray-100 py-2 px-8 primary rounded-full">
-      Get a Demo
+    <button
+      class="button ml-2 shadow-md bg-gray-100 py-2 px-8 primary rounded-full">
+      <span>Get a Demo</span>
     </button>
   </div>
 </div>

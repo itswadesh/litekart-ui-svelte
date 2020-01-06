@@ -51,16 +51,18 @@
 </script>
 
 <style>
-  h1 {
-    font-weight: bold;
-  }
   img {
     filter: drop-shadow(-10px 0px 11px #eee);
+  }
+  .bg {
+    background-image: url(/end-banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 </style>
 
 <!-- https://360.shiprocket.in/ecommerce-website-building/ -->
-<div class="flex flex-col my-6 justify-center ">
+<div class="flex flex-col my-6 justify-center bg">
   <!-- 1st section -->
   <!-- <div class="flex justify-center mb-10 px-8 ">
     <div class="flex flex-col lg:w-1/2 ">
@@ -90,25 +92,25 @@
   {#each features as f, ix}
     <!-- Left -->
     {#if ix % 2 == 0}
-      <div class="flex flex-wrap px-2 lg:px-64 lg:mb-12">
+      <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
         <div
           class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
-          <h1 id={'h1-' + ix} class="text-4xl mb-2">{f.h}</h1>
+          <h1 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h1>
           <div class="flex leading-loose">{f.data}</div>
         </div>
         <div class="lg:order-last order-first w-full lg:w-1/2">
-          <img src={`/img/${f.img}`} class="img m-auto" alt="" />
+          <img src={`/img/${f.img}`} class="img m-auto mb-2" alt="" />
         </div>
       </div>
     {/if}
     <!-- Right -->
     {#if ix % 2 == 1}
-      <div class="flex flex-wrap px-2 lg:px-64 lg:mb-12">
+      <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
         <div class=" w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
           <img src={`/img/${f.img}`} class="img m-auto" alt="" />
         </div>
         <div class=" w-full lg:w-1/2">
-          <h1 id={'h1-' + ix} class="text-4xl mb-2">{f.h}</h1>
+          <h1 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h1>
           <div class="flex leading-loose">{f.data}</div>
         </div>
       </div>

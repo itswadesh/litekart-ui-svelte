@@ -1,34 +1,38 @@
 <style>
-  .yt {
-    background-color: #1d4353;
-  }
-  .yt2 {
-    color: #f5efef;
-
-    border-color: #730a0a00;
-  }
-  .yt2:hover {
-    color: #fff;
-    background-color: #008329;
-    transition: all 0.3s;
-    outline: none;
-    box-shadow: 0 2px 10px 1px rgba(57, 73, 76, 0.4),
-      0 1px 2px rgba(57, 73, 76, 0.25);
-  }
   h1 {
     color: black;
     font-weight: bold;
   }
-  .head {
-    color: white;
+  .button {
+    transition: all 0.5s;
+  }
+  .button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover span {
+    padding-right: 25px;
+  }
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
   }
 </style>
 
 <div class="flex flex-col p-2 lg:p-12 bg-gray-200 shadow">
-  <div class=" talent text-center text-2xl mb-12 font-bold">
+  <h1 class="text-center text-2xl mb-12">
     We take the hassles of technology so you can focus on what you do best —
     selling
-  </div>
+  </h1>
 
   <div class="flex justify-center flex-wrap">
     <!-- first-colom -->
@@ -37,9 +41,10 @@
         <div
           class="bg-yellow-400 flex text-center py-8 text-4xl flex-col
           items-center shadow-lg">
-          <h1 class="">Open Source</h1>
-          <button class="bg-primary yt2 text-lg py-2 px-12 mt-3 rounded ">
-            Demo laptop store
+          <h1>Open Source</h1>
+          <button
+            class="button text-white bg-primary text-lg py-2 px-12 mt-3 rounded ">
+            <span>Demo laptop store</span>
           </button>
         </div>
       </div>
@@ -89,13 +94,14 @@
       <div class="bg-white shadow-lg mb-4 rounded">
         <div class="justify-center bg-gray-500">
           <div
-            class="bg-yellow-400 flex text-center py-8 text-white text-4xl
-            flex-col items-center shadow-lg">
-            <h1 class="">Enterprise</h1>
+            class="bg-yellow-400 flex text-center py-8 text-4xl flex-col
+            items-center shadow-lg">
+            <h1>Enterprise</h1>
             <a
               href="https://demo.litekart.in"
-              class="bg-primary yt2 text-lg py-2 px-12 mt-3 rounded ">
-              Demo fashion store
+              class="button bg-primary text-white text-lg py-2 px-12 mt-3
+              rounded ">
+              <span>Demo fashion store</span>
             </a>
           </div>
         </div>

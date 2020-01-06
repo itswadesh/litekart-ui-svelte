@@ -43,7 +43,11 @@
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 1;
+    z-index: 11;
+  }
+  .f:hover {
+    color: #ff7426;
+    border-color: #ff7426;
   }
 </style>
 
@@ -52,10 +56,9 @@
     {#each features as f, ix}
       <button on:click={() => scrollTo('h1-' + ix)}>
         <div
-          class=" w-32 h-32 m-2 flex flex-col text-gray-500 border
-          hover:shadow-lg hover:text-orange-500 border-b-8
-          hover:border-orange-500 text-center items-center p-4 rounded ">
-          <i class={'fa fa-' + f.icon + ' text-2xl mb-3'} />
+          class="f w-32 h-32 m-2 flex flex-col text-gray-500 border
+          hover:shadow-lg border-b-8 text-center items-center p-4 rounded ">
+          <i class={'fa fa-' + f.icon + ' text-4xl mb-1'} />
           <h1 class="text-ms text-black ">{f.data}</h1>
         </div>
       </button>

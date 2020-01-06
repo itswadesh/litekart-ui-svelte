@@ -21,7 +21,7 @@
   <div class="flex grad flex-col py-12 shadow rounded">
     <div class="text-white text-center">
       <h1 class="text-5xl text-white">Performance</h1>
-      <p class="mx-2">
+      <p class="mx-2 lg:mx-48">
         A 1-second delay in page load can decrease conversion by 7%. Online
         stores from Litekart are blazing fast on cloud infrastructure, with an
         average page load time under 2 seconds – resulting in faster page
@@ -34,29 +34,21 @@
       Here are some of the google lighthouse / page speed stats, that proves
       what we say.
     </p>
-    <div class="flex flex-wrap justify-around ">
-      <div class="justify center mx-8 mb-6 text-center text-white">
-        <h1 class="green text-5xl font-black">
-          <b>91+</b>
-        </h1>
+    <div class="flex flex-wrap justify-around mx-2 lg:mx-48">
+      <div class="justify center mb-6 text-center text-white">
+        <h1 class="green text-3xl font-black">91+</h1>
         Performance
       </div>
-      <div class="justify center mx-8 mb-6 text-center text-white">
-        <h2 class="green text-5xl font-black">
-          <b>100</b>
-        </h2>
+      <div class="justify center mb-6 text-center text-white">
+        <h2 class="green text-3xl font-black">100</h2>
         Accessibility
       </div>
-      <div class="justify center mx-8 mb-6 text-center text-white">
-        <h3 class="green text-5xl font-black">
-          <b>100</b>
-        </h3>
+      <div class="justify center mb-6 text-center text-white">
+        <h3 class="green text-3xl font-black">100</h3>
         Best practices
       </div>
-      <div class="justify center mx-8 mb-6 text-center text-white">
-        <h3 class="text-green-300 text-5xl font-black">
-          <b>100</b>
-        </h3>
+      <div class="justify center mb-6 text-center text-white">
+        <h3 class="text-green-300 text-3xl font-black">100</h3>
         SEO
       </div>
     </div>

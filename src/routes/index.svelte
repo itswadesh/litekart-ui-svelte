@@ -16,9 +16,9 @@
 </svelte:head>
 <Header />
 <div>
-  <Rocket />
   <Hero />
   <Features />
+  <Rocket />
   <Highlight />
   <Clients />
   <Pricing />

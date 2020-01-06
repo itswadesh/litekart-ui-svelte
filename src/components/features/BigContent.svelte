@@ -135,6 +135,10 @@
   ul {
     list-style-type: disc;
   }
+  img {
+    filter: drop-shadow(0px 27px 11px gray);
+    z-index: 0;
+  }
   .img {
     height: 350px;
     width: 350px;
@@ -144,20 +148,18 @@
 <!-- 2nd section -->
 {#each features as f, ix}
   {#if ix % 2 == 0}
-    <div class="flex flex-wrap bg-gray-100 px-2 lg:px-64 lg:mb-12">
-      <div
-        class="order-last lg:order-first leading-loose w-full lg:w-1/2 pr-0
-        lg:pr-12 mb-8">
+    <div class="flex flex-wrap px-2 lg:px-64 lg:mb-12">
+      <div class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
         <h1 id={'h1-' + ix} class="text-4xl mb-2">{f.h}</h1>
-        <div class="flex">
-          <ul class="w-1/2 mx-6">
+        <div class="flex leading-loose">
+          <ul class="w-1/2 mx-6 ">
             {#each f.data as i, ix}
               {#if ix % 2 == 0}
                 <li>{i}</li>
               {/if}
             {/each}
           </ul>
-          <ul class="w-1/2 mx-6">
+          <ul class="w-1/2 mx-6 py-4 ">
             {#each f.data as i, ix}
               {#if ix % 2 == 1}
                 <li>{i}</li>
@@ -175,12 +177,12 @@
   <!-- 3rd section -->
   {#if ix % 2 == 1}
     <div class="flex flex-wrap px-2 lg:px-64 lg:mb-12">
-      <div class="leading-loose w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
+      <div class=" w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
         <img src={`/${f.img}`} class="img m-auto" alt="" />
       </div>
-      <div class="w-full lg:w-1/2">
+      <div class=" w-full lg:w-1/2">
         <h1 id={'h1-' + ix} class="text-4xl mb-2 mb-12">{f.h}</h1>
-        <div class="flex">
+        <div class="flex leading-loose">
           <ul class="w-1/2 mx-6">
             {#each f.data as i, ix}
               {#if ix % 2 == 0}

@@ -1,7 +1,11 @@
+<style>
+
+</style>
+
 <!-- https://360.shiprocket.in/ecommerce-website-building/ -->
-<div class="flex flex-col justify-center">
-  <div class="flex justify-center ">
-    <div class="flex flex-col w-1/2 px-4 ">
+<div class="flex flex-col my-6 justify-center lg:px-64">
+  <div class="flex justify-center mb-10 px-4 ">
+    <div class="flex flex-col lg:w-1/2 ">
       <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">
         Customized Design
       </h1>
@@ -16,11 +20,11 @@
       your website to give your customers ‘ONE’ experience at each point of
       their shopping behavior.
     </div>
-    <img src="img/rocket-img-1.png" class="" alt="" />
+    <img src="img/rocket-img-1.png" class=" img mx-8 mb-3 p-6" alt="" />
   </div>
-  <div class="flex justify-center">
-    <img src="img/rocket-img-2.png" class="" alt="" />
-    <div class="flex flex-col w-1/2 px-4">
+  <div class="flex justify-center mb-10 px-4">
+    <img src="img/rocket-img-2.png" class=" img mx-8 mb-3 p-6" alt="" />
+    <div class="flex flex-col lg:w-1/2 ">
       <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">
         Sales Channel Integration
       </h1>
@@ -30,8 +34,8 @@
       integration with all 3rd party platforms.
     </div>
   </div>
-  <div class="flex justify-center">
-    <div class="flex flex-col w-1/2 px-4">
+  <div class="flex justify-center mb-10 px-4">
+    <div class="flex flex-col lg:w-1/2 ">
       <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">
         Payment Gateway
       </h1>
@@ -41,11 +45,11 @@
       Razorpay, Billdesk, and more. You can easily accept payments via credit
       card, debit card, online wallets, and net banking.
     </div>
-    <img src="img/rocket-img-3.png" class="" alt="" />
+    <img src="img/rocket-img-3.png" class=" img w-1/2 mx-8 mb-3 p-6" alt="" />
   </div>
-  <div class="flex justify-center">
-    <img src="img/rocket-img-4.png" class="" alt="" />
-    <div class=" flex flex-col w-1/2 px-4">
+  <div class="flex justify-center mb-10 px-4">
+    <img src="img/rocket-img-4.png" class=" img w-1/2 mx-8 mb-3 p-6" alt="" />
+    <div class=" flex flex-col lg:w-1/2 ">
       <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">
         Shipping & Logistics
       </h1>
@@ -56,8 +60,8 @@
       FirstFlight, Ecom Express, etc.
     </div>
   </div>
-  <div class="flex justify-center">
-    <div class=" flex flex-col w-1/2 px-4">
+  <div class="flex justify-center mb-10 px-4">
+    <div class=" flex flex-col lg:w-1/2 ">
       <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">Hosting</h1>
       We use AWS with SLAs as high as 99.99% to host our entire architecture to
       mitigate any architecture-related issues. Everything is hosted inside a
@@ -69,17 +73,17 @@
       reduce network latencies and render device-optimized content delivery as a
       feature of our platform.
     </div>
-    <img src="img/rocket-img-5.png" class="" alt="" />
+    <img src="img/rocket-img-5.png" class=" img w-1/2 mx-8 mb-3 p-6" alt="" />
   </div>
-  <div class="flex justify-center">
-    <div class=" flex flex-col w-1/2 px-4">
+  <div class="flex justify-center mb-10 px-4">
+    <img src="img/rocket-img-6.png" class=" img w-1/2 mx-8 mb-3 p-6" alt="" />
+    <div class=" flex flex-col lg:w-1/2 ">
       <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">Marketing</h1>
       Reach your buyers with automated marketing & engagement tools. Grow your
       sales via advertisements, custom discount coupons, SEO tools, etc. Choose
       one of our marketing partners to drive traffic to your website and
       eventually grow your sales.
     </div>
-    <img src="img/rocket-img-6.png" class=" " alt="" />
 
   </div>
 </div>

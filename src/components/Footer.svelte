@@ -4,8 +4,8 @@
 
 <div class="bg-black justify-between flex flex-wrap px-6 lg:px-24 py-6 shadow ">
   <div class="flex ">
-    <button class=" flex items-center justify-left text-white">
-      follow us on
+    <div class=" flex items-center justify-left text-white">
+      follow us on &nbsp;
       <button class="bg-primary mx-1 text-white text-xs rounded-full w-8 h-8 ">
         <a href="https://www.facebook.com">
           <i class="fa fa-apple-alt text-xl" />
@@ -21,7 +21,7 @@
           <i class="fa fa-apple-alt text-xl" />
         </a>
       </button>
-    </button>
+    </div>
   </div>
   <!-- <button
         class=" bg-blue-400 text-white fa fa-linkedin rounded-full w-12 h-12">

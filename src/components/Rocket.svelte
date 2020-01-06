@@ -1,5 +1,12 @@
 <script>
   let features = [
+    {
+      h: "Customized Design",
+      img: "rocket-img-1.png",
+      data: [
+        "Bring your brand to life with carefully developed strategies based on        your customer profile. We help you develop a website that connects with        your audience at every step of your brand cycle! The cutting edge design        and UX practices will help you meet your business objectives by        fulfilling your customers’ expectations."
+      ]
+    },
     //   2nd
     {
       h: " Sales Channel Integration",
@@ -39,71 +46,71 @@
       data: [
         "Reach your buyers with automated marketing & engagement tools. Grow your      sales via advertisements, custom discount coupons, SEO tools, etc. Choose      one of our marketing partners to drive traffic to your website and      eventually grow your sales."
       ]
-    },
-    // 4th
-    {
-      h: "  Shipping & Logistics",
-      img: "rocket-img-4.png",
-      data: [
-        "Grow your business by shipping your orders with our automated, affordable and uncomplicated shipping solution – Shiprocket. This simple and fully       integrated logistics service will help you ship products using the best      courier companies of India like FedEx, Aramex, Delhivery, GoJavas FirstFlight, Ecom Express, etc."
-      ]
-    },
-    // 4th
-    {
-      h: "  Shipping & Logistics",
-      img: "rocket-img-4.png",
-      data: [
-        "Grow your business by shipping your orders with our automated, affordable and uncomplicated shipping solution – Shiprocket. This simple and fully       integrated logistics service will help you ship products using the best      courier companies of India like FedEx, Aramex, Delhivery, GoJavas FirstFlight, Ecom Express, etc."
-      ]
     }
   ];
 </script>
 
 <style>
-
+  h1 {
+    font-weight: bold;
+  }
+  img {
+    filter: drop-shadow(-10px 0px 11px #eee);
+  }
 </style>
 
 <!-- https://360.shiprocket.in/ecommerce-website-building/ -->
 <div class="flex flex-col my-6 justify-center ">
   <!-- 1st section -->
-  <div class="flex justify-center mb-10 px-4 ">
+  <!-- <div class="flex justify-center mb-10 px-8 ">
     <div class="flex flex-col lg:w-1/2 ">
       <h1 class="text-gray-700 text-4xl font-semibold mb-3 ">
         Customized Design
       </h1>
-      <h2 class="text-ms font-semibold mb-1">Website:</h2>
-      Bring your brand to life with carefully developed strategies based on your
-      customer profile. We help you develop a website that connects with your
-      audience at every step of your brand cycle! The cutting edge design and UX
-      practices will help you meet your business objectives by fulfilling your
-      customers’ expectations.
+      <h2 class="text-ms font-semibold mb-1 leading-loose">Website:</h2>
+      <p>
+        Bring your brand to life with carefully developed strategies based on
+        your customer profile. We help you develop a website that connects with
+        your audience at every step of your brand cycle! The cutting edge design
+        and UX practices will help you meet your business objectives by
+        fulfilling your customers’ expectations.
+      </p>
+      <br />
       <h3 class="text-ms font-semibold mb-1">Mobile App:</h3>
-      Optimize your e-commerce operations with a mobile app. Sync the app with
-      your website to give your customers ‘ONE’ experience at each point of
-      their shopping behavior.
+      <p>
+        Optimize your e-commerce operations with a mobile app. Sync the app with
+        your website to give your customers ‘ONE’ experience at each point of
+        their shopping behavior.
+      </p>
     </div>
     <img src="img/rocket-img-1.png" class=" img mx-8 mb-3 p-6" alt="" />
-  </div>
+  </div> -->
   <!-- 1st section -->
+
   {#each features as f, ix}
+    <!-- Left -->
     {#if ix % 2 == 0}
-      <!-- Left -->
-      <div class="flex justify-center mb-10 px-4 m-16">
-        <img src={`/img/${f.img}`} class=" img mx-16 mb-3 p-6 w-1/2" alt="" />
-        <div class="flex flex-col mx-16 px-3 ">
-          <h1 class="text-gray-700 text-4xl font-semibold mb-3 ">{f.h}</h1>
-          <data class="text-black flex ">{f.data}</data>
+      <div class="flex flex-wrap px-2 lg:px-64 lg:mb-12">
+        <div
+          class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
+          <h1 id={'h1-' + ix} class="text-4xl mb-2">{f.h}</h1>
+          <div class="flex leading-loose">{f.data}</div>
+        </div>
+        <div class="lg:order-last order-first w-full lg:w-1/2">
+          <img src={`/img/${f.img}`} class="img m-auto" alt="" />
         </div>
       </div>
     {/if}
+    <!-- Right -->
     {#if ix % 2 == 1}
-      <!-- Right -->
-      <div class="flex justify-center mb-10 px-4 m-16">
-        <div class="flex flex-col px-3 mx-16 ">
-          <h1 class="text-gray-700 text-4xl font-semibold mb-3 ">{f.h}</h1>
-          <data class="text-black flex ">{f.data}</data>
+      <div class="flex flex-wrap px-2 lg:px-64 lg:mb-12">
+        <div class=" w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
+          <img src={`/img/${f.img}`} class="img m-auto" alt="" />
         </div>
-        <img src={`/img/${f.img}`} class=" img mx-16 mb-3 p-6" alt="" />
+        <div class=" w-full lg:w-1/2">
+          <h1 id={'h1-' + ix} class="text-4xl mb-2">{f.h}</h1>
+          <div class="flex leading-loose">{f.data}</div>
+        </div>
       </div>
     {/if}
   {/each}

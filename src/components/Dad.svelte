@@ -16,7 +16,7 @@
   }
 </style>
 
-<div class="flex flex-wrap bg-gray-200 justify-center mb-0 px-2 lg:px-12 ">
+<div class="flex flex-wrap justify-center mb-0 px-2 lg:px-12 ">
   <!-- blue -->
   <div class="flex grad flex-col py-12 shadow rounded">
     <div class="text-white text-center">

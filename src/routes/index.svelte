@@ -17,12 +17,12 @@
 <Header />
 <div>
   <Rocket />
-  <!-- <Hero />
-<Features />
-<Highlight />
-<Clients />
-<Pricing />
-<Display /> -->
+  <Hero />
+  <Features />
+  <Highlight />
+  <Clients />
+  <Pricing />
+  <Display />
   <Dad />
 </div>
 <Footer />

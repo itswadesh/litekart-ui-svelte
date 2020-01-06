@@ -17,6 +17,7 @@
   }
   h1 {
     color: black;
+    font-weight: bold;
   }
   .head {
     color: white;
@@ -24,11 +25,9 @@
 </style>
 
 <div class="flex flex-col p-2 lg:p-12 bg-gray-200 shadow">
-  <div class=" talent text-center text-xl mb-12 ">
-    <b>
-      We take the hassles of technology so you can focus on what you do best —
-      selling
-    </b>
+  <div class=" talent text-center text-2xl mb-12 font-bold">
+    We take the hassles of technology so you can focus on what you do best —
+    selling
   </div>
 
   <div class="flex justify-center flex-wrap">
@@ -36,9 +35,9 @@
     <div class=" lg:mr-4 bg-white shadow-lg mb-4 flex-1 rounded">
       <div class="justify-center bg-gray-500">
         <div
-          class="yt flex text-center py-8 text-white text-4xl flex-col
-          items-center ">
-          <h1 class="head">Open Source</h1>
+          class="bg-yellow-400 flex text-center py-8 text-4xl flex-col
+          items-center shadow-lg">
+          <h1 class="">Open Source</h1>
           <button class="bg-primary yt2 text-lg py-2 px-12 mt-3 rounded ">
             Demo laptop store
           </button>
@@ -53,31 +52,31 @@
             from any technology stack
           </p>
         </div>
-        <h2 class="text-2xl">
+        <h1 class="text-2xl">
           <b>Svelte / Sapper</b>
-        </h2>
+        </h1>
         <div class="mb-6 mt-2">
           Store front build over the latest and lightweight javascript approach.
           This framework gained popularity withing few days of its launch.
           Maintained by an active community with over 28k starts on github.
         </div>
-        <h3 class="text-2xl">
+        <h1 class="text-2xl">
           <b>Over 60 stars within 60 day of its launch</b>
-        </h3>
+        </h1>
         <div class="mb-6 mt-2">
           Loved by people arround the world and growing.
           <p>* 60 github stars | * 12 github forks</p>
         </div>
-        <h4 class="text-2xl">
+        <h1 class="text-2xl">
           <b>Ecommerce Essentials integrated</b>
-        </h4>
+        </h1>
         <div class="mb-6 mt-2">
           Important features like Animations, lazy loading, Carousel are shipped
           out of the box. This adds up towards a great user experience.
         </div>
-        <h4 class="text-2xl">
+        <h1 class="text-2xl">
           <b>PWA as standard</b>
-        </h4>
+        </h1>
         <div class="mb-6 mt-2">
           <img
             src="https://github.com/itswadesh/sapper-ecommerce/raw/master/static/light-house-search.jpg?raw=true"
@@ -90,9 +89,9 @@
       <div class="bg-white shadow-lg mb-4 rounded">
         <div class="justify-center bg-gray-500">
           <div
-            class="yt flex text-center py-8 text-white text-4xl flex-col
-            items-center ">
-            <h1 class="head">Enterprise</h1>
+            class="bg-yellow-400 flex text-center py-8 text-white text-4xl
+            flex-col items-center shadow-lg">
+            <h1 class="">Enterprise</h1>
             <a
               href="https://demo.litekart.in"
               class="bg-primary yt2 text-lg py-2 px-12 mt-3 rounded ">
@@ -109,35 +108,35 @@
             gives us flexibility of choosing and integrating with any other
             service.
           </div>
-          <h2 class="text-2xl">
+          <h1 class="text-2xl">
             <b>Custom settings</b>
-          </h2>
+          </h1>
           <div class="mb-6 mt-2">
             An fully customizable interactive ecommerce dashboard created with
             latest javascript stack which delivers speed and ease of use for
             admin, managers, vendors
           </div>
-          <h3 class="text-2xl">
+          <h1 class="text-2xl">
             <b>Lightweight and modern javascript full stack</b>
-          </h3>
+          </h1>
           <div class="mb-6 mt-2">With NodeJS and MongoDB at back</div>
-          <h4 class="text-2xl">
+          <h1 class="text-2xl">
             <b>Great Search Experience</b>
-          </h4>
+          </h1>
           <div class="mb-6 mt-2">
             With elastic search technology at the edge, it gives the end
             customers immence power of search with facet based filters.
           </div>
-          <h4 class="text-2xl">
+          <h1 class="text-2xl">
             <b>Progressive ecommerce based on VueJS</b>
-          </h4>
+          </h1>
           <div class="mb-6 mt-2">
             Based on one of the most loved javascript frontend library (VueJS)
             with over 155k github stars
           </div>
-          <h4 class="text-2xl">
+          <h1 class="text-2xl">
             <b>Seemless developer experience</b>
-          </h4>
+          </h1>
           <div class="mb-6 mt-2">
             <img
               src="https://github.com/itswadesh/sapper-ecommerce/raw/master/static/litekart-banner.png?raw=true"

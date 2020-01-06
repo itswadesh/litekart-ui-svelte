@@ -181,7 +181,7 @@
         <img src={`/${f.img}`} class="img m-auto" alt="" />
       </div>
       <div class=" w-full lg:w-1/2">
-        <h1 id={'h1-' + ix} class="text-4xl mb-2 mb-12">{f.h}</h1>
+        <h1 id={'h1-' + ix} class="text-4xl mb-2">{f.h}</h1>
         <div class="flex leading-loose">
           <ul class="w-1/2 mx-6">
             {#each f.data as i, ix}

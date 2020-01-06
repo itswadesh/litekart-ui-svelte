@@ -88,22 +88,22 @@
   {#each features as f, ix}
     {#if ix % 2 == 0}
       <!-- Left -->
-      <div class="flex justify-center mb-10 px-4">
-        <img src={`/img/${f.img}`} class=" img mx-8 mb-3 p-6 w-1/2" alt="" />
-        <div class="flex flex-col w-1/2 ">
+      <div class="flex justify-center mb-10 px-4 m-16">
+        <img src={`/img/${f.img}`} class=" img mx-16 mb-3 p-6 w-1/2" alt="" />
+        <div class="flex flex-col mx-16 px-3 ">
           <h1 class="text-gray-700 text-4xl font-semibold mb-3 ">{f.h}</h1>
-          <data class="text-black flex justify-center ">{f.data}</data>
+          <data class="text-black flex ">{f.data}</data>
         </div>
       </div>
     {/if}
     {#if ix % 2 == 1}
       <!-- Right -->
-      <div class="flex justify-center mb-10 px-4">
-        <div class="flex flex-col img w-1/2 ">
+      <div class="flex justify-center mb-10 px-4 m-16">
+        <div class="flex flex-col px-3 mx-16 ">
           <h1 class="text-gray-700 text-4xl font-semibold mb-3 ">{f.h}</h1>
-          <data class="text-black flex justify-center">{f.data}</data>
+          <data class="text-black flex ">{f.data}</data>
         </div>
-        <img src={`/img/${f.img}`} class=" img mx-8 mb-3 p-6" alt="" />
+        <img src={`/img/${f.img}`} class=" img mx-16 mb-3 p-6" alt="" />
       </div>
     {/if}
   {/each}

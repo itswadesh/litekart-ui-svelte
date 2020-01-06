@@ -15,7 +15,7 @@
   <title>Litekart - Experience the fastest ecommerce of 2020</title>
 </svelte:head>
 <Header />
-<div class="h-screen">
+<div>
   <Rocket />
   <!-- <Hero />
 <Features />

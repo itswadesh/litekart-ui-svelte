@@ -21,31 +21,7 @@
       </button>
     </div>
   </div>
-<<<<<<< HEAD
-  <!-- <button
-        class=" bg-blue-400 text-white fa fa-linkedin rounded-full w-12 h-12">
-        <a href="http://www.linkedin.com" />
-      </button>
-      <button class=" bg-blue-500 text-white rounded-full w-12 h-12">
-        <a href="http://www.twiter.com">
-          <b>tw</b>
-        </a>
-      </button>
-      <button class="bg-red-800 text-white rounded-full w-12 h-12">
-        <a href="http://www.youtube.com">
-          <b>yt</b>
-        </a>
-      </button>
-      <button class="bg-orange-600 text-white rounded-full w-12 h-12">
-        <a href="http://www.instagram.com">
-          <b>i g</b>
-        </a>
-      </button> -->
-
-  <div class=" text-white">
-=======
   <div class="text-white">
->>>>>>> aabd2c6e04d8a9d43c81c89522c35fee4e9d4488
     Mobile app
     <button class="bg-primary mx-1 text-white rounded-full w-8 h-8">
       <a href="http://www.apple.com">

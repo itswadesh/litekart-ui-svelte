@@ -15,12 +15,14 @@
   <title>Litekart - Experience the fastest ecommerce of 2020</title>
 </svelte:head>
 <Header />
-<Rocket />
-<!-- <Hero />
+<div class="h-screen">
+  <Rocket />
+  <!-- <Hero />
 <Features />
 <Highlight />
 <Clients />
 <Pricing />
-<Display />
-<Dad /> -->
+<Display /> -->
+  <Dad />
+</div>
 <Footer />

@@ -4,31 +4,26 @@
 
 <div class="bg-black justify-between flex flex-wrap px-6 lg:px-24 py-6 shadow ">
   <div class="flex ">
-    <div class=" flex items-center justify-left text-white">
+    <button class=" flex items-center justify-left text-white">
       follow us on
-      <div
-        class="bg-primary mx-2 text-white rounded-full w-8 h-8 flex
-        justify-center items-center">
+      <button class="bg-primary mx-1 text-white text-xs rounded-full w-8 h-8 ">
         <a href="https://www.facebook.com">
           <i class="fa fa-apple-alt text-xl" />
         </a>
-      </div>
-      <div
-        class="bg-primary mx-1 text-white rounded-full w-8 h-8 flex
-        justify-center items-center">
+      </button>
+      <button class="bg-primary mx-1 text-white rounded-full w-8 h-8 ">
         <a href="https://www.twitter.com">
           <i class="fa fa-apple-alt text-xl" />
         </a>
-      </div>
-      <div
-        class="bg-primary mx-1 text-white rounded-full w-8 h-8 flex
-        justify-center items-center">
+      </button>
+      <button class="bg-primary mx-1 text-white rounded-full w-8 h-8 ">
         <a href="https://www.github.com">
           <i class="fa fa-apple-alt text-xl" />
         </a>
-      </div>
-    </div>
-    <!-- <button
+      </button>
+    </button>
+  </div>
+  <!-- <button
         class=" bg-blue-400 text-white fa fa-linkedin rounded-full w-12 h-12">
         <a href="http://www.linkedin.com" />
       </button>
@@ -48,7 +43,6 @@
         </a>
       </button> -->
 
-  </div>
   <div class=" text-white">
     Mobile app
     <button class="bg-primary mx-1 text-white rounded-full w-8 h-8">

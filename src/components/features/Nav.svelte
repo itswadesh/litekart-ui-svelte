@@ -52,8 +52,8 @@
       <button on:click={() => scrollTo('h1-' + ix)}>
         <div
           class=" w-32 h-32 m-2 flex flex-col text-gray-500 border
-          hover:shadow-lg hover-primary border-b-8 hover:border-red-400
-          text-center items-center p-4 rounded ">
+          hover:shadow-lg hover:text-orange-500 border-b-8
+          hover:border-orange-500 text-center items-center p-4 rounded ">
           <i class={'fa fa-' + f.icon + ' text-2xl mb-3'} />
           <h1 class="text-ms text-black ">{f.data}</h1>
         </div>

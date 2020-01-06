@@ -496,6 +496,9 @@
 </script>
 
 <style>
+  .watch {
+    color: #ff7426;
+  }
   /* .c1 {
     height: 200px;
     width: 400px;
@@ -530,7 +533,7 @@ CODING / DEVELOPMENT -->
         <div
           class="flex flex-col md:flex-row rounded-lg px-6 py-8 shadow-2xl
           text-center md:text-left">
-          <i class="fa fa-clock text-indigo-500 text-6xl md:mr-8" />
+          <i class="fa fa-clock watch text-6xl md:mr-8" />
           <!-- <img src="img/rocket.svg" class="flex " alt="" /> -->
           <div class="flex flex-col">
             <h1 class="mb-2 text-xl">{f.key}</h1>

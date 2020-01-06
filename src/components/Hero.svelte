@@ -24,16 +24,16 @@
     <div class="flex text-lg my-6 ">
       <a
         href="/features"
-        class="w-1/3 lg:w-1/6 mr-2 text-center justify-left py-2 lg:py-3
-        btn-primary">
-        FEATURES
+        class="w-1/3 lg:w-1/6 text-center rounded-full justify-left py-2 lg:py-3
+        btn-primary mr-2">
+        Features
       </a>
       <a
         target="_blank"
         href="https://demo.litekart.in"
-        class="w-1/3 lg:w-1/6 text-center rounded text-sm py-2 lg:py-3 bg-white
+        class="w-1/3 lg:w-1/6 text-center rounded-full py-2 lg:py-3 bg-white
         primary">
-        GET A DEMO
+        Get a Demo
       </a>
     </div>
   </div>

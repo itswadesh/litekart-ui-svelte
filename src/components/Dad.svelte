@@ -15,14 +15,14 @@
 
 <div class="flex flex-wrap bg-gray-200 justify-center mb-0 px-2 lg:px-12 ">
   <!-- blue -->
-  <div class="flex nisan p-4 flex-col py-12 shadow rounded">
-    <img src="img/nishanimg.svg" alt="" />
+  <div class="flex nisan flex-col py-12 shadow rounded">
     <div class="text-white text-center">
       <h1 class="my-8 text-2xl ">Performance</h1>
-      When we add more features and traffic to a web app or mobile app, the
-      speed goes down. Its our duty to keep it upto the industry best while
-      having all the essential features of a traffic heavy ecommerce.
-      <!-- Progressive web app are the future of Mobile APP. All our products are PWA in build -->
+      A 1-second delay in page load can decrease conversion by 7%. Online stores
+      from Litekart are blazing fast on cloud infrastructure, with an average
+      page load time under 2 seconds – resulting in faster page browsing times,
+      improved conversion, and better customer experience. Progressive web app
+      are the future of Mobile APP. All our products are PWA in built
     </div>
     <p class="text-center p-12 text-white ">
       Here are some of the google lighthouse / page speed stats, that proves
@@ -59,12 +59,12 @@
   <!-- blue end-->
   <div class="flex mt-8 justify-between flex-wrap">
     <!-- pink -->
-    <div class="flex-1 lg:mr-2">
+    <div class="w-full lg:w-1/2">
       <div
-        class="pink flex flex-col mb-8 p-4 text-white items-center rounded
-        shadow ">
+        class="pink flex flex-col mb-8 p-6 text-white items-center rounded
+        shadow lg:mr-2">
         <img src="/img/clicky_logo.png" class="h-12" alt="" />
-        <h1 class="text-2xl m-3 ">
+        <h1 class="text-xl my-6 ">
           How Clicky designed an agile and highperformance ecommerce.
         </h1>
         To serve over 1 million customers and 20k daily orders, clicky needed
@@ -72,19 +72,17 @@
         achieved 2nd milestone target under 6 months of migration their exising
         cs-cart platform. With an expenditure of 1/4 of their investment in the
         exising platform.
-        <h2 class="text-center pt-2 pb-12 text-white ">
-          Read full customer story
-        </h2>
+        <h2 class="text-center pt-12 text-white ">Read full customer story</h2>
       </div>
     </div>
     <!-- pink -->
     <!-- yellow -->
-    <div class="flex-1 lg:ml-2">
+    <div class="w-full lg:w-1/2">
       <div
-        class="yellow flex flex-col items-center mb-8 p-4 text-white
-        items-center rounded shadow ">
+        class="yellow flex flex-col items-center mb-8 p-6 text-white
+        items-center rounded shadow lg:ml-2">
         <img src="/img/tesoro_logo.png" class="h-12" alt="" />
-        <h1 class="text-2xl m-3">
+        <h1 class="text-xl my-6">
           How Tesoro stays on top with a flexible e-commerce platform.
         </h1>
         For their growing jewellery store, there was a requirement to up-lift
@@ -92,9 +90,7 @@
         performant platform and they choose Litekart. The page loading and
         browing time decreased by 10 times resulting 3x increase in delightfull
         customers.
-        <h2 class="text-center pt-2 pb-12 text-white ">
-          Read full customer story
-        </h2>
+        <h2 class="text-center pt-12 text-white ">Read full customer story</h2>
       </div>
     </div>
     <!-- yellow -->

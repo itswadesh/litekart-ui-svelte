@@ -15,10 +15,16 @@
     box-shadow: 0 2px 10px 1px rgba(57, 73, 76, 0.4),
       0 1px 2px rgba(57, 73, 76, 0.25);
   }
+  h1 {
+    color: black;
+  }
+  .head {
+    color: white;
+  }
 </style>
 
 <div class="flex flex-col p-2 lg:p-12 bg-gray-200 shadow">
-  <div class=" talent text-center text-4xl mb-12 ">
+  <div class=" talent text-center text-xl mb-12 ">
     <b>
       We take the hassles of technology so you can focus on what you do best —
       selling
@@ -32,18 +38,14 @@
         <div
           class="yt flex text-center py-8 text-white text-4xl flex-col
           items-center ">
-          <h1>
-            <b>Open Source</b>
-          </h1>
+          <h1 class="head">Open Source</h1>
           <button class="bg-primary yt2 text-lg py-2 px-12 mt-3 rounded ">
             Demo laptop store
           </button>
         </div>
       </div>
       <div class="pr px-10 lg:px-20 py-6 ">
-        <h1 class=" text-2xl">
-          <b>Customize</b>
-        </h1>
+        <h1 class="text-white text-2xl">Customize</h1>
         <div class="mb-6 mt-2">
           Download the project free and customize the way you want.
           <p>
@@ -90,9 +92,7 @@
           <div
             class="yt flex text-center py-8 text-white text-4xl flex-col
             items-center ">
-            <h1>
-              <b>Enterprise</b>
-            </h1>
+            <h1 class="head">Enterprise</h1>
             <a
               href="https://demo.litekart.in"
               class="bg-primary yt2 text-lg py-2 px-12 mt-3 rounded ">

@@ -92,7 +92,9 @@
           <li class="mb-4">Premium Suport With 1 Day</li>
         </ul>
       </div>
-      <button class="gs-2 text-white p-2 rounded shadow-lg">Get Started</button>
+      <button class="gs-2 text-white p-2 rounded-full shadow-lg">
+        Get Started
+      </button>
     </div>
   </div>
   <!-- student 2 -->
@@ -118,7 +120,7 @@
           <li class="mb-4">Premium 24/7 Support</li>
         </ul>
       </div>
-      <button class="gs-3 text-white p-2 rounded shadow-lg ">
+      <button class="gs-3 text-white p-2 rounded-full shadow-lg ">
         Get Started
       </button>
     </div>

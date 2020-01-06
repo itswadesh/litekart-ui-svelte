@@ -1,6 +1,22 @@
-/* .shadow {
-  box-shadow: 0 1px 6px rgba(57, 73, 76, 0.35);
-} */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::selection {
+    color: #fff;
+    background: #4892d3;
+}
+html,body{
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family:  'Poppins', sans-serif;
+  color: #58595b;
+  font-weight: 100;
+}
 button {
   outline: none !important;
 }
@@ -13,8 +29,6 @@ button {
   padding-right: 1.5rem; */
   color: white;
   border-radius: 0.25rem;
-  font-size: 0.75rem;
-  font-weight: bold;
 }
 .primary {
   color: #ff7426;

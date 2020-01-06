@@ -15,7 +15,7 @@
   }
 </style>
 
-<div class="bg-gray-200 flex justify-center shadow flex-wrap">
+<div class="bg-gray-200 text-black flex justify-center shadow flex-wrap">
   <div class="scroll flex">
     <div class="border-r border-gray-400 p-2 w-1/2 flex flex-col text-center ">
       <i class="fa fa-low-vision primary text-4xl m-2" />

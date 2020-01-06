@@ -39,10 +39,10 @@
     </div>
   </div>
   <div class=" flex justify-center mt-6 ">
-    <button class="bg-primary mr-5 px-2 py-1 text-white rounded">
+    <button class="bg-primary mr-5 px-8 py-1 text-white rounded-full">
       Get started
     </button>
-    <button class="ml-2 shadow-md bg-gray-100 py-2 px-1 primary rounded">
+    <button class="ml-2 shadow-md bg-gray-100 py-2 px-8 primary rounded-full">
       Get a Demo
     </button>
   </div>

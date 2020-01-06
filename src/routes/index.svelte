@@ -7,6 +7,7 @@
   import Pricing from "./../components/Pricing.svelte";
   import Display from "./../components/Display.svelte";
   import Dad from "./../components/Dad.svelte";
+  import Rocket from "./../components/Rocket.svelte";
   import Footer from "./../components/Footer.svelte";
 </script>
 
@@ -14,11 +15,12 @@
   <title>Litekart - Experience the fastest ecommerce of 2020</title>
 </svelte:head>
 <Header />
-<Hero />
+<Rocket />
+<!-- <Hero />
 <Features />
 <Highlight />
 <Clients />
 <Pricing />
 <Display />
-<Dad />
+<Dad /> -->
 <Footer />

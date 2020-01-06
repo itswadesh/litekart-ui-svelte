@@ -1,12 +1,74 @@
+<script>
+  let features = [
+    //   2nd
+    {
+      h: " Sales Channel Integration",
+      img: "rocket-img-2.png",
+      data: [
+        "Managing multiple e-commerce channels and websites? Boost your efficiency      by giving the best-in-class architecture to your e-commerce and order      management process. Partner with us to experience uninterrupted      integration with all 3rd party platforms."
+      ]
+    },
+    // 3rd
+    {
+      h: " Payment Gateway",
+      img: "rocket-img-3.png",
+      data: [
+        "  Offer a secure payment gateway to your buyers. We have integrations with      over 15 gateways including EBS, CC Avenue, Citrus Pay, PayU, DirectPay      PayPal, 2Checkout, PayZippy, Mobikwik, Paytm, AtomPay, HDFC, Instamojo      Razorpay, Billdesk, and more. You can easily accept payments via credit      card, debit card, online wallets, and net banking."
+      ]
+    },
+    // 4th
+    {
+      h: "  Shipping & Logistics",
+      img: "rocket-img-4.png",
+      data: [
+        "Grow your business by shipping your orders with our automated, affordable and uncomplicated shipping solution – Shiprocket. This simple and fully       integrated logistics service will help you ship products using the best      courier companies of India like FedEx, Aramex, Delhivery, GoJavas FirstFlight, Ecom Express, etc."
+      ]
+    },
+    // 4th
+    {
+      h: "Hosting",
+      img: "rocket-img-4.png",
+      data: [
+        "We use AWS with SLAs as high as 99.99% to host our entire architecture to      mitigate any architecture-related issues. Everything is hosted inside a      VPC which helps us nullify security issues and optimize network      performance. Our EC2 backed application server nodes enable our      architecture to maintain a healthy balance of performance and costs. All      your data is stored in Amazon RDS, which mitigate the chances of a noisy      neighbor. With this, we have Akamai implemented over our architecture to      reduce network latencies and render device-optimized content delivery as a      feature of our platform."
+      ]
+    },
+    // 4th
+    {
+      h: "Marketing",
+      img: "rocket-img-4.png",
+      data: [
+        "Reach your buyers with automated marketing & engagement tools. Grow your      sales via advertisements, custom discount coupons, SEO tools, etc. Choose      one of our marketing partners to drive traffic to your website and      eventually grow your sales."
+      ]
+    },
+    // 4th
+    {
+      h: "  Shipping & Logistics",
+      img: "rocket-img-4.png",
+      data: [
+        "Grow your business by shipping your orders with our automated, affordable and uncomplicated shipping solution – Shiprocket. This simple and fully       integrated logistics service will help you ship products using the best      courier companies of India like FedEx, Aramex, Delhivery, GoJavas FirstFlight, Ecom Express, etc."
+      ]
+    },
+    // 4th
+    {
+      h: "  Shipping & Logistics",
+      img: "rocket-img-4.png",
+      data: [
+        "Grow your business by shipping your orders with our automated, affordable and uncomplicated shipping solution – Shiprocket. This simple and fully       integrated logistics service will help you ship products using the best      courier companies of India like FedEx, Aramex, Delhivery, GoJavas FirstFlight, Ecom Express, etc."
+      ]
+    }
+  ];
+</script>
+
 <style>
 
 </style>
 
 <!-- https://360.shiprocket.in/ecommerce-website-building/ -->
-<div class="flex flex-col my-6 justify-center lg:px-64">
+<div class="flex flex-col my-6 justify-center ">
+  <!-- 1st section -->
   <div class="flex justify-center mb-10 px-4 ">
     <div class="flex flex-col lg:w-1/2 ">
-      <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">
+      <h1 class="text-gray-700 text-4xl font-semibold mb-3 ">
         Customized Design
       </h1>
       <h2 class="text-ms font-semibold mb-1">Website:</h2>
@@ -22,68 +84,27 @@
     </div>
     <img src="img/rocket-img-1.png" class=" img mx-8 mb-3 p-6" alt="" />
   </div>
-  <div class="flex justify-center mb-10 px-4">
-    <img src="img/rocket-img-2.png" class=" img mx-8 mb-3 p-6" alt="" />
-    <div class="flex flex-col lg:w-1/2 ">
-      <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">
-        Sales Channel Integration
-      </h1>
-      Managing multiple e-commerce channels and websites? Boost your efficiency
-      by giving the best-in-class architecture to your e-commerce and order
-      management process. Partner with us to experience uninterrupted
-      integration with all 3rd party platforms.
-    </div>
-  </div>
-  <div class="flex justify-center mb-10 px-4">
-    <div class="flex flex-col lg:w-1/2 ">
-      <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">
-        Payment Gateway
-      </h1>
-      Offer a secure payment gateway to your buyers. We have integrations with
-      over 15 gateways including EBS, CC Avenue, Citrus Pay, PayU, DirectPay,
-      PayPal, 2Checkout, PayZippy, Mobikwik, Paytm, AtomPay, HDFC, Instamojo,
-      Razorpay, Billdesk, and more. You can easily accept payments via credit
-      card, debit card, online wallets, and net banking.
-    </div>
-    <img src="img/rocket-img-3.png" class=" img w-1/2 mx-8 mb-3 p-6" alt="" />
-  </div>
-  <div class="flex justify-center mb-10 px-4">
-    <img src="img/rocket-img-4.png" class=" img w-1/2 mx-8 mb-3 p-6" alt="" />
-    <div class=" flex flex-col lg:w-1/2 ">
-      <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">
-        Shipping & Logistics
-      </h1>
-      Grow your business by shipping your orders with our automated, affordable
-      and uncomplicated shipping solution – Shiprocket. This simple and fully
-      integrated logistics service will help you ship products using the best
-      courier companies of India like FedEx, Aramex, Delhivery, GoJavas,
-      FirstFlight, Ecom Express, etc.
-    </div>
-  </div>
-  <div class="flex justify-center mb-10 px-4">
-    <div class=" flex flex-col lg:w-1/2 ">
-      <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">Hosting</h1>
-      We use AWS with SLAs as high as 99.99% to host our entire architecture to
-      mitigate any architecture-related issues. Everything is hosted inside a
-      VPC which helps us nullify security issues and optimize network
-      performance. Our EC2 backed application server nodes enable our
-      architecture to maintain a healthy balance of performance and costs. All
-      your data is stored in Amazon RDS, which mitigate the chances of a noisy
-      neighbor. With this, we have Akamai implemented over our architecture to
-      reduce network latencies and render device-optimized content delivery as a
-      feature of our platform.
-    </div>
-    <img src="img/rocket-img-5.png" class=" img w-1/2 mx-8 mb-3 p-6" alt="" />
-  </div>
-  <div class="flex justify-center mb-10 px-4">
-    <img src="img/rocket-img-6.png" class=" img w-1/2 mx-8 mb-3 p-6" alt="" />
-    <div class=" flex flex-col lg:w-1/2 ">
-      <h1 class="text-gray-500 text-4xl font-semibold mb-3 ">Marketing</h1>
-      Reach your buyers with automated marketing & engagement tools. Grow your
-      sales via advertisements, custom discount coupons, SEO tools, etc. Choose
-      one of our marketing partners to drive traffic to your website and
-      eventually grow your sales.
-    </div>
-
-  </div>
+  <!-- 1st section -->
+  {#each features as f, ix}
+    {#if ix % 2 == 0}
+      <!-- Left -->
+      <div class="flex justify-center mb-10 px-4">
+        <img src={`/img/${f.img}`} class=" img mx-8 mb-3 p-6 w-1/2" alt="" />
+        <div class="flex flex-col w-1/2 ">
+          <h1 class="text-gray-700 text-4xl font-semibold mb-3 ">{f.h}</h1>
+          <data class="text-black flex justify-center ">{f.data}</data>
+        </div>
+      </div>
+    {/if}
+    {#if ix % 2 == 1}
+      <!-- Right -->
+      <div class="flex justify-center mb-10 px-4">
+        <div class="flex flex-col img w-1/2 ">
+          <h1 class="text-gray-700 text-4xl font-semibold mb-3 ">{f.h}</h1>
+          <data class="text-black flex justify-center">{f.data}</data>
+        </div>
+        <img src={`/img/${f.img}`} class=" img mx-8 mb-3 p-6" alt="" />
+      </div>
+    {/if}
+  {/each}
 </div>

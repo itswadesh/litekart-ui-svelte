@@ -31,12 +31,12 @@
 <!-- for desktop -->
 <div
   class="sticky hidden md:flex md:mb-1 md:shadow-lg md:justify-around
-  md:items-center md:px-6 md:py-3 md:bg-yellow-400 md:text-black">
+  md:items-center md:px-6 md:py-3 md:bg-yellow-400 font-bold ">
   <a href="/">
     <img src="img/litekart-logo.png" alt="" class="h-12 w-32" />
   </a>
   <div class="items-center" />
-  <div class=" flex justify-between text-black ">
+  <div class=" flex justify-between md:text-gray-700 ">
     <a href="/features" class="p-2 rounded text-lg ml-4">Features</a>
     <a href="/customizations" class="p-2 rounded text-lg ml-4">
       Customizations

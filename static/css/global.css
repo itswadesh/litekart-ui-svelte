@@ -12,10 +12,13 @@
     background: #4892d3;
 }
 html,body{
-  /* font-family: 'Open Sans', sans-serif; */
-  font-family:  'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family:  'Poppins', sans-serif; */
   color: #58595b;
   font-weight: 100;
+}
+h1,h2{
+  color: black;
 }
 button {
   outline: none !important;

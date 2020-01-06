@@ -47,6 +47,7 @@
       href="/"
       class="btn-primary px-4 ml-6 flex items-center py-2 py-auto text-lg
       rounded-full">
+      <i class="fa fa-phone-alt mr-1 text-sm" />
       Contact Us
     </a>
   </div>

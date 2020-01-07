@@ -34,7 +34,7 @@
     // 4th
     {
       h: "Hosting",
-      img: "rocket-img-4.png",
+      img: "rocket-img-5.png",
       data: [
         "We use AWS with SLAs as high as 99.99% to host our entire architecture to      mitigate any architecture-related issues. Everything is hosted inside a      VPC which helps us nullify security issues and optimize network      performance. Our EC2 backed application server nodes enable our      architecture to maintain a healthy balance of performance and costs. All      your data is stored in Amazon RDS, which mitigate the chances of a noisy      neighbor. With this, we have Akamai implemented over our architecture to      reduce network latencies and render device-optimized content delivery as a      feature of our platform."
       ]
@@ -42,7 +42,7 @@
     // 4th
     {
       h: "Marketing",
-      img: "rocket-img-4.png",
+      img: "rocket-img-6.png",
       data: [
         "Reach your buyers with automated marketing & engagement tools. Grow your      sales via advertisements, custom discount coupons, SEO tools, etc. Choose      one of our marketing partners to drive traffic to your website and      eventually grow your sales."
       ]

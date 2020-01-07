@@ -13,6 +13,7 @@
         "Abandonned cart & Wishlist feature",
         "Automatic ‘bought together’ & ‘simmilar products’ suggestions",
         "Low inventory alert",
+        "Dynamic transactional emails",
         "Advanced single page checkout",
         "Unlimited static pages"
       ]

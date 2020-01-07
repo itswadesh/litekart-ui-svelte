@@ -8,8 +8,8 @@
 
 <Header />
 <Nav />
-<!-- <BigContent /> -->
-<SmallContent />
+<BigContent />
+<!-- <SmallContent /> -->
 <Footer />
 
 <svelte:head>

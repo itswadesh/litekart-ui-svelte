@@ -499,10 +499,6 @@
   .watch {
     color: #ff7426;
   }
-  /* .c1 {
-    height: 200px;
-    width: 400px;
-  } */
 </style>
 
 <!-- CATEGORIES
@@ -531,7 +527,7 @@ CODING / DEVELOPMENT -->
     {#each features as f}
       <div class="w-1/2 lg:w-1/4 p-2">
         <div
-          class="flex flex-col md:flex-row rounded-lg px-6 py-8 shadow-2xl
+          class="flex flex-col md:flex-row rounded-lg px-6 py-8 shadow-md
           text-center md:text-left">
           <i class={`fa fa-${f.icon} text-6xl md:mr-8`} />
           <!-- <img src="img/rocket.svg" class="flex " alt="" /> -->

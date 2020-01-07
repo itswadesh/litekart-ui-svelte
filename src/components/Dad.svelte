@@ -1,7 +1,4 @@
 <style>
-  .blue {
-    background-color: #1d4354;
-  }
   .green {
     color: #6fda44;
   }
@@ -35,21 +32,42 @@
       what we say.
     </p>
     <div class="flex flex-wrap justify-around mx-2 lg:mx-48">
-      <div class="justify center mb-6 text-center text-white">
-        <h1 class="green text-3xl font-black">91+</h1>
-        Performance
+      <div
+        class="flex flex-col items-center justify-center center mb-6 text-center
+        text-white">
+        <div
+          class="border-8 border-white w-24 h-24 rounded-full flex
+          justify-center items-center">
+          <h1 class="green text-3xl font-black">91+</h1>
+        </div>
+        <p class="text-xl">Performance</p>
       </div>
-      <div class="justify center mb-6 text-center text-white">
-        <h2 class="green text-3xl font-black">100</h2>
-        Accessibility
+      <div
+        class="flex flex-col items-center center mb-6 text-center text-white">
+        <div
+          class="border-8 border-white w-24 h-24 rounded-full flex
+          justify-center items-center">
+          <h2 class="green text-3xl font-black">100</h2>
+        </div>
+        <p class="text-xl">Accessibility</p>
       </div>
-      <div class="justify center mb-6 text-center text-white">
-        <h3 class="green text-3xl font-black">100</h3>
-        Best practices
+      <div
+        class="flex flex-col items-center center mb-6 text-center text-white">
+        <div
+          class="border-8 border-white w-24 h-24 rounded-full flex
+          justify-center items-center">
+          <h3 class="green text-3xl font-black">100</h3>
+        </div>
+        <p class="text-xl">Best practices</p>
       </div>
-      <div class="justify center mb-6 text-center text-white">
-        <h3 class="text-green-300 text-3xl font-black">100</h3>
-        SEO
+      <div
+        class="flex flex-col items-center center mb-6 text-center text-white">
+        <div
+          class="border-8 border-white w-24 h-24 rounded-full flex
+          justify-center items-center">
+          <h3 class="text-green-300 text-3xl font-black">100</h3>
+        </div>
+        <p class="text-xl">SEO</p>
       </div>
     </div>
 

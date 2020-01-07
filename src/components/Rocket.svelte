@@ -4,47 +4,52 @@
       h: "Customized Design",
       img: "rocket-img-1.png",
       data: [
-        "Bring your brand to life with carefully developed strategies based on        your customer profile. We help you develop a website that connects with        your audience at every step of your brand cycle! The cutting edge design        and UX practices will help you meet your business objectives by        fulfilling your customers’ expectations."
+        "Create a unique Brand presense with a custom ecommerce store. We help you develop a UI/UX that impacts your customer thought process and connects with your audience. The cutting edge design and UX practices will help you meet your business objectives faster with a fluid & unique customer experience."
+      ],
+      ul: [
+        "A fully custom designed product & listing page",
+        "Ability to show product variations and size/color filters",
+        "Bulk import/export and categorization",
+        "Abandonned cart & Wishlist feature",
+        "Automatic ‘bought together’ & ‘simmilar products’ suggestions",
+        "Low inventory alert",
+        "Advanced single page checkout",
+        "Unlimited static pages"
       ]
     },
-    //   2nd
-    {
-      h: " Sales Channel Integration",
-      img: "rocket-img-2.png",
-      data: [
-        "Managing multiple e-commerce channels and websites? Boost your efficiency      by giving the best-in-class architecture to your e-commerce and order      management process. Partner with us to experience uninterrupted      integration with all 3rd party platforms."
-      ]
-    },
-    // 3rd
+    // {
+    //   h: " Sales Channel Integration",
+    //   img: "rocket-img-2.png",
+    //   data: [
+    //     "Managing multiple e-commerce channels and websites? Boost your efficiency      by giving the best-in-class architecture to your e-commerce and order      management process. Partner with us to experience uninterrupted      integration with all 3rd party platforms."
+    //   ]
+    // },
     {
       h: " Payment Gateway",
       img: "rocket-img-3.png",
       data: [
-        "  Offer a secure payment gateway to your buyers. We have integrations with      over 15 gateways including EBS, CC Avenue, Citrus Pay, PayU, DirectPay      PayPal, 2Checkout, PayZippy, Mobikwik, Paytm, AtomPay, HDFC, Instamojo      Razorpay, Billdesk, and more. You can easily accept payments via credit      card, debit card, online wallets, and net banking."
+        "Offer a secure payment gateway to your buyers. We have integrations with over 10 gateways including CC Avenue, PayU, PayPal, PayZippy, Mobikwik, Paytm, Instamojo, Razorpay, Cashfree and more. You can easily accept payments via credit card, debit card, online wallets and net banking."
       ]
     },
-    // 4th
-    {
-      h: "  Shipping & Logistics",
-      img: "rocket-img-4.png",
-      data: [
-        "Grow your business by shipping your orders with our automated, affordable and uncomplicated shipping solution – Shiprocket. This simple and fully       integrated logistics service will help you ship products using the best      courier companies of India like FedEx, Aramex, Delhivery, GoJavas FirstFlight, Ecom Express, etc."
-      ]
-    },
-    // 4th
+    // {
+    //   h: "  Shipping & Logistics",
+    //   img: "rocket-img-4.png",
+    //   data: [
+    //     "Grow your business by shipping your orders with our automated, affordable and uncomplicated shipping solution – Shiprocket. This simple and fully       integrated logistics service will help you ship products using the best      courier companies of India like FedEx, Aramex, Delhivery, GoJavas FirstFlight, Ecom Express, etc."
+    //   ]
+    // },
     {
       h: "Hosting",
       img: "rocket-img-5.png",
       data: [
-        "We use AWS with SLAs as high as 99.99% to host our entire architecture to      mitigate any architecture-related issues. Everything is hosted inside a      VPC which helps us nullify security issues and optimize network      performance. Our EC2 backed application server nodes enable our      architecture to maintain a healthy balance of performance and costs. All      your data is stored in Amazon RDS, which mitigate the chances of a noisy      neighbor. With this, we have Akamai implemented over our architecture to      reduce network latencies and render device-optimized content delivery as a      feature of our platform."
+        "Based on Cloud architecture, it gives uptime as high as 99.99%. Everything is hosted inside a personal VPS which helps us nullify security issues and optimize network performance. Further to that we are using Serverless / Microservices / FaaS to separate different modules. It gives highest speed, uptime as well as maintainance free"
       ]
     },
-    // 4th
     {
       h: "Marketing",
       img: "rocket-img-6.png",
       data: [
-        "Reach your buyers with automated marketing & engagement tools. Grow your      sales via advertisements, custom discount coupons, SEO tools, etc. Choose      one of our marketing partners to drive traffic to your website and      eventually grow your sales."
+        "Reach your buyers with automated marketing & engagement tools. Grow your sales via advertisements, custom discount coupons, SEO tools, etc. Choose one of our marketing partners to drive traffic to your website and eventually grow your sales."
       ]
     }
   ];
@@ -58,6 +63,10 @@
     background-image: url(/end-banner.png);
     background-repeat: no-repeat;
     background-size: contain;
+  }
+  ul {
+    margin-left: 20px;
+    list-style-type: disc;
   }
 </style>
 
@@ -97,6 +106,14 @@
           class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
           <h1 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h1>
           <div class="flex leading-loose">{f.data}</div>
+          <br />
+          {#if f.ul}
+            <ul class="leading-loose">
+              {#each f.ul as li}
+                <li class="font-bold">{li}</li>
+              {/each}
+            </ul>
+          {/if}
         </div>
         <div class="lg:order-last order-first w-full lg:w-1/2">
           <img src={`/img/${f.img}`} class="img m-auto mb-2" alt="" />

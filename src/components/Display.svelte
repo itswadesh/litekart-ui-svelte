@@ -32,26 +32,26 @@
     <div
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
       <img src="img/talent-work.svg" alt="" />
-      <h2 class="mb-2">Scalable and Secure</h2>
+      <h2 class="mb-2 text-lg font-bold">Scalable and Secure</h2>
       Forget about visitors surge during a sale. The architecture takes care of
       it.
     </div>
     <div
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
       <img src="img/get-a-smater.svg" alt="" />
-      <h3 class="mb-2">Superfast image processing</h3>
+      <h3 class="mb-2 text-lg font-bold">Superfast image processing</h3>
       Based on NodeJS, it empowers faster database and file system access.
     </div>
     <div
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
       <img src="img/manage-everythinng.svg" alt="" />
-      <h4 class="mb-2">Best in class uptime, performance</h4>
+      <h4 class="mb-2 text-lg font-bold">Best in class uptime, performance</h4>
       Litekart takes advantage of the cloud platforms providing 99.99% uptime.
     </div>
     <div
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
       <img src="img/get-a-clear.svg" alt="" />
-      <h5 class="mb-2">7 days money back guarantee</h5>
+      <h5 class="mb-2 text-lg font-bold">7 days money back guarantee</h5>
       Full refund if you feel the product does not fit your need.
     </div>
   </div>

@@ -65,8 +65,7 @@
         "Find missing image against products",
         "Out of stock alert",
         "Integration with Google Analytics",
-        "Reports export functionality for strategy and planning",
-        ""
+        "Reports export functionality for strategy and planning"
       ]
     },
     {
@@ -143,12 +142,17 @@
     height: 350px;
     width: 350px;
   }
+  .bg {
+    background-image: url(/end-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 </style>
 
 <!-- 2nd section -->
 {#each features as f, ix}
   {#if ix % 2 == 0}
-    <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
+    <div class="bg flex flex-wrap px-2 lg:px-48 lg:mb-12">
       <div class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
         <h1 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h1>
         <div class="flex leading-loose">

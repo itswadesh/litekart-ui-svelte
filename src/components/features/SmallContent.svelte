@@ -1,347 +1,347 @@
 <script>
   let features = [
     {
-      icon: "",
+      icon: "search-plus",
       key: "Powerfull search",
       val:
         "Leveraging the power of elastic search technology, we achieve the exact match of the searched product, giving user the ease to use and enlightment."
     },
     {
-      icon: "",
+      icon: "search",
       key: "Facets",
       val:
         "Facets helps to filter the search results further in the product listing/search/category page to narrow down the results. Facets can be based upon price range, brand, size, category, colors, key features."
     },
     {
-      icon: "",
+      icon: "table",
       key: "Product details",
       val:
         "The Customers can click on a particular product and navigate to the product page to view complete display of the product, along with descriptions, offers and discounts that are applied to that product, and so on."
     },
     {
-      icon: "",
+      icon: "cart-plus",
       key: "Wishlist",
       val:
         "Customers have option to add a product to Wishlist for later purchase"
     },
     {
-      icon: "",
+      icon: "globe",
       key: "SEO",
       val: "100% Search Engine Friendly, Google SiteMap support."
     },
     {
-      icon: "",
+      icon: "ad",
       key: "Marketing & Promotions",
       val: "Coupons, discounts and different promotion options."
     },
     {
-      icon: "",
+      icon: "list-alt",
       key: "Catalogue Browsing",
       val:
         "Multiple images for products, options for extensive reviews, wishlists and much more."
     },
     {
-      icon: "",
+      icon: "clipboard-list",
       key: "Catalog Management",
       val:
         "Inventory management, batch import and export of products, additional product attributes."
     },
     {
-      icon: "",
+      icon: "vote-yea",
       key: "Customer Accounts",
       val: "Order status and history, e-mail for products in the wishlist."
     },
     {
-      icon: "",
+      icon: "user-check",
       key: "Analytics & Reporting",
       val:
         "The script is integrated with Google Analytics and offers many different reports."
     },
     {
-      icon: "",
+      icon: "user-alt",
       key: "Customer Service",
       val:
         "Enhanced features for customers' accounts, Contact Us form, comprehensive order tracking and history, customizable order e-mails."
     },
     {
-      icon: "",
+      icon: "tasks",
       key: "Order Management",
       val:
         "Create orders through admin area, create multiple invoices shipments and credit memos, call center order creation option."
     },
     {
-      icon: "",
+      icon: "network-wired",
       key: "PWA for eCommerce",
       val: ""
     },
     {
-      icon: "",
+      icon: "money-check-alt",
       key: "Platform agnostic",
       val: ""
     },
     {
-      icon: "",
+      icon: "money-bill-wave-alt",
       key: "Banners",
       val: ""
     },
     {
-      icon: "",
+      icon: "window-restore",
       key: "Product Search",
       val: ""
     },
     {
-      icon: "",
+      icon: "th-list",
       key: "Category Listing",
       val: ""
     },
     {
-      icon: "",
+      icon: "file-alt",
       key: "Product Detail Page",
       val: ""
     },
     {
-      icon: "",
+      icon: "check-square",
       key: "Cart & Checkout",
       val: ""
     },
     {
-      icon: "",
+      icon: "wallet",
       key: "Payment Gateways",
       val: ""
     },
     {
-      icon: "",
+      icon: "pager",
       key: "Single Page Checkout",
       val: ""
     },
     {
-      icon: "",
+      icon: "file-alt",
       key: "Guest Checkout",
       val: ""
     },
     {
-      icon: "",
+      icon: "user-lock",
       key: "Authentication & Authorization",
       val: ""
     },
     {
-      icon: "",
+      icon: "clipboard",
       key: "Manage Products",
       val: ""
     },
     {
-      icon: "",
+      icon: "clipboard-check",
       key: "Manage Orders",
       val: ""
     },
     {
-      icon: "",
+      icon: "envelope",
       key: "Email Notifications",
       val: ""
     },
     {
-      icon: "",
+      icon: "wrench",
       key: "Settings",
       val: ""
     },
     {
-      icon: "",
+      icon: "receipt",
       key: "Printable Invoice",
       val: ""
     },
     {
-      icon: "",
+      icon: "toolbox",
       key: "Related Products",
       val: ""
     },
     {
-      icon: "",
+      icon: "columns",
       key: "Dashboards & Analytics",
       val: ""
     },
     {
-      icon: "",
+      icon: "chart-line",
       key: "Sales Management",
       val: ""
     },
     {
-      icon: "",
+      icon: "user-circle",
       key: "Customers Management",
       val: ""
     },
     {
-      icon: "",
+      icon: "file-image",
       key: "Image Optimizations",
       val: ""
     },
     {
-      icon: "",
+      icon: "hourglass-half",
       key: "Lazy Loading",
       val: ""
     },
     {
-      icon: "",
+      icon: "buffer",
       key: "Page Preloading",
       val: ""
     },
     {
-      icon: "",
+      icon: "reddit-square",
       key: "Animations",
       val: ""
     },
     {
-      icon: "",
+      icon: "layer-group",
       key: "Multi Level Categories",
       val: ""
     },
     {
-      icon: "",
+      icon: "poll-h",
       key: "Megamenu",
       val: ""
     },
     {
-      icon: "",
+      icon: "scroll",
       key: "CMS (Banners, Pages)",
       val: ""
     },
     {
-      icon: "",
+      icon: "briefcase",
       key: "Brand Management",
       val: ""
     },
     {
-      icon: "",
+      icon: "mail-bulk",
       key: "Email Templates",
       val: ""
     },
     {
-      icon: "",
+      icon: "envelope-open-text",
       key: "Auto send invoice through emails",
       val: ""
     },
     {
-      icon: "",
+      icon: "star-half-alt",
       key: "Ratings and Reviews",
       val: ""
     },
     {
-      icon: "",
+      icon: "cart-plus",
       key: "Promotions (Cart & Product)",
       val: ""
     },
     {
-      icon: "",
+      icon: "luggage-cart",
       key: "Wishlist",
       val: ""
     },
     {
-      icon: "",
+      icon: "tags",
       key: "Product Option Based Price",
       val: ""
     },
     {
-      icon: "",
+      icon: "address-card",
       key: "Multiple Delivery Address",
       val: ""
     },
     {
-      icon: "",
+      icon: "sort-alpha-up",
       key: "Featured Products",
       val: ""
     },
     {
-      icon: "",
+      icon: "sign-in-alt",
       key: "Social login",
       val: ""
     },
     {
-      icon: "",
+      icon: "server",
       key: "Server rendered (Univarsal)",
       val: ""
     },
     {
-      icon: "",
+      icon: "folder-minus",
       key: "Reports & Analytics",
       val: ""
     },
     {
-      icon: "",
+      icon: "dolly-flatbed",
       key: "Abandonned Carts",
       val: ""
     },
     {
-      icon: "",
+      icon: "eye",
       key: "Recently Viewed Products",
       val: ""
     },
     {
-      icon: "",
+      icon: "product-hunt",
       key: "Related Products",
       val: ""
     },
     {
-      icon: "",
+      icon: "users",
       key: "Best Viewed Products Report",
       val: ""
     },
     {
-      icon: "",
+      icon: "expeditedssl",
       key: "SSL",
       val: ""
     },
     {
-      icon: "",
+      icon: "sms",
       key: "SMS & Email Notifications for orders",
       val: ""
     },
     {
-      icon: "",
+      icon: "phone-square",
       key: "Contact Us form",
       val: ""
     },
     {
-      icon: "",
+      icon: "file-upload",
       key: "Import and Export of catalog",
       val: ""
     },
     {
-      icon: "",
+      icon: "fill-drip",
       key: "Simple, Configurable (e.g. size, color, etc.) and Grouped Products",
       val: ""
     },
     {
-      icon: "",
+      icon: "file-invoice",
       key: "Reviews Moderation",
       val: ""
     },
     {
-      icon: "",
+      icon: "edit",
       key: "Multiple Images Per Product",
       val: ""
     },
     {
-      icon: "",
+      icon: "pencil-ruler",
       key: "Inventory Management(Optional)",
       val: ""
     },
     {
-      icon: "",
+      icon: "people-carry",
       key: "Product sharing option",
       val: ""
     },
     {
-      icon: "",
+      icon: "share-alt-square",
       key: "Social media optimized",
       val: ""
     },
     {
-      icon: "",
+      icon: "layer-group",
       key:
         "Layered / Faceted Navigation for filtering of products in categories",
       val: ""
     },
     {
-      icon: "",
+      icon: "bread-slice",
       key: "Breadcrumbs",
       val: ""
     },
@@ -351,83 +351,83 @@
       val: ""
     },
     {
-      icon: "",
+      icon: "scroll",
       key: "Infinite scroll",
       val: ""
     },
     {
-      icon: "",
+      icon: "laptop",
       key: "Cart sync across devices",
       val: ""
     },
     {
-      icon: "",
+      icon: "search",
       key: "Instant search",
       val: ""
     },
     {
-      icon: "",
+      icon: "js",
       key: "Modern JS Stack",
       val: ""
     },
     {
-      icon: "",
+      icon: "tv",
       key: "Replace your frontend without backend changes",
       val: ""
     },
     {
-      icon: "",
+      icon: "black-tie",
       key:
         "Bulletproof infrastructure for seasonal traffic peaks like Black Friday",
       val: ""
     },
     {
-      icon: "",
+      icon: "cloud-upload-alt",
       key: "Cloud hosting",
       val: ""
     },
     {
-      icon: "",
+      icon: "trash-restore",
       key: "Automated backups",
       val: ""
     },
     {
-      icon: "",
+      icon: "server",
       key: "static assets served from CDN",
       val: ""
     },
     {
-      icon: "",
+      icon: "industry",
       key: "Unlimited product variants (color, size etc)",
       val: ""
     },
     {
-      icon: "",
+      icon: "filter",
       key: "Unlimited product search filters",
       val: ""
     },
     {
-      icon: "",
+      icon: "dollar-sign",
       key: "Retail and Selling price",
       val: ""
     },
     {
-      icon: "",
+      icon: "id-card-alt",
       key: "Custom OrderID",
       val: ""
     },
     {
-      icon: "",
+      icon: "wpforms",
       key: "Inbuilt editable fields for keywords, meta title and description",
       val: ""
     },
     {
-      icon: "",
+      icon: "globe",
       key: "SEO optimized themes for better brand presence",
       val: ""
     },
     {
-      icon: "",
+      icon: "twitch",
       key: "Most advanced technology stack",
       val: ""
     },
@@ -533,7 +533,7 @@ CODING / DEVELOPMENT -->
         <div
           class="flex flex-col md:flex-row rounded-lg px-6 py-8 shadow-2xl
           text-center md:text-left">
-          <i class="fa fa-clock watch text-6xl md:mr-8" />
+          <i class={`fa fa-${f.icon} text-6xl md:mr-8`} />
           <!-- <img src="img/rocket.svg" class="flex " alt="" /> -->
           <div class="flex flex-col">
             <h1 class="mb-2 text-xl">{f.key}</h1>

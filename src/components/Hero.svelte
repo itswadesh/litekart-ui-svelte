@@ -51,13 +51,14 @@
     <div class="flex text-center justify-left text-lg my-6 ">
       <a
         href="/features"
-        class=" rounded-full w-1/2 lg:w-1/3 px-auto py-1 btn-primary mr-2 button">
+        class="rounded-full w-1/2 lg:w-1/3 px-auto py-1 btn-primary mr-2 button">
         <span>Features</span>
       </a>
       <a
         target="_blank"
         href="https://demo.litekart.in"
-        class="button rounded-full w-1/2 lg:w-1/3 px-auto py-1 bg-white primary">
+        class="button border rounded-full w-1/2 lg:w-1/3 px-auto py-1 bg-white
+        primary">
         <span>Get a Demo</span>
       </a>
     </div>

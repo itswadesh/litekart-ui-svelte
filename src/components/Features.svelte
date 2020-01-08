@@ -22,47 +22,47 @@
   class="bg-gray-200 mt-6 text-black flex justify-center shadow-lg flex-wrap">
   <div class="scroll flex">
     <div
-      class="flex-1 border-r border-gray-400 p-4 w-1/2 flex flex-col text-center
+      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center
       ">
       <i class="fa fa-low-vision icon text-4xl m-2" />
       Cutting-edge Technologies
     </div>
     <div
-      class="flex-1 border-r border-gray-400 p-4 w-1/2 flex flex-col text-center
+      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center
       ">
       <i class="fa fa-tv icon text-4xl m-2" />
-      Go live under 1 week
+      NodeJS + MongoDB + ES + Microservices
     </div>
     <div
-      class="flex-1 border-r border-gray-400 p-4 f w-1/2 flex flex-col
+      class="flex-1 border-r border-gray-400 px-6 py-4 f flex flex-col
       text-center">
       <i class="fa fa-tools icon text-4xl m-2" />
-      No-Limit Customizations
+      Customize it the way you want
     </div>
     <div
-      class="flex-1 border-r border-gray-400 p-4 w-1/2 flex flex-col text-center">
+      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center">
       <i class="fa fa-sign-in-alt icon text-4xl m-2 " />
-      PWA & NodeJS
+      Progressive ecommerce app made with NodeJS
     </div>
     <div
-      class="flex-1 border-r border-gray-400 p-4 w-1/2 flex flex-col text-center">
+      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center">
       <i class=" fa fa-search-dollar icon text-4xl m-2" />
-      High SEO friendly
+      High on-page SEO + off-page ready
     </div>
     <div
-      class="flex-1 border-r border-gray-400 p-4 w-1/2 flex flex-col text-center">
+      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center">
       <i class="fa fa-chart-bar icon text-4xl m-2 " />
-      Scalable & Performant
+      Scalable as well as Performant
     </div>
     <div
-      class="flex-1 border-r border-gray-400 p-4 f w-1/2 flex flex-col
-      text-center">
+      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center">
       <i class="fa fa-universal-access icon text-4xl m-2 " />
-      All devices & Platforms
+      Modern API based architecture
     </div>
     <a
       href="/features"
-      class=" flex flex-col justify-center text-sm p-5 icon underline ">
+      class="flex-1 flex flex-col items-center justify-center text-sm p-5 icon
+      underline ">
       see all 100+
       <br />
       features

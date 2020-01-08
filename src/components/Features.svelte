@@ -19,7 +19,7 @@
 </style>
 
 <div
-  class="bg-gray-200 mt-6 text-black flex justify-center shadow-lg flex-wrap">
+  class="bg-gray-200 mt-6 text-gray-700 flex justify-center shadow-lg flex-wrap">
   <div class="scroll flex">
     <div
       class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center

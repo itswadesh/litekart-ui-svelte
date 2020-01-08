@@ -9,12 +9,15 @@
 
 <style>
   .off {
-    z-index: 1;
+    z-index: 13;
     transition: transform 0.5s ease;
     transform: translateX(0);
   }
   .job {
     background-color: #ff7426;
+  }
+  ul li a {
+    display: block;
   }
 </style>
 
@@ -23,8 +26,8 @@
   bg-white">
   <!-- Header -->
   <div
-    class="sticky md:hidden flex mb-1 shadow justify-between items-center px-2
-    bg-white text-gray-200">
+    class="sticky md:hidden flex mb-1 shadow justify-between items-center px-6
+    py-3 bg-yellow-400 font-bold">
     <button class="flex justify-around items-center" on:click={close}>
       <i class="fa fa-times text-gray-700 text-2xl" />
     </button>
@@ -36,21 +39,27 @@
     </button>
   </div>
   <!-- Content -->
-
   <div class="h-full">
     <ul class="px-2">
-
-      <li class="px-6 py-4 border-b border-gray">
-        <a href="/features" on:click={close}>FEATURES</a>
+      <li class="border-b border-gray font-black">
+        <a href="/features" class="px-6 py-4 " on:click={close}>Features</a>
       </li>
-      <li class="px-6 py-4 border-gray">
-        <a href="/pricing" on:click={close}>PRICING</a>
+      <li class="border-b border-gray font-black">
+        <a href="/customizations" class="px-6 py-4 " on:click={close}>
+          Customizations
+        </a>
+      </li>
+      <li class="border-b border-gray font-black">
+        <a href="/details" class="px-6 py-4 " on:click={close}>Details</a>
+      </li>
+      <li class="border-gray font-black">
+        <a href="/pricing" class="px-6 py-4 " on:click={close}>Pricing</a>
       </li>
     </ul>
   </div>
   <div
     class="bg-gray-200 py-3 mt-4 flex justify-center bg-gray-200 shadow border-t
     ">
-    <a href="/" class="job px-6 py-1 rounded text-white text-xl">Post a Job</a>
+    <a href="/" class="rounded px-8 py-2 btn-primary mr-2 button">Post a Job</a>
   </div>
 </div>

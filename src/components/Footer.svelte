@@ -1,3 +1,26 @@
+<style>
+  .link {
+    position: relative;
+  }
+  .link:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #ff7426;
+    transition: width 0.2s ease;
+    -webkit-transition: width 0.2s ease;
+  }
+  .link:hover:after {
+    width: 100%;
+    left: 0;
+    background: #ff7426;
+  }
+</style>
+
 <div
   class="bg-gray-800 justify-between flex flex-wrap px-6 lg:px-24 py-6 shadow-lg
   ">
@@ -22,18 +45,8 @@
     </div>
   </div>
   <div class="text-white">
-    Mobile app
-    <button class="bg-primary mx-1 text-white rounded-full w-8 h-8">
-      <a href="http://www.apple.com">
-        <i class="fa fa-apple-alt" />
-      </a>
-
-    </button>
-    <button class="bg-primary text-white rounded-full w-8 h-8">
-      <a href="http://www.android.com">
-        <i class="fa fa-apple-alt" />
-      </a>
-    </button>
+    <a href="/terms" class="mr-2 link">Terms</a>
+    <a href="/privacy-policy" class="link">Privacy Policy</a>
   </div>
 </div>
 <div

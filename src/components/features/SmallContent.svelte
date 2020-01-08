@@ -467,6 +467,11 @@
         "Product search results can be narrowed down further using any number of filters"
     },
     {
+      icon: "filter",
+      key: "Search terms report",
+      val: "We keep track of all search terms of user for analytics purpose"
+    },
+    {
       icon: "dollar-sign",
       key: "Retail and Selling price",
       val: "There is 3 pricing options - Maximum Retail Price, Selling Price"

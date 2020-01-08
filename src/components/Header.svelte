@@ -66,7 +66,7 @@
     <a href="/details" class="link p-2 rounded text-lg ml-4">Details</a>
     <a href="/pricing" class="link p-2 rounded text-lg ml-4">Pricing</a>
     <a
-      href="/"
+      href="/contact"
       class="btn-primary px-8 ml-6 flex items-center py-2 py-auto text-lg
       rounded-full">
       <i class="fa fa-phone-alt mr-1 text-sm" />

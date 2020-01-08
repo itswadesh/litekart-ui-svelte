@@ -55,6 +55,9 @@
       <li class="border-gray font-black">
         <a href="/pricing" class="px-6 py-4 " on:click={close}>Pricing</a>
       </li>
+      <li class="border-gray font-black">
+        <a href="/contact" class="px-6 py-4 " on:click={close}>Contact</a>
+      </li>
     </ul>
   </div>
   <div

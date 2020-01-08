@@ -2,20 +2,11 @@
   .green {
     color: #6fda44;
   }
-  .pink {
-    background-color: #f3756c;
-  }
-  .yellow {
-    background-color: #e6a01e;
-  }
-  .grad {
-    background-image: linear-gradient(to bottom right, #4100a3, #a131ed);
-  }
 </style>
 
 <div class="flex flex-wrap justify-center mb-0 px-2 lg:px-12 ">
   <!-- blue -->
-  <div class="flex grad flex-col py-12 shadow rounded">
+  <div class="flex bg-gray-800 flex-col py-12 shadow rounded">
     <div class="text-white text-center">
       <h1 class="text-5xl text-white">Performance</h1>
       <p class="mx-2 lg:mx-48">
@@ -65,7 +56,7 @@
         <div
           class="border-8 border-white w-24 h-24 rounded-full flex
           justify-center items-center">
-          <h3 class="text-green-300 text-3xl font-black">100</h3>
+          <h3 class="green text-3xl font-black">100</h3>
         </div>
         <p class="text-xl">SEO</p>
       </div>
@@ -76,14 +67,12 @@
   <div class="flex mt-8 justify-between flex-wrap">
     <!-- pink -->
     <div class="w-full lg:w-1/2">
-      <div
-        class="pink flex flex-col mb-8 p-6 text-white items-center rounded
-        shadow lg:mr-2">
+      <div class="flex flex-col mb-8 p-6 items-center rounded shadow lg:mr-2">
         <img src="/img/clicky_logo.png" class="h-12" alt="" />
-        <h1 class="text-xl my-6 ">
+        <h1 class="primary text-xl my-6 ">
           How Clicky designed an agile and highperformance ecommerce.
         </h1>
-        <p>
+        <p class="leading-loose">
           To serve over 1 million customers and 20k daily orders, clicky needed
           quick and reliable ecommerce solution, they tripled their sales and
           achieved 2nd milestone target under 6 months of migration their
@@ -97,13 +86,13 @@
     <!-- yellow -->
     <div class="w-full lg:w-1/2">
       <div
-        class="yellow flex flex-col items-center mb-8 p-6 text-white
-        items-center rounded shadow lg:ml-2">
+        class="flex flex-col items-center mb-8 p-6 items-center rounded shadow
+        lg:ml-2">
         <img src="/img/tesoro_logo.png" class="h-12" alt="" />
-        <h1 class="text-xl my-6">
+        <h1 class="primary text-xl my-6">
           How Tesoro stays on top with a flexible e-commerce platform.
         </h1>
-        <p>
+        <p class="leading-loose">
           For their growing jewellery store, there was a requirement to up-lift
           the exising ecommerce from wordpress (woocommerce) to a modern and
           more performant platform and they choose Litekart. The page loading

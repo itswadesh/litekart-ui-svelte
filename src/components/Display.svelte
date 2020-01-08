@@ -60,7 +60,7 @@
       <span>Get started</span>
     </button>
     <button
-      class="button ml-2 shadow-md bg-gray-100 py-2 px-8 primary rounded-full">
+      class="button border ml-2 bg-gray-100 py-2 px-8 primary rounded-full">
       <span>Get a Demo</span>
     </button>
   </div>

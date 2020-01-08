@@ -133,6 +133,7 @@
 <style>
   ul {
     list-style-type: disc;
+    margin-left: 20px;
   }
   img {
     filter: drop-shadow(0px 27px 11px gray);
@@ -156,7 +157,7 @@
       <div class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
         <h1 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h1>
         <div class="flex leading-loose">
-          <ul class="w-1/2 mx-6 ">
+          <ul class="w-1/2 ">
             {#each f.data as i, ix}
               {#if ix % 2 == 0}
                 <li>{i}</li>

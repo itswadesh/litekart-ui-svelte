@@ -180,12 +180,12 @@
       val: ""
     },
     {
-      icon: "buffer",
+      icon: "folder-open",
       key: "Page Preloading",
       val: ""
     },
     {
-      icon: "reddit-square",
+      icon: "photo-video",
       key: "Animations",
       val: ""
     },
@@ -200,7 +200,7 @@
       val: ""
     },
     {
-      icon: "scroll",
+      icon: "money-bill-wave",
       key: "CMS (Banners, Pages)",
       val: ""
     },
@@ -275,7 +275,7 @@
       val: ""
     },
     {
-      icon: "product-hunt",
+      icon: "box",
       key: "Related Products",
       val: ""
     },
@@ -285,7 +285,7 @@
       val: ""
     },
     {
-      icon: "expeditedssl",
+      icon: "key",
       key: "SSL",
       val: ""
     },
@@ -346,7 +346,7 @@
       val: ""
     },
     {
-      icon: "",
+      icon: "dice-d6",
       key: "Product moderation",
       val: ""
     },
@@ -366,7 +366,7 @@
       val: ""
     },
     {
-      icon: "js",
+      icon: "stackpath",
       key: "Modern JS Stack",
       val: ""
     },
@@ -376,7 +376,7 @@
       val: ""
     },
     {
-      icon: "black-tie",
+      icon: "shield-alt",
       key:
         "Bulletproof infrastructure for seasonal traffic peaks like Black Friday",
       val: ""
@@ -417,7 +417,7 @@
       val: ""
     },
     {
-      icon: "wpforms",
+      icon: "keyboard",
       key: "Inbuilt editable fields for keywords, meta title and description",
       val: ""
     },
@@ -427,68 +427,68 @@
       val: ""
     },
     {
-      icon: "twitch",
+      icon: "servicestack",
       key: "Most advanced technology stack",
       val: ""
     },
     {
-      icon: "",
+      icon: "smile-beam",
       key: "Low Stock Report",
       val: ""
     },
     {
-      icon: "",
+      icon: "glasses ",
       key: "View, edit, create and fulfill orders from admin panel",
       val: ""
     },
     {
-      icon: "",
+      icon: "headset",
       key: "Call Center (phone) order creation",
       val: ""
     },
     {
-      icon: "",
+      icon: "users-cog",
       key: "User roles for better store administration",
       val: ""
     },
     {
-      icon: "",
+      icon: "internet-explorer",
       key:
         "Web Services API for easy integration with any third-party application",
       val: ""
     },
     {
-      icon: "",
+      icon: "marker",
       key: "Fully customizable design using templates",
       val: ""
     },
     {
-      icon: "",
+      icon: "edit",
       key: "Content Management System for Informational Pages",
       val: ""
     },
     {
-      icon: "",
+      icon: "google-plus",
       key: "Google and Fb analytics and pixel integration",
       val: ""
     },
     {
-      icon: "",
+      icon: "thumbs-up",
       key: "100% Search Engine Friendly URLs",
       val: ""
     },
     {
-      icon: "",
+      icon: "map-marked-alt",
       key: "Auto Generate Google Site Map",
       val: ""
     },
     {
-      icon: "",
+      icon: "info",
       key: "Meta-information for products and categories",
       val: ""
     },
     {
-      icon: "",
+      icon: "google-plus-g",
       key: "Integrated with Google Analytics",
       val: ""
     }

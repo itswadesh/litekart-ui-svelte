@@ -28,18 +28,18 @@
     <div class=" flex items-center justify-left text-white">
       follow us on &nbsp;
       <button class="bg-primary mx-1 text-white text-xs rounded-full w-8 h-8 ">
-        <a href="https://www.facebook.com">
-          <i class="fa fa-apple-alt text-xl" />
+        <a href="https://www.facebook.com/codenx2" target="blank">
+          <i class="fab fa-facebook-f" />
         </a>
       </button>
       <button class="bg-primary mx-1 text-white rounded-full w-8 h-8 ">
-        <a href="https://www.twitter.com">
-          <i class="fa fa-apple-alt text-xl" />
+        <a href="https://twitter.com/codenx2" target="blank">
+          <i class="fab fa-twitter" />
         </a>
       </button>
       <button class="bg-primary mx-1 text-white rounded-full w-8 h-8 ">
-        <a href="https://www.github.com">
-          <i class="fa fa-apple-alt text-xl" />
+        <a href="https://www.github.com/itswadesh" target="blank">
+          <i class="fab fa-github" />
         </a>
       </button>
     </div>

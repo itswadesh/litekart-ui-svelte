@@ -6,19 +6,19 @@
 
 <style>
   .ipad {
-    background: rgba(248, 34, 255, 0.533);
+    background: #a7e0c8;
   }
 </style>
 
 <Header />
-<div class=" border-gray-400 bg-gray-300 p-10">
+<div class=" border-gray-400 bg-gray-300 p-3">
   <h1 class="text-2xl flex justify-center ">Technologies Used</h1>
   <div
     class="border flex text-center justify-around border-gray-400 ipad bg-black
-    p-10">
+    p-4 flex-wrap">
     <img src="img/mobile-layout-final.png" alt="" />
     <div class="flex ">
-      <ul>
+      <ul class="text-2xl text-black">
         <li>Nodejs</li>
         <li>Docker</li>
         <li>Svelte</li>
@@ -41,8 +41,6 @@
       <p class="p-4">
         <img src="img/amazoncloud.png" alt="" />
       </p>
-    </div>
-    <div class=" flex text-center justify-center">
       <p class="p-4">
         <img src="img/googlecloud.png" alt="" />
       </p>
@@ -52,6 +50,7 @@
     </div>
   </div>
 </div>
+
 <SmallContent />
 <Footer />
 

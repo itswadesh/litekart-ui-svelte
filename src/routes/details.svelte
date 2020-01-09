@@ -4,21 +4,31 @@
   import SmallContent from "./../components/features/SmallContent.svelte";
 </script>
 
+<style>
+  .ipad {
+    background: rgba(248, 34, 255, 0.533);
+  }
+</style>
+
 <Header />
 <div class=" border-gray-400 bg-gray-300 p-10">
   <h1 class="text-2xl flex justify-center ">Technologies Used</h1>
   <div
-    class="border flex text-center justify-around border-gray-400 bg-gray-300
+    class="border flex text-center justify-around border-gray-400 ipad bg-black
     p-10">
-    <img src="img/techused.png" />
+    <img src="img/mobile-layout-final.png" alt="" />
+    <div class="flex ">
+      <ul>
+        <li>Nodejs</li>
+        <li>Docker</li>
+        <li>Svelte</li>
+        <li>S3</li>
+        <li>Serverless</li>
+        <li>Express</li>
+      </ul>
+    </div>
   </div>
-  <div class="flex">
-    <ul>
-      <li>nodejs</li>
-      <li>docker</li>
-      <li>svelte</li>
-    </ul>
-  </div>
+
 </div>
 
 <div class="border border-gray-400 bg-gray-300 p-10 justify-around">
@@ -26,18 +36,18 @@
   <div class="flex flex-col ">
     <div class="flex text-center justify-center p-4 ">
       <p class="p-4">
-        <img src="img/digitalocean.png" />
+        <img src="img/digitalocean.png" alt="" />
       </p>
       <p class="p-4">
-        <img src="img/amazoncloud.png" />
+        <img src="img/amazoncloud.png" alt="" />
       </p>
     </div>
     <div class=" flex text-center justify-center">
       <p class="p-4">
-        <img src="img/googlecloud.png" />
+        <img src="img/googlecloud.png" alt="" />
       </p>
       <p class="p-4">
-        <img src="img/vurtle.png" />
+        <img src="img/vurtle.png" alt="" />
       </p>
     </div>
   </div>

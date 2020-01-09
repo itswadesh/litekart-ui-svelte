@@ -9,7 +9,7 @@
   }
   h1 {
     margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-weight: bold;
   }
   h2 {

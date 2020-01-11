@@ -15,11 +15,11 @@
 
 <main in:fadeIn out:fadeOut>
   <Header />
-  <div class="flex p-6 justify-between text-gray-600 ">
+  <div class="flex flex-wrap p-6 justify-between ">
     <!-- 1st -->
     <div class=" m-4">
       <div
-        class="border flex items-center px-6 py-6 flex items-center rounded-lg
+        class="border flex items-center px-6 py-6 items-center rounded-lg
         shadow-lg ">
         <i class="fa fa-building text-6xl mr-6" />
         <div>

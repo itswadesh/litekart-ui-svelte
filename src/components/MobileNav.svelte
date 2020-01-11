@@ -13,9 +13,6 @@
     transition: transform 0.5s ease;
     transform: translateX(0);
   }
-  .job {
-    background-color: #ff7426;
-  }
   ul li a {
     display: block;
   }

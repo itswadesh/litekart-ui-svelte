@@ -75,7 +75,7 @@
     },
     {
       h: "Developer Tools",
-      img: "svg/game-developer.svg",
+      img: "svg/developerimg.png",
       data: [
         "Mobile first website design",
         "Cross­device & Cross-browser compatibility",

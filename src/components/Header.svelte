@@ -1,6 +1,7 @@
 <script>
   import MobileNav from "./MobileNav.svelte";
   import { slide, fade } from "svelte/transition";
+  import { lazyload } from "../actions/lazyload";
   let showDrawer = false;
 </script>
 
@@ -44,7 +45,7 @@
     <i class="fa fa-bars text-black text-2xl" />
   </button>
   <a href="/" class="items-center">
-    <img src="img/litekart-logo.png" alt="" class="h-12 w-32" />
+    <img use:lazyload src="img/litekart-logo.png" alt="" class="h-12 w-32" />
   </a>
   <button class="flex justify-around items-center">
     <i class="fa fa-search text-black text-2xl" />
@@ -55,18 +56,28 @@
   class="sticky hidden md:flex md:shadow-lg md:justify-around md:items-center
   md:px-6 md:py-3 md:bg-yellow-400 font-bold ">
   <a href="/">
-    <img src="img/litekart-logo.png" alt="" class="h-12 w-32" />
+    <img use:lazyload src="img/litekart-logo.png" alt="" class="h-12 w-32" />
   </a>
   <div class="items-center" />
   <div class=" flex justify-between md:text-gray-800 ">
-    <a href="/features" class="link p-2 rounded text-lg ml-4">Features</a>
-    <a href="/customizations" class="link p-2 rounded text-lg ml-4">
+    <a href="/features" rel="prefetch" class="link p-2 rounded text-lg ml-4">
+      Features
+    </a>
+    <a
+      href="/customizations"
+      rel="prefetch"
+      class="link p-2 rounded text-lg ml-4">
       Customizations
     </a>
-    <a href="/details" class="link p-2 rounded text-lg ml-4">Details</a>
-    <a href="/pricing" class="link p-2 rounded text-lg ml-4">Pricing</a>
+    <a href="/details" rel="prefetch" class="link p-2 rounded text-lg ml-4">
+      Details
+    </a>
+    <a href="/pricing" rel="prefetch" class="link p-2 rounded text-lg ml-4">
+      Pricing
+    </a>
     <a
       href="/contact"
+      rel="prefetch"
       class="btn-primary px-8 ml-6 flex items-center py-2 py-auto text-lg
       rounded-full">
       <i class="fa fa-phone-alt mr-1 text-sm" />

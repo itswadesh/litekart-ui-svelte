@@ -9,20 +9,23 @@
   import Dad from "./../components/Dad.svelte";
   import Rocket from "./../components/Rocket.svelte";
   import Footer from "./../components/Footer.svelte";
+  import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
 <svelte:head>
   <title>Litekart - Experience the fastest ecommerce of 2020</title>
 </svelte:head>
-<Header />
-<div>
-  <Hero />
-  <Features />
-  <Rocket />
-  <Highlight />
-  <Clients />
-  <Pricing />
-  <Display />
-  <Dad />
-</div>
-<Footer />
+<main in:fadeIn out:fadeOut>
+  <Header />
+  <div>
+    <Hero />
+    <Features />
+    <Rocket />
+    <Highlight />
+    <Clients />
+    <Pricing />
+    <Display />
+    <Dad />
+  </div>
+  <Footer />
+</main>

@@ -1,3 +1,7 @@
+<script>
+  import { lazyload } from "../actions/lazyload";
+</script>
+
 <style>
   h1 {
     color: black;
@@ -83,7 +87,7 @@
           <b>PWA as standard</b>
         </h1>
         <div class="mb-6 mt-2">
-          <img
+          <img use:lazyload 
             src="https://github.com/itswadesh/sapper-ecommerce/raw/master/static/light-house-search.jpg?raw=true"
             alt="" />
         </div>
@@ -144,7 +148,7 @@
             <b>Seemless developer experience</b>
           </h1>
           <div class="mb-6 mt-2">
-            <img
+            <img use:lazyload 
               src="https://github.com/itswadesh/sapper-ecommerce/raw/master/static/litekart-banner.png?raw=true"
               alt="" />
           </div>

@@ -598,7 +598,7 @@ CODING / DEVELOPMENT -->
           class="flex flex-col md:flex-row rounded-lg px-6 py-8 shadow-md
           text-center md:text-left">
           <i class={`fa fa-${f.icon} text-6xl md:mr-8`} />
-          <!-- <img src="img/rocket.svg" class="flex " alt="" /> -->
+          <!-- <img use:lazyload  src="img/rocket.svg" class="flex " alt="" /> -->
           <div class="flex flex-col">
             <h1 class="mb-2 text-xl">{f.key}</h1>
             <div class="text-ms">{f.val}</div>

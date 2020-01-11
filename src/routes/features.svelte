@@ -4,14 +4,16 @@
   import Nav from "./../components/features/Nav.svelte";
   import BigContent from "./../components/features/BigContent.svelte";
   import SmallContent from "./../components/features/SmallContent.svelte";
+  import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
-<Header />
-<Nav />
-<BigContent />
-<!-- <SmallContent /> -->
-<Footer />
-
+<main in:fadeIn out:fadeOut>
+  <Header />
+  <Nav />
+  <BigContent />
+  <!-- <SmallContent /> -->
+  <Footer />
+</main>
 <svelte:head>
   <title>Litekart - Features that power ecommerce</title>
 </svelte:head>

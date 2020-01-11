@@ -45,11 +45,13 @@
     </div>
   </div>
   <div class="text-white">
-    <a href="/about" class="mr-2 link">About Us</a>
-    <a href="/contact" class="mr-2 link">Contact Us</a>
-    <a href="/terms" class="mr-2 link">Terms</a>
-    <a href="/refund-policy" class="mr-2 link">Cancellation & Refund Policy</a>
-    <a href="/privacy-policy" class="link">Privacy Policy</a>
+    <a href="/about-us" rel="prefetch" class="mr-2 link">About Us</a>
+    <a href="/contact" rel="prefetch" class="mr-2 link">Contact Us</a>
+    <a href="/terms" rel="prefetch" class="mr-2 link">Terms</a>
+    <a href="/refund-policy" rel="prefetch" class="mr-2 link">
+      Cancellation & Refund Policy
+    </a>
+    <a href="/privacy-policy" rel="prefetch" class="link">Privacy Policy</a>
   </div>
 </div>
 <div

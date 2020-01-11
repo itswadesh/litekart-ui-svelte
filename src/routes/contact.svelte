@@ -4,7 +4,8 @@
   import Textbox from "./../components/ui/Textbox.svelte";
   import Textarea from "./../components/ui/Textarea.svelte";
   import { get, put, post } from "./../lib/api";
-
+  import { lazyload } from "../actions/lazyload";
+  import { fadeIn, fadeOut } from "./../actions/pageFade";
   let email = "",
     message,
     err,
@@ -54,40 +55,46 @@
   }
 </style>
 
-<Header />
-<div class="flex flex-col my-8 lg:my-32 mb-48 justify-center bg">
-  <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
-    <div class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
-      <h1 class="text-4xl mb-8 font-bold">Contact Us</h1>
-      {#if err}
-        <p class="bg-red-200 border p-8 rounded mb-8 font-bold">{err}</p>
-      {/if}
-      {#if msg}
-        <p class="bg-green-200 border p-8 rounded mb-8 font-bold">{msg}</p>
-      {/if}
-      <form
-        novalidate
-        on:submit|preventDefault={submit}
-        class=" px-2 lg:px-24 flex flex-col leading-loose">
-        <Textbox bind:value={email} label="Email" />
-        <Textarea bind:value={message} label="Message" />
-        <button
-          disabled={loading}
-          type="submit"
-          class="rounded-full w-full px-auto py-1 btn-primary flex
-          justify-center disabled:bg-gray-400 button">
-          {#if !loading}
-            <span>Send</span>
-          {:else}
-            <img src="/loading.svg" alt="" />
-            Loading...
-          {/if}
-        </button>
-      </form>
-    </div>
-    <div class="lg:order-last order-first w-full lg:w-1/2">
-      <img src={`/img/rocket-img-1.png`} class="img m-auto mb-2" alt="" />
+<main in:fadeIn out:fadeOut>
+  <Header />
+  <div class="flex flex-col my-8 lg:my-32 mb-48 justify-center bg">
+    <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
+      <div class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
+        <h1 class="text-4xl mb-8 font-bold">Contact Us</h1>
+        {#if err}
+          <p class="bg-red-200 border p-8 rounded mb-8 font-bold">{err}</p>
+        {/if}
+        {#if msg}
+          <p class="bg-green-200 border p-8 rounded mb-8 font-bold">{msg}</p>
+        {/if}
+        <form
+          novalidate
+          on:submit|preventDefault={submit}
+          class=" px-2 lg:px-24 flex flex-col leading-loose">
+          <Textbox bind:value={email} label="Email" />
+          <Textarea bind:value={message} label="Message" />
+          <button
+            disabled={loading}
+            type="submit"
+            class="rounded-full w-full px-auto py-1 btn-primary flex
+            justify-center disabled:bg-gray-400 button">
+            {#if !loading}
+              <span>Send</span>
+            {:else}
+              <img use:lazyload src="/loading.svg" alt="" />
+              Loading...
+            {/if}
+          </button>
+        </form>
+      </div>
+      <div class="lg:order-last order-first w-full lg:w-1/2">
+        <img
+          use:lazyload
+          src={`/img/rocket-img-1.png`}
+          class="img m-auto mb-2"
+          alt="" />
+      </div>
     </div>
   </div>
-</div>
-<Footer />
+  <Footer />
+</main>

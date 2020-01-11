@@ -1,7 +1,7 @@
 <script>
   import { createEventDispatcher } from "svelte";
+  import { lazyload } from "../actions/lazyload";
   const dispatch = createEventDispatcher();
-
   function close() {
     dispatch("close", true);
   }
@@ -31,8 +31,8 @@
     <button class="flex justify-around items-center" on:click={close}>
       <i class="fa fa-times text-gray-700 text-2xl" />
     </button>
-    <a href="/" class="text-gray-700 items-center">
-      <img src="img/litekart-logo.png" alt="" class="h-12 w-32" />
+    <a href="/" rel="prefetch" class="text-gray-700 items-center">
+      <img use:lazyload src="img/litekart-logo.png" alt="" class="h-12 w-32" />
     </a>
     <button class="flex justify-around items-center">
       <i class="fa fa-search text-gray-700 text-2xl" />
@@ -42,27 +42,44 @@
   <div class="h-full">
     <ul class="px-2">
       <li class="border-b border-gray font-black">
-        <a href="/features" class="px-6 py-4 " on:click={close}>Features</a>
+        <a href="/features" rel="prefetch" class="px-6 py-4 " on:click={close}>
+          Features
+        </a>
       </li>
       <li class="border-b border-gray font-black">
-        <a href="/customizations" class="px-6 py-4 " on:click={close}>
+        <a
+          href="/customizations"
+          rel="prefetch"
+          class="px-6 py-4 "
+          on:click={close}>
           Customizations
         </a>
       </li>
       <li class="border-b border-gray font-black">
-        <a href="/details" class="px-6 py-4 " on:click={close}>Details</a>
+        <a href="/details" rel="prefetch" class="px-6 py-4 " on:click={close}>
+          Details
+        </a>
       </li>
       <li class="border-gray font-black">
-        <a href="/pricing" class="px-6 py-4 " on:click={close}>Pricing</a>
+        <a href="/pricing" rel="prefetch" class="px-6 py-4 " on:click={close}>
+          Pricing
+        </a>
       </li>
       <li class="border-gray font-black">
-        <a href="/contact" class="px-6 py-4 " on:click={close}>Contact</a>
+        <a href="/contact" rel="prefetch" class="px-6 py-4 " on:click={close}>
+          Contact
+        </a>
       </li>
     </ul>
   </div>
   <div
     class="bg-gray-200 py-3 mt-4 flex justify-center bg-gray-200 shadow border-t
     ">
-    <a href="/" class="rounded px-8 py-2 btn-primary mr-2 button">Post a Job</a>
+    <a
+      href="/contact"
+      rel="prefetch"
+      class="rounded px-8 py-2 btn-primary mr-2 button">
+      Lets Talk
+    </a>
   </div>
 </div>

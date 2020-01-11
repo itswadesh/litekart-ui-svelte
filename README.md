@@ -1,4 +1,4 @@
-<img src="https://github.com/itswadesh/sapper-ecommerce/blob/master/static/litekart-banner.png?raw=true" alt/>
+<img use:lazyload  src="https://github.com/itswadesh/sapper-ecommerce/blob/master/static/litekart-banner.png?raw=true" alt/>
 
 # Svelte Commerce - Attach Svelte store front to any ecommerce API (e.g. <a href="https://magento.com/">Magento</a>, <a href="https://www.moltin.com/">Moltin</a>, <a href="https://www.shopify.com/">Shopify</a> ...)
 
@@ -14,10 +14,10 @@
 > Solution to the above issue is to use a CDN. I am trying to find sponcers to migrate all to a CDN in near future.
 
   ## Google Lighthouse/Pagespeed Audit Score (Search Page)
-  <img src="https://github.com/itswadesh/sapper-ecommerce/blob/master/static/light-house-search.jpg?raw=true" alt />
+  <img use:lazyload  src="https://github.com/itswadesh/sapper-ecommerce/blob/master/static/light-house-search.jpg?raw=true" alt />
   
   ## Google Lighthouse/Pagespeed Audit Score (Detail Page)
-  <img src="https://github.com/itswadesh/sapper-ecommerce/blob/master/static/light-house-detail.jpg?raw=true" alt />
+  <img use:lazyload  src="https://github.com/itswadesh/sapper-ecommerce/blob/master/static/light-house-detail.jpg?raw=true" alt />
 
 # What is Litekart?
 - Litekart is a storefront for your existing eCommerce. 

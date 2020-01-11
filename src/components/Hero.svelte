@@ -1,3 +1,7 @@
+<script>
+  import { lazyload } from "../actions/lazyload";
+</script>
+
 <style>
   .capital {
     color: #6fda44;
@@ -64,6 +68,6 @@
     </div>
   </div>
   <div class="hidden lg:flex flex-1 pt-6">
-    <img src="../../img/hero.png" alt="" class="object-cover" />
+    <img use:lazyload  src="../../img/hero.png" alt="" class="object-cover" />
   </div>
 </div>

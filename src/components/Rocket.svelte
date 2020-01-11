@@ -1,4 +1,5 @@
 <script>
+  import { lazyload } from "../actions/lazyload";
   let features = [
     {
       h: "Customized Design",
@@ -95,7 +96,7 @@
         their shopping behavior.
       </p>
     </div>
-    <img src="img/rocket-img-1.png" class=" img mx-8 mb-3 p-6" alt="" />
+    <img use:lazyload  src="img/rocket-img-1.png" class=" img mx-8 mb-3 p-6" alt="" />
   </div> -->
   <!-- 1st section -->
 
@@ -117,7 +118,11 @@
           {/if}
         </div>
         <div class="lg:order-last order-first w-full lg:w-1/2">
-          <img src={`/img/${f.img}`} class="img m-auto mb-2" alt="" />
+          <img
+            use:lazyload
+            src={`/img/${f.img}`}
+            class="img m-auto mb-2"
+            alt="" />
         </div>
       </div>
     {/if}
@@ -125,7 +130,7 @@
     {#if ix % 2 == 1}
       <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
         <div class=" w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
-          <img src={`/img/${f.img}`} class="img m-auto" alt="" />
+          <img use:lazyload src={`/img/${f.img}`} class="img m-auto" alt="" />
         </div>
         <div class=" w-full lg:w-1/2">
           <h1 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h1>

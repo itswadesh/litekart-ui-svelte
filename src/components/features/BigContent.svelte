@@ -75,7 +75,7 @@
     },
     {
       h: "Developer Tools",
-      img: "svg/developerimg.png",
+      img: "devloperimg.png",
       data: [
         "Mobile first website design",
         "Cross­device & Cross-browser compatibility",

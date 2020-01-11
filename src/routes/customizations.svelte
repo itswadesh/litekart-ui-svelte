@@ -17,9 +17,9 @@
   <!-- 1st -->
   <div class=" m-4">
     <div
-      class="border flex items-center px-6 py-8 flex items-center rounded-lg
+      class="border flex items-center px-6 py-6 flex items-center rounded-lg
       shadow-lg ">
-      <i class="fa fa-building text-6xl m-10" />
+      <i class="fa fa-building text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold ">
           Build a beautiful and fast ecommerce website
@@ -34,11 +34,11 @@
         </p>
       </div>
     </div>
-    <div class="border flex items-center my-3 px-6 py-8 rounded-lg shadow-lg ">
-      <i class="fa fa-wrench text-6xl m-10" />
+    <div class="border flex items-center my-3 px-6 py-6 rounded-lg shadow-lg ">
+      <i class="fa fa-wrench text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">Completely Customize your website</h1>
-        <p class="leading--loose">
+        <p class="leading-loose">
           Our highly customizable platform lets you create the unique ecommerce
           store for you with perfect shopping experience quickly. Work with a
           developer to customize any aspect of your website’s design and
@@ -46,19 +46,19 @@
         </p>
       </div>
     </div>
-    <div class="border flex items-center my-3 px-6 py-8 rounded-lg shadow-lg ">
-      <i class="fa fa-comment-dots text-6xl m-10 " />
+    <div class="border flex items-center my-3 px-6 py-6 rounded-lg shadow-lg ">
+      <i class="fa fa-comment-dots text-6xl mr-6 " />
       <div>
         <h1 class="titel font-bold">Deliver a personalized experience</h1>
-        <p class="leading--loose">
+        <p class="leading-loose">
           Personalize your site to better engage and convert shoppers using a
           flexible modular code base, conditional logic and access to language
           files.
         </p>
       </div>
     </div>
-    <div class="border flex items-center my-3 px-6 py-8 rounded-lg shadow-lg">
-      <i class="fa fa-mobile-alt text-6xl m-10 " />
+    <div class="border flex items-center my-3 px-6 py-6 rounded-lg shadow-lg">
+      <i class="fa fa-mobile-alt text-6xl mr-6 " />
       <div>
         <h1 class="titel font-bold">The best solution for selling on mobile</h1>
         <p class="leading-loose">
@@ -69,8 +69,8 @@
         </p>
       </div>
     </div>
-    <div class="border flex items-center my-3 px-6 py-8 rounded-lg shadow-lg">
-      <i class="fa fa-file-signature text-6xl m-10 " />
+    <div class="border flex items-center my-3 px-6 py-6 rounded-lg shadow-lg">
+      <i class="fa fa-file-signature text-6xl mr-6 " />
       <div>
         <h1 class="titel font-bold">Faster sites, higher conversion</h1>
         <p class="leading-loose">
@@ -82,9 +82,9 @@
       </div>
     </div>
     <div
-      class="border flex items-center my-3 px-6 py-8 rounded-lg md:w-full
+      class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
       shadow-lg">
-      <i class="fa fa-medal text-6xl m-10" />
+      <i class="fa fa-medal text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">
           Sitewide HTTPS boosts conversion and search rankings
@@ -98,9 +98,9 @@
       </div>
     </div>
     <div
-      class="border flex items-center my-3 px-6 py-8 rounded-lg md:w-full
+      class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
       shadow-lg">
-      <i class="fa fa-search text-6xl m-10" />
+      <i class="fa fa-search text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">Rank higher with best-in-class SEO</h1>
         <p class="leading-loose">
@@ -112,17 +112,17 @@
       </div>
     </div>
     <div
-      class=" border flex items-center my-3 px-6 py-8 rounded-lg md:w-full
+      class=" border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
       shadow-lg">
-      <i class="fa fa-share-alt text-6xl m-10" />
+      <i class="fa fa-share-alt text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">Social</h1>
       </div>
     </div>
     <div
-      class="border flex items-center my-3 px-6 py-8 rounded-lg leading-loose
+      class="border flex items-center my-3 px-6 py-6 rounded-lg leading-loose
       md:w-full shadow-lg">
-      <i class="fa fa-tape text-6xl m-10" />
+      <i class="fa fa-tape text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">
           Build your own integrations with our powerful API
@@ -141,7 +141,7 @@
   <div class="m-4">
     <div
       class=" border flex items-center px-6 py-6 rounded-lg md:w-full shadow-lg">
-      <i class="fa fa-cart-arrow-down text-6xl m-6" />
+      <i class="fa fa-cart-arrow-down text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">Recover 20% of abandoned carts</h1>
         <p class="leading-loose">
@@ -154,9 +154,9 @@
       </div>
     </div>
     <div
-      class="border flex items-center my-3 px-6 py-8 rounded-lg md:w-full
+      class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
       shadow-lg">
-      <i class="fa fa-chart-bar text-6xl m-10" />
+      <i class="fa fa-chart-bar text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold ">
           Improve conversion rates by 22% with a streamlined checkout
@@ -172,9 +172,9 @@
     </div>
 
     <div
-      class="border flex items-center my-3 px-6 py-8 rounded-lg md:w-full
+      class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
       shadow-lg">
-      <i class="fa fa-file-code text-6xl m-10" />
+      <i class="fa fa-file-code text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">A developer's dream</h1>
         <p class="leading-loose">
@@ -187,9 +187,9 @@
       </div>
     </div>
     <div
-      class="border flex items-center my-3 px-6 py-8 rounded-lg md:w-full
+      class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
       shadow-lg">
-      <i class="fa fa-funnel-dollar text-6xl m-10" />
+      <i class="fa fa-funnel-dollar text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">
           Improve search effectiveness with filtering
@@ -203,9 +203,9 @@
       </div>
     </div>
     <div
-      class="border flex items-center my-3 px-6 py-8 rounded-lg md:w-full
+      class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
       shadow-lg">
-      <i class="fa fa-user-tag text-6xl m-10" />
+      <i class="fa fa-user-tag text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">
           Incentivize buyers with built-in coupons and discounting
@@ -220,9 +220,9 @@
       </div>
     </div>
     <div
-      class=" border flex items-center my-3 px-6 py-8 rounded-lg md:w-full
+      class=" border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
       shadow-lg">
-      <i class="fa fa-star text-6xl m-10" />
+      <i class="fa fa-star text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">
           Boost shopper confidence with product reviews
@@ -235,9 +235,9 @@
       </div>
     </div>
     <div
-      class=" border flex items-center my-3 px-6 py-8 rounded-lg md:w-full
+      class=" border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
       shadow-lg">
-      <i class=" fa fa-headset text-6xl m-10" />
+      <i class=" fa fa-headset text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">Get world-class support</h1>
         <p class="leading-loose">
@@ -248,9 +248,9 @@
       </div>
     </div>
     <div
-      class="border flex items-center my-3 px-6 py-8 rounded-lg md:w-full
+      class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
       shadow-lg">
-      <i class="fa fa-hands-helping text-6xl m-10" />
+      <i class="fa fa-hands-helping text-6xl mr-6" />
       <div>
         <h1 class="titel font-bold">Migration and onboarding help</h1>
         <p class="leading-loose">

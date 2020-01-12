@@ -64,67 +64,39 @@
               class=" border-b-2 border-gray-300 shadow flex flex-col
               justify-center lg:px-12 px-4 ">
               <li class="flex">
-                <img
-                  use:lazyload
-                  src="svg/check.svg"
-                  alt=""
-                  class=" items-center h-5 w-5" />
+                <img src="svg/check.svg" alt="" class=" items-center h-5 w-5" />
                 Open Source
               </li>
               <li class="flex">
-                <img
-                  use:lazyload
-                  src="svg/check.svg"
-                  alt=""
-                  class="h-5 w-5 items-center " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 items-center " />
                 Licensed
               </li>
               <li class="flex">
-                <img
-                  use:lazyload
-                  src="svg/check.svg"
-                  alt=""
-                  class="h-5 w-5 items-center " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 items-center " />
                 Authentication
               </li>
               <li class="flex">
-                <img
-                  use:lazyload
-                  src="svg/check.svg"
-                  alt=""
-                  class="h-5 w-5 items-center " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 items-center " />
                 Cart & Checkout
               </li>
               <li class="flex">
-                <img
-                  use:lazyload
-                  src="svg/check.svg"
-                  alt=""
-                  class="h-5 w-5 items-center" />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 items-center" />
                 Server Rendered
               </li>
               <li class="flex">
-                <img
-                  use:lazyload
-                  src="svg/check.svg"
-                  alt=""
-                  class="h-5 w-5 items-center" />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 items-center" />
                 Lazy loading
               </li>
               <li class="flex">
-                <img
-                  use:lazyload
-                  src="svg/check.svg"
-                  alt=""
-                  class="h-5 w-5 items-center" />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 items-center" />
                 Loading Indicators
               </li>
               <li class="flex">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Carousels
               </li>
               <li class="flex">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Community Support
               </li>
             </ul>
@@ -152,71 +124,71 @@
             <ul class="">
               <li class="mb-4 text-green-500 ">Complete Stack Setup</li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Unlimited Products
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Unlimited Checkouts
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 4 user roles
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Progressive web app
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Email/SMS Notifications
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Auto invoice generation
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 SEO Optimized
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Server Rendered
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Free SSL
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Reports & Analytics
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 1 click deploy to cloud
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Payment Gateway Integration
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Facebook optimized product
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Product Rating and Reviews
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Social Media Logins
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Faceted Search
               </li>
               <li class="flex my-6 ">
-                <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
+                <img src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Premium Suport With 1 Day
               </li>
             </ul>

@@ -10,7 +10,8 @@
       lg:w-1/3">
       <img
         use:lazyload
-        src={`${CDN}../../img/fastestexperience.svg`}
+        src={`${CDN}../../img/fastestexperience.svg?tr=w-3,h-2`}
+        data-src={`${CDN}../../img/fastestexperience.svg`}
         alt=""
         class="h-24 m-8" />
       <div class="m-4">
@@ -23,7 +24,8 @@
       lg:w-1/3">
       <img
         use:lazyload
-        src={`${CDN}../../img/flexiblescope.svg`}
+        src={`${CDN}../../img/flexiblescope.svg?tr=w-3,h-2`}
+        data-src={`${CDN}../../img/flexiblescope.svg`}
         alt=""
         class="h-24 m-8" />
       <div class="m-4 ">
@@ -36,7 +38,8 @@
       lg:w-1/3">
       <img
         use:lazyload
-        src={`${CDN}../../img/building.svg`}
+        src={`${CDN}../../img/building.svg?tr=w-3,h-2`}
+        data-src={`${CDN}../../img/building.svg`}
         alt=""
         class="h-24 m-8" />
       <div class="m-4">

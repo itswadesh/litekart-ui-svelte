@@ -68,7 +68,8 @@
   <div class="hidden lg:flex flex-1 pt-6">
     <img
       use:lazyload
-      src={`${CDN}../../img/hero.png`}
+      src={CDN + '../../img/hero.svg?tr=w-3,h-2'}
+      data-src={CDN + '../../img/hero.svg'}
       alt=""
       class="object-cover" />
   </div>

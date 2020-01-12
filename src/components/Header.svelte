@@ -42,17 +42,19 @@
   bg-yellow-400 text-black">
   <button
     class="focus:outline-none flex justify-around items-center"
-    on:click={() => (showDrawer = true)}>
+    on:click={() => (showDrawer = true)}
+    aria-label="menu">
     <i class="fa fa-bars text-black text-2xl" />
   </button>
-  <a href="/" class="items-center">
+  <a href="/" class="items-center" aria-label="logo">
     <img
       use:lazyload
-      src={`${CDN}../../img/litekart-logo.png`}
+      src={`${CDN}../../img/litekart-logo.png?tr=w-3,h-2`}
+      data-src={`${CDN}../../img/litekart-logo.png`}
       alt=""
       class="h-12 w-32" />
   </a>
-  <button class="flex justify-around items-center">
+  <button class="flex justify-around items-center" aria-label="search">
     <i class="fa fa-search text-black text-2xl" />
   </button>
 </div>
@@ -63,7 +65,8 @@
   <a href="/">
     <img
       use:lazyload
-      src={`${CDN}../../img/litekart-logo.png`}
+      src={`${CDN}../../img/litekart-logo.png?tr=w-3,h-2`}
+      data-src={`${CDN}../../img/litekart-logo.png`}
       alt=""
       class="h-12 w-32" />
   </a>

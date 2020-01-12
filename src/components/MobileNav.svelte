@@ -33,7 +33,8 @@
     <a href="/" rel="prefetch" class="text-gray-700 items-center">
       <img
         use:lazyload
-        src={`${CDN}../../img/litekart-logo.png`}
+        src={`${CDN}../../img/litekart-logo.png?tr=w-3,h-2`}
+        data-src={`${CDN}../../img/litekart-logo.png`}
         alt=""
         class="h-12 w-32" />
     </a>

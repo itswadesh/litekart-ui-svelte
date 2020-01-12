@@ -28,7 +28,8 @@
       <div class="w-full lg:w-1/2">
         <img
           use:lazyload
-          src={`${CDN}../../img/mobile-layout-final.png`}
+          src={`${CDN}../../img/mobile-layout-final.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/mobile-layout-final.png`}
           class=" mb-6"
           alt="" />
       </div>
@@ -60,16 +61,32 @@
 
     <div class="flex text-center flex-wrap justify-center p-4 ">
       <p class="p-4">
-        <img use:lazyload src={`${CDN}../../img/digitalocean.png`} alt="" />
+        <img
+          use:lazyload
+          src={`${CDN}../../img/digitalocean.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/digitalocean.png`}
+          alt="" />
       </p>
       <p class="p-4">
-        <img use:lazyload src={`${CDN}../../img/amazoncloud.png`} alt="" />
+        <img
+          use:lazyload
+          src={`${CDN}../../img/amazoncloud.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/amazoncloud.png`}
+          alt="" />
       </p>
       <p class="p-4">
-        <img use:lazyload src={`${CDN}../../img/googlecloud.png`} alt="" />
+        <img
+          use:lazyload
+          src={`${CDN}../../img/googlecloud.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/googlecloud.png`}
+          alt="" />
       </p>
       <p class="p-4">
-        <img use:lazyload src={`${CDN}../../img/vurtle.png`} alt="" />
+        <img
+          use:lazyload
+          src={`${CDN}../../img/vurtle.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/vurtle.png`}
+          alt="" />
       </p>
     </div>
   </div>

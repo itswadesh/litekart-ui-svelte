@@ -1,5 +1,6 @@
 <script>
   import { lazyload } from "../actions/lazyload";
+  import { CDN } from "./../config";
 </script>
 
 <style>
@@ -72,7 +73,12 @@
     <!-- pink -->
     <div class="w-full lg:w-1/2">
       <div class="flex flex-col mb-8 p-6 items-center rounded shadow lg:mr-2">
-        <img use:lazyload src="/img/clicky_logo.png" class="h-12" alt="" />
+        <img
+          use:lazyload
+          src={CDN + '../../img/clicky_logo.png?tr=w-3,h-2'}
+          data-src={CDN + '../../img/clicky_logo.png'}
+          class="h-12"
+          alt="" />
         <h1 class="primary text-xl my-6 ">
           How Clicky designed an agile and highperformance ecommerce.
         </h1>
@@ -92,7 +98,12 @@
       <div
         class="flex flex-col items-center mb-8 p-6 items-center rounded shadow
         lg:ml-2">
-        <img use:lazyload src="/img/tesoro_logo.png" class="h-12" alt="" />
+        <img
+          use:lazyload
+          src={CDN + '../../img/tesoro_logo.png?tr=w-3,h-2'}
+          data-src={CDN + '../../img/tesoro_logo.png'}
+          class="h-12"
+          alt="" />
         <h1 class="primary text-xl my-6">
           How Tesoro stays on top with a flexible e-commerce platform.
         </h1>

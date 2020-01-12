@@ -49,7 +49,14 @@
   <div class=" flex bg-gray-100 justify-between lg:py-12 lg:px-64 flex-wrap ">
     <div
       class="flex-1 flex flex-col bg-white text-center shadow m-6 rounded-lg">
-      <img use:lazyload src={`${CDN}/img/mission.png`} alt=" " class=" " />
+      <img
+        use:lazyload
+        src={`${CDN}/img/mission.png?tr=w-3,h-2`}
+        data-src={`${CDN}/img/mission.png`}
+        alt="
+        "
+        class="
+        " />
       <p class="p-4">
         With a mission of “Amazing customer experience” Litekart aims to offer
         an easy ecommerce enablement platform where small retailers and SME’s
@@ -57,7 +64,13 @@
       </p>
     </div>
     <div class="flex-1 flex flex-col bg-white text-center shadow m-6 rounded ">
-      <img use:lazyload src={`${CDN}/img/vison.png`} alt="" class=" " />
+      <img
+        use:lazyload
+        src={`${CDN}/img/vison.png?tr=w-3,h-2`}
+        data-src={`${CDN}/img/vison.png`}
+        alt=""
+        class="
+        " />
       <p class="p-4">
         To simplify administration, cart checkout and payments for merchants by
         offering the complete ecommerce solution, so that they can easily come
@@ -65,7 +78,13 @@
       </p>
     </div>
     <div class="flex-1 flex flex-col bg-white text-center shadow m-6 rounded ">
-      <img use:lazyload src={`${CDN}/img/values.png`} alt="" class=" " />
+      <img
+        use:lazyload
+        src={`${CDN}/img/values.png?tr=w-3,h-2`}
+        data-src={`${CDN}/img/values.png`}
+        alt=""
+        class="
+        " />
       <p class="p-4">
         Litekart wants to reduce ecommerce to its bare bones for small
         retailers. We bridge the gap between technology and innovation by

@@ -121,7 +121,8 @@
         <div class="lg:order-last order-first w-full lg:w-1/2">
           <img
             use:lazyload
-            src={`${CDN}../../img/${f.img}`}
+            src={`${CDN}../../img/${f.img}?tr=w-3,h-2`}
+            data-src={`${CDN}../../img/${f.img}`}
             class="img m-auto mb-2"
             alt="" />
         </div>
@@ -133,7 +134,8 @@
         <div class=" w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
           <img
             use:lazyload
-            src={`${CDN}../../img/${f.img}`}
+            src={`${CDN}../../img/${f.img}?tr=w-3,h-2`}
+            data-src={`${CDN}../../img/${f.img}`}
             class="img m-auto"
             alt="" />
         </div>

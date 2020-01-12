@@ -147,7 +147,7 @@
     width: 350px;
   }
   .bg {
-    background-image: url(https://ik.imagekit.io/3wzatecz51w3i/litekart/end-banner.png);
+    background-image: url(end-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -179,7 +179,8 @@
       <div class="lg:order-last order-first w-full lg:w-1/2">
         <img
           use:lazyload
-          src={`${CDN}../../${f.img}`}
+          src={`${CDN}../../${f.img}?tr=w-3,h-2`}
+          data-src={`${CDN}../../${f.img}`}
           class="img m-auto"
           alt="" />
       </div>
@@ -192,7 +193,8 @@
       <div class=" w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
         <img
           use:lazyload
-          src={`${CDN}../../${f.img}`}
+          src={`${CDN}../../${f.img}?tr=w-3,h-2`}
+          data-src={`${CDN}../../${f.img}`}
           class="img m-auto"
           alt="" />
       </div>

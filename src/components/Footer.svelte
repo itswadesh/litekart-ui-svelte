@@ -27,21 +27,27 @@
   <div class="flex ">
     <div class=" flex items-center justify-left text-white">
       follow us on &nbsp;
-      <button class="bg-primary mx-1 text-white text-xs rounded-full w-8 h-8 ">
-        <a href="https://www.facebook.com/codenx2" target="blank">
-          <i class="fab fa-facebook-f" />
-        </a>
-      </button>
-      <button class="bg-primary mx-1 text-white rounded-full w-8 h-8 ">
-        <a href="https://twitter.com/codenx2" target="blank">
-          <i class="fab fa-twitter" />
-        </a>
-      </button>
-      <button class="bg-primary mx-1 text-white rounded-full w-8 h-8 ">
-        <a href="https://www.github.com/itswadesh" target="blank">
-          <i class="fab fa-github" />
-        </a>
-      </button>
+      <a
+        href="https://www.facebook.com/codenx2"
+        class="bg-primary mx-1 text-white text-xs rounded-full w-8 h-8 "
+        target="blank"
+        aria-label="facebook">
+        <i class="fab fa-facebook-f" />
+      </a>
+      <a
+        href="https://twitter.com/codenx2"
+        target="blank"
+        class="bg-primary mx-1 text-white rounded-full w-8 h-8 "
+        aria-label="twitter">
+        <i class="fab fa-twitter" />
+      </a>
+      <a
+        href="https://www.github.com/itswadesh"
+        target="blank"
+        class="bg-primary mx-1 text-white rounded-full w-8 h-8 "
+        aria-label="github">
+        <i class="fab fa-github" />
+      </a>
     </div>
   </div>
   <div class="text-white">

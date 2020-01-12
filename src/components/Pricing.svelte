@@ -91,7 +91,8 @@
           {`${CDN}../../img/light-house-search.jpg`}
           <img
             use:lazyload
-            src={`${CDN}../../img/light-house-search.jpg`}
+            src={`${CDN}../../img/light-house-search.jpg?tr=w-3,h-2`}
+            data-src={`${CDN}../../img/light-house-search.jpg`}
             alt="" />
         </div>
       </div>
@@ -153,7 +154,8 @@
           <div class="mb-6 mt-2">
             <img
               use:lazyload
-              src={`${CDN}../../img/litekart-banner.png`}
+              src={`${CDN}../../img/litekart-banner.png?tr=w-3,h-2`}
+              data-src={`${CDN}../../img/litekart-banner.png`}
               alt="" />
           </div>
         </div>

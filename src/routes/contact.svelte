@@ -87,7 +87,11 @@
             {#if !loading}
               <span>Send</span>
             {:else}
-              <img use:lazyload src={`${CDN}../../loading.svg`} alt="" />
+              <img
+                use:lazyload
+                src={`${CDN}../../loading.svg?tr=w-3,h-2`}
+                data-src={`${CDN}../../loading.svg`}
+                alt="" />
               Loading...
             {/if}
           </button>
@@ -96,7 +100,8 @@
       <div class="lg:order-last order-first w-full lg:w-1/2">
         <img
           use:lazyload
-          src={`${CDN}../../img/rocket-img-1.png`}
+          src={`${CDN}../../img/rocket-img-1.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/rocket-img-1.png`}
           class="img m-auto mb-2"
           alt="" />
       </div>

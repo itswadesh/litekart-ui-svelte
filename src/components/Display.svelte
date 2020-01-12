@@ -36,26 +36,42 @@
   <div class=" flex justify-between flex-wrap lg:flex-no-wrap ">
     <div
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
-      <img use:lazyload src={`${CDN}../../img/talent-work.svg`} alt="" />
+      <img
+        use:lazyload
+        src={CDN + '../../img/talent-work.svg?tr=w-3,h-2'}
+        data-src={`${CDN}../../img/talent-work.svg`}
+        alt="" />
       <h2 class="mb-2 text-lg font-bold">Scalable and Secure</h2>
       Forget about visitors surge during a sale. The architecture takes care of
       it.
     </div>
     <div
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
-      <img use:lazyload src={`${CDN}../../img/get-a-smater.svg`} alt="" />
+      <img
+        use:lazyload
+        src={CDN + '../../img/get-a-smater.svg?tr=w-3,h-2'}
+        data-src={`${CDN}../../img/get-a-smater.svg`}
+        alt="" />
       <h3 class="mb-2 text-lg font-bold">Superfast image processing</h3>
       Based on NodeJS, it empowers faster database and file system access.
     </div>
     <div
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
-      <img use:lazyload src={`${CDN}../../img/manage-everythinng.svg`} alt="" />
+      <img
+        use:lazyload
+        src={CDN + '../../img/manage-everythinng.svg?tr=w-3,h-2'}
+        data-src={`${CDN}../../img/manage-everythinng.svg`}
+        alt="" />
       <h4 class="mb-2 text-lg font-bold">Best in class uptime, performance</h4>
       Litekart takes advantage of the cloud platforms providing 99.99% uptime.
     </div>
     <div
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
-      <img use:lazyload src={`${CDN}../../img/get-a-clear.svg`} alt="" />
+      <img
+        use:lazyload
+        src={CDN + '../../img/get-a-clear.svg?tr=w-3,h-2'}
+        data-src={`${CDN}../../img/get-a-clear.svg`}
+        alt="" />
       <h5 class="mb-2 text-lg font-bold">7 days money back guarantee</h5>
       Full refund if you feel the product does not fit your need.
     </div>

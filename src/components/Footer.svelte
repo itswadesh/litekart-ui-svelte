@@ -25,26 +25,29 @@
   class="bg-gray-800 justify-between flex flex-wrap px-6 lg:px-24 py-6 shadow-lg
   ">
   <div class="flex ">
-    <div class=" flex items-center justify-left text-white">
+    <div class="flex text-white items-center">
       follow us on &nbsp;
       <a
         href="https://www.facebook.com/codenx2"
-        class="bg-primary mx-1 text-white text-xs rounded-full w-8 h-8 "
         target="blank"
+        class="bg-primary mx-1 flex justify-center items-center text-xs
+        rounded-full w-8 h-8"
         aria-label="facebook">
         <i class="fab fa-facebook-f" />
       </a>
       <a
         href="https://twitter.com/codenx2"
         target="blank"
-        class="bg-primary mx-1 text-white rounded-full w-8 h-8 "
+        class="bg-primary mx-1 flex justify-center items-center text-xs
+        rounded-full w-8 h-8"
         aria-label="twitter">
         <i class="fab fa-twitter" />
       </a>
       <a
         href="https://www.github.com/itswadesh"
         target="blank"
-        class="bg-primary mx-1 text-white rounded-full w-8 h-8 "
+        class="bg-primary mx-1 flex justify-center items-center text-xs
+        rounded-full w-8 h-8"
         aria-label="github">
         <i class="fab fa-github" />
       </a>

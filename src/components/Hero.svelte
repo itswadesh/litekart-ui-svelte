@@ -42,12 +42,14 @@
 <div class="bg flex">
   <div
     class="flex-1 flex flex-col justify-center text-2xl lg:text-5xl py-4
-    md:py-16 lg:py-24 leading-loose px-4 md:px-16 lg:px-24 mb-4">
+    md:py-16 lg:py-24 px-4 md:px-16 lg:px-24 mb-4">
     <h1 class=" text-black text-3xl md:text-5xl font-bold">
       Fastest Javascript ecommerce of 2020
     </h1>
-    <h2 class="primary text-lg md:text-2xl">Free for Developers & Startups</h2>
-    <p class="text-xs md:text-xl lg:text-2xl">
+    <h2 class="primary text-lg md:text-2xl leading-loose">
+      Free for Developers & Startups
+    </h2>
+    <p class="text-xs md:text-xl lg:text-2xl leading-loose">
       Have a great startup idea? We do technology outsourcing for free.
     </p>
     <div class="flex text-center justify-left text-lg my-6 ">
@@ -68,8 +70,8 @@
   <div class="hidden lg:flex flex-1 pt-6">
     <img
       use:lazyload
-      src={CDN + '../../img/hero.svg?tr=w-3,h-2'}
-      data-src={CDN + '../../img/hero.svg'}
+      src={CDN + '../../img/hero.png?tr=w-3,h-2'}
+      data-src={CDN + '../../img/hero.png'}
       alt=""
       class="object-cover" />
   </div>

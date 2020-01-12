@@ -1,5 +1,5 @@
 {
-  "name": "sapper-ecommerce",
+  "name": "litekart",
   "description": "e-commerce project created using Sapper, Svelte, TailwindCSS, Rollup",
   "version": "1.1.0",
   "license": "MIT",

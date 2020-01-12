@@ -78,7 +78,7 @@
     },
     {
       h: "Developer Tools",
-      img: "devloperimg.png",
+      img: "img/devloperimg.png",
       data: [
         "Mobile first website design",
         "Cross­device & Cross-browser compatibility",
@@ -147,7 +147,7 @@
     width: 350px;
   }
   .bg {
-    background-image: url(end-banner.png);
+    /* background-image: url(/end-banner.png); */
     background-repeat: no-repeat;
     background-size: cover;
   }

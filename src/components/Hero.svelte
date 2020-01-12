@@ -1,11 +1,9 @@
 <script>
   import { lazyload } from "../actions/lazyload";
+  import { CDN } from "./../config";
 </script>
 
 <style>
-  .capital {
-    color: #6fda44;
-  }
   img {
     filter: drop-shadow(-10px 0px 11px #eee);
   }
@@ -68,6 +66,10 @@
     </div>
   </div>
   <div class="hidden lg:flex flex-1 pt-6">
-    <img use:lazyload src="../../img/hero.png" alt="" class="object-cover" />
+    <img
+      use:lazyload
+      src={`${CDN}../../img/hero.png`}
+      alt=""
+      class="object-cover" />
   </div>
 </div>

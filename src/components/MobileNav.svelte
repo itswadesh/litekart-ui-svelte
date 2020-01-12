@@ -1,6 +1,8 @@
 <script>
   import { createEventDispatcher } from "svelte";
   import { lazyload } from "../actions/lazyload";
+  import { CDN } from "./../config";
+
   const dispatch = createEventDispatcher();
   function close() {
     dispatch("close", true);
@@ -29,7 +31,11 @@
       <i class="fa fa-times text-gray-700 text-2xl" />
     </button>
     <a href="/" rel="prefetch" class="text-gray-700 items-center">
-      <img use:lazyload src="img/litekart-logo.png" alt="" class="h-12 w-32" />
+      <img
+        use:lazyload
+        src={`${CDN}../../img/litekart-logo.png`}
+        alt=""
+        class="h-12 w-32" />
     </a>
     <button class="flex justify-around items-center">
       <i class="fa fa-search text-gray-700 text-2xl" />

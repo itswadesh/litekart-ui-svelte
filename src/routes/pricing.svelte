@@ -3,6 +3,7 @@
   import Footer from "./../components/Footer.svelte";
   import { lazyload } from "../actions/lazyload";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
+  import { CDN } from "./../config";
 </script>
 
 <style>

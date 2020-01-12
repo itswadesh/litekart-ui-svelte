@@ -2,6 +2,7 @@
   import MobileNav from "./MobileNav.svelte";
   import { slide, fade } from "svelte/transition";
   import { lazyload } from "../actions/lazyload";
+  import { CDN } from "./../config";
   let showDrawer = false;
 </script>
 
@@ -45,7 +46,11 @@
     <i class="fa fa-bars text-black text-2xl" />
   </button>
   <a href="/" class="items-center">
-    <img use:lazyload src="img/litekart-logo.png" alt="" class="h-12 w-32" />
+    <img
+      use:lazyload
+      src={`${CDN}../../img/litekart-logo.png`}
+      alt=""
+      class="h-12 w-32" />
   </a>
   <button class="flex justify-around items-center">
     <i class="fa fa-search text-black text-2xl" />
@@ -56,7 +61,11 @@
   class="sticky hidden md:flex md:shadow-lg md:justify-around md:items-center
   md:px-6 md:py-3 md:bg-yellow-400 font-bold ">
   <a href="/">
-    <img use:lazyload src="img/litekart-logo.png" alt="" class="h-12 w-32" />
+    <img
+      use:lazyload
+      src={`${CDN}../../img/litekart-logo.png`}
+      alt=""
+      class="h-12 w-32" />
   </a>
   <div class="items-center" />
   <div class=" flex justify-between md:text-gray-800 ">

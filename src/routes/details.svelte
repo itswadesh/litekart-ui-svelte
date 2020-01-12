@@ -4,6 +4,7 @@
   import SmallContent from "./../components/features/SmallContent.svelte";
   import { lazyload } from "../actions/lazyload";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
+  import { CDN } from "./../config";
 </script>
 
 <style>
@@ -27,7 +28,7 @@
       <div class="w-full lg:w-1/2">
         <img
           use:lazyload
-          src="img/mobile-layout-final.png"
+          src={`${CDN}../../img/mobile-layout-final.png`}
           class=" mb-6"
           alt="" />
       </div>
@@ -59,16 +60,16 @@
 
     <div class="flex text-center flex-wrap justify-center p-4 ">
       <p class="p-4">
-        <img use:lazyload src="img/digitalocean.png" alt="" />
+        <img use:lazyload src={`${CDN}../../img/digitalocean.png`} alt="" />
       </p>
       <p class="p-4">
-        <img use:lazyload src="img/amazoncloud.png" alt="" />
+        <img use:lazyload src={`${CDN}../../img/amazoncloud.png`} alt="" />
       </p>
       <p class="p-4">
-        <img use:lazyload src="img/googlecloud.png" alt="" />
+        <img use:lazyload src={`${CDN}../../img/googlecloud.png`} alt="" />
       </p>
       <p class="p-4">
-        <img use:lazyload src="img/vurtle.png" alt="" />
+        <img use:lazyload src={`${CDN}../../img/vurtle.png`} alt="" />
       </p>
     </div>
   </div>

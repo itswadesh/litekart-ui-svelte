@@ -8,7 +8,7 @@
     filter: drop-shadow(-10px 0px 11px #eee);
   }
   .bg {
-    background-image: url(/end-banner.png);
+    /* background-image: url(/end-banner.png); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;

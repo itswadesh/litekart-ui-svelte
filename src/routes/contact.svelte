@@ -55,6 +55,10 @@
   }
 </style>
 
+<svelte:head>
+  <title>Litekart - Contact Us</title>
+</svelte:head>
+
 <main in:fadeIn out:fadeOut>
   <Header />
   <div class="flex flex-col my-8 lg:my-32 mb-48 justify-center bg">

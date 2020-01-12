@@ -13,6 +13,12 @@
   }
 </style>
 
+<svelte:head>
+  <title>
+    Litekart - Customize and build your brand with a unique presence
+  </title>
+</svelte:head>
+
 <main in:fadeIn out:fadeOut>
   <Header />
   <div class="flex flex-wrap p-6 justify-between ">

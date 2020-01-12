@@ -15,5 +15,5 @@
   <Footer />
 </main>
 <svelte:head>
-  <title>Litekart - Features that power ecommerce</title>
+  <title>Litekart - Javascript ecommerce features</title>
 </svelte:head>

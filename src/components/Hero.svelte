@@ -45,12 +45,12 @@
   <div
     class="flex-1 flex flex-col justify-center text-2xl lg:text-5xl py-4
     md:py-16 lg:py-24 leading-loose px-4 md:px-16 lg:px-24 mb-4">
-    <h1 class=" text-black text-3xl md:text-4xl font-bold">
-      Javascript e-commerce
+    <h1 class=" text-black text-3xl md:text-5xl font-bold">
+      Javascript ecommerce of 2020
     </h1>
-    <h2 class="capital text-lg md:text-2xl">Starts at $5999.99</h2>
+    <h2 class="primary text-lg md:text-2xl">Free for Developers & Startups</h2>
     <p class="text-xs md:text-xl lg:text-2xl">
-      Customizations that standout from the competitors
+      Have a great startup idea? We do technology outsourcing for free.
     </p>
     <div class="flex text-center justify-left text-lg my-6 ">
       <a
@@ -68,6 +68,6 @@
     </div>
   </div>
   <div class="hidden lg:flex flex-1 pt-6">
-    <img use:lazyload  src="../../img/hero.png" alt="" class="object-cover" />
+    <img use:lazyload src="../../img/hero.png" alt="" class="object-cover" />
   </div>
 </div>

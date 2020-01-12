@@ -13,7 +13,9 @@
 </script>
 
 <svelte:head>
-  <title>Litekart - Experience the fastest ecommerce of 2020</title>
+  <title>
+    Litekart - Experience the most advanced javascript ecommerce of 2020
+  </title>
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <Header />

@@ -77,5 +77,5 @@
   <Footer />
 </main>
 <svelte:head>
-  <title>Litekart - Features that power ecommerce</title>
+  <title>Litekart - Details features for a unique brand presence</title>
 </svelte:head>

@@ -46,11 +46,9 @@
 <main in:fadeIn out:fadeOut>
   <Header />
   <div class=" text-center px-4 lg:px-48 py-8 lg:py-32">
-    <h1 class="text-3xl lg:text-5xl leading-loose font-black">
-      Pay As You Grow
-    </h1>
+    <h1 class="text-3xl lg:text-5xl leading-loose font-black">Grow With Us</h1>
     <h2 class="text-xl lg:text-2xl leading-loose mb-8">
-      Flexible pricing for projects and teams of all sizes.
+      Free for developers & Startups
     </h2>
     <div class="flex flex-wrap justify-center">
       <!-- student 1 -->
@@ -147,14 +145,11 @@
         <div
           class="b-orange flex flex-col mb-3 lg:my-12 justify-between border-0
           rounded-lg shadow-lg bg-white p-8">
-          <h1 class="text-4xl mb-2 font-bold">
-            Premium
-            <!-- <span class="text-sm text-mute">(For Store Owners)</span> -->
-          </h1>
-          <h2 class="text-pink-500 text-xl mb-6">$5999.00</h2>
+          <h1 class="text-4xl mb-2 font-bold">Free</h1>
+          <h2 class="text-pink-500 text-xl mb-6">For Startups</h2>
           <div class="flex">
             <ul class="">
-              <li class="mb-4 text-green-500 ">Free setup</li>
+              <li class="mb-4 text-green-500 ">Complete Stack Setup</li>
               <li class="flex my-6 ">
                 <img use:lazyload src="svg/check.svg" alt="" class="h-5 w-5 " />
                 Unlimited Products

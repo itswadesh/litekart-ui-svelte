@@ -1,5 +1,6 @@
 <script>
   import { lazyload } from "../actions/lazyload";
+  import { CDN } from "./../config";
 </script>
 
 <style>
@@ -87,9 +88,10 @@
           <b>PWA as standard</b>
         </h1>
         <div class="mb-6 mt-2">
+          {`${CDN}../../img/light-house-search.jpg`}
           <img
             use:lazyload
-            src="https://github.com/itswadesh/sapper-ecommerce/raw/master/static/light-house-search.jpg?raw=true"
+            src={`${CDN}../../img/light-house-search.jpg`}
             alt="" />
         </div>
       </div>
@@ -151,7 +153,7 @@
           <div class="mb-6 mt-2">
             <img
               use:lazyload
-              src="https://github.com/itswadesh/sapper-ecommerce/raw/master/static/litekart-banner.png?raw=true"
+              src={`${CDN}../../img/litekart-banner.png`}
               alt="" />
           </div>
         </div>

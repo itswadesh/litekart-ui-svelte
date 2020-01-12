@@ -147,7 +147,7 @@
     width: 350px;
   }
   .bg {
-    background-image: url(/end-banner.png);
+    background-image: url(https://ik.imagekit.io/3wzatecz51w3i/litekart/end-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
   }

@@ -64,5 +64,10 @@
     "trailingComma": "none",
     "semi": false,
     "singleQuote": true
+  },
+  {
+    "engines": {
+      "node": "12.x"
+    }
   }
 }

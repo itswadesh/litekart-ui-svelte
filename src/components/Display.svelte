@@ -77,12 +77,16 @@
     </div>
   </div>
   <div class="flex justify-center mt-6 ">
-    <button class="button bg-primary mr-5 px-8 py-1 text-white rounded-full">
+    <a
+      href="/contact"
+      class="button bg-primary mr-5 px-8 py-1 text-white rounded-full">
       <span>Get started</span>
-    </button>
-    <button
+    </a>
+    <a
+      href="https://demo.litekart.in/"
+      target="blank"
       class="button border ml-2 bg-gray-100 py-2 px-8 primary rounded-full">
       <span>Get a Demo</span>
-    </button>
+    </a>
   </div>
 </div>

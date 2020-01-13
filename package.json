@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "run-p watch:tailwind sapper:dev",
     "sapper:dev": "sapper dev --port 4000",
-    "build": "sapper export --legacy",
+    "build": "run-p build:tailwind buildY",
+    "buildY": "sapper export --legacy",
     "start": "__sapper__/export",
     "startx": "node __sapper__/build",
     "cy:run": "cypress run",

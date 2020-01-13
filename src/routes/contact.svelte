@@ -6,7 +6,7 @@
   import { get, put, post } from "./../lib/api";
   import { lazyload } from "../actions/lazyload";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
-  import { CDN } from "./../config";
+  import { CDN, HOST } from "./../config";
 
   let email = "",
     message,
@@ -59,6 +59,29 @@
 
 <svelte:head>
   <title>Litekart - Contact Us</title>
+  <meta
+    data-hid="description"
+    name="description"
+    content="Get in touch with us to get recommendations and free ecommerce
+    softwares for your small business" />
+  <meta
+    name="keywords"
+    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
+    search engine optimization, easy, headless, authentication, cart & checkout,
+    tailwindcss, server rendered, proxy + api integrated, animations, stores,
+    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+  <meta
+    data-hid="og:title"
+    name="og_title"
+    property="og:title"
+    content="Litekart - Talk to Us" />
+  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <!-- Twitter -->
+  <meta name="twitter:title" content="Litekart - Contact Us" />
+  <meta
+    name="twitter:description"
+    content="Get in touch with us to get recommendations and free ecommerce
+    softwares for your small business" />
 </svelte:head>
 
 <main in:fadeIn out:fadeOut>

@@ -38,9 +38,7 @@
         alt=""
         class="h-12 w-32" />
     </a>
-    <button class="flex justify-around items-center">
-      <i class="fa fa-search text-gray-700 text-2xl" />
-    </button>
+    <button class="flex justify-around items-center" />
   </div>
   <!-- Content -->
   <div class="h-full">

@@ -2,6 +2,7 @@
   import Header from "./../components/Header.svelte";
   import Footer from "./../components/Footer.svelte";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
+  import { HOST } from "./../config";
 </script>
 
 <style>
@@ -21,7 +22,30 @@
 </style>
 
 <svelte:head>
-  <title>Litekart - Terms & Privacy Policy</title>
+  <title>Litekart - Terms & Policy</title>
+  <meta
+    data-hid="description"
+    name="description"
+    content="Litekart terms and policy are most suited for startups. We love to
+    help people growing their business" />
+  <meta
+    name="keywords"
+    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
+    search engine optimization, easy, headless, authentication, cart & checkout,
+    tailwindcss, server rendered, proxy + api integrated, animations, stores,
+    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+  <meta
+    data-hid="og:title"
+    name="og_title"
+    property="og:title"
+    content="Litekart - Terms & Policy" />
+  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <!-- Twitter -->
+  <meta name="twitter:title" content="Litekart - Terms & Policy" />
+  <meta
+    name="twitter:description"
+    content="Litekart terms and policy are most suited for startups. We love to
+    help people growing their business" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <Header />

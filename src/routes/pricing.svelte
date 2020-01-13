@@ -3,7 +3,7 @@
   import Footer from "./../components/Footer.svelte";
   import { lazyload } from "../actions/lazyload";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
-  import { CDN } from "./../config";
+  import { CDN, HOST } from "./../config";
 </script>
 
 <style>
@@ -31,6 +31,32 @@
 
 <svelte:head>
   <title>Litekart - Pricing & fees</title>
+  <meta
+    data-hid="description"
+    name="description"
+    content="Litekart is essentially free for developers and startups. You only
+    pay for customizations that are specific to your brand" />
+  <meta
+    name="keywords"
+    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
+    search engine optimization, easy, headless, authentication, cart & checkout,
+    tailwindcss, server rendered, proxy + api integrated, animations, stores,
+    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+  <meta
+    data-hid="og:title"
+    name="og_title"
+    property="og:title"
+    content="Litekart - Free for developers & startups" />
+  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <!-- Twitter -->
+  <meta
+    name="twitter:title"
+    content="Litekart - Enterprise level ecommerce software free for developers
+    & startups" />
+  <meta
+    name="twitter:description"
+    content="Litekart is essentially free for developers and startups. You only
+    pay for customizations that are specific to your brand" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <Header />

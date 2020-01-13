@@ -54,9 +54,7 @@
       alt=""
       class="h-12 w-32" />
   </a>
-  <button class="flex justify-around items-center" aria-label="search">
-    <i class="fa fa-search text-black text-2xl" />
-  </button>
+  <button class="flex justify-around items-center" aria-label="search" />
 </div>
 <!-- for desktop -->
 <div

@@ -2,7 +2,7 @@
   import Header from "./../components/Header.svelte";
   import Footer from "./../components/Footer.svelte";
   import { lazyload } from "../actions/lazyload";
-  import { CDN } from "./../config";
+  import { CDN, HOST } from "./../config";
 
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
@@ -17,6 +17,29 @@
 
 <svelte:head>
   <title>Litekart - About Us</title>
+  <meta
+    data-hid="description"
+    name="description"
+    content="Here at litekart we love to see people grow & succeed. Hence our
+    plans are designed accordingly to suit startups" />
+  <meta
+    name="keywords"
+    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
+    search engine optimization, easy, headless, authentication, cart & checkout,
+    tailwindcss, server rendered, proxy + api integrated, animations, stores,
+    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+  <meta
+    data-hid="og:title"
+    name="og_title"
+    property="og:title"
+    content="Litekart - About Us" />
+  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <!-- Twitter -->
+  <meta name="twitter:title" content="Litekart - Who we are" />
+  <meta
+    name="twitter:description"
+    content="Here at litekart we love to see people grow & succeed. Hence our
+    plans are designed accordingly to suit startups" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <Header />

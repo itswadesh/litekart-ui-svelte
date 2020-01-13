@@ -55,7 +55,11 @@
         </div>
       </div>
       <div class="pr px-10 lg:px-20 py-6 ">
-        <img src="../../img/hopyshopy-full.png" alt="" />
+        <img
+          use:lazyload
+          src={`${CDN}../../img/hopyshopy-full.jpg?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/hopyshopy-full.jpg`}
+          alt="" />
         <h3 class="primary text-center text-xl my-3">Open source & free</h3>
         <h1 class="text-white text-2xl">Customize</h1>
         <div class="mb-6 mt-2">
@@ -116,7 +120,11 @@
           </div>
         </div>
         <div class="pr px-10 lg:px-20 py-6 ">
-          <img src="../../img/foodfire-full.png" alt="" />
+          <img
+            use:lazyload
+            src={`${CDN}../../img/foodfire-full.png?tr=w-3,h-2`}
+            data-src={`${CDN}../../img/foodfire-full.png`}
+            alt="" />
           <h3 class="primary text-center text-xl my-3">Open source & free</h3>
           <h1 class="text-2xl">
             <b>Standalone Opensource project</b>
@@ -183,7 +191,10 @@
           </div>
         </div>
         <div class="pr px-10 lg:px-20 py-6 ">
-          <img src="../../img/litekart-full.png" alt="" />
+          <img
+            src={`${CDN}../../img/litekart-full.png?tr=w-3,h-2`}
+            data-src={`${CDN}../../img/litekart-full.png`}
+            alt="" />
           <h3 class="primary text-center text-xl my-3">Free for startups</h3>
           <h1 class="text-2xl">
             <b>Headless API based architecture</b>

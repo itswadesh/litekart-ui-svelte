@@ -25,10 +25,10 @@
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <Header />
-  <div class="mb-16 mx-2 lg:mx-48 ">
+  <div class="mb-16 mx-2 lg:mx-48 h-screen">
     <h1 class="text-4xl text-center">Privacy Policy</h1>
-    <h2 class="text-xl">Privacy Policy</h2>
-    <p>
+    <h2 class="text-xl">Promise! We never spam</h2>
+    <p class="leading-loose">
       Litekart collects e-mail addresses and other contact details of people who
       register at our website and send us e-mail. The information we collect is
       not shared with or sold to others except under the certain circumstances

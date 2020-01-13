@@ -30,7 +30,7 @@
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <Header />
-  <div class="hfull mb-16 mx-2 lg:mx-48 ">
+  <div class="hfull mb-16 mx-2 lg:mx-48 leading-loose">
     <h1 class="text-4xl text-center">Refund & Cancellation Policy</h1>
     <ul>
       <li>

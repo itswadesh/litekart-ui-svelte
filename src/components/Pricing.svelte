@@ -46,20 +46,23 @@
         <div
           class="bg-yellow-400 flex text-center py-8 text-4xl flex-col
           items-center shadow-lg">
-          <h1>Open Source</h1>
-          <button
+          <h1>Free</h1>
+          <a
+            href="https://github.com/itswadesh/sapper-ecommerce"
             class="button text-white bg-primary text-lg py-2 px-12 mt-3 rounded ">
-            <span>Demo laptop store</span>
-          </button>
+            <span>Download from github</span>
+          </a>
         </div>
       </div>
       <div class="pr px-10 lg:px-20 py-6 ">
+        <img src="../../img/hopyshopy-full.png" alt="" />
+        <h3 class="primary text-center text-xl my-3">Open source & free</h3>
         <h1 class="text-white text-2xl">Customize</h1>
         <div class="mb-6 mt-2">
           Download the project free and customize the way you want.
           <p>
-            Litekarts headless architecture allows us with an option to choose
-            from any technology stack
+            Sapper Commerce's headless architecture allows us with an option to
+            choose from any technology stack
           </p>
         </div>
         <h1 class="text-2xl">
@@ -75,7 +78,7 @@
         </h1>
         <div class="mb-6 mt-2">
           Loved by people arround the world and growing.
-          <p>* 60 github stars | * 12 github forks</p>
+          <p>* 64 github stars | * 15 github forks</p>
         </div>
         <h1 class="text-2xl">
           <b>Ecommerce Essentials integrated</b>
@@ -88,7 +91,6 @@
           <b>PWA as standard</b>
         </h1>
         <div class="mb-6 mt-2">
-          {`${CDN}../../img/light-house-search.jpg`}
           <img
             use:lazyload
             src={`${CDN}../../img/light-house-search.jpg?tr=w-3,h-2`}
@@ -98,6 +100,73 @@
       </div>
     </div>
     <!-- second-colom -->
+    <div class="flex-1 lg:ml-4">
+      <div class="bg-white shadow-lg mb-4 rounded">
+        <div class="justify-center bg-gray-500">
+          <div
+            class="bg-yellow-400 flex text-center py-8 text-4xl flex-col
+            items-center shadow-lg">
+            <h1>Free</h1>
+            <a
+              href="https://github.com/itswadesh/foodfire"
+              class="button bg-primary text-white text-lg py-2 px-12 mt-3
+              rounded ">
+              <span>Download from github</span>
+            </a>
+          </div>
+        </div>
+        <div class="pr px-10 lg:px-20 py-6 ">
+          <img src="../../img/foodfire-full.png" alt="" />
+          <h3 class="primary text-center text-xl my-3">Open source & free</h3>
+          <h1 class="text-2xl">
+            <b>Standalone Opensource project</b>
+          </h1>
+          <div class="mb-6 mt-2">
+            This project is complete by itself, no backend requirement.
+            Everything included in this food commerce app.
+          </div>
+          <h1 class="text-2xl">
+            <b>Firebase at back</b>
+          </h1>
+          <div class="mb-6 mt-2">
+            This app uses firebase for database and uses google social login for
+            authentication need.
+          </div>
+          <h1 class="text-2xl">
+            <b>Great UI for mobile</b>
+          </h1>
+          <div class="mb-6 mt-2">
+            Created with mobile users in mind, this design is optimized for
+            mobile devices.
+          </div>
+          <h1 class="text-2xl">
+            <b>Simple for developers</b>
+          </h1>
+          <div class="mb-6 mt-2">
+            Written in pure HTML & CSS + Clean code delights developers while
+            working on it.
+          </div>
+          <h1 class="text-2xl">
+            <b>Progressive ecommerce based on VueJS</b>
+          </h1>
+          <div class="mb-6 mt-2">
+            Based on one of the most loved javascript frontend library (VueJS)
+            with over 155k github stars
+          </div>
+          <!-- <h1 class="text-2xl">
+            <b>Seemless developer experience</b>
+          </h1> -->
+          <div class="mb-6 mt-2">
+            <img
+              use:lazyload
+              src={`${CDN}../../img/foodfire-score.jpg?tr=w-3,h-2`}
+              data-src={`${CDN}../../img/foodfire-score.jpg`}
+              alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- third-colom -->
     <div class="flex-1 lg:ml-4">
       <div class="bg-white shadow-lg mb-4 rounded">
         <div class="justify-center bg-gray-500">
@@ -114,6 +183,8 @@
           </div>
         </div>
         <div class="pr px-10 lg:px-20 py-6 ">
+          <img src="../../img/litekart-full.png" alt="" />
+          <h3 class="primary text-center text-xl my-3">Free for startups</h3>
           <h1 class="text-2xl">
             <b>Headless API based architecture</b>
           </h1>
@@ -133,7 +204,10 @@
           <h1 class="text-2xl">
             <b>Lightweight and modern javascript full stack</b>
           </h1>
-          <div class="mb-6 mt-2">With NodeJS and MongoDB at back</div>
+          <div class="mb-6 mt-2">
+            With NodeJS and MongoDB at back, all operations are just blazing
+            fast
+          </div>
           <h1 class="text-2xl">
             <b>Great Search Experience</b>
           </h1>

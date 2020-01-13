@@ -51,8 +51,8 @@
       class="flex-1 flex flex-col bg-white text-center shadow m-6 rounded-lg">
       <img
         use:lazyload
-        src={`${CDN}/img/mission.png?tr=w-3,h-2`}
-        data-src={`${CDN}/img/mission.png`}
+        src={`${CDN}../../img/mission.png?tr=w-3,h-2`}
+        data-src={`${CDN}../../img/mission.png`}
         alt="
         "
         class="
@@ -66,8 +66,8 @@
     <div class="flex-1 flex flex-col bg-white text-center shadow m-6 rounded ">
       <img
         use:lazyload
-        src={`${CDN}/img/vison.png?tr=w-3,h-2`}
-        data-src={`${CDN}/img/vison.png`}
+        src={`${CDN}../../img/vison.png?tr=w-3,h-2`}
+        data-src={`${CDN}../../img/vison.png`}
         alt=""
         class="
         " />
@@ -80,8 +80,8 @@
     <div class="flex-1 flex flex-col bg-white text-center shadow m-6 rounded ">
       <img
         use:lazyload
-        src={`${CDN}/img/values.png?tr=w-3,h-2`}
-        data-src={`${CDN}/img/values.png`}
+        src={`${CDN}../../img/values.png?tr=w-3,h-2`}
+        data-src={`${CDN}../../img/values.png`}
         alt=""
         class="
         " />

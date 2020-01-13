@@ -89,7 +89,7 @@
           exising php based platform. With an expenditure of 1/4 of their
           investment in the exising platform.
         </p>
-        <h2 class="text-center pt-12 text-white ">Read full customer story</h2>
+        <!-- <h2 class="text-center pt-12 text-white ">Read full customer story</h2> -->
       </div>
     </div>
     <!-- pink -->
@@ -114,7 +114,7 @@
           and browing time decreased by 10 times resulting 3x increase in
           delightfull customers.
         </p>
-        <h2 class="text-center pt-12 text-white ">Read full customer story</h2>
+        <!-- <h2 class="text-center pt-12 text-white ">Read full customer story</h2> -->
       </div>
     </div>
     <!-- yellow -->

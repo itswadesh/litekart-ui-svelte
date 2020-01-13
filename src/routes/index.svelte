@@ -40,6 +40,8 @@
     name="twitter:description"
     content="Free javascript ecommerce platform with essential enterprise level
     features. Only pay on customizations for your brand" />
+  <link rel="canonical" href={`${HOST}`} />
+  <link rel="alternate" hreflang="en" href={`${HOST}`} />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <Header />

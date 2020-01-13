@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "ff-redirect",
+    "alias": [
+        "litekart.in"
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "status": 301,
+            "headers": {
+                "Location": "https://www.litekart.in"
+            }
+        }
+    ]
+}

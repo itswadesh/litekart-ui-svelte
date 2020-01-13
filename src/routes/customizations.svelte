@@ -10,6 +10,7 @@
     margin-top: 4px;
     font-size: 22px;
     color: #000000;
+    margin-bottom: 24px;
   }
 </style>
 
@@ -21,18 +22,22 @@
 
 <main in:fadeIn out:fadeOut>
   <Header />
-  <div class="flex flex-wrap p-6 justify-between ">
+  <div class="flex flex-wrap lg:flex-no-wrap lg:p-6 p-2 justify-between ">
     <!-- 1st -->
     <div class=" m-4">
-      <div
-        class="border flex items-center px-6 py-6 items-center rounded-lg
-        shadow-lg ">
-        <i class="fa fa-building text-6xl mr-6" />
+      <div class="border flex flex-col lg:p-6 p-4 rounded-lg shadow-lg ">
+        <div class="flex lg:flex-row flex-col ">
+          <div class="flex justify-center ">
+            <i class="fa fa-building text-6xl mx-6 lg:mb-4 mb-6" />
+          </div>
+          <div class=" flex items-center">
+            <h1 class="titel flex text-center items-center mb-4 font-bold ">
+              Build a beautiful and fast ecommerce website
+            </h1>
+          </div>
+        </div>
         <div>
-          <h1 class="titel font-bold ">
-            Build a beautiful and fast ecommerce website
-          </h1>
-          <p class="leading-loose">
+          <p class="leading-loose text-center">
             We create a fully customized, responsive online store that speaks to
             your customers and showcases your products with all essential
             feaures. Choose from high-converting online store designs optimized
@@ -43,32 +48,52 @@
           </p>
         </div>
       </div>
-      <div
-        class="border flex items-center my-3 px-6 py-6 rounded-lg shadow-lg ">
-        <i class="fa fa-wrench text-6xl mr-6" />
+      <!-- sub1 -->
+      <div class="border flex flex-col my-3 lg:p-6 p-4 rounded-lg shadow-lg ">
+        <div class="flex lg:flex-row flex-col ">
+          <div class="flex justify-center ">
+            <i
+              class="fa fa-wrench text-indigo-500 text-6xl mx-6 lg:mb-4 mb-6 " />
+          </div>
+          <div class="flex items-center">
+            <h1 class="titel flex text-center items-center mb-4 font-bold">
+              Completely Customize your website
+            </h1>
+          </div>
+        </div>
         <div>
-          <h1 class="titel font-bold">Completely Customize your website</h1>
-          <p class="leading-loose">
+          <p class="leading-loose text-center ">
             Our highly customizable platform lets you create the unique
             ecommerce store for you with perfect shopping experience quickly.
             Work with a developer to customize any aspect of your website’s
             design and shopping cart.
           </p>
         </div>
+        <div />
       </div>
-      <div
-        class="border flex items-center my-3 px-6 py-6 rounded-lg shadow-lg ">
-        <i class="fa fa-comment-dots text-6xl mr-6 " />
-        <div>
-          <h1 class="titel font-bold">Deliver a personalized experience</h1>
-          <p class="leading-loose">
-            Personalize your site to better engage and convert shoppers using a
-            flexible modular code base, conditional logic and access to language
-            files.
-          </p>
+      <!-- sub1 -->
+      <!-- sub2 -->
+      <div class="border flex flex-col my-3 lg:p-6 p-4 rounded-lg shadow-lg ">
+        <div class="flex lg:flex-row flex-col ">
+          <div class="flex justify-center ">
+            <i class="fa fa-comment-dots text-6xl mx-6 lg:mb-4 mb-6 " />
+          </div>
+
+          <div class="flex items-center">
+            <h1 class="titel flex text-center items-center mb-4 font-bold">
+              Deliver a personalized experience
+            </h1>
+          </div>
+          <div>
+            <p class="leading-loose text-center">
+              Personalize your site to better engage and convert shoppers using
+              a flexible modular code base, conditional logic and access to
+              language files.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="border flex items-center my-3 px-6 py-6 rounded-lg shadow-lg">
+      <div class="border flex my-3 lg:p-6 p-4 rounded-lg shadow-lg">
         <i class="fa fa-mobile-alt text-6xl mr-6 " />
         <div>
           <h1 class="titel font-bold">
@@ -82,6 +107,8 @@
           </p>
         </div>
       </div>
+      <!-- sub3 -->
+      <!-- sub4 -->
       <div class="border flex items-center my-3 px-6 py-6 rounded-lg shadow-lg">
         <i class="fa fa-file-signature text-6xl mr-6 " />
         <div>
@@ -94,6 +121,9 @@
           </p>
         </div>
       </div>
+      <!-- sub4 -->
+      <!-- sub5 -->
+
       <div
         class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
         shadow-lg">
@@ -110,6 +140,8 @@
           </p>
         </div>
       </div>
+      <!-- sub5 -->
+      <!-- sub6 -->
       <div
         class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
         shadow-lg">
@@ -125,6 +157,8 @@
           </p>
         </div>
       </div>
+      <!-- sub6 -->
+      <!-- sub7 -->
       <div
         class=" border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
         shadow-lg">
@@ -133,6 +167,8 @@
           <h1 class="titel font-bold">Social</h1>
         </div>
       </div>
+      <!-- sub7 -->
+      <!-- sub8 -->
       <div
         class="border flex items-center my-3 px-6 py-6 rounded-lg leading-loose
         md:w-full shadow-lg">
@@ -150,9 +186,11 @@
         </div>
       </div>
     </div>
+    <!-- sub8 -->
     <!-- 1st -->
     <!-- 2nd -->
     <div class="m-4">
+      <!-- sub9 -->
       <div
         class=" border flex items-center px-6 py-6 rounded-lg md:w-full
         shadow-lg">
@@ -168,6 +206,8 @@
           </p>
         </div>
       </div>
+      <!-- sub9 -->
+      <!-- sub10 -->
       <div
         class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
         shadow-lg">
@@ -186,7 +226,8 @@
           </p>
         </div>
       </div>
-
+      <!-- sub10 -->
+      <!-- sub11 -->
       <div
         class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
         shadow-lg">
@@ -202,6 +243,8 @@
           </p>
         </div>
       </div>
+      <!-- sub11 -->
+      <!-- sub12 -->
       <div
         class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
         shadow-lg">
@@ -218,6 +261,9 @@
           </p>
         </div>
       </div>
+      <!-- sub12 -->
+      <!-- sub13 -->
+
       <div
         class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
         shadow-lg">
@@ -235,6 +281,8 @@
           </p>
         </div>
       </div>
+      <!-- sub14 -->
+      <!-- sub15 -->
       <div
         class=" border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
         shadow-lg">
@@ -251,6 +299,8 @@
           </p>
         </div>
       </div>
+      <!-- sub15 -->
+      <!-- sub16 -->
       <div
         class=" border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
         shadow-lg">
@@ -264,6 +314,8 @@
           </p>
         </div>
       </div>
+      <!-- sub16 -->
+      <!-- sub17 -->
       <div
         class="border flex items-center my-3 px-6 py-6 rounded-lg md:w-full
         shadow-lg">
@@ -277,6 +329,7 @@
           </p>
         </div>
       </div>
+      <!-- sub17 -->
     </div>
     <!-- 2nd -->
   </div>

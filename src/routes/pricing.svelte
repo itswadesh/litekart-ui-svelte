@@ -19,13 +19,13 @@
     margin-right: 0.75rem;
   }
   .gs-1 {
-    background-color: rgb(45, 182, 45);
+    background-color: black;
   }
   .gs-2 {
-    background-color: rgb(106, 42, 196);
+    background-color: #0070f3;
   }
   .gs-3 {
-    background-color: rgb(5, 213, 255);
+    background-color: rgb(106, 42, 196);
   }
 </style>
 
@@ -54,67 +54,46 @@
             <ul
               class=" border-b bg-white border-gray-300 flex flex-col
               justify-center lg:px-12 px-12 pb-3 ">
-              <li class="flex">
-                <img
-                  src="svg/checkgreen.svg"
-                  alt=""
-                  class=" items-center h-5 w-5" />
+              <li class="flex items-center">
+                <img src="svg/checkblack.svg" alt="" class=" h-5 w-5" />
                 Open Source
               </li>
-              <li class="flex">
-                <img
-                  src="svg/checkgreen.svg"
-                  alt=""
-                  class="h-5 w-5 items-center " />
+              <li class="flex items-center">
+                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
                 Licensed
               </li>
-              <li class="flex">
-                <img
-                  src="svg/checkgreen.svg"
-                  alt=""
-                  class="h-5 w-5 items-center " />
+              <li class="flex items-center ">
+                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
                 Authentication
               </li>
-              <li class="flex">
-                <img
-                  src="svg/checkgreen.svg"
-                  alt=""
-                  class="h-5 w-5 items-center " />
+              <li class="flex items-center ">
+                <img src="svg/checkblack.svg" alt="" class="h-5 w-5" />
                 Cart & Checkout
               </li>
-              <li class="flex">
-                <img
-                  src="svg/checkgreen.svg"
-                  alt=""
-                  class="h-5 w-5 items-center" />
+              <li class="flex items-center">
+                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
                 Server Rendered
               </li>
-              <li class="flex">
-                <img
-                  src="svg/checkgreen.svg"
-                  alt=""
-                  class="h-5 w-5 items-center" />
+              <li class="flex items-center">
+                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
                 Lazy loading
               </li>
-              <li class="flex">
-                <img
-                  src="svg/checkgreen.svg"
-                  alt=""
-                  class="h-5 w-5 items-center" />
+              <li class="flex items-center">
+                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
                 Loading Indicators
               </li>
-              <li class="flex">
-                <img src="svg/checkgreen.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center ">
+                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
                 Carousels
               </li>
-              <li class="flex">
-                <img src="svg/checkgreen.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center">
+                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
                 Community Support
               </li>
             </ul>
           </div>
 
-          <p class=" text-2xl">
+          <p class="m-8 text-2xl">
             <b class="font-bold text-black text-4xl">$0</b>
             /month
           </p>
@@ -142,77 +121,77 @@
               class="border-b border-gray-300 bg-white flex flex-col lg:px-12
               px-12 pb-3">
               <li class="mb-4 text-green-500 ">Complete Stack Setup</li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Unlimited Products
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Unlimited Checkouts
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 4 user roles
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Progressive web app
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Email/SMS Notifications
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Auto invoice generation
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 SEO Optimized
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Server Rendered
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Free SSL
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Reports & Analytics
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 1 click deploy to cloud
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Payment Gateway Integration
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Facebook optimized product
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Product Rating and Reviews
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Social Media Logins
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Faceted Search
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+              <li class=" flex items-center my-6 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Premium Suport With 1 Day
               </li>
             </ul>
           </div>
-          <p class=" text-2xl">
+          <p class="m-8 text-2xl">
             <b class="text-4xl font-extrabold text-black">$20</b>
             /month
           </p>
@@ -237,50 +216,50 @@
               class="text-gray-600 bg-white border-b border-gray-300 flex
               flex-col lg:px-12 pb-3 px-12">
               <li class="mb-4 text-red-500">All features of Premium +</li>
-              <li class="flex my-6 ">
-                <img src="svg/checksky.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center my-6 ">
+                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
                 Custom Theme Integration
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checksky.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center my-6 ">
+                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
                 Discount Coupons
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checksky.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center my-6 ">
+                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
                 Promotions
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checksky.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center my-6 ">
+                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
                 Android & IOS App
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checksky.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center my-6 ">
+                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
                 Abandoned Cart
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checksky.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center my-6 ">
+                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
                 Marketplace integration
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checksky.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center my-6 ">
+                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
                 Multi seller
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checksky.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center my-6 ">
+                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
                 Affiliate Management
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checksky.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center my-6 ">
+                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
                 99.95% Uptime SLA
               </li>
-              <li class="flex my-6 ">
-                <img src="svg/checksky.svg" alt="" class="h-5 w-5 " />
+              <li class="flex items-center my-6 ">
+                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
                 Premium 24/7 Support
               </li>
             </ul>
           </div>
 
-          <p class=" text-2xl">
+          <p class="m-8 text-2xl">
             <b class="font-extrabold text-black text-4xl">$200</b>
             /month
           </p>

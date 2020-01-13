@@ -1,6 +1,4 @@
 <script>
-  import Header from "./../components/Header.svelte";
-  import Footer from "./../components/Footer.svelte";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
@@ -24,7 +22,6 @@
   <title>Litekart - Privacy Policy</title>
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <Header />
   <div class="mb-16 mx-2 lg:mx-48 h-screen">
     <h1 class="text-4xl text-center">Privacy Policy</h1>
     <h2 class="text-xl">Promise! We never spam</h2>
@@ -61,5 +58,4 @@
       confidentiality of personal information is protected and maintained.
     </p>
   </div>
-  <Footer />
 </main>

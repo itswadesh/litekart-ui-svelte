@@ -79,7 +79,7 @@
   <div class="flex justify-center mt-6 ">
     <a
       href="/contact"
-      class="button bg-primary mr-5 px-8 py-1 text-white rounded-full">
+      class="button ml-2 bg-primary mr-5 px-8 py-2 text-white rounded-full">
       <span>Get started</span>
     </a>
     <a

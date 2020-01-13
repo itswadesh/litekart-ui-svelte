@@ -1,6 +1,4 @@
 <script>
-  import Header from "./../components/Header.svelte";
-  import Footer from "./../components/Footer.svelte";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
@@ -29,7 +27,6 @@
   <title>Litekart - Refund Policy</title>
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <Header />
   <div class="hfull mb-16 mx-2 lg:mx-48 leading-loose">
     <h1 class="text-4xl text-center">Refund & Cancellation Policy</h1>
     <ul>
@@ -61,5 +58,4 @@
       </li>
     </ul>
   </div>
-  <Footer />
 </main>

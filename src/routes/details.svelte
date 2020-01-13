@@ -1,23 +1,12 @@
 <script>
-  import Header from "./../components/Header.svelte";
-  import Footer from "./../components/Footer.svelte";
   import SmallContent from "./../components/features/SmallContent.svelte";
   import { lazyload } from "../actions/lazyload";
-  import { fadeIn, fadeOut } from "./../actions/pageFade";
   import { CDN } from "./../config";
+  import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
-<style>
-  /* .ipad {
-    background: #a7e0c8;
-  } */
-</style>
-
 <main in:fadeIn out:fadeOut>
-  <Header />
-
   <div class=" justify-around bg-gray-400 px-2 lg:py-24 py-6 mt-3 ">
-
     <h1 class="text-4xl mb-6 mx-3 text-center font-bold ">
       Technologies Used
       <p class="text-2xl">
@@ -92,7 +81,6 @@
   </div>
 
   <SmallContent />
-  <Footer />
 </main>
 <svelte:head>
   <title>Litekart - Details features for a unique brand presence</title>

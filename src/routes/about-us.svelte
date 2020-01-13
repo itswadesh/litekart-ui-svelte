@@ -1,9 +1,6 @@
 <script>
-  import Header from "./../components/Header.svelte";
-  import Footer from "./../components/Footer.svelte";
   import { lazyload } from "../actions/lazyload";
   import { CDN, HOST } from "./../config";
-
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
@@ -42,7 +39,6 @@
     plans are designed accordingly to suit startups" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <Header />
   <div class="mb-16 mx-2 lg:mx-48">
     <h1 class="text-4xl text-center">About</h1>
     <div class="py-6 mx-5">
@@ -132,5 +128,4 @@
       </button>
     </div>
   </div>
-  <Footer />
 </main>

@@ -1,8 +1,6 @@
 <script>
-  import Header from "./../components/Header.svelte";
-  import Footer from "./../components/Footer.svelte";
-  import { fadeIn, fadeOut } from "./../actions/pageFade";
   import { HOST } from "./../config";
+  import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
 <style>
@@ -48,7 +46,6 @@
     help people growing their business" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <Header />
   <div class="mb-16 mx-2 lg:mx-48 ">
     <h1 class="text-4xl text-center">Terms</h1>
     <h2 class="text-xl">Refund Policy</h2>
@@ -115,5 +112,4 @@
     <h2 class="text-xl">Support</h2>
     <p>Dedicated 24/7 support through email.</p>
   </div>
-  <Footer />
 </main>

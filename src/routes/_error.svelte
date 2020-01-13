@@ -1,7 +1,4 @@
 <script>
-  import Header from "./../components/Header.svelte";
-  import Footer from "./../components/Footer.svelte";
-  import { fadeIn, fadeOut } from "./../actions/pageFade";
   export let status;
   export let error;
 
@@ -11,13 +8,9 @@
 <svelte:head>
   <title>Litekart - {status}</title>
 </svelte:head>
-<main in:fadeIn out:fadeOut>
-  <Header />
-<div class="h-screen my-16 mx-auto lg:mx-48">
+<div class="my-16 mx-auto lg:mx-48">
   <h1 class="text-4xl text-center">{status}-{error.message}</h1>
   {#if dev && error.stack}
     <pre>{error.stack}</pre>
   {/if}
 </div>
-  <Footer />
-</main>

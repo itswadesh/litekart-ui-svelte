@@ -1,9 +1,7 @@
 <script>
-  import Header from "./../components/Header.svelte";
-  import Footer from "./../components/Footer.svelte";
   import { lazyload } from "../actions/lazyload";
-  import { fadeIn, fadeOut } from "./../actions/pageFade";
   import { CDN, HOST } from "./../config";
+  import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
 <style>
@@ -59,7 +57,6 @@
     pay for customizations that are specific to your brand" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <Header />
   <div class=" text-center px-4 lg:px-48 py-8 lg:py-32">
     <h1 class="text-3xl lg:text-5xl leading-loose font-black">Grow With Us</h1>
     <h2 class="text-xl lg:text-2xl leading-loose mb-8">
@@ -297,5 +294,4 @@
       <!-- student 3 -->
     </div>
   </div>
-  <Footer />
 </main>

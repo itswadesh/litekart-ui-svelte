@@ -1,11 +1,9 @@
 <script>
-  import Header from "./../components/Header.svelte";
-  import Footer from "./../components/Footer.svelte";
   import Nav from "./../components/features/Nav.svelte";
   import BigContent from "./../components/features/BigContent.svelte";
   import SmallContent from "./../components/features/SmallContent.svelte";
-  import { fadeIn, fadeOut } from "./../actions/pageFade";
   import { HOST } from "./../config";
+  import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
 <svelte:head>
@@ -37,9 +35,7 @@
     of other ecommerce solutions." />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <Header />
   <Nav />
   <BigContent />
   <!-- <SmallContent /> -->
-  <Footer />
 </main>

@@ -88,8 +88,8 @@
     <a
       href="/contact"
       rel="prefetch"
-      class="btn-primary px-8 ml-6 flex items-center py-2 py-auto text-lg
-      rounded-full">
+      class="bg-primary text-white px-8 ml-6 flex items-center py-2 py-auto
+      text-lg rounded-full">
       <i class="fa fa-phone-alt mr-1 text-sm" />
       Let's Talk
     </a>

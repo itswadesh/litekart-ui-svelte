@@ -26,7 +26,7 @@
   <!-- Header -->
   <div
     class="sticky md:hidden flex mb-1 shadow justify-between items-center px-6
-    py-3 bg-yellow-400 font-bold">
+    py-3 bg-white font-bold">
     <button class="flex justify-around items-center" on:click={close}>
       <i class="fa fa-times text-gray-700 text-2xl" />
     </button>

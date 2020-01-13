@@ -29,7 +29,7 @@
     // },
     {
       h: " Payment Gateway",
-      img: "rocket-img-3.png",
+      img: "rocket-img-3-final.png",
       data: [
         "Offer a secure payment gateway to your buyers. We have integrations with over 10 gateways including CC Avenue, PayU, PayPal, PayZippy, Mobikwik, Paytm, Instamojo, Razorpay, Cashfree and more. You can easily accept payments via credit card, debit card, online wallets and net banking."
       ]

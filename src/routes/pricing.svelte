@@ -284,7 +284,7 @@
             <b class="font-extrabold text-black text-4xl">$200</b>
             /month
           </p>
-          <button class="gs-3 text-white p-2 rounded shadow-lg m-3 py-4 ">
+          <button class="gs-3 text-white rounded shadow-lg m-3 py-3 ">
             Get Started
           </button>
         </div>

@@ -39,7 +39,7 @@
 <!-- for mobile -->
 <div
   class="sticky md:hidden flex shadow-lg justify-between items-center p-2
-  bg-yellow-400 text-black">
+  bg-white text-black">
   <button
     class="focus:outline-none flex justify-around items-center"
     on:click={() => (showDrawer = true)}
@@ -61,7 +61,7 @@
 <!-- for desktop -->
 <div
   class="sticky hidden md:flex md:shadow-lg md:justify-around md:items-center
-  md:px-6 md:py-3 md:bg-yellow-400 font-bold ">
+  md:px-6 md:py-3 md:bg-white font-bold ">
   <a href="/">
     <img
       use:lazyload

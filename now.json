@@ -1,4 +1,13 @@
 {
     "version": 2,
-    "name": "litekart"
+    "name": "litekart",
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "now-sapper"
+        }
+    ],
+    "regions": [
+        "lhr"
+    ]
 }

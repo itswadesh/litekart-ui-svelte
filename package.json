@@ -4,7 +4,8 @@
   "version": "1.1.0",
   "license": "MIT",
   "scripts": {
-    "dev": "sapper dev",
+    "dev": "run-p watch:tailwind sapper:dev",
+    "sapper:dev": "sapper dev",
     "build": "run-p build:tailwind buildY",
     "buildY": "ls && sapper build",
     "deploy:test": "now -A now.test.json",
@@ -13,6 +14,7 @@
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
+    "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
     "build:tailwind": "cross-env NODE_ENV=production postcss static/tailwind.css -o static/index.css"
   },
   "engines": {

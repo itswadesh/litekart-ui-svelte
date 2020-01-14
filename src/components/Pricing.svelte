@@ -57,8 +57,8 @@
       <div class="pr px-10 lg:px-20 py-6 ">
         <img
           use:lazyload
-          src={`${CDN}../../img/hopyshopy-full.jpg?tr=w-3,h-2`}
-          data-src={`${CDN}../../img/hopyshopy-full.jpg`}
+          src={`${CDN}../../img/hopyshopy-full.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/hopyshopy-full.png`}
           alt="" />
         <h3 class="primary text-center text-xl my-3">Open source & free</h3>
         <h1 class="text-white text-2xl">Customize</h1>

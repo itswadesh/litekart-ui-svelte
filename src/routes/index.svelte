@@ -46,8 +46,8 @@
   <Features />
   <Rocket />
   <Highlight />
-  <!-- <Clients /> -->
-  <Pricing />
+  <Clients />
+  <!-- <Pricing /> -->
   <Display />
   <Dad />
 </main>

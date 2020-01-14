@@ -22,8 +22,8 @@
     name="keywords"
     content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
     search engine optimization, easy, headless, authentication, cart & checkout,
-    tailwindcss, server rendered, proxy + api integrated, animations, stores,
-    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+    tailwindcss, server rendered, headless ecommerce, animations, stores, lazy
+    loading, loading indicators, carousel, instant search, faceted filters" />
   <meta
     data-hid="og:title"
     name="og_title"
@@ -47,7 +47,7 @@
   <Rocket />
   <Highlight />
   <Clients />
-  <!-- <Pricing /> -->
+  <Pricing />
   <Display />
   <Dad />
 </main>

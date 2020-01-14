@@ -4,7 +4,10 @@
 </script>
 
 <div class="flex flex-col text-center justify-center p-5">
-  <!-- <h4 class="m-5">Trusted by 5M+ businesses</h4> -->
+  <h4 class="m-5">
+    5 ,000+ Developers and eCommerce Business Owners have adopted Litekart for
+    achieving speed, performance and scalability.
+  </h4>
   <div class="flex overflow-x-auto justify-between ">
     <img
       use:lazyload

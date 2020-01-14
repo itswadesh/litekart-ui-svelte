@@ -8,9 +8,9 @@
 <main in:fadeIn out:fadeOut>
   <div class=" justify-around bg-gray-400 px-2 lg:py-24 py-6 mt-3 ">
     <h1 class="text-4xl mb-6 mx-3 text-center font-bold ">
-      Technologies Used
+      Build using Latest Technologies
       <p class="text-2xl">
-        All apps has been developed using open source softwares.
+        Litekart is always updated with latest technologies
       </p>
     </h1>
     <div class="flex justify-center flex-wrap ">

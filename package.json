@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "run-p watch:tailwind sapper:dev",
     "sapper:dev": "sapper dev --port 4000",
-    "build": "run-p build:tailwind buildY",
+    "build": "NODE_ENV=production run-p build:tailwind buildY",
     "buildY": "ls && sapper build",
     "deploy:test": "now -A now.test.json",
     "export": "sapper export --legacy",
-    "start": "node __sapper__/build",
+    "start": "NODE_ENV=production node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
@@ -29,6 +29,7 @@
     "node-fetch": "^2.6.0",
     "polka": "next",
     "siema": "^1.5.1",
+    "cross-env": "^6.0.3",
     "sirv": "^0.4.0"
   },
   "devDependencies": {
@@ -37,7 +38,6 @@
     "@babel/plugin-transform-runtime": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/runtime": "^7.0.0",
-    "cross-env": "^6.0.3",
     "dotenv": "^8.2.0",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^7.1.0",

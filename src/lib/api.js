@@ -1,3 +1,4 @@
+import { storeUrl } from './../config'
 import Cookie from 'cookie-universal'
 const cookies = Cookie()
 let tkn = cookies.get('token')
@@ -27,7 +28,7 @@ async function send({ method, path, data, token, cookie }) {
 		opts.headers['Authorization'] = `Bearer ${tkn}`;
 	}
 	try {
-		let response = await fetch(`/api/${path}`, opts)
+		let response = await fetch(`${storeUrl}/api/${path}`, opts)
 		let json = await response.text()
 		if (!response.ok) {
 			throw json

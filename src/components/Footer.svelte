@@ -53,14 +53,22 @@
       </a>
     </div>
   </div>
-  <div class="text-white">
-    <a href="/about-us" rel="prefetch" class="mr-2 link">About Us</a>
-    <a href="/contact" rel="prefetch" class="mr-2 link">Contact Us</a>
-    <a href="/terms" rel="prefetch" class="mr-2 link">Terms</a>
-    <a href="/refund-policy" rel="prefetch" class="mr-2 link">
-      Cancellation & Refund Policy
+  <div class="text-white leading-loose flex flex-wrap items-center">
+    <a href="/about-us" rel="prefetch" class="link mr-4 my-2 ">
+      <span class="">About Us</span>
     </a>
-    <a href="/privacy-policy" rel="prefetch" class="link">Privacy Policy</a>
+    <a href="/contact" rel="prefetch" class="link mr-4 my-2 ">
+      <span class="">Contact Us</span>
+    </a>
+    <a href="/terms" rel="prefetch" class="link mr-4 my-2 ">
+      <span class="">Terms</span>
+    </a>
+    <a href="/refund-policy" rel="prefetch" class="link mr-4 my-2">
+      <span class="">Cancellation & Refund Policy</span>
+    </a>
+    <a href="/privacy-policy" rel="prefetch" class="link">
+      <span>Privacy Policy</span>
+    </a>
   </div>
 </div>
 <div

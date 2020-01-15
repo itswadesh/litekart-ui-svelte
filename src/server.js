@@ -3,9 +3,9 @@ import polka from 'polka';
 import compression from 'compression';
 import * as sapper from '@sapper/server';
 import { apiUrl } from './config'
-
+const dotenv = require('dotenv');
+dotenv.config({ path: '.env' });
 const { PORT, NODE_ENV, API_URL } = process.env;
-
 const proxy = require('http-proxy-middleware');
 const apiProxy = proxy('/api', { target: API_URL || apiUrl, changeOrigin: true });
 

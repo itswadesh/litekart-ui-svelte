@@ -43,7 +43,7 @@
     // },
     {
       h: "Hosting",
-      img: "rocket-img-5.png",
+      img: "rocket-img-5-js copy.png",
       data: [
         "Based on cloud architecture, it gives uptime as high as 99.99%. Everything is hosted inside a personal VPS which helps us nullify security issues and optimize network performance. Further to that we are using Serverless / Microservices / FaaS to separate different modules. It gives highest speed, uptime as well as maintainance free"
       ]

@@ -90,7 +90,7 @@
       rel="prefetch"
       class="bg-primary text-white px-8 ml-6 flex items-center py-2 py-auto
       text-lg rounded-full">
-      <i class="fa fa-phone-alt mr-1 text-sm" />
+      <img src="svg/phone-alt-solid.svg" alt="" class="h-4 w-4" />
       Let's Talk
     </a>
   </div>

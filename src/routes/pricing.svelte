@@ -2,6 +2,48 @@
   import { lazyload } from "../actions/lazyload";
   import { CDN, HOST } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
+  let p1 = [
+    "Open Source",
+    " Licensed",
+    " Authentication",
+    "Cart & Checkout",
+    " Server Rendered",
+    "Lazy loading",
+    "Loading Indicators",
+    "Carousels",
+    " Community Support"
+  ];
+  let p2 = [
+    " Unlimited Products",
+    " Unlimited Checkouts",
+    " 4 user roles",
+    "Progressive web app",
+    " Email/SMS Notifications",
+    "  Auto invoice generation",
+    "SEO Optimized",
+    " Server Rendered",
+    "Reports & Analytics",
+    "1 click deploy to cloud",
+    "Payment Gateway Integration",
+    "Facebook optimized product",
+    " Product Rating and Reviews",
+    "Social Media Logins",
+    " Faceted Search",
+    " Free SSL",
+    "Premium Suport With 1 Day"
+  ];
+  let p3 = [
+    " Custom Theme Integration",
+    "Discount Coupons",
+    " Promotions",
+    "Android & IOS App",
+    "Abandoned Cart",
+    "Marketplace integration",
+    " Multi seller",
+    " Affiliate Management",
+    " 99.95% Uptime SLA",
+    " Premium 24/7 Support"
+  ];
 </script>
 
 <style>
@@ -77,42 +119,12 @@
             <ul
               class=" border-b bg-white border-gray-300 flex flex-col
               justify-center lg:px-12 px-12 pb-3 ">
-              <li class="flex items-center">
-                <img src="svg/checkblack.svg" alt="" class=" h-5 w-5" />
-                Open Source
-              </li>
-              <li class="flex items-center">
-                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
-                Licensed
-              </li>
-              <li class="flex items-center ">
-                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
-                Authentication
-              </li>
-              <li class="flex items-center ">
-                <img src="svg/checkblack.svg" alt="" class="h-5 w-5" />
-                Cart & Checkout
-              </li>
-              <li class="flex items-center">
-                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
-                Server Rendered
-              </li>
-              <li class="flex items-center">
-                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
-                Lazy loading
-              </li>
-              <li class="flex items-center">
-                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
-                Loading Indicators
-              </li>
-              <li class="flex items-center ">
-                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
-                Carousels
-              </li>
-              <li class="flex items-center">
-                <img src="svg/checkblack.svg" alt="" class="h-5 w-5 " />
-                Community Support
-              </li>
+              {#each p1 as i}
+                <li class="flex items-center">
+                  <img src="svg/checkblack.svg" alt="" class=" h-5 w-5" />
+                  {i}
+                </li>
+              {/each}
             </ul>
           </div>
 
@@ -144,74 +156,12 @@
               class="border-b border-gray-300 bg-white flex flex-col lg:px-12
               px-12 pb-3">
               <li class="mb-4 text-green-500 ">Complete Stack Setup</li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Unlimited Products
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Unlimited Checkouts
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                4 user roles
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Progressive web app
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Email/SMS Notifications
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Auto invoice generation
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                SEO Optimized
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Server Rendered
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Free SSL
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Reports & Analytics
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                1 click deploy to cloud
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Payment Gateway Integration
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Facebook optimized product
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Product Rating and Reviews
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Social Media Logins
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Faceted Search
-              </li>
-              <li class=" flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
-                Premium Suport With 1 Day
-              </li>
+              {#each p2 as i}
+                <li class=" flex items-center my-6 ">
+                  <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
+                  {i}
+                </li>
+              {/each}
             </ul>
           </div>
           <p class="m-8 text-2xl">
@@ -239,46 +189,12 @@
               class="text-gray-600 bg-white border-b border-gray-300 flex
               flex-col lg:px-12 pb-3 px-12">
               <li class="mb-4 text-red-500">All features of Premium +</li>
-              <li class="flex items-center my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
-                Custom Theme Integration
-              </li>
-              <li class="flex items-center my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
-                Discount Coupons
-              </li>
-              <li class="flex items-center my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
-                Promotions
-              </li>
-              <li class="flex items-center my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
-                Android & IOS App
-              </li>
-              <li class="flex items-center my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
-                Abandoned Cart
-              </li>
-              <li class="flex items-center my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
-                Marketplace integration
-              </li>
-              <li class="flex items-center my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
-                Multi seller
-              </li>
-              <li class="flex items-center my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
-                Affiliate Management
-              </li>
-              <li class="flex items-center my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
-                99.95% Uptime SLA
-              </li>
-              <li class="flex items-center my-6 ">
-                <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
-                Premium 24/7 Support
-              </li>
+              {#each p3 as i}
+                <li class="flex items-center my-6 ">
+                  <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+                  {i}
+                </li>
+              {/each}
             </ul>
           </div>
 

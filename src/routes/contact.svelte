@@ -64,10 +64,8 @@
     softwares for your small business" />
   <meta
     name="keywords"
-    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
-    search engine optimization, easy, headless, authentication, cart & checkout,
-    tailwindcss, server rendered, proxy + api integrated, animations, stores,
-    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+    content="ecommerce software, how to sell product online free, about
+    litekart, about superfast ecommerce software, smart store" />
   <meta
     data-hid="og:description"
     name="og_description"

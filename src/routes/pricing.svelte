@@ -80,10 +80,8 @@
     pay for customizations that are specific to your brand" />
   <meta
     name="keywords"
-    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
-    search engine optimization, easy, headless, authentication, cart & checkout,
-    tailwindcss, server rendered, proxy + api integrated, animations, stores,
-    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+    content="free ecommerce software, opensource ecommerce, node js ecommerce,
+    open source nodejs projects, online store front" />
   <meta
     data-hid="og:title"
     name="og_title"

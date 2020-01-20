@@ -21,10 +21,10 @@
     plans are designed accordingly to suit startups" />
   <meta
     name="keywords"
-    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
-    search engine optimization, easy, headless, authentication, cart & checkout,
-    tailwindcss, server rendered, proxy + api integrated, animations, stores,
-    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+    content="website development for ecommerce, design of ecommerce website,
+    ecommerce web site development, ecommerce storefront, ecommerce solution,
+    best platform ecommerce, ecommerce development company india, indian
+    ecommerce platform, ecommerce platform in india" />
   <meta
     data-hid="og:title"
     name="og_title"

@@ -37,6 +37,12 @@
     name="og_title"
     property="og:title"
     content="Litekart - Terms & Policy" />
+  <meta
+    data-hid="og:description"
+    name="og_description"
+    property="og:description"
+    content="Litekart terms and policy are most suited for startups. We love to
+    help people growing their business" />
   <meta name="og_url" property="og:url" content={`${HOST}`} />
   <!-- Twitter -->
   <meta name="twitter:title" content="Litekart - Terms & Policy" />

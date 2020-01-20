@@ -20,10 +20,9 @@
     enterprise level features. Only pay on customizations for your brand" />
   <meta
     name="keywords"
-    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
-    search engine optimization, easy, headless, authentication, cart & checkout,
-    tailwindcss, server rendered, headless ecommerce, animations, stores, lazy
-    loading, loading indicators, carousel, instant search, faceted filters" />
+    content="ecommerce software, image optimization, lazy loading, headless,
+    authentication, tailwindcss, headless ecommerce, carousel, instant
+    search,vuejs pwa, opensource ecommerce, faceted filters, headless commerce" />
   <meta
     data-hid="og:title"
     name="og_title"

@@ -87,6 +87,14 @@
     name="og_title"
     property="og:title"
     content="Litekart - Free for developers & startups" />
+
+  <meta
+    data-hid="og:description"
+    name="og_description"
+    property="og:description"
+    content="Litekart is essentially free for developers and startups. You only
+    pay for customizations that are specific to your brand" />
+
   <meta name="og_url" property="og:url" content={`${HOST}`} />
   <!-- Twitter -->
   <meta
@@ -111,8 +119,8 @@
           class="bg-gray-100 flex flex-col mb-3 lg:my-12 justify-between
           border-0 rounded-lg shadow-lg bg-white ">
           <div class="bg-white">
-            <h1 class="text-4xl mb-2 font-bold">Free</h1>
-            <h2 class="text-green-500 text-xl mb-6">For developers</h2>
+            <h2 class="text-4xl mb-2 font-bold">Free</h2>
+            <h3 class="text-green-500 text-xl mb-6">For developers</h3>
           </div>
 
           <div class="text-center ">
@@ -148,8 +156,8 @@
           class=" bg-gray-100 flex flex-col mb-3 lg:my-12 justify-between
           border-0 rounded-lg shadow-lg bg-white ">
           <div class="bg-white">
-            <h1 class="text-4xl mb-2 font-bold">Free</h1>
-            <h2 class="text-pink-500 text-xl mb-6">For Startups</h2>
+            <h2 class="text-4xl mb-2 font-bold">Free</h2>
+            <h3 class="text-pink-500 text-xl mb-6">For Startups</h3>
           </div>
           <div class=" ">
             <ul
@@ -181,8 +189,8 @@
           class=" bg-gray-100 flex flex-col mb-3 lg:my-12 justify-between
           text-center border-0 rounded-lg shadow-lg bg-white">
           <div class="bg-white">
-            <h1 class="text-4xl mb-2 font-bold">Enterprise</h1>
-            <h2 class="text-blue-500 text-xl mb-6">$24999.00</h2>
+            <h2 class="text-4xl mb-2 font-bold">Enterprise</h2>
+            <h3 class="text-blue-500 text-xl mb-6">$24999.00</h3>
           </div>
           <div class="">
             <ul

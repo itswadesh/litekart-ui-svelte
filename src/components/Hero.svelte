@@ -62,6 +62,7 @@
       <a
         target="_blank"
         href="https://demo.litekart.in"
+        rel="noopener"
         class="button border rounded-full w-1/2 lg:w-1/3 px-auto py-2 bg-white
         primary">
         <span>Get a Demo</span>

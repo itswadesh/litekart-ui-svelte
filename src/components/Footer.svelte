@@ -1,3 +1,8 @@
+<script>
+  import Icon from "svelte-awesome";
+  import { facebook, twitter, github } from "svelte-awesome/icons";
+</script>
+
 <style>
   .link {
     position: relative;
@@ -33,7 +38,9 @@
         class="bg-primary mx-1 flex justify-center items-center text-xs
         rounded-full w-8 h-8"
         aria-label="facebook">
-        <img src="svg/facebook-brands.svg" alt="" />
+        <Icon data={facebook} class="" label="facebook" />
+
+        <!-- <img src="svg/facebook-brands.svg" alt="" /> -->
       </a>
       <a
         href="https://twitter.com/codenx2"
@@ -41,7 +48,8 @@
         class="bg-primary mx-1 flex justify-center items-center text-xs
         rounded-full w-8 h-8"
         aria-label="twitter">
-        <img src="svg/twitter-square-brands.svg" alt="" />
+        <Icon data={twitter} class="" label="twitter" />
+        <!-- <img src="svg/twitter-square-brands.svg" alt="" /> -->
       </a>
       <a
         href="https://www.github.com/itswadesh"
@@ -49,7 +57,9 @@
         class="bg-primary mx-1 flex justify-center items-center text-xs
         rounded-full w-8 h-8"
         aria-label="github">
-        <img src=" svg/github-brands.svg" alt="" />
+        <Icon data={github} class="" label="github" />
+
+        <!-- <img src=" svg/github-brands.svg" alt="" /> -->
       </a>
     </div>
   </div>
@@ -74,5 +84,5 @@
 <div
   class="bg-gray-800 communication text-center text-white py-4 border-t
   border-gray-500">
-  © 2015 - 2020 Misiki Technologies.
+  © 2015 - {new Date().getFullYear()} Misiki Technologies.
 </div>

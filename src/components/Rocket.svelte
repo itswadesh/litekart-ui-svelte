@@ -4,7 +4,7 @@
   let features = [
     {
       h: "Customized Design",
-      img: "rocket-img-1.png",
+      img: "hero-banner.png",
       data: [
         "Create a unique Brand presense with a custom ecommerce store. We help you develop a UI/UX that impacts your customer thought process and connects with your audience. The cutting edge design and UX practices will help you meet your business objectives faster with a fluid & unique customer experience."
       ],
@@ -29,7 +29,7 @@
     // },
     {
       h: " Payment Gateway",
-      img: "rocket-img-3-final.png",
+      img: "secure.png",
       data: [
         "Offer a secure payment gateway to your buyers. We have integrations with over 10 gateways including CC Avenue, PayU, PayPal, PayZippy, Mobikwik, Paytm, Instamojo, Razorpay, Cashfree and more. You can easily accept payments via credit card, debit card, online wallets and net banking."
       ]
@@ -43,14 +43,14 @@
     // },
     {
       h: "Hosting",
-      img: "rocket-img-5-js copy.png",
+      img: "amazon-node.png",
       data: [
         "Based on cloud architecture, it gives uptime as high as 99.99%. Everything is hosted inside a personal VPS which helps us nullify security issues and optimize network performance. Further to that we are using Serverless / Microservices / FaaS to separate different modules. It gives highest speed, uptime as well as maintainance free"
       ]
     },
     {
       h: "Marketing",
-      img: "rocket-img-6.png",
+      img: "prod-detail.png",
       data: [
         "Reach your buyers with automated marketing & engagement tools. Grow your sales via advertisements, custom discount coupons, SEO tools, etc. Choose one of our marketing partners to drive traffic to your website and eventually grow your sales."
       ]
@@ -107,7 +107,7 @@
       <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
         <div
           class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
-          <h1 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h1>
+          <h2 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h2>
           <div class="flex leading-loose">{f.data}</div>
           <br />
           {#if f.ul}
@@ -140,7 +140,7 @@
             alt="" />
         </div>
         <div class=" w-full lg:w-1/2">
-          <h1 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h1>
+          <h2 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h2>
           <div class="flex leading-loose">{f.data}</div>
         </div>
       </div>

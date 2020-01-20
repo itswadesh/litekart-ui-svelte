@@ -44,7 +44,7 @@
     class="flex-1 flex flex-col justify-center text-2xl lg:text-5xl py-4
     md:py-16 lg:py-24 px-4 md:px-16 lg:px-24 mb-4">
     <h1 class=" text-black text-3xl md:text-5xl font-bold">
-      Fastest Javascript ecommerce of 2020
+      Fastest ecommerce software of 2020
     </h1>
     <h2 class="primary text-lg md:text-2xl leading-loose">
       Free for Developers & Startups

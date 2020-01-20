@@ -27,21 +27,24 @@
   bg-white">
   <!-- Header -->
   <div
-    class="sticky md:hidden flex mb-1 shadow justify-between items-center px-6
-    py-3 bg-white font-bold">
-    <button class="flex justify-around items-center" on:click={close}>
-      <Icon data={times} class="mb-1" label="bars" scale={2} />
+    class="sticky md:hidden flex shadow-lg justify-between items-center p-2
+    bg-white">
+    <button
+      class="focus:outline-none flex justify-around items-center"
+      on:click={close}
+      aria-label="close">
+      <Icon data={times} label="bars" scale={2} />
       <!-- <i class="fa fa-times text-gray-700 text-2xl" /> -->
     </button>
-    <a href="/" rel="prefetch" class="text-gray-700 items-center">
+    <a href="/" rel="prefetch" class="items-center" aria-label="logo">
       <img
         use:lazyload
         src={`${CDN}../../img/litekart-logo.png?tr=w-3,h-2`}
-        data-src={`${CDN}../../img/litekart-logo.png`}
+        data-src={`${CDN}../../img/litekart-logo.png?tr=h-48`}
         alt=""
-        class="h-12 w-32" />
+        class="" />
     </a>
-    <button class="flex justify-around items-center" />
+    <button class="" aria-label="search" />
   </div>
   <!-- Content -->
   <div class="h-full">

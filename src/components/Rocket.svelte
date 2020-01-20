@@ -113,7 +113,7 @@
           {#if f.ul}
             <ul class="leading-loose">
               {#each f.ul as li}
-                <li class="font-bold">{li}</li>
+                <li>{li}</li>
               {/each}
             </ul>
           {/if}

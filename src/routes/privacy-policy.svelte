@@ -53,7 +53,7 @@
   <link rel="alternate" hreflang="en" href={`${HOST}`} />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <div class="mb-16 mx-2 lg:mx-48 h-screen">
+  <div class="mb-16 mx-2 lg:mx-48">
     <h1 class="text-4xl text-center">Privacy Policy</h1>
     <h2 class="text-xl">Promise! We never spam</h2>
     <p class="leading-loose">

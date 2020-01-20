@@ -118,8 +118,8 @@
       <div class="lg:order-last order-first w-full lg:w-1/2">
         <img
           use:lazyload
-          src={`${CDN}../../img/rocket-img-1.png?tr=w-3,h-2`}
-          data-src={`${CDN}../../img/rocket-img-1.png`}
+          src={`${CDN}../../img/contact.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/contact.png`}
           class="img m-auto mb-2"
           alt="" />
       </div>

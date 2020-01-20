@@ -68,7 +68,7 @@
 <!-- for desktop -->
 <div
   class="sticky hidden md:flex md:shadow-lg md:justify-around md:items-center
-  md:px-6 md:py-3 md:bg-white font-bold ">
+  md:px-6 md:py-3 md:bg-white ">
   <a href="/" rel="prefetch">
     <img
       use:lazyload

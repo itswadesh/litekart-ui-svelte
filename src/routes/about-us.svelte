@@ -51,15 +51,13 @@
       <h2 class="flex justify-center text-4xl text-gray-600 ">
         “Helping You Build An Online Brand”
       </h2>
-      <p
-        class=" flex justify-center mb-4 text-center text-xl font-semibold
-        leading-normal">
+      <div class=" flex justify-center mb-4 text-center leading-loose">
         Litekart, formerly Arialshop, is a product of Odisha, India based
         Javascript e-commerce Solution. It offers an fullstack eCommerce website
         to Enterprise businesses to strengthen their footprints in the eCommerce
         space.
-      </p>
-      <p class="flex justify-center text-center text-ms mb-6 font-medium">
+      </div>
+      <div class="flex justify-center text-center text-ms mb-6 font-medium">
         Founded in 2010, Litekart has acquired 5,000 happy clients to date. If
         you’re an eCommerce business owner, all you need to do is choose your
         goal and we will help you develop the optimal technology platform for
@@ -67,55 +65,89 @@
         global merchants so that they can enable a better experience for their
         customers using our technology and analytics at every stage of the
         cycle.
-      </p>
+      </div>
     </div>
   </div>
 
-  <div class=" flex bg-gray-100 justify-between lg:py-12 lg:px-64 flex-wrap ">
-    <div
-      class="flex-1 flex flex-col bg-white text-center shadow m-6 rounded-lg">
+  <div
+    class=" flex flex-wrap bg-gray-100 justify-between md:px-16 md:py-8 lg:py-12
+    lg:px-64 ">
+    <!-- <div class=" w-full lg:w-1/3 px-4">
+      <div class=" flex flex-col bg-white text-center shadow rounded" />
       <img
         use:lazyload
         src={`${CDN}../../img/mission.png?tr=w-3,h-2`}
         data-src={`${CDN}../../img/mission.png`}
-        alt="
-        "
-        class="
-        " />
-      <p class="p-4">
+        alt=""
+        class="" />
+      <div class="p-4">
         With a mission of “Amazing customer experience” Litekart aims to offer
         an easy ecommerce enablement platform where small retailers and SME’s
         can start their online store with their brand name, at the best prices.
-      </p>
+      </div>
+    </div> -->
+    <div class=" w-full md:w-1/2 lg:w-1/3 px-4">
+      <div class=" flex flex-col bg-white text-center shadow rounded">
+        <img
+          use:lazyload
+          src={`${CDN}../../img/mission.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/mission.png`}
+          alt=""
+          class="object-cover" />
+        <div class="p-4">
+          With a mission of “Amazing customer experience” Litekart aims to offer
+          an easy ecommerce enablement platform where small retailers and SME’s
+          can start their online store with their brand name, at the best
+          prices.
+        </div>
+      </div>
     </div>
-    <div class="flex-1 flex flex-col bg-white text-center shadow m-6 rounded ">
-      <img
-        use:lazyload
-        src={`${CDN}../../img/vison.png?tr=w-3,h-2`}
-        data-src={`${CDN}../../img/vison.png`}
-        alt=""
-        class="
-        " />
-      <p class="p-4">
-        To simplify administration, cart checkout and payments for merchants by
-        offering the complete ecommerce solution, so that they can easily come
-        up with their online store and start selling online.
-      </p>
+    <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+      <div class=" flex flex-col bg-white text-center shadow rounded">
+        <img
+          use:lazyload
+          src={`${CDN}../../img/vison.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/vison.png`}
+          alt=""
+          class="object-cover" />
+        <div class="p-4">
+          To simplify administration, cart checkout and payments for merchants
+          by offering the complete ecommerce solution, so that they can easily
+          come up with their online store and start selling online.
+        </div>
+      </div>
     </div>
-    <div class="flex-1 flex flex-col bg-white text-center shadow m-6 rounded ">
+    <div class=" w-full md:w-1/2 lg:w-1/3 px-4">
+      <div class=" flex flex-col bg-white text-center shadow rounded">
+        <img
+          use:lazyload
+          src={`${CDN}../../img/values.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/values.png`}
+          alt=""
+          class="object-cover" />
+        <div class="p-4">
+          Litekart wants to reduce ecommerce to its bare bones for small
+          retailers. We bridge the gap between technology and innovation by
+          providing an easy yet powerful ecommerce enablement platform,
+          Litekart.
+        </div>
+      </div>
+    </div>
+    ''
+    <!-- <div class=" w-full lg:w-1/3 px-4 ">trtg
+      <div class=" flex flex-col bg-white text-center shadow rounded" />
       <img
         use:lazyload
         src={`${CDN}../../img/values.png?tr=w-3,h-2`}
         data-src={`${CDN}../../img/values.png`}
         alt=""
-        class="
-        " />
-      <p class="p-4">
+        class="" />
+      <div class="p-4">
         Litekart wants to reduce ecommerce to its bare bones for small
         retailers. We bridge the gap between technology and innovation by
         providing an easy yet powerful ecommerce enablement platform, Litekart.
-      </p>
-    </div>
+      </div>
+    </div> -->
   </div>
 
   <div class="py-12 justify-center mx-5">

@@ -59,7 +59,7 @@
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="hfull mb-16 mx-2 lg:mx-48 leading-loose">
-    <h1 class="text-4xl text-center">Refund & Cancellation Policy</h1>
+    <h1 class="text-3xl text-center">Refund & Cancellation Policy</h1>
     <ul>
       <li>
         You may cancel your account at anytime by emailing support@litekart.in

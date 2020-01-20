@@ -64,10 +64,13 @@
     softwares for your small business" />
   <meta
     name="keywords"
-    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
-    search engine optimization, easy, headless, authentication, cart & checkout,
-    tailwindcss, server rendered, proxy + api integrated, animations, stores,
-    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+    content="ecommerce software, how to sell product online free, about
+    litekart, about superfast ecommerce software, smart store" />
+  <meta
+    data-hid="og:description"
+    name="og_description"
+    property="og:description"
+    content="Litekart - Get a free consultation for your ecommerce startup" />
   <meta
     data-hid="og:title"
     name="og_title"
@@ -85,7 +88,7 @@
   <div class="flex flex-col my-8 lg:my-32 mb-48 justify-center bg">
     <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
       <div class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
-        <h1 class="text-4xl mb-8 font-bold">Contact Us</h1>
+        <h1 class="text-4xl mb-8 font-bold text-center">Contact Us</h1>
         {#if err}
           <p class="bg-red-200 border p-8 rounded mb-8 font-bold">{err}</p>
         {/if}
@@ -115,8 +118,8 @@
       <div class="lg:order-last order-first w-full lg:w-1/2">
         <img
           use:lazyload
-          src={`${CDN}../../img/rocket-img-1.png?tr=w-3,h-2`}
-          data-src={`${CDN}../../img/rocket-img-1.png`}
+          src={`${CDN}../../img/contact.png?tr=w-3,h-2`}
+          data-src={`${CDN}../../img/contact.png`}
           class="img m-auto mb-2"
           alt="" />
       </div>

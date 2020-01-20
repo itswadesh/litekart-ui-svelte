@@ -34,10 +34,10 @@
 </style>
 
 <div class="flex flex-col p-2 lg:p-12 bg-gray-200 shadow">
-  <h1 class="text-center text-2xl mb-12">
+  <h2 class="text-center text-2xl mb-12">
     We take the hassles of technology so you can focus on what you do best —
     selling
-  </h1>
+  </h2>
 
   <div class="flex justify-center flex-wrap">
     <!-- first-colom -->
@@ -169,14 +169,15 @@
             <a
               href="https://demo.litekart.in"
               rel="noopener"
-              class="font-bold button bg-primary text-white text-lg py-2 px-12
-              mt-3 rounded ">
+              class="button bg-primary text-white text-lg py-2 px-12 mt-3
+              rounded ">
               <span>Demo fashion store</span>
             </a>
           </div>
         </div>
         <div class="pr px-10 lg:px-20 py-6 ">
           <img
+            use:lazyload
             src={`${CDN}../../img/litekart-full.png?tr=w-3,h-2`}
             data-src={`${CDN}../../img/litekart-full.png`}
             alt="" />

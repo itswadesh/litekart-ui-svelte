@@ -3,46 +3,48 @@
   import { CDN, HOST } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
   let p1 = [
+    "Instant Delivery",
     "Open Source",
-    " Licensed",
-    " Authentication",
+    "Licensed",
+    "Authentication",
     "Cart & Checkout",
-    " Server Rendered",
+    "Server Rendered",
     "Lazy loading",
     "Loading Indicators",
     "Carousels",
     " Community Support"
   ];
   let p2 = [
-    " Unlimited Products",
-    " Unlimited Checkouts",
-    " 4 user roles",
+    "1 day delivery",
+    "Unlimited Products",
+    "Unlimited Checkouts",
+    "4 user roles",
     "Progressive web app",
-    " Email/SMS Notifications",
-    "  Auto invoice generation",
+    "Email/SMS Notifications",
+    "Auto invoice generation",
     "SEO Optimized",
-    " Server Rendered",
+    "Server Rendered",
     "Reports & Analytics",
     "1 click deploy to cloud",
     "Payment Gateway Integration",
     "Facebook optimized product",
-    " Product Rating and Reviews",
+    "Product Rating and Reviews",
     "Social Media Logins",
-    " Faceted Search",
-    " Free SSL",
-    "Premium Suport With 1 Day"
+    "Faceted Search",
+    "Free SSL",
+    "Premium 24/7 Support"
   ];
   let p3 = [
-    " Custom Theme Integration",
+    "1 month delivery",
+    "Custom Theme Integration",
     "Discount Coupons",
-    " Promotions",
+    "Promotions",
     "Android & IOS App",
     "Abandoned Cart",
     "Marketplace integration",
-    " Multi seller",
-    " Affiliate Management",
-    " 99.95% Uptime SLA",
-    " Premium 24/7 Support"
+    "Multi seller",
+    "Affiliate Management",
+    "99.95% Uptime"
   ];
 </script>
 
@@ -78,10 +80,8 @@
     pay for customizations that are specific to your brand" />
   <meta
     name="keywords"
-    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
-    search engine optimization, easy, headless, authentication, cart & checkout,
-    tailwindcss, server rendered, proxy + api integrated, animations, stores,
-    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+    content="free ecommerce software, opensource ecommerce, node js ecommerce,
+    open source nodejs projects, online store front" />
   <meta
     data-hid="og:title"
     name="og_title"
@@ -120,7 +120,7 @@
           border-0 rounded-lg shadow-lg bg-white ">
           <div class="bg-white">
             <h2 class="text-4xl mb-2 font-bold">Free</h2>
-            <h3 class="text-green-500 text-xl mb-6">For developers</h3>
+            <h3 class="text-green-500 mb-6">For developers</h3>
           </div>
 
           <div class="text-center ">
@@ -128,7 +128,7 @@
               class=" border-b bg-white border-gray-300 flex flex-col
               justify-center lg:px-12 px-12 pb-3 ">
               {#each p1 as i}
-                <li class="flex items-center">
+                <li class="flex items-center text-left">
                   <img src="svg/checkblack.svg" alt="" class=" h-5 w-5" />
                   {i}
                 </li>
@@ -153,19 +153,22 @@
       <!-- student 2 -->
       <div class="w-full lg:w-1/3 p-2 lg:pr-8">
         <div
-          class=" bg-gray-100 flex flex-col mb-3 lg:my-12 justify-between
-          border-0 rounded-lg shadow-lg bg-white ">
+          class=" bg-gray-100 flex flex-col mb-3 lg:my-12 border-0 rounded-lg
+          shadow-lg bg-white ">
           <div class="bg-white">
             <h2 class="text-4xl mb-2 font-bold">Free</h2>
-            <h3 class="text-pink-500 text-xl mb-6">For Startups</h3>
+            <h3 class="text-pink-500 mb-4">For Startups</h3>
           </div>
           <div class=" ">
             <ul
               class="border-b border-gray-300 bg-white flex flex-col lg:px-12
               px-12 pb-3">
-              <li class="mb-4 text-green-500 ">Complete Stack Setup</li>
+              <li class="flex items-center my-6 text-green-500 ">
+                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
+                Complete Stack Setup
+              </li>
               {#each p2 as i}
-                <li class=" flex items-center my-6 ">
+                <li class=" flex items-center my-6 text-left ">
                   <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                   {i}
                 </li>
@@ -173,13 +176,13 @@
             </ul>
           </div>
           <p class="m-8 text-2xl">
-            <b class="text-4xl font-extrabold text-black">$20</b>
+            <b class="text-4xl font-extrabold text-black">$0</b>
             /month
           </p>
 
-          <button class="gs-2 text-white rounded shadow-lg m-3 py-3">
+          <a href="/contact" class="gs-2 text-white rounded shadow-lg m-3 py-3">
             Get Started
-          </button>
+          </a>
         </div>
       </div>
       <!-- student 2 -->
@@ -190,7 +193,7 @@
           text-center border-0 rounded-lg shadow-lg bg-white">
           <div class="bg-white">
             <h2 class="text-4xl mb-2 font-bold">Enterprise</h2>
-            <h3 class="text-blue-500 text-xl mb-6">$24999.00</h3>
+            <!-- <h3 class="text-blue-500 text-xl mb-6">$24999.00</h3> -->
           </div>
           <div class="">
             <ul
@@ -198,7 +201,7 @@
               flex-col lg:px-12 pb-3 px-12">
               <li class="mb-4 text-red-500">All features of Premium +</li>
               {#each p3 as i}
-                <li class="flex items-center my-6 ">
+                <li class="flex items-center my-6 text-left ">
                   <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
                   {i}
                 </li>
@@ -207,12 +210,14 @@
           </div>
 
           <p class="m-8 text-2xl">
-            <b class="font-extrabold text-black text-4xl">$200</b>
-            /month
+            <b class="font-extrabold text-black text-4xl">$8,000</b>
+            /lifetime
           </p>
-          <button class="gs-3 text-white rounded shadow-lg m-3 py-3 ">
+          <a
+            href="/contact"
+            class="gs-3 text-white rounded shadow-lg m-3 py-3 ">
             Get Started
-          </button>
+          </a>
         </div>
       </div>
       <!-- student 3 -->

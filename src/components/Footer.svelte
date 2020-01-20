@@ -52,7 +52,7 @@
         <!-- <img src="svg/twitter-square-brands.svg" alt="" /> -->
       </a>
       <a
-        href="https://www.github.com/itswadesh"
+        href="https://github.com/itswadesh"
         target="blank"
         class="bg-primary mx-1 flex justify-center items-center text-xs
         rounded-full w-8 h-8"

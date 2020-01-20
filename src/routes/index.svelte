@@ -12,18 +12,17 @@
 </script>
 
 <svelte:head>
-  <title>Litekart - Most advanced javascript ecommerce of 2020</title>
+  <title>Litekart - Lightening fast ecommerce software of 2020</title>
   <meta
     data-hid="description"
     name="description"
-    content="Free javascript ecommerce platform with essential enterprise level
-    features. Only pay on customizations for your brand" />
+    content="Free and open source javascript ecommerce platform with essential
+    enterprise level features. Only pay on customizations for your brand" />
   <meta
     name="keywords"
-    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
-    search engine optimization, easy, headless, authentication, cart & checkout,
-    tailwindcss, server rendered, headless ecommerce, animations, stores, lazy
-    loading, loading indicators, carousel, instant search, faceted filters" />
+    content="ecommerce software, image optimization, lazy loading, headless,
+    authentication, tailwindcss, headless ecommerce, carousel, instant
+    search,vuejs pwa, opensource ecommerce, faceted filters, headless commerce" />
   <meta
     data-hid="og:title"
     name="og_title"
@@ -32,16 +31,16 @@
   <meta name="og_url" property="og:url" content={`${HOST}`} />
   <meta
     property="og:description"
-    content="Free javascript ecommerce platform with essential enterprise level
-    features. Only pay on customizations for your brand" />
+    content="Free and open source javascript ecommerce platform with essential
+    enterprise level features. Only pay on customizations for your brand" />
   <!-- Twitter -->
   <meta
     name="twitter:title"
     content="Litekart - Most advanced javascript ecommerce of 2020" />
   <meta
     name="twitter:description"
-    content="Free javascript ecommerce platform with essential enterprise level
-    features. Only pay on customizations for your brand" />
+    content="Free and open source javascript ecommerce platform with essential
+    enterprise level features. Only pay on customizations for your brand" />
   <link rel="canonical" href={`${HOST}`} />
   <link rel="alternate" hreflang="en" href={`${HOST}`} />
 </svelte:head>

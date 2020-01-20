@@ -1,5 +1,6 @@
 <script>
   import { fadeIn, fadeOut } from "./../actions/pageFade";
+  import { HOST } from "./../config";
 </script>
 
 <style>
@@ -25,10 +26,40 @@
 
 <svelte:head>
   <title>Litekart - Refund Policy</title>
+  <meta
+    data-hid="description"
+    name="description"
+    content="Free and open source javascript ecommerce platform with essential
+    enterprise level features. Only pay on customizations for your brand" />
+  <meta
+    name="keywords"
+    content="ecommerce software, image optimization, lazy loading, headless,
+    authentication, tailwindcss, headless ecommerce, carousel, instant
+    search,vuejs pwa, opensource ecommerce, faceted filters, headless commerce" />
+  <meta
+    data-hid="og:title"
+    name="og_title"
+    property="og:title"
+    content="Litekart - Most advanced javascript ecommerce of 2020" />
+  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta
+    property="og:description"
+    content="Free and open source javascript ecommerce platform with essential
+    enterprise level features. Only pay on customizations for your brand" />
+  <!-- Twitter -->
+  <meta
+    name="twitter:title"
+    content="Litekart - Most advanced javascript ecommerce of 2020" />
+  <meta
+    name="twitter:description"
+    content="Free and open source javascript ecommerce platform with essential
+    enterprise level features. Only pay on customizations for your brand" />
+  <link rel="canonical" href={`${HOST}`} />
+  <link rel="alternate" hreflang="en" href={`${HOST}`} />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="hfull mb-16 mx-2 lg:mx-48 leading-loose">
-    <h1 class="text-4xl text-center">Refund & Cancellation Policy</h1>
+    <h1 class="text-3xl text-center">Refund & Cancellation Policy</h1>
     <ul>
       <li>
         You may cancel your account at anytime by emailing support@litekart.in

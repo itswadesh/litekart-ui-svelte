@@ -47,35 +47,35 @@
 <!-- for mobile -->
 <div
   class="sticky md:hidden flex shadow-lg justify-between items-center p-2
-  bg-white text-black">
+  bg-white">
   <button
     class="focus:outline-none flex justify-around items-center"
     on:click={() => (showDrawer = true)}
     aria-label="menu">
-    <Icon data={bars} class="mb-1" label="bars" scale={2} />
+    <Icon data={bars} label="bars" scale={2} />
     <!-- <i class="fa fa-bars text-black text-2xl" /> -->
   </button>
-  <a href="/" class="items-center" aria-label="logo">
+  <a href="/" rel="prefetch" class="items-center" aria-label="logo">
     <img
       use:lazyload
       src={`${CDN}../../img/litekart-logo.png?tr=w-3,h-2`}
-      data-src={`${CDN}../../img/litekart-logo.png?tr=w-128,h-48`}
+      data-src={`${CDN}../../img/litekart-logo.png?tr=h-48`}
       alt=""
-      class="h-12 w-32" />
+      class="" />
   </a>
-  <button class="flex justify-around items-center" aria-label="search" />
+  <button class="" aria-label="search" />
 </div>
 <!-- for desktop -->
 <div
   class="sticky hidden md:flex md:shadow-lg md:justify-around md:items-center
-  md:px-6 md:py-3 md:bg-white font-bold ">
-  <a href="/">
+  md:px-6 md:py-3 md:bg-white ">
+  <a href="/" rel="prefetch">
     <img
       use:lazyload
       src={`${CDN}../../img/litekart-logo.png?tr=w-3,h-2`}
-      data-src={`${CDN}../../img/litekart-logo.png`}
+      data-src={`${CDN}../../img/litekart-logo.png?tr=h-48`}
       alt=""
-      class="h-12 w-32" />
+      class="" />
   </a>
   <div class="items-center" />
   <div class=" flex justify-between md:text-gray-800 ">

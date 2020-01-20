@@ -1,4 +1,6 @@
 <script>
+  import Icon from "svelte-awesome";
+  import { times } from "svelte-awesome/icons";
   import { createEventDispatcher } from "svelte";
   import { lazyload } from "../actions/lazyload";
   import { CDN } from "./../config";
@@ -28,7 +30,8 @@
     class="sticky md:hidden flex mb-1 shadow justify-between items-center px-6
     py-3 bg-white font-bold">
     <button class="flex justify-around items-center" on:click={close}>
-      <i class="fa fa-times text-gray-700 text-2xl" />
+      <Icon data={times} class="mb-1" label="bars" scale={2} />
+      <!-- <i class="fa fa-times text-gray-700 text-2xl" /> -->
     </button>
     <a href="/" rel="prefetch" class="text-gray-700 items-center">
       <img

@@ -140,8 +140,8 @@
   <meta
     data-hid="description"
     name="description"
-    content="Litekart comes with most essential features pre-built. Go live
-    under a week." />
+    content="Litekart comes with most essential ecommerce features pre-built. Go
+    live under a week" />
   <meta
     name="keywords"
     content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
@@ -156,12 +156,16 @@
   <meta name="og_url" property="og:url" content={`${HOST}`} />
   <!-- Twitter -->
   <meta
+    name="twitter:description"
+    content="Litekart comes with most essential ecommerce features pre-built. Go
+    live under a week" />
+  <meta
     name="twitter:title"
     content="Litekart - Customize and build your brand with a unique presence" />
   <meta
     name="twitter:description"
     content="Litekart comes with most essential features pre-built. Go live
-    under a week." />
+    under a week" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="flex flex-wrap lg:p-6 p-2 justify-between ">
@@ -174,9 +178,9 @@
               <img src={f.img} class=" " alt="" />
             </div>
             <div class=" flex items-center">
-              <h1 class="titel flex text-center items-center mb-4 font-bold ">
+              <h2 class="titel flex text-center items-center mb-4 font-bold ">
                 {f.key}
-              </h1>
+              </h2>
             </div>
           </div>
           <div>

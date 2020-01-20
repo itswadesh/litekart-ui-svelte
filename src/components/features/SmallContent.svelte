@@ -683,9 +683,7 @@ ADDITIONAL FEATURES
 CODING / DEVELOPMENT -->
 
 <div>
-  <h1 class="text-center text-3xl mt-12 mb-2">
-    <b>WHAT’S INCLUDED</b>
-  </h1>
+  <h2 class="text-center text-3xl mt-12 mb-2">WHAT’S INCLUDED</h2>
   <h2 class="text-center text-xl text-gray-900 mb-8">
     Get 100+ premium features out of the box with Litekart's integrated onetime
     pricing
@@ -699,7 +697,7 @@ CODING / DEVELOPMENT -->
           <img src={f.img} class="text-6xl h-12 w-12 md:mr-8" alt="" />
           <!-- <img use:lazyload  src="img/rocket.svg" class="flex " alt="" /> -->
           <div class="flex flex-col">
-            <h1 class="mb-2 text-xl">{f.key}</h1>
+            <h2 class="mb-2 text-xl">{f.key}</h2>
             <div class="text-ms">{f.val}</div>
           </div>
         </div>

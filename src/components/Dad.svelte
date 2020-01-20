@@ -13,7 +13,7 @@
   <!-- blue -->
   <div class="flex bg-gray-800 flex-col py-12 shadow rounded">
     <div class="text-white text-center">
-      <h1 class="text-5xl text-white">Performance</h1>
+      <h2 class="text-5xl text-white">Performance</h2>
       <p class="mx-2 lg:mx-48">
         A 1-second delay in page load can decrease conversion by 7%. Online
         stores from Litekart are blazing fast on cloud infrastructure, with an
@@ -34,7 +34,7 @@
         <div
           class="border-8 border-white w-24 h-24 rounded-full flex
           justify-center items-center">
-          <h1 class="green text-3xl font-black">91+</h1>
+          <h2 class="green text-3xl font-black">91+</h2>
         </div>
         <p class="text-xl">Performance</p>
       </div>
@@ -79,9 +79,9 @@
           data-src={CDN + '../../img/clicky_logo.png'}
           class="h-12"
           alt="" />
-        <h1 class="primary text-xl my-6 ">
+        <h2 class="primary text-xl my-6 ">
           How Clicky designed an agile and highperformance ecommerce.
-        </h1>
+        </h2>
         <p class="leading-loose">
           To serve over 1 million customers and 20k daily orders, clicky needed
           quick and reliable ecommerce solution, they tripled their sales and
@@ -104,9 +104,9 @@
           data-src={CDN + '../../img/tesoro_logo.png'}
           class="h-12"
           alt="" />
-        <h1 class="primary text-xl my-6">
+        <h2 class="primary text-xl my-6">
           How Tesoro stays on top with a flexible e-commerce platform.
-        </h1>
+        </h2>
         <p class="leading-loose">
           For their growing jewellery store, there was a requirement to up-lift
           the exising ecommerce from wordpress (woocommerce) to a modern and

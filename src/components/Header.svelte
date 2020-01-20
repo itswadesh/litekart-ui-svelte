@@ -1,4 +1,6 @@
 <script>
+  import Icon from "svelte-awesome";
+  import { bars } from "svelte-awesome/icons";
   import MobileNav from "./MobileNav.svelte";
   import { slide, fade } from "svelte/transition";
   import { lazyload } from "../actions/lazyload";
@@ -50,13 +52,14 @@
     class="focus:outline-none flex justify-around items-center"
     on:click={() => (showDrawer = true)}
     aria-label="menu">
-    <i class="fa fa-bars text-black text-2xl" />
+    <Icon data={bars} class="mb-1" label="bars" scale={2} />
+    <!-- <i class="fa fa-bars text-black text-2xl" /> -->
   </button>
   <a href="/" class="items-center" aria-label="logo">
     <img
       use:lazyload
       src={`${CDN}../../img/litekart-logo.png?tr=w-3,h-2`}
-      data-src={`${CDN}../../img/litekart-logo.png`}
+      data-src={`${CDN}../../img/litekart-logo.png?tr=w-128,h-48`}
       alt=""
       class="h-12 w-32" />
   </a>

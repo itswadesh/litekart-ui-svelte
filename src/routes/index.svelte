@@ -30,6 +30,10 @@
     property="og:title"
     content="Litekart - Most advanced javascript ecommerce of 2020" />
   <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta
+    property="og:description"
+    content="Free javascript ecommerce platform with essential enterprise level
+    features. Only pay on customizations for your brand" />
   <!-- Twitter -->
   <meta
     name="twitter:title"

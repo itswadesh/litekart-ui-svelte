@@ -30,9 +30,9 @@
 </style>
 
 <div class="my-2 py-12 px-2">
-  <h1 class="text-center text-3xl pb-12 font-bold">
+  <h2 class="text-center text-3xl pb-12 font-bold">
     Here’s how Litekart helps deliver the best sales
-  </h1>
+  </h2>
   <div class=" flex justify-between flex-wrap lg:flex-no-wrap ">
     <div
       class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
@@ -84,6 +84,7 @@
     </a>
     <a
       href="https://demo.litekart.in/"
+      rel="noopener"
       target="blank"
       class="button border ml-2 bg-gray-100 py-2 px-8 primary rounded-full">
       <span>Get a Demo</span>

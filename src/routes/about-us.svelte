@@ -30,6 +30,12 @@
     name="og_title"
     property="og:title"
     content="Litekart - About Us" />
+  <meta
+    data-hid="og:description"
+    name="og_description"
+    property="og:description"
+    content="Here at litekart we love to see people grow & succeed. Hence our
+    plans are designed accordingly to suit startups" />
   <meta name="og_url" property="og:url" content={`${HOST}`} />
   <!-- Twitter -->
   <meta name="twitter:title" content="Litekart - Who we are" />
@@ -42,9 +48,9 @@
   <div class="mb-16 mx-2 lg:mx-48">
     <h1 class="text-4xl text-center">About</h1>
     <div class="py-6 mx-5">
-      <h1 class="flex justify-center text-4xl text-gray-600 ">
+      <h2 class="flex justify-center text-4xl text-gray-600 ">
         “Helping You Build An Online Brand”
-      </h1>
+      </h2>
       <p
         class=" flex justify-center mb-4 text-center text-xl font-semibold
         leading-normal">

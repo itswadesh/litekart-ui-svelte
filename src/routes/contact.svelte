@@ -86,7 +86,7 @@
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="flex flex-col my-8 lg:my-32 mb-48 justify-center bg">
-    <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
+    <div class="flex flex-wrap px-2 lg:px-16 xl:px-48 lg:mb-12">
       <div class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
         <h1 class="text-4xl mb-8 font-bold text-center">Contact Us</h1>
         {#if err}

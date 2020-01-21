@@ -67,6 +67,12 @@
 </div>
 <!-- for desktop -->
 <div
+  class="bg-gray-900 text-center p-2 text-white leading-loose tracking-wide
+  md:tracking-widest text-sm md:text-md">
+  800+ custom store implementations in last 6 years
+  <span>🚀</span>
+</div>
+<div
   class="sticky hidden md:flex md:shadow-lg md:justify-around md:items-center
   md:px-6 md:py-3 md:bg-white ">
   <a href="/" rel="prefetch">

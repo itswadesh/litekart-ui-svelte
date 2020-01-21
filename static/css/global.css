@@ -12,7 +12,7 @@
     background: #4892d3;
 }
 html,body{
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   color: #58595b;
   background-color: #fbfbfb;
 }
@@ -40,6 +40,7 @@ img{
   background-size: 100% 88%;
 }
 .btn-primary {
+  /* background-color: #FB6640; */
   background-color: #ff7426;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   /* padding-top: 0.5rem;
@@ -48,14 +49,22 @@ img{
   padding-right: 1.5rem; */
   color: white;
 }
+.btn-primary:hover {
+    background-color: #FB6640;
+}
 .primary {
-  color: darkorange;
+  color: #ff7426;
+  /* color: #FB6640; */
 }
 .bg-primary {
+  /* background-color: #FB6640; */
   background-color: #ff7426;
 }
+.bg-primary:hover {
+  background-color: #FB6640;
+}
 .hover-primary {
-  color: #ff7426;
+  color: #FB6640;
 }
 .button {
   transition: all 0.5s;

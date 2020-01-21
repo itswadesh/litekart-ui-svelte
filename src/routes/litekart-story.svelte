@@ -327,7 +327,7 @@
   <div class="demo-card-wrapper">
     {#each timeline as t, ix}
       <div class={`rounded-lg demo-card demo-card--step${ix}`}>
-        <div class=" rounded shadow">
+        <div class=" rounded shadow-lg">
           <div class="head">
             <div class="number-box rounded">
               <span>{t.version}</span>
@@ -343,7 +343,7 @@
                 <li>{d}</li>
               {/each}
             </ul>
-            <img src={t.img} alt="" class="object-cover h-64" />
+            <img src={t.img} alt="" class="object-cover h-64 shadow-lg" />
           </div>
         </div>
       </div>

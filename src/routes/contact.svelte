@@ -53,6 +53,12 @@
   button:focus {
     outline: 0;
   }
+  .bg {
+    background-image: url(../../img/contact.png);
+    background-position: 80% 0%;
+    /* background-size: cover !important; */
+    background-repeat: no-repeat;
+  }
 </style>
 
 <svelte:head>
@@ -84,14 +90,16 @@
     content="Get in touch with us to get recommendations and free ecommerce
     softwares for your small business" />
 </svelte:head>
-<main in:fadeIn out:fadeOut>
-  <div class="flex flex-col my-8 lg:my-32 mb-48 justify-center bg">
+<main in:fadeIn out:fadeOut class="bg">
+  <h1 class="text-5xl mt-8 mb:8 lg:mb-16 text-center font-bold">
+    <span class="underline">Contact</span>
+    Us
+  </h1>
+  <div class="flex flex-col justify-center">
     <div class="flex flex-wrap px-2 lg:px-16 xl:px-48 lg:mb-12">
-      <div class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
-        <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
-          <span class="underline">Contact</span>
-          Us
-        </h1>
+      <div
+        class="my-4 py-8 bg-white lg:bg-transparent shadow lg:shadow-none
+        rounded lg:rounded-none w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
         {#if err}
           <p class="bg-red-200 border p-8 rounded mb-8 font-bold">{err}</p>
         {/if}
@@ -101,14 +109,14 @@
         <form
           novalidate
           on:submit|preventDefault={submit}
-          class=" px-2 lg:px-24 flex flex-col leading-loose">
+          class="px-2 lg:px-24 flex flex-col leading-loose">
           <Textbox bind:value={email} label="Email" />
           <Textarea bind:value={message} label="Message" />
           <button
             disabled={loading}
             type="submit"
             class="rounded-full w-full px-auto py-1 btn-primary flex
-            justify-center disabled:bg-gray-400 button">
+            justify-center disabled:bg-gray-400 button uppercase">
             {#if !loading}
               <span>Send</span>
             {:else}
@@ -118,14 +126,14 @@
           </button>
         </form>
       </div>
-      <div class="lg:order-last order-first w-full lg:w-1/2">
-        <img
-          use:lazyload
-          src={`${CDN}../../img/contact.png?tr=w-3,h-2`}
-          data-src={`${CDN}../../img/contact.png`}
-          class="img m-auto mb-2"
-          alt="" />
-      </div>
+      <!-- <div class="w-full lg:w-1/2"> -->
+      <!-- </div> -->
     </div>
   </div>
+  <!-- <img
+    use:lazyload
+    src={`${CDN}../../img/contact.png?tr=w-3,h-2`}
+    data-src={`${CDN}../../img/contact.png`}
+    class="img m-auto mb-2 absolute top-0 right-0"
+    alt="" /> -->
 </main>

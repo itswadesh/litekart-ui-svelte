@@ -122,7 +122,7 @@
           hover:shadow-lg border-b-8 text-center items-center p-4 rounded ">
           <Icon data={f.icon} class=" mb-1" label={f.icon} scale={3} />
           <!-- <i class={'fa fa-' + f.icon + ' text-4xl mb-1'} /> -->
-          <h2 class="text-ms text-black ">{f.data}</h2>
+          <h2 class="text-ms text-black tracking-wider">{f.data}</h2>
         </div>
       </button>
     {/each}

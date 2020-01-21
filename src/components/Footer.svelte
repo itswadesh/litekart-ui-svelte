@@ -27,7 +27,7 @@
 </style>
 
 <div
-  class="bg-gray-800 justify-between flex flex-wrap px-6 lg:px-24 py-6 shadow-lg
+  class="bg-gray-900 justify-between flex flex-wrap px-6 lg:px-24 py-6 shadow-lg
   ">
   <div class="flex ">
     <div class="flex text-white items-center">
@@ -82,7 +82,7 @@
   </div>
 </div>
 <div
-  class="bg-gray-800 communication text-center text-white py-4 border-t
+  class="bg-gray-900 communication text-center text-white py-4 border-t
   border-gray-500">
   © 2015 - {new Date().getFullYear()} Misiki Technologies.
 </div>

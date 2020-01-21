@@ -1,6 +1,6 @@
 <script>
   import Icon from "svelte-awesome";
-  import { times } from "svelte-awesome/icons";
+  import { times, code, eye, history } from "svelte-awesome/icons";
   import { createEventDispatcher } from "svelte";
   import { lazyload } from "../actions/lazyload";
   import { CDN } from "./../config";
@@ -399,6 +399,39 @@
             </g>
           </svg>
           <span class="px-3">Details</span>
+        </a>
+      </li>
+      <li class="">
+        <a
+          href="/litekart-story"
+          rel="prefetch"
+          class="px-6 py-3 flex items-center"
+          style="color:#b24592"
+          on:click={close}>
+          <Icon data={history} class="" label="history" scale={1.5} />
+          <span class="px-3">Development Story</span>
+        </a>
+      </li>
+      <li class="">
+        <a
+          href="/live-projects"
+          rel="prefetch"
+          class="px-6 py-3 flex items-center"
+          style="color:#24b47e"
+          on:click={close}>
+          <Icon data={eye} class="" label="code" scale={1.5} />
+          <span class="px-3">Live Projects</span>
+        </a>
+      </li>
+      <li class="">
+        <a
+          href="/ecommerce-developer"
+          rel="prefetch"
+          class="px-6 py-3 flex items-center"
+          style="color:#000"
+          on:click={close}>
+          <Icon data={code} class="" label="code" scale={1.5} />
+          <span class="px-3">For Developers</span>
         </a>
       </li>
     </ul>

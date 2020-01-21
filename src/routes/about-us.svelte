@@ -46,7 +46,10 @@
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="mb-16 mx-2 lg:mx-48">
-    <h1 class="text-4xl text-center">About</h1>
+    <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+      <span class="underline">About</span>
+      Us
+    </h1>
     <div class="py-6 mx-5">
       <h2 class="flex justify-center text-4xl text-gray-600 ">
         “Helping You Build An Online Brand”

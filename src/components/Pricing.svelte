@@ -4,10 +4,6 @@
 </script>
 
 <style>
-  h1 {
-    color: black;
-    font-weight: bold;
-  }
   .button {
     transition: all 0.5s;
   }

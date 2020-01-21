@@ -54,7 +54,10 @@
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="mb-16 mx-2 lg:mx-48">
-    <h1 class="text-4xl text-center">Privacy Policy</h1>
+    <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+      <span class="underline">Privacy</span>
+      Policy
+    </h1>
     <h2 class="text-xl">Promise! We never spam</h2>
     <p class="leading-loose">
       Litekart collects e-mail addresses and other contact details of people who

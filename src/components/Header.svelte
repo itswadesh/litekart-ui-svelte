@@ -69,7 +69,7 @@
 <div
   class="bg-gray-900 text-center p-2 text-white leading-loose tracking-wide
   md:tracking-widest text-sm md:text-md">
-  800+ custom store implementations in last 6 years
+  800+ custom stores implementated since 2014
   <span>🚀</span>
 </div>
 <div

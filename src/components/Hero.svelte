@@ -47,7 +47,7 @@
       Fastest ecommerce software of 2020
     </h1>
     <h2 class="primary text-lg md:text-2xl leading-loose">
-      Free for Developers & Startups
+      Free for developers & startups
     </h2>
     <p class="text-xs md:text-xl lg:text-2xl leading-loose">
       Have a great startup idea? We do technology outsourcing for free.
@@ -56,7 +56,7 @@
       <a
         href="/features"
         class="button rounded-full w-1/2 lg:w-1/3 px-auto py-2 bg-primary
-        text-white mr-2 ">
+        text-white mr-2 uppercase focus:outline-none focus:shadow">
         <span>Features</span>
       </a>
       <a
@@ -64,7 +64,7 @@
         href="https://demo.litekart.in"
         rel="noopener"
         class="button border rounded-full w-1/2 lg:w-1/3 px-auto py-2 bg-white
-        primary">
+        primary uppercase focus:outline-none focus:shadow">
         <span>Get a Demo</span>
       </a>
     </div>

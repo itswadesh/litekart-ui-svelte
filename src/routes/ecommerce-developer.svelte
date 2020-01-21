@@ -1,4 +1,5 @@
 <script>
+  import { HOST } from "./../config";
   import {
     book,
     code,
@@ -7,6 +8,7 @@
     hourglassStart
   } from "svelte-awesome/icons";
   import Product from "./../components/Product.svelte";
+  import { fadeIn, fadeOut } from "./../actions/pageFade";
   let cards = [
     {
       icon: code,
@@ -49,12 +51,51 @@
   ];
 </script>
 
-<h1 class="text-5xl mt-8 mb-16 text-center font-bold">
-  For
-  <span class="underline">Developers</span>
-</h1>
-<div class="flex flex-wrap m-2 xl:mb-16">
-  {#each cards as c}
-    <Product product={c} />
-  {/each}
-</div>
+<svelte:head>
+  <title>Litekart - Trusted by 800+ developers arround the world</title>
+  <meta
+    data-hid="description"
+    name="description"
+    content="Litekart offers cutting edge features which is a generation ahead
+    of other ecommerce softwares." />
+  <meta
+    name="keywords"
+    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
+    search engine optimization, easy, headless, authentication, cart & checkout,
+    tailwindcss, server rendered, proxy + api integrated, animations, stores,
+    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+  <meta
+    data-hid="og:title"
+    name="og_title"
+    property="og:title"
+    content="Litekart - Trusted by 800+ developers arround the world" />
+  <meta
+    data-hid="og:description"
+    name="og_description"
+    property="og:description"
+    content="Save 1000hrs of development time and cost using litekart's pre
+    prepared software. Customize it to any extend and make software deliveries
+    in time. Made for developers by developers" />
+  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <!-- Twitter -->
+  <meta
+    name="twitter:title"
+    content="Litekart - Trusted by 800+ developers arround the world" />
+  <meta
+    name="twitter:description"
+    content="Save 1000hrs of development time and cost using litekart's pre
+    prepared software. Customize it to any extend and make software deliveries
+    in time. Made for developers by developers" />
+</svelte:head>
+
+<main in:fadeIn out:fadeOut>
+  <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+    For
+    <span class="underline">Developers</span>
+  </h1>
+  <div class="flex flex-wrap m-2 xl:mb-16">
+    {#each cards as c}
+      <Product product={c} />
+    {/each}
+  </div>
+</main>

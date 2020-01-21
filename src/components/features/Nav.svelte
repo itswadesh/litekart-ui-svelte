@@ -11,7 +11,6 @@
     creditCard,
     microchip,
     shield,
-    cart,
     mobile
   } from "svelte-awesome/icons";
   // import { chartLine } from "@fortawesome/free-regular-svg-icons";

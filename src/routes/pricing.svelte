@@ -107,8 +107,11 @@
     pay for customizations that are specific to your brand" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <div class=" text-center px-4 lg:px-48 py-8 lg:py-32">
-    <h1 class="text-3xl lg:text-5xl leading-loose font-black">Grow With Us</h1>
+  <div class=" text-center px-4 lg:px-48 py-8">
+    <h1 class="text-5xl mt-8 text-center font-bold">
+      <span class="underline">Grow</span>
+      with us
+    </h1>
     <h2 class="text-xl lg:text-2xl leading-loose mb-8">
       Free for developers & Startups
     </h2>
@@ -163,7 +166,7 @@
             <ul
               class="border-b border-gray-300 bg-white flex flex-col lg:px-12
               px-12 pb-3">
-              <li class="flex items-center my-6 text-green-500 ">
+              <li class="flex items-center my-6 ">
                 <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
                 Complete Stack Setup
               </li>

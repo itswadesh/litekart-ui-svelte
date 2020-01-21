@@ -13,7 +13,7 @@
         "Ability to show product variations and size/color filters",
         "Bulk import/export and categorization",
         "Abandonned cart & Wishlist feature",
-        "Automatic ‘bought together’ & ‘simmilar products’ suggestions",
+        "‘bought together’ & ‘simmilar products’ suggestions",
         "Low inventory alert",
         "Dynamic transactional emails",
         "Advanced single page checkout",
@@ -74,7 +74,7 @@
 </style>
 
 <!-- https://360.shiprocket.in/ecommerce-website-building/ -->
-<div class="flex flex-col my-6 justify-center bg">
+<div class="flex flex-col my-6 justify-center">
   <!-- 1st section -->
   <!-- <div class="flex justify-center mb-10 px-8 ">
     <div class="flex flex-col lg:w-1/2 ">
@@ -108,10 +108,10 @@
         <div
           class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
           <h2 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h2>
-          <div class="flex leading-loose">{f.data}</div>
+          <div class="flex leading-loose tracking-wider">{f.data}</div>
           <br />
           {#if f.ul}
-            <ul class="leading-loose">
+            <ul class=" leading-loose tracking-wider">
               {#each f.ul as li}
                 <li>{li}</li>
               {/each}
@@ -141,7 +141,9 @@
         </div>
         <div class=" w-full lg:w-1/2">
           <h2 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h2>
-          <div class="flex leading-loose">{f.data}</div>
+          <div class="flex leading-loose leading-loose tracking-wider">
+            {f.data}
+          </div>
         </div>
       </div>
     {/if}

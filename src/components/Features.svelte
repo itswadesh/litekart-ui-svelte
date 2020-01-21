@@ -16,6 +16,7 @@
   .svg-inline--fa {
     width: 2.5rem;
     height: 2.5rem;
+    /* color: #fb6640; */
     color: #ff7426;
   }
   svg {
@@ -25,7 +26,7 @@
 
 <div
   class="bg-gray-200 mt-6 text-gray-700 flex justify-center shadow-lg flex-wrap">
-  <div class="scroll flex">
+  <div class="scroll flex tracking-wider">
     <div
       class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center
       items-center ">
@@ -80,7 +81,7 @@
           0-16-16H352v-32h240a48 48 0 0 0 48-48V48a48 48 0 0 0-48-48zm-16
           352H64V64h512z" />
       </svg>
-      NodeJS + MongoDB + ES + Microservices
+      NodeJS + ES + Microservices
     </div>
     <div
       class="flex-1 border-r border-gray-400 px-6 py-4 f flex flex-col
@@ -132,7 +133,7 @@
           24v96c0 13.3 10.7 24 24 24h136v96c0 21.5 26 32 41 17l168-168c9.3-9.4
           9.3-24.6 0-34z" />
       </svg>
-      Progressive ecommerce app made with NodeJS
+      Progressive ecommerce app
     </div>
     <div
       class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center
@@ -167,7 +168,7 @@
           3.58 8 8 8h16c4.42 0 8-3.58 8-8v-16.12c23.63-.63 42.68-20.54
           42.68-45.07 0-19.97-12.99-37.81-31.59-43.39z" />
       </svg>
-      High on-page SEO + off-page ready
+      High on-page SEO
     </div>
     <div
       class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center
@@ -227,7 +228,7 @@
           19.249-11.895c96.686 22.829 124.283 22.783 220.775 0 8.599-2.03 17.218
           3.294 19.249 11.895 2.029 8.601-3.297 17.219-11.897 19.249z" />
       </svg>
-      Modern API based architecture
+      Modern API architecture
     </div>
     <a
       href="/features"

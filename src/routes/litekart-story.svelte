@@ -1,9 +1,12 @@
 <script>
   import Icon from "svelte-awesome";
   import { arrowUp } from "svelte-awesome/icons";
+  import { lazyload } from "../actions/lazyload";
+  import { CDN, HOST } from "./../config";
+  import { fadeIn, fadeOut } from "./../actions/pageFade";
   let timeline = [
     {
-      version: "v10",
+      version: "v6",
       month: "January",
       year: "2020",
       description: [
@@ -16,7 +19,7 @@
       img: "affiliate.png"
     },
     {
-      version: "v9",
+      version: "v5",
       month: "July",
       year: "2019",
       description: [
@@ -29,7 +32,7 @@
       img: "filters.png"
     },
     {
-      version: "v8",
+      version: "v4",
       month: "March",
       year: "2019",
       description: [
@@ -42,7 +45,7 @@
       img: "admin-panel.png"
     },
     {
-      version: "v7",
+      version: "v3",
       month: "August",
       year: "2018",
       description: [
@@ -56,7 +59,7 @@
       img: "arialshop.png"
     },
     {
-      version: "v6",
+      version: "v2",
       month: "May",
       year: "2018",
       description: [
@@ -70,7 +73,7 @@
       img: "variants.png"
     },
     {
-      version: "v5",
+      version: "v1",
       month: "January",
       year: "2018",
       description: [
@@ -315,38 +318,78 @@
   }
 </style>
 
-<section id="timeline">
-  <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
-    <span class="underline">Development</span>
-    Story
-  </h1>
-  <p class="leader px-2 lg:px-64 tracking-widest leading-relaxed">
-    It all started 2014 in the name of ShopNx. After 6 years of evolution, the
-    software now powers more than 800 stores worldwide
-  </p>
-  <div class="demo-card-wrapper">
-    {#each timeline as t, ix}
-      <div class={`rounded-lg demo-card demo-card--step${ix}`}>
-        <div class=" rounded shadow-lg">
-          <div class="head">
-            <div class="number-box rounded">
-              <span>{t.version}</span>
+<svelte:head>
+  <title>What's new - Open source Node js online shopping cart solution</title>
+  <meta
+    data-hid="description"
+    name="description"
+    content="Litekart offers cutting edge features which is a generation ahead
+    of other ecommerce softwares." />
+  <meta
+    name="keywords"
+    content="Free and open source javascript ecommerce platform with essential
+    enterprise level features. Only pay on customizations for your brand" />
+  <meta
+    data-hid="og:title"
+    name="og_title"
+    property="og:title"
+    content="What's new - Open source Node js online shopping cart solution" />
+  <meta
+    data-hid="og:description"
+    name="og_description"
+    property="og:description"
+    content="Free and open source javascript ecommerce platform with essential
+    enterprise level features. Only pay on customizations for your brand" />
+  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <!-- Twitter -->
+  <meta
+    name="twitter:title"
+    content="What's new - Open source Node js online shopping cart solution" />
+  <meta
+    name="twitter:description"
+    content="Free and open source javascript ecommerce platform with essential
+    enterprise level features. Only pay on customizations for your brand" />
+</svelte:head>
+
+<main in:fadeIn out:fadeOut>
+  <section id="timeline">
+    <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+      <span class="underline">Development</span>
+      Story
+    </h1>
+    <p class="leader px-2 lg:px-64 tracking-widest leading-relaxed">
+      It all started 2014 in the name of ShopNx. After 6 years of evolution, the
+      software now powers more than 800 stores worldwide
+    </p>
+    <div class="demo-card-wrapper">
+      {#each timeline as t, ix}
+        <div class={`rounded-lg demo-card demo-card--step${ix}`}>
+          <div class=" rounded shadow-lg">
+            <div class="head">
+              <div class="number-box rounded">
+                <span>{t.version}</span>
+              </div>
+              <h2>
+                <span class="small">{t.month}</span>
+                {t.year}
+              </h2>
             </div>
-            <h2>
-              <span class="small">{t.month}</span>
-              {t.year}
-            </h2>
-          </div>
-          <div class="body">
-            <ul class="px-12 py-8 leading-loose tracking-widest">
-              {#each t.description as d}
-                <li>{d}</li>
-              {/each}
-            </ul>
-            <img src={t.img} alt="" class="object-cover h-64 shadow-lg" />
+            <div class="body">
+              <ul class="px-12 py-8 leading-loose tracking-widest">
+                {#each t.description as d}
+                  <li>{d}</li>
+                {/each}
+              </ul>
+              <img
+                use:lazyload
+                src={`${CDN}../../${t.img}?tr=w-3,h-2`}
+                data-src={`${CDN}../../${t.img}?tr=w-350,h-256`}
+                alt=""
+                class="object-cover h-64 shadow-lg" />
+            </div>
           </div>
         </div>
-      </div>
-    {/each}
-  </div>
-</section>
+      {/each}
+    </div>
+  </section>
+</main>

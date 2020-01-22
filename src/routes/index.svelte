@@ -7,6 +7,11 @@
   import Display from "./../components/Display.svelte";
   import Dad from "./../components/Dad.svelte";
   import Rocket from "./../components/Rocket.svelte";
+  import Carousel from "./../components/unused/Carousel.svelte";
+  import Collapsible from "./../components/unused/Collapsible.svelte";
+  import Login from "./../components/unused/Login.svelte";
+  import Testimonials from "./../components/Testimonials.svelte";
+  import ForgotPassword from "./../components/unused/ForgotPassword.svelte";
   import { HOST } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
@@ -45,9 +50,14 @@
   <link rel="alternate" hreflang="en" href={`${HOST}`} />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
+  <!-- <ForgotPassword />
+  <Login />
+  <Carousel />
+  <Collapsible /> -->
   <Hero />
   <Features />
   <Rocket />
+  <Testimonials />
   <Highlight />
   <Clients />
   <Pricing />

@@ -57,14 +57,13 @@
     </p>
     <div class="py-6 mx-5">
       <div class=" flex justify-center mb-4 leading-loose">
-        Litekart, formerly arialshop, is a product of Odisha, India based
-        Javascript e-commerce Solution. It offers an fullstack ecommerce website
-        to enterprise businesses to strengthen their footprints in the eCommerce
-        space.
+        Litekart, formerly arialshop, is a product of India based Javascript
+        e-commerce Solution. It offers an javascript fullstack ecommerce website
+        to startups to strengthen their footprints in the ecommerce space.
       </div>
       <div class="flex justify-center">
-        Founded in 2010, Litekart has acquired 5,000 happy clients to date. If
-        you’re an ecommerce business owner, all you need to do is choose your
+        Started in 2014, litekart has acquired 800+ happy clients to date. If
+        you are an ecommerce business owner, all you need to do is choose your
         goal and we will help you develop the optimal technology platform for
         your business. We are continuously evolving to drive ecommerce for
         global merchants so that they can enable a better experience for their
@@ -133,8 +132,7 @@
         <div class="p-4">
           Litekart wants to reduce ecommerce to its bare bones for small
           retailers. We bridge the gap between technology and innovation by
-          providing an easy yet powerful ecommerce enablement platform,
-          Litekart.
+          providing an easy yet powerful ecommerce enablement platform
         </div>
       </div>
     </div>
@@ -161,7 +159,7 @@
     </h3>
     <p class=" flex justify-center">__________________</p>
     <p class="py-6 flex justify-center text-center tracking-widest">
-      At Litekart, we don’t just offer jobs, but a career. If you are crazy
+      At litekart, we don’t just offer jobs, but a career. If you are crazy
       about work and party, then we are waiting for you, eagerly!
     </p>
     <div class="flex justify-center">

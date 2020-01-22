@@ -235,7 +235,7 @@
   }
   #timeline .demo-card .head .number-box {
     display: inline;
-    float: left;
+    /* float: left; */
     margin: 15px;
     padding: 10px;
     font-size: 35px;
@@ -273,11 +273,10 @@
     border: 1px solid rgba(191, 191, 191, 0.4);
     border-top: 0;
   }
-  @media (min-width: 1000px) {
+  /* @media (min-width: 1000px) {
     #timeline .demo-card .body {
-      /* height: 315px; */
     }
-  }
+  } */
   #timeline .demo-card .body p {
     font-size: 14px;
     line-height: 18px;
@@ -383,7 +382,7 @@
               <img
                 use:lazyload
                 src={`${CDN}../../${t.img}?tr=w-3,h-2`}
-                data-src={`${CDN}../../${t.img}?tr=w-350,h-256`}
+                data-src={`${CDN}../../${t.img}?tr=w-448,h-256`}
                 alt=""
                 class="object-cover h-64 shadow-lg" />
             </div>

@@ -12,7 +12,7 @@
     {
       img: "customization/wrench-solid.svg",
       icon: "wrench text-purple-600",
-      key: " Completely Customize your website",
+      key: " Completely customize your website",
       val:
         "Our highly customizable platform lets you create the unique      ecommerce store for you with perfect shopping experience quickly.    Work with a developer to customize any aspect of your website’s     design and shopping cart."
     },
@@ -124,13 +124,13 @@
 </script>
 
 <style>
-  .titel {
+  /* .titel {
     margin-bottom: 8px;
     margin-top: 4px;
     font-size: 22px;
     color: #000000;
     margin-bottom: 24px;
-  }
+  } */
 </style>
 
 <svelte:head>
@@ -168,23 +168,27 @@
     under a week" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <div class="flex flex-wrap lg:p-6 p-2 justify-between ">
-    <div class=" m-4">
-
+  <div class="bg-gray-100 px:8 lg:px-64">
+    <h2 class="text-center text-4xl mt-8 mb-2 font-bold">WHAT’S INCLUDED</h2>
+    <h2 class="text-center text-xl text-gray-900 mb-8 tracking-widest">
+      Get 100+ premium features out of the box with litekart's integrated
+      onetime pricing
+    </h2>
+    <div class="flex justify-between flex-wrap">
       {#each features as f}
-        <div class="border my-3 flex flex-col lg:p-6 p-4 rounded-lg shadow-lg ">
-          <div class="flex lg:flex-row flex-col ">
-            <div class="flex justify-center ">
-              <img src={f.img} class=" " alt="" />
+        <div class="p-4 w-full lg:w-1/2">
+          <div
+            class="border p-2 flex flex-col md:flex-row rounded-lg shadow-md
+            px-6 py-8 shadow-md text-center md:text-left bg-white justify-center
+            items-center">
+            <img src={f.img} class="text-6xl h-12 w-12 md:mr-8" alt="" />
+            <!-- <img use:lazyload src="img/rocket.svg" class="flex " alt="" /> -->
+            <div class="flex flex-col">
+              <h2 class="mb-2 text-xl font-bold">{f.key}</h2>
+              <div class="text-ms w-full tracking-wide leading-relaxed">
+                {f.val}
+              </div>
             </div>
-            <div class=" flex items-center">
-              <h2 class="titel flex text-center items-center mb-4 font-bold ">
-                {f.key}
-              </h2>
-            </div>
-          </div>
-          <div>
-            <p class="leading-loose lg:text-left text-center">{f.val}</p>
           </div>
         </div>
       {/each}

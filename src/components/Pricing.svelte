@@ -40,9 +40,9 @@
     <div class=" lg:mr-4 bg-white shadow-lg mb-4 flex-1 rounded">
       <div class="justify-center bg-gray-500">
         <div
-          class="bg-yellow-400 flex text-center py-8 text-4xl flex-col
+          class="bg-gray-900 flex text-center py-8 text-4xl flex-col
           items-center shadow-lg">
-          <h2>Free</h2>
+          <h2 class="text-white">Free</h2>
           <a
             href="https://github.com/itswadesh/sapper-ecommerce"
             class="button text-white bg-primary text-lg py-2 px-12 mt-3 rounded ">
@@ -55,9 +55,10 @@
           use:lazyload
           src={`${CDN}../../img/hopyshopy-full.png?tr=w-3,h-2`}
           data-src={`${CDN}../../img/hopyshopy-full.png`}
-          alt="" />
+          alt=""
+          class="mb-8" />
         <h3 class="primary text-center text-xl my-3">Open source & free</h3>
-        <h2 class="text-white text-2xl">Customize</h2>
+        <h2 class="text-2xl font-bold">Customize</h2>
         <div class="mb-6 mt-2">
           Download the project free and customize the way you want.
           <p>
@@ -65,23 +66,25 @@
             choose from any technology stack
           </p>
         </div>
-        <h2 class="text-2xl">Svelte / Sapper</h2>
+        <h2 class="text-2xl font-bold">Svelte / Sapper</h2>
         <div class="mb-6 mt-2">
           Store front build over the latest and lightweight javascript approach.
           This framework gained popularity withing few days of its launch.
           Maintained by an active community with over 28k starts on github.
         </div>
-        <h2 class="text-2xl">Over 60 stars within 60 day of its launch</h2>
+        <h2 class="text-2xl font-bold">
+          Over 60 stars within 60 day of its launch
+        </h2>
         <div class="mb-6 mt-2">
           Loved by people arround the world and growing.
           <p>* 64 github stars | * 15 github forks</p>
         </div>
-        <h2 class="text-2xl">Ecommerce Essentials integrated</h2>
+        <h2 class="text-2xl font-bold">Ecommerce Essentials integrated</h2>
         <div class="mb-6 mt-2">
           Important features like Animations, lazy loading, Carousel are shipped
           out of the box. This adds up towards a great user experience.
         </div>
-        <h2 class="text-2xl">PWA as standard</h2>
+        <h2 class="text-2xl font-bold">PWA as standard</h2>
         <div class="mb-6 mt-2">
           <img
             use:lazyload
@@ -96,9 +99,9 @@
       <div class="bg-white shadow-lg mb-4 rounded">
         <div class="justify-center bg-gray-500">
           <div
-            class="bg-yellow-400 flex text-center py-8 text-4xl flex-col
+            class="bg-gray-900 flex text-center py-8 text-4xl flex-col
             items-center shadow-lg">
-            <h2>Free</h2>
+            <h2 class="text-white">Free</h2>
             <a
               href="https://github.com/itswadesh/foodfire"
               class="button bg-primary text-white text-lg py-2 px-12 mt-3
@@ -112,7 +115,8 @@
             use:lazyload
             src={`${CDN}../../img/foodfire-full.png?tr=w-3,h-2`}
             data-src={`${CDN}../../img/foodfire-full.png`}
-            alt="" />
+            alt=""
+            class="mb-8" />
           <h3 class="primary text-center text-xl my-3">Open source & free</h3>
           <h2 class="text-2xl font-bold">Standalone Opensource project</h2>
           <div class="mb-6 mt-2">
@@ -159,9 +163,9 @@
       <div class="bg-white shadow-lg mb-4 rounded">
         <div class="justify-center bg-gray-500">
           <div
-            class="bg-yellow-400 flex text-center py-8 text-4xl flex-col
+            class="bg-gray-900 flex text-center py-8 text-4xl flex-col
             items-center shadow-lg">
-            <h2>Enterprise</h2>
+            <h2 class="text-white">Enterprise</h2>
             <a
               href="https://demo.litekart.in"
               rel="noopener"
@@ -176,7 +180,8 @@
             use:lazyload
             src={`${CDN}../../img/litekart-full.png?tr=w-3,h-2`}
             data-src={`${CDN}../../img/litekart-full.png`}
-            alt="" />
+            alt=""
+            class="mb-8" />
           <h3 class="primary text-center text-xl my-3">Free for startups</h3>
           <h2 class="text-2xl font-bold">Headless API based architecture</h2>
           <div class="mb-6 mt-2">

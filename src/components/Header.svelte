@@ -36,12 +36,12 @@
     left: 0;
     background: #ff7426;
   }
-  .svg-inline--fa {
+  /* .svg-inline--fa {
     width: 1rem;
     height: 1rem;
     color: #fff;
     margin-right: 3px;
-  }
+  } */
 </style>
 
 <!-- for mobile -->
@@ -100,15 +100,15 @@
       class="link p-2 rounded text-lg ml-4">
       Story
     </a>
-    <!-- <a
-      href="/customizations"
+    <a href="/technology" rel="prefetch" class="link p-2 rounded text-lg ml-4">
+      Technology
+    </a>
+    <a
+      href="/ecommerce-developer"
       rel="prefetch"
       class="link p-2 rounded text-lg ml-4">
-      Customizations
+      Developer
     </a>
-    <a href="/details" rel="prefetch" class="link p-2 rounded text-lg ml-4">
-      Details
-    </a> -->
     <a href="/pricing" rel="prefetch" class="link p-2 rounded text-lg ml-4">
       Pricing
     </a>

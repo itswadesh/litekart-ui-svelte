@@ -6,7 +6,7 @@
       h: "Customized Design",
       img: "hero-banner.png",
       data: [
-        "Create a unique Brand presense with a custom ecommerce store. We help you develop a UI/UX that impacts your customer thought process and connects with your audience. The cutting edge design and UX practices will help you meet your business objectives faster with a fluid & unique customer experience."
+        "Create a unique brand presense with a custom ecommerce store. We help you develop a UI/UX that impacts your customer thought process and connects with your audience. The cutting edge design and UX practices will help you meet your business objectives faster with a fluid & unique customer experience."
       ],
       ul: [
         "A fully custom designed product & listing page",
@@ -62,11 +62,11 @@
   img {
     filter: drop-shadow(-10px 0px 11px #eee);
   }
-  .bg {
-    /* background-image: url(/end-banner.png); */
+  /* .bg {
+    background-image: url(/end-banner.png);
     background-repeat: no-repeat;
     background-size: contain;
-  }
+  } */
   ul {
     margin-left: 20px;
     list-style-type: disc;

@@ -319,7 +319,7 @@
       </li>
       <li class="">
         <a
-          href="/details"
+          href="/technology"
           rel="prefetch"
           class="px-6 py-3 "
           style="color:#b7ac4b"
@@ -398,7 +398,7 @@
               </g>
             </g>
           </svg>
-          <span class="px-3">Details</span>
+          <span class="px-3">Technology</span>
         </a>
       </li>
       <li class="">

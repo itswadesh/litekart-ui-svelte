@@ -87,9 +87,9 @@
 </script>
 
 <style>
-  .svg-inline--fa {
+  /* .svg-inline--fa {
     height: 1rem;
-  }
+  } */
   .scroll {
     display: flex;
     flex-wrap: nowrap;

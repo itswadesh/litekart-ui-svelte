@@ -5,13 +5,13 @@
 </script>
 
 <style>
-  img {
+  /* img {
     opacity: 1;
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 0.3s;
-  }
+  } */
 
   @keyframes fadeInOpacity {
     0% {
@@ -21,7 +21,7 @@
       opacity: 1;
     }
   }
-  .zoom {
+  /* .zoom {
     overflow: hidden;
   }
   .zoom img {
@@ -29,11 +29,11 @@
   }
   .zoom:hover img {
     transform: scale(1.035);
-  }
+  } */
 </style>
 
 {#if product}
-  <div class="p-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4 ">
+  <div class="p-4 w-full md:w-1/2 lg:w-1/3 ">
     <a
       href={product.link}
       rel="prefetch"

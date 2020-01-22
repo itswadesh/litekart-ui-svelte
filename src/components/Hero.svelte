@@ -56,7 +56,7 @@
       <a
         href="/features"
         class="button rounded-full w-1/2 lg:w-1/3 px-auto py-2 bg-primary
-        text-white mr-2 uppercase focus:outline-none focus:shadow">
+        text-white mr-2 focus:outline-none focus:shadow">
         <span>Features</span>
       </a>
       <a
@@ -64,7 +64,7 @@
         href="https://demo.litekart.in"
         rel="noopener"
         class="button border rounded-full w-1/2 lg:w-1/3 px-auto py-2 bg-white
-        primary uppercase focus:outline-none focus:shadow">
+        primary focus:outline-none focus:shadow">
         <span>Get a Demo</span>
       </a>
     </div>

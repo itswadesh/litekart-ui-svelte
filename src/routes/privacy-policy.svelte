@@ -58,8 +58,8 @@
       <span class="underline">Privacy</span>
       Policy
     </h1>
-    <h2 class="text-xl">Promise! We never spam</h2>
-    <p class="leading-loose">
+    <h2 class="text-xl">Promise! we never spam</h2>
+    <p class="leading-loose tracking-wider">
       Litekart collects e-mail addresses and other contact details of people who
       register at our website and send us e-mail. The information we collect is
       not shared with or sold to others except under the certain circumstances

@@ -63,7 +63,7 @@
       <span class="underline">Refund</span>
       & Cancellation Policy
     </h1>
-    <ul>
+    <ul class="leading-loose tracking-wider">
       <li>
         You may cancel your account at anytime by emailing support@litekart.in
       </li>

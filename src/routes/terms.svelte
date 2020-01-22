@@ -58,9 +58,11 @@
       <span class="underline">Terms</span>
     </h1>
     <h2 class="text-xl">Refund Policy</h2>
-    <p>Full Refund witin 7 days if it does not work the way you wish</p>
+    <p class="tracking-wider">
+      Full Refund witin 7 days if it does not work the way you wish
+    </p>
     <h2 class="text-xl">Script Usage</h2>
-    <p>
+    <p class="tracking-wider">
       The ecommerce Scripts located on codenx.com/shopnx.in Resources are made
       by Swadesh Behera, submitted by the author, or found in the public domain.
       They can be used freely on private or commercial sites unless stated
@@ -75,7 +77,7 @@
       any fashion from the authors original for download purposes.
     </p>
     <h2 class="text-xl">About The Script</h2>
-    <p>
+    <p class="tracking-wider">
       These scripts are text files which can be opened with any text editor
       (notepad, word, etc), they have been compressed into .zip format to ensure
       the text format remains complete, as sending text files via standard html
@@ -86,7 +88,7 @@
       Resources, please refer to the author page on this site for seeking help.
     </p>
     <h2 class="text-xl">Warranty</h2>
-    <p>
+    <p class="tracking-wider">
       We do not guarantee they will function with all 3rd party scripts or web
       browsers. We are not responsible for any script compatibility conflicts
       that may occur. It is our policy to support our products as best we can
@@ -95,9 +97,11 @@
       that may occur as a result of installing these products.
     </p>
     <h2 class="text-xl">License</h2>
-    <p>Themes and Support are provided as is under the GPL 2.0 license.</p>
+    <p class="tracking-wider">
+      Themes and Support are provided as is under the GPL 2.0 license.
+    </p>
     <h2 class="text-xl">Browser Compatibility</h2>
-    <p>
+    <p class="tracking-wider">
       Our Arialshop / ShopNx support all modern web browsers including (but not
       limited to) Firefox, Safari, Chrome (all on PC & Mac). Whilst we strive to
       give every a seamless & near-identical experience across each of these
@@ -109,7 +113,7 @@
       negatively.
     </p>
     <h2 class="text-xl">Ownership</h2>
-    <p>
+    <p class="tracking-wider">
       You may not claim intellectual or exclusive ownership to any of our
       product, modified or unmodified. All products are property of codenx. Our
       products are provided “as is” without warranty of any kind, either
@@ -119,6 +123,6 @@
       of or inability to use our product.
     </p>
     <h2 class="text-xl">Support</h2>
-    <p>Dedicated 24/7 support through email.</p>
+    <p class="tracking-wider">Dedicated 24/7 support through email.</p>
   </div>
 </main>

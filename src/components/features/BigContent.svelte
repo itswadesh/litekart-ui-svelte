@@ -153,7 +153,7 @@
   }
 </style>
 
-<!-- 2nd section -->
+<!-- left section -->
 {#each features as f, ix}
   {#if ix % 2 == 0}
     <div class="bg flex flex-wrap px-2 lg:px-48 lg:mb-12">
@@ -186,8 +186,8 @@
       </div>
     </div>
   {/if}
-  <!-- 2nd section -->
-  <!-- 3rd section -->
+  <!-- left section -->
+  <!-- right section -->
   {#if ix % 2 == 1}
     <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
       <div class=" w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
@@ -200,7 +200,7 @@
       </div>
       <div class=" w-full lg:w-1/2">
         <h2 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h2>
-        <div class="flex tracking-widest">
+        <div class="flex tracking-wider">
           <ul class="w-1/2 mx-6">
             {#each f.data as i, ix}
               {#if ix % 2 == 0}
@@ -220,5 +220,4 @@
     </div>
   {/if}
 {/each}
-
-<!-- 3rd section -->
+<!-- right section -->

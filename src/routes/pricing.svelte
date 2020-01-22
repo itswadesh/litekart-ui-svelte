@@ -113,7 +113,7 @@
       with us
     </h1>
     <h2 class="text-xl lg:text-2xl leading-loose mb-8">
-      Free for developers & Startups
+      Free for developers & startups
     </h2>
     <div class="flex flex-wrap lg:flex-no-wrap ">
       <!-- student 1 -->

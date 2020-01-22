@@ -4,7 +4,7 @@
 </script>
 
 <Header />
-<div style="min-height:71.8vh">
+<div style="min-height:71.8vh" class="antialiased ">
   <slot />
 </div>
 

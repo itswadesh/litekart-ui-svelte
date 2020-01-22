@@ -6,47 +6,50 @@
 </script>
 
 <main in:fadeIn out:fadeOut>
-  <div class=" justify-around bg-gray-400 px-2 lg:py-24 py-6 mt-3 ">
-    <h1 class="text-4xl mb-6 mx-3 text-center font-bold ">
-      Build using Latest Technologies
-      <p class="text-2xl">
-        Litekart is always updated with latest technologies
-      </p>
+  <div class="bg-gray-100 px:8 lg:px-64">
+    <h1 class="text-5xl mt-8 mb-2 text-center font-bold">
+      Build using
+      <span class="underline">Latest Technologies</span>
     </h1>
+    <h2 class="text-center text-xl text-gray-900 mb-8 tracking-widest">
+      Litekart is always updated with latest technologies
+    </h2>
     <div class="flex justify-center flex-wrap ">
-      <div class="w-full lg:w-1/2">
+      <div class="w-full">
         <img
           use:lazyload
           src={`${CDN}../../img/mobile-layout-final.png?tr=w-3,h-2`}
           data-src={`${CDN}../../img/mobile-layout-final.png`}
-          class=" mb-6"
+          class="mb-12"
           alt="" />
       </div>
-      <div class="w-full lg:w-1/2 flex items-center ">
+      <!-- <div class="w-full lg:w-1/2 flex items-center ">
         <ul class="text-2xl ">
-          <li class="font-bold">
-            Nodejs-
-            <b class="text-black">Used for server side scripting.</b>
+          <li>
+            <span class="font-bold">Nodejs</span>
+            <span class="text-sm">Used for server side scripting.</span>
           </li>
-          <li class="font-bold">
-            Docker-
-            <b class="text-black">
+          <li>
+            <span class="font-bold">Docker</span>
+            <span class="text-sm leading-none">
               Docker is a tool designed to make it easier to create, deploy, and
               run applications by using containers.
-            </b>
+            </span>
 
           </li>
-          <li class="font-bold">Svelte-</li>
-          <li class="font-bold">S3-</li>
-          <li class="font-bold">Serverless-</li>
-          <li class="font-bold">Express-</li>
+          <li class="font-bold">Svelte</li>
+          <li class="font-bold">S3</li>
+          <li class="font-bold">Serverless</li>
+          <li class="font-bold">Express</li>
         </ul>
-      </div>
+      </div> -->
     </div>
   </div>
 
-  <div class="border border-gray-400 bg-gray-300 p-10 justify-around">
-    <h2 class="text-3xl text-center mb-6">Hosting Platforms</h2>
+  <div class="border border-gray-400 bg-white p-10 justify-around">
+    <h2 class="text-4xl font-bold text-center mb-6 tracking-widest">
+      Hosting Platforms
+    </h2>
 
     <div class="flex text-center flex-wrap justify-center p-4 ">
       <p class="p-4">

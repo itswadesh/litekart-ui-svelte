@@ -412,7 +412,7 @@
           <span class="px-3">Development Story</span>
         </a>
       </li>
-      <li class="">
+      <!-- <li class="">
         <a
           href="/live-projects"
           rel="prefetch"
@@ -422,7 +422,7 @@
           <Icon data={eye} class="" label="code" scale={1.5} />
           <span class="px-3">Live Projects</span>
         </a>
-      </li>
+      </li> -->
       <li class="">
         <a
           href="/ecommerce-developer"

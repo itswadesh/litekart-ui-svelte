@@ -84,5 +84,5 @@
 <div
   class="bg-gray-900 communication text-center text-white py-4 border-t
   border-gray-500">
-  © 2015 - {new Date().getFullYear()} Misiki Technologies.
+  © 2014 - {new Date().getFullYear()} Misiki Technologies.
 </div>

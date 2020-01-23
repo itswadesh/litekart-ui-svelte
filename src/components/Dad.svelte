@@ -66,11 +66,8 @@
         <p class="text-xl">SEO</p>
       </div>
     </div>
-
   </div>
-  <!-- blue end-->
-  <div class="flex mt-8 justify-between flex-wrap">
-    <!-- pink -->
+  <!-- <div class="flex mt-8 justify-between flex-wrap">
     <div class="w-full lg:w-1/2">
       <div class="flex flex-col mb-8 p-6 items-center rounded shadow lg:mr-2">
         <img
@@ -89,11 +86,8 @@
           exising php based platform. With an expenditure of 1/4 of their
           investment in the exising platform.
         </p>
-        <!-- <h2 class="text-center pt-12 text-white ">Read full customer story</h2> -->
       </div>
     </div>
-    <!-- pink -->
-    <!-- yellow -->
     <div class="w-full lg:w-1/2">
       <div
         class="flex flex-col items-center mb-8 p-6 items-center rounded shadow
@@ -114,9 +108,7 @@
           and browing time decreased by 10 times resulting 3x increase in
           delightfull customers.
         </p>
-        <!-- <h2 class="text-center pt-12 text-white ">Read full customer story</h2> -->
       </div>
     </div>
-    <!-- yellow -->
-  </div>
+  </div> -->
 </div>

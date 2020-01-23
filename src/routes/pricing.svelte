@@ -213,8 +213,7 @@
           </div>
 
           <p class="m-8 text-2xl">
-            <b class="font-extrabold text-black text-4xl">$8,000</b>
-            /lifetime
+            <b class="font-extrabold text-black text-4xl">Get a quote</b>
           </p>
           <a
             href="/contact"

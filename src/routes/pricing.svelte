@@ -18,6 +18,7 @@
     "Lazy loading",
     "Loading indicators",
     "Carousels",
+    "Cash on delivery",
     "Community support"
   ];
   let p2 = [
@@ -28,8 +29,11 @@
     "Progressive web app",
     "Email/SMS notifications",
     "Auto invoice generation",
+    "Printable Invoice",
     "SEO optimized",
     "Server rendered",
+    "Banners & Static Page Manager",
+    "Category Megamenu Manager",
     "Reports & Analytics",
     "1 click deploy to cloud",
     "Payment gateway integration",
@@ -42,6 +46,7 @@
   ];
   let p3 = [
     "1 month delivery",
+    "Full source code shared",
     "Custom theme integration",
     "Discount coupons",
     "Promotions",

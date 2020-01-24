@@ -75,7 +75,7 @@
     {
       heading: `Lalavish - A modern saloon & spa`,
       data: `With innovative product catalogue and service catalogue, lalavish is still a growing destination in city.`,
-      img: `lalvish.png`,
+      img: `lalavish.png`,
       link: `/`,
       stats: [89, 78, 124]
     }

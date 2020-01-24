@@ -4,19 +4,7 @@
 </script>
 
 <style>
-  p {
-    margin-bottom: 2rem;
-  }
-  h1 {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    font-weight: bold;
-  }
-  h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
+ 
 </style>
 
 <svelte:head>

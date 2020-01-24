@@ -4,7 +4,6 @@
   import { createEventDispatcher } from "svelte";
   import { lazyload } from "../actions/lazyload";
   import { CDN } from "./../config";
-
   const dispatch = createEventDispatcher();
   function close() {
     dispatch("close", true);

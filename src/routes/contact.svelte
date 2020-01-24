@@ -115,8 +115,8 @@
           <button
             disabled={loading}
             type="submit"
-            class="rounded-full w-full px-auto py-1 btn-primary flex
-            justify-center disabled:bg-gray-400 button uppercase">
+            class="rounded-full w-full px-auto py-1 btn-primary text-white flex
+            justify-center uppercase">
             {#if !loading}
               <span>Send</span>
             {:else}

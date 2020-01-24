@@ -1,10 +1,13 @@
 <script>
   import Icon from "svelte-awesome";
-  import { facebook, twitter, github } from "svelte-awesome/icons";
+  import { facebook, twitter, github,youtube } from "svelte-awesome/icons";
 </script>
 
 <style>
-  .link {
+a:hover{
+    color:#ccc;
+  }
+  /* .link {
     position: relative;
   }
   .link:after {
@@ -23,65 +26,74 @@
     width: 100%;
     left: 0;
     background: #ff7426;
-  }
+  } */
 </style>
 
 <div
-  class="bg-gray-900 justify-between flex flex-wrap px-6 lg:px-24 py-6 shadow-lg
-  ">
-  <div class="flex ">
-    <div class="flex text-white items-center">
-      follow us on &nbsp;
-      <a
+  class="bg-gray-900 justify-between flex flex-wrap px-6 lg:px-24 pt-5 pb-3 shadow-lg
+ text-xs text-white">
+    <div class="w-1/2 lg:w-1/4 mb-4">
+      <h4 class="my-2 text-gray-600">SOCIAL</h4>
+     <ul class="leading-loose">
+       <li class=""><a  rel="prefetch" class="flex items-center"
         href="https://www.facebook.com/codenx2"
         target="blank"
-        class="bg-primary mx-1 flex justify-center items-center text-xs
-        rounded-full w-8 h-8"
         aria-label="facebook">
-        <Icon data={facebook} class="" label="facebook" />
-
+         <Icon data={facebook} class="w-4 mr-1" label="facebook" /> Facebook
         <!-- <img src="svg/facebook-brands.svg" alt="" /> -->
-      </a>
-      <a
+      </a></li>
+       <li class=""><a  rel="prefetch" class="flex items-center"
         href="https://twitter.com/codenx2"
         target="blank"
-        class="bg-primary mx-1 flex justify-center items-center text-xs
-        rounded-full w-8 h-8"
         aria-label="twitter">
-        <Icon data={twitter} class="" label="twitter" />
+        <Icon data={twitter} class="w-4 mr-1" label="twitter" /> Twitter 
         <!-- <img src="svg/twitter-square-brands.svg" alt="" /> -->
-      </a>
-      <a
+      </a></li>
+       <li class=""><a  rel="prefetch" class="flex items-center"
         href="https://github.com/itswadesh"
         target="blank"
-        class="bg-primary mx-1 flex justify-center items-center text-xs
-        rounded-full w-8 h-8"
         aria-label="github">
-        <Icon data={github} class="" label="github" />
+        <Icon data={github} class="w-4 mr-1" label="github" /> Github 
         <!-- <img src=" svg/github-brands.svg" alt="" /> -->
-      </a>
+      </a></li>
+       <li class=""><a  rel="prefetch" class="flex items-center"
+        href="https://www.youtube.com/user/codenx2"
+        target="blank"
+        aria-label="youtube">
+       <Icon data={youtube} class="w-4 mr-1" label="youtube" /> Youtube 
+        <!-- <img src=" svg/github-brands.svg" alt="" /> -->
+      </a></li>
+     </ul> 
     </div>
-  </div>
-  <div class="text-white leading-loose flex flex-wrap items-center">
-    <a href="/about-us" rel="prefetch" class="link mr-4 my-2 ">
-      <span class="">About Us</span>
-    </a>
-    <a href="/contact" rel="prefetch" class="link mr-4 my-2 ">
-      <span class="">Contact Us</span>
-    </a>
-    <a href="/terms" rel="prefetch" class="link mr-4 my-2 ">
-      <span class="">Terms</span>
-    </a>
-    <a href="/refund-policy" rel="prefetch" class="link mr-4 my-2">
-      <span class="">Cancellation & Refund Policy</span>
-    </a>
-    <a href="/privacy-policy" rel="prefetch" class="link mr-4 my-2">
-      <span>Privacy Policy</span>
-    </a>
-    <a href="/faq" rel="prefetch" class="link">
-      <span>FAQ</span>
-    </a>
-  </div>
+    <div class="w-1/2 lg:w-1/4 mb-4">
+    <h4 class="my-2 text-gray-600">ABOUT</h4>
+    <ul class="leading-loose">
+      <li><a  rel="prefetch" href="/contact">Contact Us</a></li>
+      <li><a  rel="prefetch" href="/about-us">About Us</a></li>
+      <li><a  rel="prefetch" href="/litekart-story">Litekart Stories</a></li>
+      <li><a  rel="prefetch" href="/videos">Videos</a></li>
+    </ul>
+    </div>
+    <div class="w-1/2 lg:w-1/4 mb-4">
+    <h4 class="my-2 text-gray-600">HELP</h4>
+    <ul class="leading-loose">
+      <li><a  rel="prefetch" href="/refund-policy">Cancellation & Returns</a></li>
+      <li><a  rel="prefetch" href="/faq">FAQ</a></li>
+      <li><a  rel="prefetch" href="/customizations">Customizations</a></li>
+      <li><a  rel="prefetch" href="/pricing">Pricing</a></li>
+    </ul>
+    </div>
+    <div class="w-1/2 lg:w-1/4 mb-4">
+    <h4 class="my-2 text-gray-600">POLICY</h4>
+    <ul class="leading-loose">
+      <li class=""><a  rel="prefetch" href="/refund-policy">Return Policy</a></li>
+      <li class=""><a  rel="prefetch" href="/terms">Terms Of Use</a></li>
+      <li class=""><a  rel="prefetch" href="/privacy-policy">Privacy</a></li>
+    </ul>
+    </div>
+    <!-- <div class="w-1/2 lg:w-1/4 mb-4">
+    <h4 class="text-white border border-left-1">Mail Us</h4>
+    </div> -->
 </div>
 <div
   class="bg-gray-900 communication text-center text-white py-4 border-t

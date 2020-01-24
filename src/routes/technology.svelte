@@ -5,6 +5,44 @@
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
+<svelte:head>
+  <title>
+    Ecommerce software essential features for a unique brand presence
+  </title>
+  <meta
+    data-hid="description"
+    name="description"
+    content="Litekart's powerful ecommerce software gives you all the features
+    you need to get started with an online store in India." />
+  <meta
+    name="keywords"
+    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
+    search engine optimization, easy, headless, authentication, cart & checkout,
+    tailwindcss, server rendered, proxy + api integrated, animations, stores,
+    lazy loading, loading indicators, carousel, instant search, faceted filters" />
+  <meta
+    data-hid="og:title"
+    name="og_title"
+    property="og:title"
+    content="Ecommerce software essential features for a unique brand presence" />
+
+  <meta
+    data-hid="og:description"
+    name="og_description"
+    property="og:description"
+    content="Litekart's powerful ecommerce software gives you all the features
+    you need to get started with an online store in India." />
+
+  <meta name="og_url" property="og:url" content={`${HOST}/technology`} />
+  <!-- Twitter -->
+  <meta
+    name="twitter:title"
+    content="Ecommerce software essential features for a unique brand presence" />
+  <meta
+    name="twitter:description"
+    content="Litekart's powerful ecommerce software gives you all the features
+    you need to get started with an online store in India." />
+</svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="bg-gray-100 px:8 lg:px-64">
     <h1 class="text-5xl mt-8 mb-2 text-center font-bold">
@@ -85,41 +123,3 @@
 
   <SmallContent />
 </main>
-<svelte:head>
-  <title>
-    Ecommerce software essential features for a unique brand presence
-  </title>
-  <meta
-    data-hid="description"
-    name="description"
-    content="Litekart's powerful ecommerce software gives you all the features
-    you need to get started with an online store in India." />
-  <meta
-    name="keywords"
-    content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
-    search engine optimization, easy, headless, authentication, cart & checkout,
-    tailwindcss, server rendered, proxy + api integrated, animations, stores,
-    lazy loading, loading indicators, carousel, instant search, faceted filters" />
-  <meta
-    data-hid="og:title"
-    name="og_title"
-    property="og:title"
-    content="Ecommerce software essential features for a unique brand presence" />
-
-  <meta
-    data-hid="og:description"
-    name="og_description"
-    property="og:description"
-    content="Litekart's powerful ecommerce software gives you all the features
-    you need to get started with an online store in India." />
-
-  <meta name="og_url" property="og:url" content={`${HOST}`} />
-  <!-- Twitter -->
-  <meta
-    name="twitter:title"
-    content="Ecommerce software essential features for a unique brand presence" />
-  <meta
-    name="twitter:description"
-    content="Litekart's powerful ecommerce software gives you all the features
-    you need to get started with an online store in India." />
-</svelte:head>

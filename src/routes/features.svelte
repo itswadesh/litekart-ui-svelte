@@ -24,7 +24,7 @@
     name="og_title"
     property="og:title"
     content="Litekart - Javascript ecommerce features" />
-  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta name="og_url" property="og:url" content={`${HOST}/features`} />
   <!-- Twitter -->
   <meta
     name="twitter:title"

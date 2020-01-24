@@ -153,7 +153,7 @@
     name="og_title"
     property="og:title"
     content="Litekart - Customize and build your brand with a unique presence" />
-  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta name="og_url" property="og:url" content={`${HOST}/customizations`} />
   <!-- Twitter -->
   <meta
     name="twitter:description"

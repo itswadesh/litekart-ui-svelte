@@ -15,7 +15,7 @@
         alt=""
         class="h-24 m-8" />
       <div class="m-4">
-        <h2 class="text-3xl mb-2 font-bold">Faster eCommerce</h2>
+        <h2 class="text-3xl mb-2 font-bold">Faster ecommerce</h2>
         Complete website loads under 3 second. API calls processed under 0.4s
       </div>
     </div>
@@ -44,7 +44,7 @@
         class="h-24 m-8" />
       <div class="m-4">
         <h2 class="text-3xl mb-2 font-bold">Enterprise standard</h2>
-        Get started under 1 weeek with Litekart's ready to use enterprise level
+        Get started under 1 weeek with litekart's ready to use enterprise level
         ecommerce architecture.
       </div>
     </div>

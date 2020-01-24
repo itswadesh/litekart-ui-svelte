@@ -5,7 +5,7 @@
 
 <div class="flex flex-col text-center justify-center p-5">
   <h4 class="m-5">
-    5 ,000+ Developers and eCommerce Business Owners have adopted Litekart for
+    800+ developers and ecommerce business owners have adopted litekart for
     achieving speed, performance and scalability.
   </h4>
   <div class="flex overflow-x-auto justify-between ">

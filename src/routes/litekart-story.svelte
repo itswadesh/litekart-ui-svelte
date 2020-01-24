@@ -339,7 +339,7 @@
     property="og:description"
     content="Free and open source javascript ecommerce platform with essential
     enterprise level features. Only pay on customizations for your brand" />
-  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta name="og_url" property="og:url" content={`${HOST}/litekart-story`} />
   <!-- Twitter -->
   <meta
     name="twitter:title"

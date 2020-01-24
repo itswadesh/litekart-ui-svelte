@@ -55,7 +55,7 @@
     content="Free and open source javascript ecommerce platform with essential
     enterprise level features. Only pay on customizations for your brand" />
   <link rel="canonical" href={`${HOST}`} />
-  <link rel="alternate" hreflang="en" href={`${HOST}`} />
+  <link rel="alternate" hreflang="en" href={`${HOST}/refund-policy`} />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="hfull mb-16 mx-2 lg:mx-48 leading-loose">
@@ -65,7 +65,7 @@
     </h1>
     <ul class="leading-loose tracking-wider">
       <li>
-        You may cancel your account at anytime by emailing support@litekart.in
+        You may cancel your account at anytime by emailing support[@]litekart.in
       </li>
       <li>
         Once your account is cancelled all of your Content will be immediately

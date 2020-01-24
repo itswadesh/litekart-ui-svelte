@@ -412,7 +412,7 @@
           <span class="px-3">Development Story</span>
         </a>
       </li>
-      <!-- <li class="">
+      <li class="">
         <a
           href="/live-projects"
           rel="prefetch"
@@ -422,7 +422,18 @@
           <Icon data={eye} class="" label="code" scale={1.5} />
           <span class="px-3">Live Projects</span>
         </a>
-      </li> -->
+      </li>
+      <li class="">
+        <a
+          href="/faq"
+          rel="prefetch"
+          class="px-6 py-3 flex items-center"
+          style="color:indigo"
+          on:click={close}>
+          <Icon data={eye} class="" label="code" scale={1.5} />
+          <span class="px-3">FAQ</span>
+        </a>
+      </li>
       <li class="">
         <a
           href="/ecommerce-developer"

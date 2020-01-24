@@ -36,7 +36,7 @@
     property="og:description"
     content="Here at litekart we love to see people grow & succeed. Hence our
     plans are designed accordingly to suit startups" />
-  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta name="og_url" property="og:url" content={`${HOST}/about-us`} />
   <!-- Twitter -->
   <meta name="twitter:title" content="Litekart - Who we are" />
   <meta

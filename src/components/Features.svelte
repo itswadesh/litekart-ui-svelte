@@ -196,7 +196,7 @@
           384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67
           14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z" />
       </svg>
-      Scalable as well as Performant
+      Scalable as well as performant
     </div>
     <div
       class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center

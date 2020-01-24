@@ -58,7 +58,6 @@
         rounded-full w-8 h-8"
         aria-label="github">
         <Icon data={github} class="" label="github" />
-
         <!-- <img src=" svg/github-brands.svg" alt="" /> -->
       </a>
     </div>
@@ -76,8 +75,11 @@
     <a href="/refund-policy" rel="prefetch" class="link mr-4 my-2">
       <span class="">Cancellation & Refund Policy</span>
     </a>
-    <a href="/privacy-policy" rel="prefetch" class="link">
+    <a href="/privacy-policy" rel="prefetch" class="link mr-4 my-2">
       <span>Privacy Policy</span>
+    </a>
+    <a href="/faq" rel="prefetch" class="link">
+      <span>FAQ</span>
     </a>
   </div>
 </div>

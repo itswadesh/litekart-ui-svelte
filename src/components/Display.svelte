@@ -41,7 +41,7 @@
         src={CDN + '../../img/talent-work.svg?tr=w-3,h-2'}
         data-src={`${CDN}../../img/talent-work.svg`}
         alt="" />
-      <h2 class="mb-2 text-lg font-bold">Scalable and Secure</h2>
+      <h2 class="mb-2 text-lg font-bold">Scalable and secure</h2>
       Forget about visitors surge during a sale. The architecture takes care of
       it.
     </div>

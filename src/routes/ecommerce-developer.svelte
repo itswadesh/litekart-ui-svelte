@@ -197,7 +197,10 @@
     content="Save 1000hrs of development time and cost using litekart's pre
     prepared software. Customize it to any extend and make software deliveries
     in time. Made for developers by developers" />
-  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta
+    name="og_url"
+    property="og:url"
+    content={`${HOST}/ecommerce-developer`} />
   <!-- Twitter -->
   <meta
     name="twitter:title"

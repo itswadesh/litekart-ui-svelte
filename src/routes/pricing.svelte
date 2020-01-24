@@ -3,48 +3,54 @@
   import { CDN, HOST } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
   let p1 = [
-    "Instant Delivery",
-    "Open Source",
-    "Licensed",
+    "Instant delivery",
+    "Open source licensed",
+    "Headless",
     "Authentication",
-    "Cart & Checkout",
-    "Server Rendered",
+    "Cart & checkout",
+    "Tailwind CSS",
+    "Server rendered",
+    "1 command deploy to production",
     "Lazy loading",
-    "Loading Indicators",
+    "Animations",
+    "Stores",
+    "Proxy + API integrated",
+    "Lazy loading",
+    "Loading indicators",
     "Carousels",
-    " Community Support"
+    "Community support"
   ];
   let p2 = [
     "1 day delivery",
-    "Unlimited Products",
-    "Unlimited Checkouts",
+    "Unlimited products",
+    "Unlimited checkouts",
     "4 user roles",
     "Progressive web app",
-    "Email/SMS Notifications",
+    "Email/SMS notifications",
     "Auto invoice generation",
-    "SEO Optimized",
-    "Server Rendered",
+    "SEO optimized",
+    "Server rendered",
     "Reports & Analytics",
     "1 click deploy to cloud",
-    "Payment Gateway Integration",
+    "Payment gateway integration",
     "Facebook optimized product",
-    "Product Rating and Reviews",
-    "Social Media Logins",
-    "Faceted Search",
+    "Product rating and reviews",
+    "Social media logins",
+    "Faceted search",
     "Free SSL",
-    "Premium 24/7 Support"
+    "Premium 24/7 support"
   ];
   let p3 = [
     "1 month delivery",
-    "Custom Theme Integration",
-    "Discount Coupons",
+    "Custom theme integration",
+    "Discount coupons",
     "Promotions",
-    "Android & IOS App",
-    "Abandoned Cart",
+    "Android & IOS app",
+    "Abandoned cart",
     "Marketplace integration",
     "Multi seller",
-    "Affiliate Management",
-    "99.95% Uptime"
+    "Affiliate management",
+    "99.95% uptime"
   ];
 </script>
 
@@ -95,7 +101,7 @@
     content="Litekart is essentially free for developers and startups. You only
     pay for customizations that are specific to your brand" />
 
-  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta name="og_url" property="og:url" content={`${HOST}/pricing`} />
   <!-- Twitter -->
   <meta
     name="twitter:title"

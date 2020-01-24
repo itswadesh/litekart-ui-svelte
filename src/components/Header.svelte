@@ -88,12 +88,12 @@
     <a href="/features" rel="prefetch" class="link p-2 rounded text-lg ml-4">
       Features
     </a>
-    <!-- <a
+    <a
       href="/live-projects"
       rel="prefetch"
       class="link p-2 rounded text-lg ml-4">
       Live Projects
-    </a> -->
+    </a>
     <a
       href="/litekart-story"
       rel="prefetch"

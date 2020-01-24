@@ -61,11 +61,11 @@
       </a>
       <a
         target="_blank"
-        href="https://demo.litekart.in"
+        href="https://github.com/itswadesh/sapper-ecommerce"
         rel="noopener"
         class="button border rounded-full w-1/2 lg:w-1/3 px-auto py-2 bg-white
         primary focus:outline-none focus:shadow">
-        <span>Get a Demo</span>
+        <span>Download</span>
       </a>
     </div>
   </div>

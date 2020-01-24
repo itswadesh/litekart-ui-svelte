@@ -82,7 +82,7 @@
     name="og_title"
     property="og:title"
     content="Litekart - Talk to Us" />
-  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta name="og_url" property="og:url" content={`${HOST}/contact`} />
   <!-- Twitter -->
   <meta name="twitter:title" content="Litekart - Contact Us" />
   <meta

@@ -77,7 +77,7 @@
         </h2>
         <div class="mb-6 mt-2">
           Loved by people arround the world and growing.
-          <p>* 64 github stars | * 15 github forks</p>
+          <p>* 70 github stars | * 17 github forks</p>
         </div>
         <h2 class="text-2xl font-bold">Ecommerce Essentials integrated</h2>
         <div class="mb-6 mt-2">

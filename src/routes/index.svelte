@@ -22,7 +22,7 @@
     data-hid="description"
     name="description"
     content="Free and open source javascript ecommerce platform with essential
-    enterprise level features. Only pay on customizations for your brand" />
+    enterprise level features. Highly scalable, headless, fast" />
   <meta
     name="keywords"
     content="ecommerce software, image optimization, lazy loading, headless,
@@ -37,7 +37,7 @@
   <meta
     property="og:description"
     content="Free and open source javascript ecommerce platform with essential
-    enterprise level features. Only pay on customizations for your brand" />
+    enterprise level features. highly scalable, headless, fast" />
   <!-- Twitter -->
   <meta
     name="twitter:title"
@@ -45,7 +45,7 @@
   <meta
     name="twitter:description"
     content="Free and open source javascript ecommerce platform with essential
-    enterprise level features. Only pay on customizations for your brand" />
+    enterprise level features. Highly scalable, headless, fast" />
   <link rel="canonical" href={`${HOST}`} />
   <link rel="alternate" hreflang="en" href={`${HOST}`} />
 </svelte:head>

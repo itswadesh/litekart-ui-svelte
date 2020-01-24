@@ -36,7 +36,7 @@
     name="og_title"
     property="og:title"
     content="Litekart - Most advanced javascript ecommerce of 2020" />
-  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta name="og_url" property="og:url" content={`${HOST}/privacy-policy`} />
   <meta
     property="og:description"
     content="Free and open source javascript ecommerce platform with essential

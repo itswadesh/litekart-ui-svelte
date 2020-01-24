@@ -138,7 +138,7 @@
               justify-center lg:px-12 px-12 pb-3 ">
               {#each p1 as i}
                 <li class="flex items-center text-left">
-                  <img src="svg/checkblack.svg" alt="" class=" h-5 w-5" />
+                  <img src={`${CDN}../../svg/checkblack.svg`} alt="" class=" h-5 w-5" />
                   {i}
                 </li>
               {/each}
@@ -173,12 +173,12 @@
               class="border-b border-gray-300 bg-white flex flex-col lg:px-12
               px-12 pb-3">
               <li class="flex items-center my-6 ">
-                <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
+                <img src={`${CDN}../../svg/checkblue.svg`} alt="" class="h-5 w-5 " />
                 Complete Stack Setup
               </li>
               {#each p2 as i}
                 <li class=" flex items-center my-6 text-left ">
-                  <img src="svg/checkblue.svg" alt="" class="h-5 w-5 " />
+                  <img src={`${CDN}../../svg/checkblue.svg`} alt="" class="h-5 w-5 " />
                   {i}
                 </li>
               {/each}
@@ -211,7 +211,7 @@
               <li class="mb-4 text-red-500">All features of Premium +</li>
               {#each p3 as i}
                 <li class="flex items-center my-6 text-left ">
-                  <img src="svg/checkpurpel.svg" alt="" class="h-5 w-5 " />
+                  <img src={`${CDN}../../svg/checkpurpel.svg`} alt="" class="h-5 w-5 " />
                   {i}
                 </li>
               {/each}

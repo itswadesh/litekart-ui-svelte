@@ -1,4 +1,6 @@
 <script>
+  import { CDN } from "./../../config";
+
   let features = [
     {
       img: "details/pink/facets.svg",
@@ -702,7 +704,7 @@ CODING / DEVELOPMENT -->
           class="border p-2 flex flex-col md:flex-row rounded-lg shadow-md px-6
           py-8 shadow-md text-center md:text-left bg-white justify-center
           items-center">
-          <img src={f.img} class="text-6xl h-12 w-12 md:mr-8" alt="" />
+          <img src={`${CDN}../../${f.img}`} class="text-6xl h-12 w-12 md:mr-8" alt="" />
           <!-- <img use:lazyload src="img/rocket.svg" class="flex " alt="" /> -->
           <div class="flex flex-col">
             <h2 class="mb-2 text-xl">{f.key}</h2>

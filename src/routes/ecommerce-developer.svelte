@@ -1,5 +1,5 @@
 <script>
-  import { HOST } from "./../config";
+  import { HOST,CDN } from "./../config";
   import {
     book,
     code,
@@ -235,7 +235,7 @@
             class="border p-2 flex flex-col md:flex-row rounded-lg shadow-md
             px-6 py-8 shadow-md text-center md:text-left justify-center
             items-center">
-            <img src={f.img} class="text-6xl h-12 w-12 md:mr-8" alt="" />
+            <img src={`${CDN}../../${f.img}`} class="text-6xl h-12 w-12 md:mr-8" alt="" />
             <!-- <img use:lazyload src="img/rocket.svg" class="flex " alt="" /> -->
             <div class="flex flex-col">
               <h2 class="mb-2 text-xl font-bold">{f.key}</h2>

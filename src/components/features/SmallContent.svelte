@@ -24,7 +24,7 @@
         "Facets helps to filter the search results further in the product listing/search/category page to narrow down the results. Facets can be based upon price range, brand, size, category, colors, key features."
     },
     {
-      img: "details/purple/product details.svg",
+      img: "details/purple/product-details.svg",
       icon: "table",
       key: "Product details",
       val:
@@ -44,14 +44,14 @@
       val: "100% Search Engine Friendly URLs, Google SiteMap support."
     },
     {
-      img: "details/pink/marketing&promotions.svg",
+      img: "details/pink/marketing-promotions.svg",
       icon: "ad",
       key: "Marketing & Promotions",
       val:
         "Catalog Promotional Pricing by percentage or fixed amount with ability to restrict to stores, categories, Products"
     },
     {
-      img: "details/purple/Catalogue Browsing.svg",
+      img: "details/purple/catalogue-browsing.svg",
       icon: "list-alt",
       key: "Catalogue Browsing",
       val:
@@ -65,20 +65,20 @@
         "Inventory management, batch import and export of products, additional product attributes."
     },
     {
-      img: "details/purple/Customer Accounts.svg",
+      img: "details/purple/customer-accounts.svg",
       icon: "vote-yea",
       key: "Customer Accounts",
       val: "Order status and history, e-mail for products in the wishlist."
     },
     {
-      img: "details/pink/analytic&reporting.svg",
+      img: "details/pink/analytic-reporting.svg",
       icon: "user-check",
       key: "Analytics & Reporting",
       val:
         "The script is integrated with Google Analytics and offers many different reports."
     },
     {
-      img: "details/purple/Customer check.svg",
+      img: "details/purple/customer-check.svg",
       icon: "user-alt",
       key: "Customer Service",
       val:
@@ -92,7 +92,7 @@
         "Option of free shipping, standard shipping, cart total based shipping"
     },
     {
-      img: "details/purple/Order managment.svg",
+      img: "details/purple/order-managment.svg",
       icon: "tasks",
       key: "Order Management",
       val:
@@ -105,7 +105,7 @@
       val: "The future of mobile apps is here"
     },
     {
-      img: "details/purple/platform agnostic.svg",
+      img: "details/purple/platform-agnostic.svg",
       icon: "money-check-alt",
       key: "Platform agnostic",
       val:
@@ -118,7 +118,7 @@
       val: ""
     },
     {
-      img: "details/purple/product search.svg ",
+      img: "details/purple/product-search.svg ",
       icon: "window-restore",
       key: "Product Search",
       val: "With help of elastic seach, the searching speed is improves by 5x"
@@ -131,7 +131,7 @@
         "Along with seach functionality, users have an option to browse products based on categories"
     },
     {
-      img: "details/purple/Product details.svg  ",
+      img: "details/purple/product-details.svg  ",
       icon: "file-alt",
       key: "Product Detail Page",
       val:
@@ -157,7 +157,7 @@
       val: "Cart Summary, Address Input, Payment options all in a single page"
     },
     {
-      img: "details/purple/Guest Checkout.svg",
+      img: "details/purple/guest-checkout.svg",
       icon: "file-alt",
       key: "Guest Checkout",
       val: "Option to checkout without even login"
@@ -170,7 +170,7 @@
         "We have both phone + email based authentication as well as authorization architecture with hierarchy"
     },
     {
-      img: "details/purple/Manage products.svg ",
+      img: "details/purple/manage-products.svg ",
       icon: "clipboard",
       key: "Manage Products",
       val: "Product details + stock can be managed by store manager"
@@ -194,7 +194,7 @@
       val: "Every order generates an invoice which is temlate based"
     },
     {
-      img: "details/purple/Related Products.svg",
+      img: "details/purple/related-products.svg",
       icon: "toolbox",
       key: "Related Products",
       val: "An API endpoint for products based on 1 referenced product"
@@ -300,7 +300,7 @@
       val: "Email Templates are completely customizable from store admin panel"
     },
     {
-      img: "details/purple/Auto send invoice through emails.svg",
+      img: "details/purple/invoice-through-emails.svg",
       icon: "envelope-open-text",
       key: "Auto send invoice through emails",
       val:
@@ -313,7 +313,7 @@
       val: "Rating and Reviews have moderation option too"
     },
     {
-      img: "details/purple/Promotions (Cart & Product).svg",
+      img: "details/purple/promotions.svg",
       icon: "cart-plus",
       key: "Promotions (Cart & Product)",
       val: "There are both Cart and Product promotions options"
@@ -325,7 +325,7 @@
       val: "Wishlist can be enalbed if a store admin wish so"
     },
     {
-      img: "details/purple/Product Option Based Price.svg",
+      img: "details/purple/product-option-based-price.svg",
       icon: "tags ",
       key: "Product Option Based Price",
       val:
@@ -339,7 +339,7 @@
         "All users address are stored and during checkout it is presented for selection"
     },
     {
-      img: "details/purple/social login.svg ",
+      img: "details/purple/social-login.svg ",
       icon: "sign-in-alt",
       key: "Social login",
       val:
@@ -353,7 +353,7 @@
         "The complete website is server rendered. Hence we get great speed, low memory requirement, high SEO score"
     },
     {
-      img: "details/purple/report &analytics.svg",
+      img: "details/purple/report-analytics.svg",
       icon: "folder-minus",
       key: "Reports & Analytics",
       val:
@@ -380,7 +380,7 @@
       val: "This sections displays the product browsing history of a customer"
     },
     {
-      img: "details/purple/related products (2).svg",
+      img: "details/purple/related-products.svg",
       icon: "box",
       key: "Related Products",
       val:
@@ -408,7 +408,7 @@
         "Both SMS and Email options are fully configurable, you can create your own SMS and Email templates"
     },
     {
-      img: "details/purple/contact us from.svg",
+      img: "details/purple/contact-us.svg",
       icon: "phone-square",
       key: "Contact Us form",
       val:
@@ -471,7 +471,7 @@
         "Along with powerful seach option, the search results can be further narrowed down using facets"
     },
     {
-      img: "details/pink/Breadcrumbs.svg",
+      img: "details/pink/breadcrumbs.svg",
       icon: "bread-slice",
       key: "Breadcrumbs",
       val: "Automated breadcrumbs for all pages"
@@ -647,7 +647,6 @@
       val:
         "Google analytics, facebook pixel can be integrated with just proving the ID"
     },
-
     {
       img: "details/purple/auto-generated.svg",
       icon: "map-marked-alt",

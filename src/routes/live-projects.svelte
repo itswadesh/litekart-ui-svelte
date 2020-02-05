@@ -5,28 +5,28 @@
   import { CDN, HOST } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
   let projects = [
-    // {
-    //   heading: `How clicky designed an agile and highperformance ecommerce`,
-    //   data: `To serve over 1 million customers and 20k daily orders, clicky needed
-    //       quick and reliable ecommerce solution, they tripled their sales and
-    //       achieved 2nd milestone target under 6 months of migration their
-    //       exising php based platform. With an expenditure of 1/4 of their
-    //       investment in the exising platform`,
-    //   img: `clicky.png`,
-    //   link: `https://www.clicky.pk/`,
-    //   stats: [185, 65, 250]
-    // },
-    // {
-    //   heading: `How tesoro stays on top with a flexible e-commerce platform`,
-    //   data: `For their growing jewellery store, there was a requirement to up-lift
-    //       the exising ecommerce from wordpress (woocommerce) to a modern and
-    //       more performant platform and they choose Litekart. The page loading
-    //       and browing time decreased by 10 times resulting 3x increase in
-    //       delightfull customers`,
-    //   img: `tesoro.png`,
-    //   link: `https://www.tesoro.pk/`,
-    //   stats: [232, 94, 320]
-    // },
+    {
+      heading: `How clicky designed an agile and highperformance ecommerce`,
+      data: `To serve over 1 million customers and 20k daily orders, clicky needed
+          quick and reliable ecommerce solution, they tripled their sales and
+          achieved 2nd milestone target under 6 months of migration their
+          exising php based platform. With an expenditure of 1/4 of their
+          investment in the exising platform`,
+      img: `clicky.png`,
+      link: `/live-projects`,
+      stats: [185, 65, 250]
+    },
+    {
+      heading: `How tesoro stays on top with a flexible e-commerce platform`,
+      data: `For their growing jewellery store, there was a requirement to up-lift
+          the exising ecommerce from wordpress (woocommerce) to a modern and
+          more performant platform and they choose Litekart. The page loading
+          and browing time decreased by 10 times resulting 3x increase in
+          delightfull customers`,
+      img: `tesoro.png`,
+      link: `/live-projects`,
+      stats: [232, 94, 320]
+    },
     {
       heading: `Misiki started its journey from Litekart`,
       data: `With an innovative idea in mind, Misiki Technologies started their

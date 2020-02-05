@@ -16,7 +16,6 @@
     top: 0;
     z-index: 10;
   }
-
   .link {
     position: relative;
   }
@@ -28,11 +27,11 @@
     display: block;
     right: 0;
     background-image: linear-gradient(
-    to right,
-    rgb(250, 112, 154) 0%,
-    rgb(254, 225, 64) 100%
-  );
-  background-repeat: no-repeat;
+      to right,
+      rgb(250, 112, 154) 0%,
+      rgb(254, 225, 64) 100%
+    );
+    background-repeat: no-repeat;
     transition: width 0.2s ease;
     -webkit-transition: width 0.2s ease;
   }
@@ -89,38 +88,54 @@
   </a>
   <div class="items-center" />
   <div class=" flex justify-between md:text-gray-800 ">
-    <a href="/features" rel="prefetch" class="link p-2 rounded text-lg ml-4"  class:underline={segment === "features"}>
+    <a
+      href="/features"
+      rel="prefetch"
+      class="link p-2 rounded text-lg ml-4"
+      class:underline={segment === 'features'}>
       Features
     </a>
     <a
       href="/live-projects"
       rel="prefetch"
-      class="link p-2 rounded text-lg ml-4" class:underline={segment === "live-projects"}>
+      class="link p-2 rounded text-lg ml-4"
+      class:underline={segment === 'live-projects'}>
       Live Projects
     </a>
     <a
       href="/litekart-story"
       rel="prefetch"
-      class="link p-2 rounded text-lg ml-4" class:underline={segment === "litekart-story"}>
+      class="link p-2 rounded text-lg ml-4"
+      class:underline={segment === 'litekart-story'}>
       Story
     </a>
-    <a href="/technology" rel="prefetch" class="link p-2 rounded text-lg ml-4" class:underline={segment === "technology"}>
+    <a
+      href="/technology"
+      rel="prefetch"
+      class="link p-2 rounded text-lg ml-4"
+      class:underline={segment === 'technology'}>
       Technology
     </a>
     <a
       href="/ecommerce-developer"
       rel="prefetch"
-      class="link p-2 rounded text-lg ml-4" class:underline={segment === "ecommerce-developer"}>
+      class="link p-2 rounded text-lg ml-4"
+      class:underline={segment === 'ecommerce-developer'}>
       Developer
     </a>
-    <a href="/pricing" rel="prefetch" class="link p-2 rounded text-lg ml-4" class:underline={segment === "pricing"}>
+    <a
+      href="/pricing"
+      rel="prefetch"
+      class="link p-2 rounded text-lg ml-4"
+      class:underline={segment === 'pricing'}>
       Pricing
     </a>
     <a
       href="/contact"
       rel="prefetch"
       class="bg-primary text-white px-8 ml-6 flex items-center py-2 py-auto
-      text-lg rounded-full" class:underline={segment === "contact"}>
+      text-lg rounded-full"
+      class:underline={segment === 'contact'}>
       <Icon data={phone} label="phone" scale={1} class="mr-1" />
       Let's Talk
     </a>
@@ -128,6 +143,6 @@
 </div>
 {#if showDrawer}
   <p in:fade out:fade>
-    <MobileNav on:close={() => (showDrawer = false)}/>
+    <MobileNav on:close={() => (showDrawer = false)} />
   </p>
 {/if}

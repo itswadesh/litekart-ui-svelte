@@ -4,54 +4,82 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
   <loc>https://www.litekart.in/</loc>
-  <lastmod>2020-01-13T08:25:41+00:00</lastmod>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.litekart.in/features</loc>
-  <lastmod>2020-01-13T08:25:41+00:00</lastmod>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.litekart.in/customizations</loc>
-  <lastmod>2020-01-13T08:25:41+00:00</lastmod>
+  <loc>https://www.litekart.in/live-projects</loc>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.litekart.in/details</loc>
-  <lastmod>2020-01-13T08:25:41+00:00</lastmod>
+  <loc>https://www.litekart.in/litekart-story</loc>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.litekart.in/technology</loc>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.litekart.in/ecommerce-developer</loc>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.litekart.in/pricing</loc>
-  <lastmod>2020-01-13T08:25:41+00:00</lastmod>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.litekart.in/contact</loc>
-  <lastmod>2020-01-13T08:25:41+00:00</lastmod>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.litekart.in/customizations</loc>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.litekart.in/about-us</loc>
-  <lastmod>2020-01-13T08:25:41+00:00</lastmod>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.litekart.in/terms</loc>
-  <lastmod>2020-01-13T08:25:41+00:00</lastmod>
+  <loc>https://www.litekart.in/videos</loc>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.litekart.in/refund-policy</loc>
-  <lastmod>2020-01-13T08:25:41+00:00</lastmod>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.litekart.in/faq</loc>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.litekart.in/terms</loc>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.litekart.in/privacy-policy</loc>
-  <lastmod>2020-01-13T08:25:41+00:00</lastmod>
+  <lastmod>2020-02-05T08:14:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 

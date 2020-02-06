@@ -1,5 +1,5 @@
 <script>
-  import { HOST,CDN } from "./../config";
+  import { HOST, CDN } from "./../config";
   import {
     book,
     code,
@@ -177,8 +177,8 @@
   <meta
     data-hid="description"
     name="description"
-    content="Litekart offers cutting edge features which is a generation ahead
-    of other ecommerce softwares." />
+    content="Made with customizations as primary goal, litekart provides easy
+    on-boarding, quick migrations, simple and modular coding structure" />
   <meta
     name="keywords"
     content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
@@ -194,7 +194,7 @@
     data-hid="og:description"
     name="og_description"
     property="og:description"
-    content="Save 1000hrs of development time and cost using litekart's pre
+    content="Save 1000 hrs of development time and cost using litekart's pre
     prepared software. Customize it to any extend and make software deliveries
     in time. Made for developers by developers" />
   <meta
@@ -207,7 +207,7 @@
     content="Litekart - Trusted by 800+ developers arround the world" />
   <meta
     name="twitter:description"
-    content="Save 1000hrs of development time and cost using litekart's pre
+    content="Save 1000 hrs of development time and cost using litekart's pre
     prepared software. Customize it to any extend and make software deliveries
     in time. Made for developers by developers" />
 </svelte:head>
@@ -235,7 +235,10 @@
             class="border p-2 flex flex-col md:flex-row rounded-lg shadow-md
             px-6 py-8 shadow-md text-center md:text-left justify-center
             items-center">
-            <img src={`${CDN}../../${f.img}`} class="text-6xl h-12 w-12 md:mr-8" alt="" />
+            <img
+              src={`${CDN}../../${f.img}`}
+              class="text-6xl h-12 w-12 md:mr-8"
+              alt="" />
             <!-- <img use:lazyload src="img/rocket.svg" class="flex " alt="" /> -->
             <div class="flex flex-col">
               <h2 class="mb-2 text-xl font-bold">{f.key}</h2>

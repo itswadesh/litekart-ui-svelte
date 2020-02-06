@@ -47,7 +47,6 @@
     content="Free and open source javascript ecommerce platform with essential
     enterprise level features. Highly scalable, headless, fast" />
   <link rel="canonical" href={`${HOST}`} />
-  <link rel="alternate" hreflang="en" href={`${HOST}`} />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <!-- <ForgotPassword />

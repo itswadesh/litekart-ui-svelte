@@ -1,5 +1,5 @@
 <script>
-  import { HOST,CDN } from "./../config";
+  import { HOST, CDN } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
   let features = [
     {
@@ -169,7 +169,10 @@
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="bg-gray-100 px:8 lg:px-32 xl:px-48">
-    <h2 class="text-center text-4xl mt-8 mb-2 font-bold">WHAT’S INCLUDED</h2>
+    <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+      <span class="underline">What's</span>
+      Included
+    </h1>
     <h2 class="text-center text-xl text-gray-900 mb-8 tracking-widest">
       Get 100+ premium features out of the box with litekart's integrated
       one-time pricing
@@ -181,10 +184,13 @@
             class="border p-2 flex flex-col md:flex-row rounded-lg shadow-md
             px-6 py-8 shadow-md text-center md:text-left bg-white justify-center
             items-center">
-            <img src={`${CDN}../../${f.img}`} class="text-6xl h-12 w-12 md:mr-8" alt="" />
+            <img
+              src={`${CDN}../../${f.img}`}
+              class="text-6xl h-12 w-12 md:mr-8"
+              alt="" />
             <!-- <img use:lazyload src="img/rocket.svg" class="flex " alt="" /> -->
             <div class="flex flex-col">
-              <h2 class="mb-2 text-xl font-bold">{f.key}</h2>
+              <h3 class="mb-2 text-xl font-bold">{f.key}</h3>
               <div class="text-ms w-full tracking-wide leading-relaxed">
                 {f.val}
               </div>

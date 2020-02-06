@@ -35,14 +35,14 @@
           weeks`,
       img: `misiki.png`,
       link: `https://www.misiki.in/`,
-      stats: [91, 94, 100]
+      stats: [91, 88, 100]
     },
     {
       heading: `Hopyshopy - An amazon affiliate`,
       data: `With automation in mind, hopyshopy started with Flipkart affiliate, whereas Flipkart temporarily stopped its affiliate program. They contacted us again and we changed from flipkart affiliate to amazon affiliate within 1 day time`,
       img: `hopyshopy.png`,
       link: `https://www.hopyshopy.com/`,
-      stats: [185, 92, 200]
+      stats: [166, 92, 200]
     },
     {
       heading: `Frontendfun`,
@@ -56,7 +56,7 @@
       data: `This project is available at Codecanyon for download and is ready to use for any ecommerce requirement. It's license is designed so that you can modify and use it the way you wish. Only restrication is reselling`,
       img: `arialshop-mobile.png`,
       link: `https://www.arialshop.com/`,
-      stats: [71, 65, 253]
+      stats: [71, 67, 253]
     },
     {
       heading: `Foodfire - An open source food ordering app with firebase`,
@@ -70,7 +70,7 @@
       data: `We started ecommerce development from ShopNx, which subsequently grown into Arialshop and after a lot of itterations now its ready for enterprise level application`,
       img: `shopnx.png`,
       link: `https://www.shopnx.in/`,
-      stats: [84, 63, 156]
+      stats: [88, 63, 156]
     },
     {
       heading: `Lalavish - A modern saloon & spa`,
@@ -87,8 +87,8 @@
   <meta
     data-hid="description"
     name="description"
-    content="Litekart offers cutting edge features which is a generation ahead
-    of other ecommerce softwares" />
+    content="The speed increased by 3x, usability improvement by 5x, user
+    happiness index improved by 10x, SEO ranking improved" />
   <meta
     name="keywords"
     content="ecommerce software, image optimization, lazy loading, headless,
@@ -103,8 +103,8 @@
     data-hid="og:description"
     name="og_description"
     property="og:description"
-    content="Litekart offers cutting edge features which is a generation ahead
-    of other ecommerce solutions" />
+    content="The speed increased by 3x, usability improvement by 5x, user
+    happiness index improved by 10x, SEO ranking improved" />
   <meta name="og_url" property="og:url" content={`${HOST}/live-projects`} />
   <!-- Twitter -->
   <meta
@@ -112,8 +112,8 @@
     content="Litekart - Live projects delivered using litekart technology" />
   <meta
     name="twitter:description"
-    content="Litekart offers cutting edge features which is a generation ahead
-    of other ecommerce solutions" />
+    content="The speed increased by 3x, usability improvement by 5x, user
+    happiness index improved by 10x, SEO ranking improved" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="mx-2 lg:mx-16 xl:mx-48 xxl:mx-64">
@@ -147,7 +147,7 @@
                   class="text-green-500 mr-2"
                   label="growth"
                   scale={2} />
-                <h2 class="text-xl lg:text-6xl font-black">{p.stats[0]}%</h2>
+                <div class="text-xl lg:text-6xl font-black">{p.stats[0]}%</div>
               </div>
               <p class="tracking-wider">growth of daily visitors</p>
             </div>
@@ -158,7 +158,7 @@
                   class="text-green-500 mr-2"
                   label="growth"
                   scale={2} />
-                <h2 class="text-xl lg:text-6xl font-black">{p.stats[1]}%</h2>
+                <div class="text-xl lg:text-6xl font-black">{p.stats[1]}%</div>
               </div>
               <p class="tracking-wider">improve in SEO ranking</p>
             </div>
@@ -169,7 +169,7 @@
                   class="text-green-500 mr-2"
                   label="growth"
                   scale={2} />
-                <h2 class="text-xl lg:text-6xl font-black">{p.stats[2]}%</h2>
+                <div class="text-xl lg:text-6xl font-black">{p.stats[2]}%</div>
               </div>
               <p class="tracking-wider">improved loading times</p>
             </div>

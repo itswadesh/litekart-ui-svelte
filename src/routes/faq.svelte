@@ -148,8 +148,8 @@
   <meta
     data-hid="description"
     name="description"
-    content="Litekart offers cutting edge features which is a generation ahead
-    of other ecommerce softwares" />
+    content="I tried to answer to your queries, but if anything missing, please
+    feel free to contact through the contact form, I will be happy to help" />
   <meta
     name="keywords"
     content="ecommerce software, image optimization, lazy loading, headless,
@@ -164,15 +164,15 @@
     data-hid="og:description"
     name="og_description"
     property="og:description"
-    content="Litekart offers cutting edge features which is a generation ahead
-    of other ecommerce solutions" />
+    content="I tried to answer to your queries, but if anything missing, please
+    feel free to contact through the contact form, I will be happy to help" />
   <meta name="og_url" property="og:url" content={`${HOST}/faq`} />
   <!-- Twitter -->
   <meta name="twitter:title" content="Litekart - Frequently Asked Questions" />
   <meta
     name="twitter:description"
-    content="Litekart offers cutting edge features which is a generation ahead
-    of other ecommerce solutions" />
+    content="I tried to answer to your queries, but if anything missing, please
+    feel free to contact through the contact form, I will be happy to help" />
 </svelte:head>
 
 <main in:fadeIn out:fadeOut>

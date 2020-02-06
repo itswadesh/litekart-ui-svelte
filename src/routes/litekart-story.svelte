@@ -322,12 +322,13 @@
   <meta
     data-hid="description"
     name="description"
-    content="Litekart offers cutting edge features which is a generation ahead
-    of other ecommerce softwares." />
-  <meta
-    name="keywords"
     content="Free and open source javascript ecommerce platform with essential
     enterprise level features. Only pay on customizations for your brand" />
+  <meta
+    name="keywords"
+    content="litekart history, litekart story, lightweight ecommerce, enterprise
+    level ecommerce software, fast ecommerce platform, fastest online shopping
+    software,fastest online shopping platform" />
   <meta
     data-hid="og:title"
     name="og_title"

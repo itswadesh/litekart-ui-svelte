@@ -154,9 +154,9 @@
   </div>
 
   <div class="py-12 justify-center mx-5">
-    <h3 class="text-center text-4xl font-medium ">
+    <h2 class="text-center text-4xl font-medium ">
       Experience Work As A Innovator!
-    </h3>
+    </h2>
     <p class=" flex justify-center">__________________</p>
     <p class="py-6 flex justify-center text-center tracking-widest">
       At litekart, we don’t just offer jobs, but a career. If you are crazy

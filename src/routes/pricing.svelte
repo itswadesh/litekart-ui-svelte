@@ -128,8 +128,8 @@
           class="bg-gray-100 flex flex-col mb-3 lg:my-12 justify-between
           border-0 rounded-lg shadow-lg bg-white ">
           <div class="bg-white">
-            <h2 class="text-4xl mb-2 font-bold">Free</h2>
-            <h3 class="text-green-500 mb-6">For developers</h3>
+            <h3 class="text-4xl mb-2 font-bold">Free</h3>
+            <h4 class="text-green-500 mb-6">For developers</h4>
           </div>
 
           <div class="text-center ">
@@ -138,7 +138,10 @@
               justify-center lg:px-12 px-12 pb-3 ">
               {#each p1 as i}
                 <li class="flex items-center text-left">
-                  <img src={`${CDN}../../svg/checkblack.svg`} alt="" class=" h-5 w-5" />
+                  <img
+                    src={`${CDN}../../svg/checkblack.svg`}
+                    alt=""
+                    class=" h-5 w-5" />
                   {i}
                 </li>
               {/each}
@@ -165,20 +168,26 @@
           class=" bg-gray-100 flex flex-col mb-3 lg:my-12 border-0 rounded-lg
           shadow-lg bg-white ">
           <div class="bg-white">
-            <h2 class="text-4xl mb-2 font-bold">Free</h2>
-            <h3 class="text-pink-500 mb-4">For Startups</h3>
+            <h3 class="text-4xl mb-2 font-bold">Free</h3>
+            <h4 class="text-pink-500 mb-4">For Startups</h4>
           </div>
           <div class=" ">
             <ul
               class="border-b border-gray-300 bg-white flex flex-col lg:px-12
               px-12 pb-3">
               <li class="flex items-center my-6 ">
-                <img src={`${CDN}../../svg/checkblue.svg`} alt="" class="h-5 w-5 " />
+                <img
+                  src={`${CDN}../../svg/checkblue.svg`}
+                  alt=""
+                  class="h-5 w-5 " />
                 Complete Stack Setup
               </li>
               {#each p2 as i}
                 <li class=" flex items-center my-6 text-left ">
-                  <img src={`${CDN}../../svg/checkblue.svg`} alt="" class="h-5 w-5 " />
+                  <img
+                    src={`${CDN}../../svg/checkblue.svg`}
+                    alt=""
+                    class="h-5 w-5 " />
                   {i}
                 </li>
               {/each}
@@ -201,7 +210,7 @@
           class=" bg-gray-100 flex flex-col mb-3 lg:my-12 justify-between
           text-center border-0 rounded-lg shadow-lg bg-white">
           <div class="bg-white">
-            <h2 class="text-4xl mb-2 font-bold">Enterprise</h2>
+            <h3 class="text-4xl mb-2 font-bold">Enterprise</h3>
             <!-- <h3 class="text-blue-500 text-xl mb-6">$24999.00</h3> -->
           </div>
           <div class="">
@@ -211,7 +220,10 @@
               <li class="mb-4 text-red-500">All features of Premium +</li>
               {#each p3 as i}
                 <li class="flex items-center my-6 text-left ">
-                  <img src={`${CDN}../../svg/checkpurpel.svg`} alt="" class="h-5 w-5 " />
+                  <img
+                    src={`${CDN}../../svg/checkpurpel.svg`}
+                    alt=""
+                    class="h-5 w-5 " />
                   {i}
                 </li>
               {/each}

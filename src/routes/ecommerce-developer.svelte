@@ -241,7 +241,7 @@
               alt="" />
             <!-- <img use:lazyload src="img/rocket.svg" class="flex " alt="" /> -->
             <div class="flex flex-col">
-              <h2 class="mb-2 text-xl font-bold">{f.key}</h2>
+              <h3 class="mb-2 text-xl font-bold">{f.key}</h3>
               <div class="text-sm tracking-wider w-full">{f.val}</div>
             </div>
           </div>

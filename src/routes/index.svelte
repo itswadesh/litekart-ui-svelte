@@ -62,4 +62,10 @@
   <Pricing />
   <Display />
   <Dad />
+  <a
+    class="fixed bottom-0 right-0 mb-24 mr-5"
+    href="https://api.whatsapp.com/send?phone=918249028220"
+    target="_blank">
+    <img src="/whatsapp-chat.png" style="width: 57px;" alt="#" />
+  </a>
 </main>

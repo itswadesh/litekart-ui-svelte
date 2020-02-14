@@ -21,8 +21,9 @@
   <meta
     data-hid="description"
     name="description"
-    content="Free and open source javascript ecommerce platform with essential
-    enterprise level features. Highly scalable, headless, fast" />
+    content="Free and open source nodejs ecommerce platform with essential
+    enterprise level features. Highly scalable, customizable, headless,
+    superfast" />
   <meta
     name="keywords"
     content="ecommerce software, image optimization, lazy loading, headless,
@@ -32,19 +33,19 @@
     data-hid="og:title"
     name="og_title"
     property="og:title"
-    content="Litekart - Most advanced javascript ecommerce of 2020" />
+    content="Litekart - Most advanced nodejs ecommerce of 2020" />
   <meta name="og_url" property="og:url" content={`${HOST}`} />
   <meta
     property="og:description"
-    content="Free and open source javascript ecommerce platform with essential
+    content="Free and open source nodejs ecommerce platform with essential
     enterprise level features. highly scalable, headless, fast" />
   <!-- Twitter -->
   <meta
     name="twitter:title"
-    content="Litekart - Most advanced javascript ecommerce of 2020" />
+    content="Litekart - Most advanced nodejs ecommerce of 2020" />
   <meta
     name="twitter:description"
-    content="Free and open source javascript ecommerce platform with essential
+    content="Free and open source nodejs ecommerce platform with essential
     enterprise level features. Highly scalable, headless, fast" />
   <link rel="canonical" href={`${HOST}`} />
 </svelte:head>

@@ -24,7 +24,7 @@
   <meta
     data-hid="description"
     name="description"
-    content="Free and open source javascript ecommerce platform with essential
+    content="Free and open source nodejs ecommerce platform with essential
     enterprise level features. Only pay on customizations for your brand" />
   <meta
     name="keywords"
@@ -35,19 +35,19 @@
     data-hid="og:title"
     name="og_title"
     property="og:title"
-    content="Litekart - Most advanced javascript ecommerce of 2020" />
+    content="Litekart - Most advanced nodejs ecommerce of 2020" />
   <meta name="og_url" property="og:url" content={`${HOST}/privacy-policy`} />
   <meta
     property="og:description"
-    content="Free and open source javascript ecommerce platform with essential
+    content="Free and open source nodejs ecommerce platform with essential
     enterprise level features. Only pay on customizations for your brand" />
   <!-- Twitter -->
   <meta
     name="twitter:title"
-    content="Litekart - Most advanced javascript ecommerce of 2020" />
+    content="Litekart - Most advanced nodejs ecommerce of 2020" />
   <meta
     name="twitter:description"
-    content="Free and open source javascript ecommerce platform with essential
+    content="Free and open source nodejs ecommerce platform with essential
     enterprise level features. Only pay on customizations for your brand" />
   <link rel="canonical" href={`${HOST}`} />
   <link rel="alternate" hreflang="en" href={`${HOST}`} />

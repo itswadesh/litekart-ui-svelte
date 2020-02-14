@@ -322,7 +322,7 @@
   <meta
     data-hid="description"
     name="description"
-    content="Free and open source javascript ecommerce platform with essential
+    content="Free and open source nodejs ecommerce platform with essential
     enterprise level features. Only pay on customizations for your brand" />
   <meta
     name="keywords"
@@ -338,7 +338,7 @@
     data-hid="og:description"
     name="og_description"
     property="og:description"
-    content="Free and open source javascript ecommerce platform with essential
+    content="Free and open source nodejs ecommerce platform with essential
     enterprise level features. Only pay on customizations for your brand" />
   <meta name="og_url" property="og:url" content={`${HOST}/litekart-story`} />
   <!-- Twitter -->
@@ -347,7 +347,7 @@
     content="What's new - Open source Node js online shopping cart solution" />
   <meta
     name="twitter:description"
-    content="Free and open source javascript ecommerce platform with essential
+    content="Free and open source nodejs ecommerce platform with essential
     enterprise level features. Only pay on customizations for your brand" />
 </svelte:head>
 

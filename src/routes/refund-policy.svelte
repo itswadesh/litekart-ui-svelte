@@ -1,6 +1,6 @@
 <script>
   import { fadeIn, fadeOut } from "./../actions/pageFade";
-  import { HOST } from "./../config";
+  import { host } from "./../config";
 </script>
 
 <style>
@@ -41,7 +41,7 @@
     name="og_title"
     property="og:title"
     content="Litekart - Most advanced nodejs ecommerce of 2020" />
-  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta name="og_url" property="og:url" content={`${host}`} />
   <meta
     property="og:description"
     content="Free and open source nodejs ecommerce platform with essential
@@ -54,8 +54,8 @@
     name="twitter:description"
     content="Free and open source nodejs ecommerce platform with essential
     enterprise level features. Only pay on customizations for your brand" />
-  <link rel="canonical" href={`${HOST}`} />
-  <link rel="alternate" hreflang="en" href={`${HOST}/refund-policy`} />
+  <link rel="canonical" href={`${host}`} />
+  <link rel="alternate" hreflang="en" href={`${host}/refund-policy`} />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="hfull mb-16 mx-2 lg:mx-48 leading-loose">

@@ -1,7 +1,7 @@
 <script>
   import SmallContent from "./../components/features/SmallContent.svelte";
   import { lazyload } from "../actions/lazyload";
-  import { CDN, HOST } from "./../config";
+  import { CDN, host } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
@@ -33,7 +33,7 @@
     content="Litekart's powerful ecommerce software gives you all the features
     you need to get started with an online store in India." />
 
-  <meta name="og_url" property="og:url" content={`${HOST}/technology`} />
+  <meta name="og_url" property="og:url" content={`${host}/technology`} />
   <!-- Twitter -->
   <meta
     name="twitter:title"

@@ -2,7 +2,7 @@
   import Icon from "svelte-awesome";
   import { arrowUp } from "svelte-awesome/icons";
   import { lazyload } from "../actions/lazyload";
-  import { CDN, HOST } from "./../config";
+  import { CDN, host } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
   let projects = [
     // {
@@ -105,7 +105,7 @@
     property="og:description"
     content="The speed increased by 3x, usability improvement by 5x, user
     happiness index improved by 10x, SEO ranking improved" />
-  <meta name="og_url" property="og:url" content={`${HOST}/live-projects`} />
+  <meta name="og_url" property="og:url" content={`${host}/live-projects`} />
   <!-- Twitter -->
   <meta
     name="twitter:title"

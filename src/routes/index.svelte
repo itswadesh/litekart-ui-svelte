@@ -12,7 +12,7 @@
   import Login from "./../components/unused/Login.svelte";
   import Testimonials from "./../components/Testimonials.svelte";
   import ForgotPassword from "./../components/unused/ForgotPassword.svelte";
-  import { HOST } from "./../config";
+  import { host } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
@@ -34,7 +34,7 @@
     name="og_title"
     property="og:title"
     content="Litekart - Most advanced nodejs ecommerce of 2020" />
-  <meta name="og_url" property="og:url" content={`${HOST}`} />
+  <meta name="og_url" property="og:url" content={`${host}`} />
   <meta
     property="og:description"
     content="Free and open source nodejs ecommerce platform with essential
@@ -47,7 +47,7 @@
     name="twitter:description"
     content="Free and open source nodejs ecommerce platform with essential
     enterprise level features. Highly scalable, headless, fast" />
-  <link rel="canonical" href={`${HOST}`} />
+  <link rel="canonical" href={`${host}`} />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <!-- <ForgotPassword />

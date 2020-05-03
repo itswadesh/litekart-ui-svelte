@@ -1,5 +1,5 @@
 <script>
-  import { HOST, CDN } from "./../config";
+  import { host, CDN } from "./../config";
   import {
     book,
     code,
@@ -200,7 +200,7 @@
   <meta
     name="og_url"
     property="og:url"
-    content={`${HOST}/ecommerce-developer`} />
+    content={`${host}/ecommerce-developer`} />
   <!-- Twitter -->
   <meta
     name="twitter:title"

@@ -2,7 +2,7 @@
   import Icon from "svelte-awesome";
   import { arrowUp } from "svelte-awesome/icons";
   import { lazyload } from "../actions/lazyload";
-  import { CDN, HOST } from "./../config";
+  import { CDN, host } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
   let timeline = [
     {
@@ -340,7 +340,7 @@
     property="og:description"
     content="Free and open source nodejs ecommerce platform with essential
     enterprise level features. Only pay on customizations for your brand" />
-  <meta name="og_url" property="og:url" content={`${HOST}/litekart-story`} />
+  <meta name="og_url" property="og:url" content={`${host}/litekart-story`} />
   <!-- Twitter -->
   <meta
     name="twitter:title"

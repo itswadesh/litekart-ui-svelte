@@ -1,5 +1,5 @@
 <script>
-  import { HOST } from "./../config";
+  import { host } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
@@ -43,7 +43,7 @@
     property="og:description"
     content="Litekart terms and policy are most suited for startups. We love to
     help people growing their business" />
-  <meta name="og_url" property="og:url" content={`${HOST}/terms`} />
+  <meta name="og_url" property="og:url" content={`${host}/terms`} />
   <!-- Twitter -->
   <meta name="twitter:title" content="Litekart - Terms & Policy" />
   <meta

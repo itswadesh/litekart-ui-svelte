@@ -1,10 +1,10 @@
 <script>
-  import { HOST } from "./../config";
+  import { host } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
 <style>
- 
+
 </style>
 
 <svelte:head>
@@ -12,7 +12,8 @@
   <meta
     data-hid="description"
     name="description"
-    content="Litekart educational videos explaining features, how to use, how to customize." />
+    content="Litekart educational videos explaining features, how to use, how to
+    customize." />
   <meta
     name="keywords"
     content="javasctipt ecommerce, image optimization, lazy loading, seo, fast ,
@@ -28,13 +29,15 @@
     data-hid="og:description"
     name="og_description"
     property="og:description"
-    content="Litekart educational videos explaining features, how to use, how to customize." />
-  <meta name="og_url" property="og:url" content={`${HOST}/terms`} />
+    content="Litekart educational videos explaining features, how to use, how to
+    customize." />
+  <meta name="og_url" property="og:url" content={`${host}/terms`} />
   <!-- Twitter -->
   <meta name="twitter:title" content="Litekart - Videos and tutorials" />
   <meta
     name="twitter:description"
-    content="Litekart educational videos explaining features, how to use, how to customize." />
+    content="Litekart educational videos explaining features, how to use, how to
+    customize." />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="mb-16 mx-2 lg:mx-48 ">

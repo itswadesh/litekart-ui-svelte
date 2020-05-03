@@ -3,7 +3,7 @@
   import Textarea from "./../components/ui/Textarea.svelte";
   import { get, put, post } from "./../lib/api";
   import { lazyload } from "../actions/lazyload";
-  import { CDN, HOST } from "./../config";
+  import { CDN, host } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 
   let email = "",
@@ -82,7 +82,7 @@
     name="og_title"
     property="og:title"
     content="Litekart - Talk to Us" />
-  <meta name="og_url" property="og:url" content={`${HOST}/contact`} />
+  <meta name="og_url" property="og:url" content={`${host}/contact`} />
   <!-- Twitter -->
   <meta name="twitter:title" content="Litekart - Contact Us" />
   <meta

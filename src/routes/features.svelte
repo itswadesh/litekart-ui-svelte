@@ -2,7 +2,7 @@
   import Nav from "./../components/features/Nav.svelte";
   import BigContent from "./../components/features/BigContent.svelte";
   import SmallContent from "./../components/features/SmallContent.svelte";
-  import { HOST } from "./../config";
+  import { host } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
 
@@ -24,7 +24,7 @@
     name="og_title"
     property="og:title"
     content="Litekart - NodeJS ecommerce features" />
-  <meta name="og_url" property="og:url" content={`${HOST}/features`} />
+  <meta name="og_url" property="og:url" content={`${host}/features`} />
   <!-- Twitter -->
   <meta name="twitter:title" content="Litekart - NodeJS ecommerce features" />
   <meta

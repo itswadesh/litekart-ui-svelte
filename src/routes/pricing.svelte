@@ -1,6 +1,6 @@
 <script>
   import { lazyload } from "../actions/lazyload";
-  import { CDN, HOST } from "./../config";
+  import { CDN, host } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
   let p1 = [
     "Instant delivery",
@@ -101,7 +101,7 @@
     content="Litekart is essentially free for developers and startups. You only
     pay for customizations that are specific to your brand" />
 
-  <meta name="og_url" property="og:url" content={`${HOST}/pricing`} />
+  <meta name="og_url" property="og:url" content={`${host}/pricing`} />
   <!-- Twitter -->
   <meta
     name="twitter:title"

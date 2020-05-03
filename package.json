@@ -30,7 +30,7 @@
     "cross-env": "^6.0.3",
     "dotenv": "^8.2.0",
     "fa-svelte": "^3.1.0",
-    "http-proxy-middleware": "^0.20.0",
+    "http-proxy-middleware": "^1.0.3",
     "node-fetch": "^2.6.0",
     "polka": "next",
     "siema": "^1.5.1",
@@ -57,6 +57,7 @@
     "ssh2shell": "^1.9.3",
     "svelte": "^3.17.3",
     "svelte-awesome": "^2.2.1",
+    "svelte-preprocess": "^3.7.4",
     "tailwindcss": "^1.1.4"
   }
 }

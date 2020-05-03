@@ -1,6 +1,6 @@
 <script>
   import { fadeIn, fadeOut } from "./../actions/pageFade";
-  import { HOST } from "./../config";
+  import { host } from "./../config";
 
   let faq = [
     {
@@ -166,7 +166,7 @@
     property="og:description"
     content="I tried to answer to your queries, but if anything missing, please
     feel free to contact through the contact form, I will be happy to help" />
-  <meta name="og_url" property="og:url" content={`${HOST}/faq`} />
+  <meta name="og_url" property="og:url" content={`${host}/faq`} />
   <!-- Twitter -->
   <meta name="twitter:title" content="Litekart - Frequently Asked Questions" />
   <meta

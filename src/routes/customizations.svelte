@@ -1,5 +1,5 @@
 <script>
-  import { HOST, CDN } from "./../config";
+  import { host, CDN } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
   let features = [
     {
@@ -153,7 +153,7 @@
     name="og_title"
     property="og:title"
     content="Litekart - Customize and build your brand with a unique presence" />
-  <meta name="og_url" property="og:url" content={`${HOST}/customizations`} />
+  <meta name="og_url" property="og:url" content={`${host}/customizations`} />
   <!-- Twitter -->
   <meta
     name="twitter:description"

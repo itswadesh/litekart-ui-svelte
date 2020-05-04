@@ -131,6 +131,9 @@
       <li class="">
         <a rel="prefetch" href="/privacy-policy">Privacy</a>
       </li>
+      <li class="">
+        <a rel="prefetch" href="/blog">Blog</a>
+      </li>
     </ul>
   </div>
   <!-- <div class="w-1/2 lg:w-1/4 mb-4">

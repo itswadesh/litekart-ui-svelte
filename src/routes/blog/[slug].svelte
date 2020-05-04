@@ -77,7 +77,7 @@
           alt="" />
       </div>
       <div class="leading-loose" style="">
-        {@html post.description}
+        {@html post.body}
       </div>
       {#if post.tags}
         <ul class="flex flex-wrap my-4">

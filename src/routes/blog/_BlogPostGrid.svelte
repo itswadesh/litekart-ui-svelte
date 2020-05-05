@@ -45,7 +45,7 @@
 {#if post}
   <div class="p-8 w-full lg:w-1/2 rounded overflow-hidden">
     <a
-      href={'/blog/' + post.slug + '?id=' + post._id}
+      href={`/blog/${post.slug}`}
       rel="prefetch"
       class="block shadow-md avatar zoom hover:shadow-lg">
       <img

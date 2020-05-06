@@ -22,7 +22,7 @@
 
 <script>
   import { goto, stores } from "@sapper/app";
-  const { preloading, page, session } = stores();
+  const { page, session } = stores();
   import BlogPostGrid from "./_BlogPostGrid.svelte";
   import { constructQry, constructURL2 } from "./../../lib";
   export let posts, query;

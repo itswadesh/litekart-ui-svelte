@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "litekart",
+  "regions": ["bom1", "sin1"],
   "builds": [
     {
       "src": "package.json",

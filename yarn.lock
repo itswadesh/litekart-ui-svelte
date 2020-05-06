@@ -1348,11 +1348,6 @@ eventemitter3@^4.0.0:
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
   integrity sha512-qerSRB0p+UDEssxTtm6EDKcE7W4OaoisfIMl4CngyEhjpYglocpNg6UEqCvemdGhosAsg4sO2dXJOdyBifPGCg==
 
-fa-svelte@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/fa-svelte/-/fa-svelte-3.1.0.tgz#7d833410113c0696ca5c64645383de1f77baa029"
-  integrity sha512-RqBOWwt7sc+ta9GFjbu5GOwKFRzn3rMPPSqvSGpIwsfVnpMjiI5ttv84lwNsCMEYI6/lu/iH21HUcE3TLz8RGQ==
-
 fast-glob@^3.0.3:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.1.1.tgz#87ee30e9e9f3eb40d6f254a7997655da753d7c82"
@@ -2686,10 +2681,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte-awesome@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/svelte-awesome/-/svelte-awesome-2.2.1.tgz#976c05378ae4350e00f4551c9709a6309a8c56b3"
-  integrity sha512-CkGRVoMMLJsQ+TQpK+qOBAUH1Gl+l14EhX47KZA02XgXHahJZkRvLi4XAunBFcU+Zlik3oyxEnBvmT6BHF1CUA==
+svelte-awesome@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/svelte-awesome/-/svelte-awesome-2.3.0.tgz#03735c1ba1940e931c41271a5ebf72e2ae9e292c"
+  integrity sha512-xXU3XYJmr5PK9e3pCpW6feU/tNpAhERWDrgDxkC0DU6LNum02zzc00I17bmUWTSRdKLf+IFbA5hWvCm1V8g+/A==
   dependencies:
     svelte "^3.15.0"
 

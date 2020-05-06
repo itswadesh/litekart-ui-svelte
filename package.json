@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "run-p watch:tailwind sapper:dev",
     "sapper:dev": "sapper dev --port 4000",
-    "build": "NODE_ENV=production run-p build:tailwind buildY",
+    "build": "cross-env NODE_ENV=production run-p build:tailwind buildY",
     "buildY": "ls && sapper build",
     "deploy:test": "now -A now.test.json",
     "export": "sapper export --legacy",
-    "start": "NODE_ENV=production node __sapper__/build",
+    "start": "cross-env NODE_ENV=production node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
@@ -29,7 +29,6 @@
     "cookie-universal": "^2.1.0",
     "cross-env": "^6.0.3",
     "dotenv": "^8.2.0",
-    "fa-svelte": "^3.1.0",
     "http-proxy-middleware": "^1.0.3",
     "node-fetch": "^2.6.0",
     "polka": "next",
@@ -56,7 +55,7 @@
     "shelljs": "^0.8.3",
     "ssh2shell": "^1.9.3",
     "svelte": "^3.17.3",
-    "svelte-awesome": "^2.2.1",
+    "svelte-awesome": "^2.3.0",
     "svelte-preprocess": "^3.7.4",
     "tailwindcss": "^1.1.4"
   }

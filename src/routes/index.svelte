@@ -7,11 +7,7 @@
   import Display from "./../components/Display.svelte";
   import Dad from "./../components/Dad.svelte";
   import Rocket from "./../components/Rocket.svelte";
-  import Carousel from "./../components/unused/Carousel.svelte";
-  import Collapsible from "./../components/unused/Collapsible.svelte";
-  import Login from "./../components/unused/Login.svelte";
   import Testimonials from "./../components/Testimonials.svelte";
-  import ForgotPassword from "./../components/unused/ForgotPassword.svelte";
   import { host } from "./../config";
   import { fadeIn, fadeOut } from "./../actions/pageFade";
 </script>
@@ -27,8 +23,8 @@
   <meta
     name="keywords"
     content="ecommerce software, image optimization, lazy loading, headless,
-    authentication, tailwindcss, headless ecommerce, carousel, instant
-    search,vuejs pwa, opensource ecommerce, faceted filters, headless commerce" />
+    authentication, tailwindcss, headless ecommerce, , instant search,vuejs pwa,
+    opensource ecommerce, faceted filters, headless commerce" />
   <meta
     data-hid="og:title"
     name="og_title"
@@ -50,10 +46,6 @@
   <link rel="canonical" href={`${host}`} />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <!-- <ForgotPassword />
-  <Login />
-  <Carousel />
-  <Collapsible /> -->
   <Hero />
   <Features />
   <Rocket />

@@ -2,7 +2,7 @@
   import { stores } from "@sapper/app";
   import Nav from "./../components/Nav.svelte";
   import Footer from "./../components/Footer.svelte";
-  import PreloadingIndicator from "../components/PreloadingIndicator.svelte";
+  import PreloadingIndicator from "./../components/ui/PreloadingIndicator.svelte";
   export let segment;
   const { preloading } = stores();
 </script>

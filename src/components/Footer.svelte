@@ -42,7 +42,7 @@
           rel="nofollow"
           target="blank"
           aria-label="facebook">
-          <Icon data={facebook} class="w-4 mr-1" label="facebook" />
+          <Icon data={facebook} class="text-white w-4 mr-1" label="facebook" />
           Facebook
           <!-- <img src="svg/facebook-brands.svg" alt="" /> -->
         </a>
@@ -54,7 +54,7 @@
           href="https://twitter.com/codenx2"
           target="blank"
           aria-label="twitter">
-          <Icon data={twitter} class="w-4 mr-1" label="twitter" />
+          <Icon data={twitter} class="text-white w-4 mr-1" label="twitter" />
           Twitter
           <!-- <img src="svg/twitter-square-brands.svg" alt="" /> -->
         </a>
@@ -66,7 +66,7 @@
           href="https://github.com/itswadesh"
           target="blank"
           aria-label="github">
-          <Icon data={github} class="w-4 mr-1" label="github" />
+          <Icon data={github} class="text-white w-4 mr-1" label="github" />
           Github
           <!-- <img src=" svg/github-brands.svg" alt="" /> -->
         </a>
@@ -78,7 +78,7 @@
           href="https://www.youtube.com/user/codenx2"
           target="blank"
           aria-label="youtube">
-          <Icon data={youtube} class="w-4 mr-1" label="youtube" />
+          <Icon data={youtube} class="text-white w-4 mr-1" label="youtube" />
           Youtube
           <!-- <img src=" svg/github-brands.svg" alt="" /> -->
         </a>

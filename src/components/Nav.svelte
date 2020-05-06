@@ -136,7 +136,7 @@
       class="bg-primary text-white px-8 ml-6 flex items-center py-2 py-auto
       text-lg rounded-full"
       class:underline={segment === 'contact'}>
-      <Icon data={phone} label="phone" scale={1} class="mr-1" />
+      <Icon data={phone} label="phone" scale={1} class="mr-1 text-white" />
       Let's Talk
     </a>
   </div>

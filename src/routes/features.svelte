@@ -1,5 +1,5 @@
 <script>
-  import Nav from "./../components/features/Nav.svelte";
+  import Nav from "./../components/features/Highlights.svelte";
   import BigContent from "./../components/features/BigContent.svelte";
   import SmallContent from "./../components/features/SmallContent.svelte";
   import { host } from "./../config";

@@ -18,7 +18,7 @@ const sitemapProxy = createProxyMiddleware('/sitemap-litekart.xml', {
 
 const dev = NODE_ENV === 'development'
 const app = polka().use(
-  apiProxy,
+  // apiProxy,
   sitemapProxy,
   compression({ threshold: 0 }),
   sirv('static', { dev }),

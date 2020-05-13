@@ -2,7 +2,7 @@ import sirv from 'sirv'
 import polka from 'polka'
 import compression from 'compression'
 import * as sapper from '@sapper/server'
-import { api_url, server_ip } from './config'
+import { api_url } from './config'
 const dotenv = require('dotenv')
 dotenv.config({ path: '.env' })
 const { PORT, NODE_ENV } = process.env
@@ -12,7 +12,7 @@ const apiProxy = createProxyMiddleware('/api', {
   target: api_url,
 })
 const sitemapProxy = createProxyMiddleware('/sitemap-litekart.xml', {
-  target: server_ip,
+  target: api_url,
   changeOrigin: true,
 })
 

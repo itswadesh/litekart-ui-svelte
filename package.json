@@ -3,6 +3,7 @@
   "description": "e-commerce project created using Sapper, Svelte, TailwindCSS, Rollup",
   "version": "2020.05.05",
   "license": "MIT",
+  "author": "Swadesh Behera <swadesh@litekart.in>",
   "scripts": {
     "dev": "run-p watch:tailwind sapper:dev",
     "sapper:dev": "sapper dev --port 4000",

@@ -33,7 +33,7 @@
     of other ecommerce solutions." />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+  <h1 class="mt-8 mb-16 text-5xl font-bold text-center">
     <span class="underline">Features</span>
   </h1>
   <Nav />

@@ -39,37 +39,34 @@
   }
 </style>
 
-<div class="bg flex">
+<div class="flex bg">
   <div
-    class="flex-1 flex flex-col justify-center text-2xl lg:text-5xl py-4
-    md:py-16 lg:py-24 px-4 md:px-16 lg:px-24 mb-4">
-    <h1 class=" text-black text-3xl md:text-5xl font-bold">
+    class="flex flex-col justify-center flex-1 px-4 py-4 mb-4 text-2xl lg:text-5xl md:py-16 lg:py-24 md:px-16 lg:px-24">
+    <h1 class="text-3xl font-bold text-black  md:text-5xl">
       Fastest ecommerce software of 2020
     </h1>
-    <h2 class="primary text-lg md:text-2xl leading-loose">
+    <h2 class="text-lg leading-loose primary md:text-2xl">
       Free for developers & startups
     </h2>
-    <p class="text-xs md:text-xl lg:text-2xl leading-loose">
+    <p class="text-xs leading-loose md:text-xl lg:text-2xl">
       Have a great startup idea? We do technology outsourcing for free.
     </p>
-    <div class="flex text-center justify-left text-lg my-6 ">
+    <div class="flex my-6 text-lg text-center justify-left ">
       <a
         href="/features"
-        class="button rounded-full w-1/2 lg:w-1/3 px-auto py-2 bg-primary
-        text-white mr-2 focus:outline-none focus:shadow">
+        class="w-1/2 py-2 mr-2 text-white rounded-full button lg:w-1/3 px-auto bg-primary focus:outline-none focus:shadow">
         <span>Features</span>
       </a>
       <a
         target="_blank"
         href="https://github.com/itswadesh/sapper-ecommerce"
         rel="noopener"
-        class="button border rounded-full w-1/2 lg:w-1/3 px-auto py-2 bg-white
-        primary focus:outline-none focus:shadow">
+        class="w-1/2 py-2 bg-white border rounded-full button lg:w-1/3 px-auto primary focus:outline-none focus:shadow">
         <span>Download</span>
       </a>
     </div>
   </div>
-  <div class="hidden lg:flex flex-1 pt-6">
+  <div class="flex-1 hidden pt-6 lg:flex">
     <img
       use:lazyload
       src={CDN + '../../img/hero.png?tr=w-3,h-2'}

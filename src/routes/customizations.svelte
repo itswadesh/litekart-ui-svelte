@@ -169,29 +169,27 @@
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="bg-gray-100 px:8 lg:px-32 xl:px-48">
-    <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+    <h1 class="mt-8 mb-16 text-5xl font-bold text-center">
       <span class="underline">What's</span>
       Included
     </h1>
-    <h2 class="text-center text-xl text-gray-900 mb-8 tracking-widest">
+    <h2 class="mb-8 text-xl tracking-widest text-center text-gray-900">
       Get 100+ premium features out of the box with litekart's integrated
       one-time pricing
     </h2>
-    <div class="flex justify-between flex-wrap">
+    <div class="flex flex-wrap justify-between">
       {#each features as f}
-        <div class="p-4 w-full lg:w-1/2">
+        <div class="w-full p-4 lg:w-1/2">
           <div
-            class="border p-2 flex flex-col md:flex-row rounded-lg shadow-md
-            px-6 py-8 shadow-md text-center md:text-left bg-white justify-center
-            items-center">
+            class="flex flex-col items-center justify-center p-2 px-6 py-8 text-center bg-white border rounded-lg shadow-md md:flex-row md:text-left">
             <img
               src={`${CDN}../../${f.img}`}
-              class="text-6xl h-12 w-12 md:mr-8"
+              class="w-12 h-12 text-6xl md:mr-8"
               alt="" />
             <!-- <img use:lazyload src="img/rocket.svg" class="flex " alt="" /> -->
             <div class="flex flex-col">
               <h3 class="mb-2 text-xl font-bold">{f.key}</h3>
-              <div class="text-ms w-full tracking-wide leading-relaxed">
+              <div class="w-full leading-relaxed tracking-wide text-ms">
                 {f.val}
               </div>
             </div>

@@ -45,18 +45,17 @@
     plans are designed accordingly to suit startups" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <div class="mb-8 mx-2 lg:mx-64">
-    <h1 class="text-5xl mt-8 text-center font-bold">
+  <div class="mx-2 mb-8 lg:mx-64">
+    <h1 class="mt-8 text-5xl font-bold text-center">
       <span class="underline">About</span>
       Us
     </h1>
     <p
-      class="text-lg font-bold text-center leader px-2 lg:px-64 tracking-widest
-      leading-relaxed">
+      class="px-2 text-lg font-bold leading-relaxed tracking-widest text-center leader lg:px-64">
       Helping You Build An Online Brand
     </p>
     <div class="py-6 mx-5">
-      <div class=" flex justify-center mb-4 leading-loose">
+      <div class="flex justify-center mb-4 leading-loose ">
         Litekart, formerly arialshop, is a product of India based Javascript
         e-commerce Solution. It offers an javascript fullstack ecommerce website
         to startups to strengthen their footprints in the ecommerce space.
@@ -74,10 +73,9 @@
   </div>
 
   <div
-    class=" flex flex-wrap bg-gray-100 justify-between md:px-16 md:py-8 lg:py-4
-    lg:px-64 ">
-    <!-- <div class=" w-full lg:w-1/3 px-4">
-      <div class=" flex flex-col bg-white text-center shadow rounded" />
+    class="flex flex-wrap justify-between bg-gray-100  md:px-16 md:py-8 lg:py-4 lg:px-64">
+    <!-- <div class="w-full px-4  lg:w-1/3">
+      <div class="flex flex-col text-center bg-white rounded shadow " />
       <img
         use:lazyload
         src={`${CDN}../../img/mission.png?tr=w-3,h-2`}
@@ -90,8 +88,8 @@
         can start their online store with their brand name, at the best prices.
       </div>
     </div> -->
-    <div class=" w-full md:w-1/2 lg:w-1/3 px-4">
-      <div class=" flex flex-col bg-white text-center shadow rounded">
+    <div class="w-full px-4  md:w-1/2 lg:w-1/3">
+      <div class="flex flex-col text-center bg-white rounded shadow ">
         <img
           use:lazyload
           src={`${CDN}../../img/mission.png?tr=w-3,h-2`}
@@ -106,8 +104,8 @@
         </div>
       </div>
     </div>
-    <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-      <div class=" flex flex-col bg-white text-center shadow rounded">
+    <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+      <div class="flex flex-col text-center bg-white rounded shadow ">
         <img
           use:lazyload
           src={`${CDN}../../img/vison.png?tr=w-3,h-2`}
@@ -121,8 +119,8 @@
         </div>
       </div>
     </div>
-    <div class=" w-full md:w-1/2 lg:w-1/3 px-4">
-      <div class=" flex flex-col bg-white text-center shadow rounded">
+    <div class="w-full px-4  md:w-1/2 lg:w-1/3">
+      <div class="flex flex-col text-center bg-white rounded shadow ">
         <img
           use:lazyload
           src={`${CDN}../../img/values.png?tr=w-3,h-2`}
@@ -137,8 +135,8 @@
       </div>
     </div>
     ''
-    <!-- <div class=" w-full lg:w-1/3 px-4 ">trtg
-      <div class=" flex flex-col bg-white text-center shadow rounded" />
+    <!-- <div class="w-full px-4  lg:w-1/3">trtg
+      <div class="flex flex-col text-center bg-white rounded shadow " />
       <img
         use:lazyload
         src={`${CDN}../../img/values.png?tr=w-3,h-2`}
@@ -153,18 +151,18 @@
     </div> -->
   </div>
 
-  <div class="py-12 justify-center mx-5">
-    <h2 class="text-center text-4xl font-medium ">
+  <div class="justify-center py-12 mx-5">
+    <h2 class="text-4xl font-medium text-center ">
       Experience Work As A Innovator!
     </h2>
-    <p class=" flex justify-center">__________________</p>
-    <p class="py-6 flex justify-center text-center tracking-widest">
+    <p class="flex justify-center ">__________________</p>
+    <p class="flex justify-center py-6 tracking-widest text-center">
       At litekart, we don’t just offer jobs, but a career. If you are crazy
       about work and party, then we are waiting for you, eagerly!
     </p>
     <div class="flex justify-center">
       <button
-        class=" flex jusify-center bg-primary m-6 px-4 py-2 rounded text-white">
+        class="flex px-4 py-2 m-6 text-white rounded  jusify-center bg-primary">
         Apply Now
       </button>
     </div>

@@ -40,8 +40,8 @@
     customize." />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <div class="mb-16 mx-2 lg:mx-48 ">
-    <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+  <div class="mx-2 mb-16 lg:mx-48 ">
+    <h1 class="mt-8 mb-16 text-5xl font-bold text-center">
       <span class="underline">Videos</span>
     </h1>
     <h2 class="text-xl">Coming Soon...</h2>

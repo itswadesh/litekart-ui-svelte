@@ -91,32 +91,30 @@
     softwares for your small business" />
 </svelte:head>
 <main in:fadeIn out:fadeOut class="bg">
-  <h1 class="text-5xl mt-8 mb:8 lg:mb-16 text-center font-bold">
+  <h1 class="mt-8 text-5xl font-bold text-center mb:8 lg:mb-16">
     <span class="underline">Contact</span>
     Us
   </h1>
   <div class="flex flex-col justify-center">
     <div class="flex flex-wrap px-2 lg:px-16 xl:px-48 lg:mb-12">
       <div
-        class="my-4 py-8 bg-white lg:bg-transparent shadow lg:shadow-none
-        rounded lg:rounded-none w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
+        class="w-full py-8 pr-0 my-4 mb-8 bg-white rounded shadow lg:bg-transparent lg:shadow-none lg:rounded-none lg:w-1/2 lg:pr-12">
         {#if err}
-          <p class="bg-red-200 border p-8 rounded mb-8 font-bold">{err}</p>
+          <p class="p-8 mb-8 font-bold bg-red-200 border rounded">{err}</p>
         {/if}
         {#if msg}
-          <p class="bg-green-200 border p-8 rounded mb-8 font-bold">{msg}</p>
+          <p class="p-8 mb-8 font-bold bg-green-200 border rounded">{msg}</p>
         {/if}
         <form
           novalidate
           on:submit|preventDefault={submit}
-          class="px-2 lg:px-24 flex flex-col leading-loose">
+          class="flex flex-col px-2 leading-loose lg:px-24">
           <Textbox bind:value={email} label="Email" />
           <Textarea bind:value={message} label="Message" />
           <button
             disabled={loading}
             type="submit"
-            class="rounded-full w-full px-auto py-1 btn-primary text-white flex
-            justify-center uppercase">
+            class="flex justify-center w-full py-1 text-white uppercase rounded-full px-auto btn-primary">
             {#if !loading}
               <span>Send</span>
             {:else}
@@ -134,6 +132,6 @@
     use:lazyload
     src={`${CDN}../../img/contact.png?tr=w-3,h-2`}
     data-src={`${CDN}../../img/contact.png`}
-    class="img m-auto mb-2 absolute top-0 right-0"
+    class="absolute top-0 right-0 m-auto mb-2 img"
     alt="" /> -->
 </main>

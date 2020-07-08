@@ -1,19 +1,17 @@
 <script>
-  let closed = false
+  let closed = false;
 </script>
 
 {#if !closed}
-  <div class="fixed bottom-0 inset-x-0 px-4 pb-6 flex z-50">
+  <div class="fixed inset-x-0 bottom-0 z-50 flex px-4 pb-6">
     <div
-      class="bg-gray-900 w-full text-sm lg:text-base lg:w-auto px-2 py-3
-      rounded-lg max-w-6xl mx-auto shadow flex items-center justify-between
-      text-white">
+      class="flex items-center justify-between w-full max-w-6xl px-2 py-3 mx-auto text-sm text-white bg-gray-900 rounded-lg shadow lg:text-base lg:w-auto">
       <div class="flex items-center">
         <svg
           viewBox="0 0 644 644"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          class="w-0 h-0 sm:w-6 sm:h-6 lg:w-8 lg:h-8 mr-2 lg:mr-4">
+          class="w-0 h-0 mr-2 sm:w-6 sm:h-6 lg:w-8 lg:h-8 lg:mr-4">
           <path
             d="M642.106 99.572C503.785 74.76 446.597 56.384 321.749 0 196.9
             56.384 139.712 74.76 1.391 99.572-23.67 496.748 297.896 633.894
@@ -37,7 +35,7 @@
           I will do
           <a
             href="https://www.litekart.in/pricing"
-            class="border-b font-medium">
+            class="font-medium border-b">
             technology outsourcing
           </a>
           for free
@@ -66,7 +64,7 @@
       </button>
     </div>
   </div>
-  <div class="fixed bottom-0 left-0 pb-20 lg:pb-28 pl-6 pr-6 w-full lg:w-auto">
+  <div class="fixed bottom-0 left-0 w-full pb-20 pl-6 pr-6 lg:pb-28 lg:w-auto">
     <span />
   </div>
 {/if}

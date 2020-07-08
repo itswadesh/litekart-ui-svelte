@@ -32,7 +32,7 @@
     transform: scale(1.035);
   }
   /* .download {
-    @apply inline-block bg-gray-200 rounded-full flex items-center p-1 transition-transform duration-300 ease-in-out transform;
+    @apply bg-gray-200 rounded-full flex items-center p-1 transition-transform duration-300 ease-in-out transform;
   }
   .download:hover {
     @apply -translate-y-px shadow;
@@ -43,7 +43,7 @@
 </style>
 
 {#if post}
-  <div class="p-8 w-full lg:w-1/2 rounded overflow-hidden">
+  <div class="w-full p-8 overflow-hidden rounded lg:w-1/2">
     <a
       href={`/blog/${post.slug}`}
       rel="prefetch"
@@ -56,22 +56,21 @@
         class="object-cover min-w-full" />
       <div class="px-6 py-4">
         <div class="mb-2 text-3xl font-black">{truncate(post.name, 58)}</div>
-        <!-- <p class="text-gray-700 text-base">{post.metaDescription}</p> -->
-        <div class="author flex items-center text-xs lg:text-sm">
+        <!-- <p class="text-base text-gray-700">{post.metaDescription}</p> -->
+        <div class="flex items-center text-xs author lg:text-sm">
           <img
             src={post.author.avatar}
-            class="object-cover w-16 h-16 rounded-full mr-4"
+            class="object-cover w-16 h-16 mr-4 rounded-full"
             alt="" />
-          <div class="font-bold tracking-wide mx-2">{post.author.username}</div>
-          <div class="text-gray-700 mx-2">{date(post.published_at)}</div>
+          <div class="mx-2 font-bold tracking-wide">{post.author.username}</div>
+          <div class="mx-2 text-gray-700">{date(post.published_at)}</div>
         </div>
       </div>
       {#if post && post.items && post.items[0] && post.items[0].tags}
         <div class="px-6 py-4 truncate">
           {#each post.items[0].tags as t}
             <span
-              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm
-              font-semibold text-gray-700 mr-2 mb-1">
+              class="inline-block px-3 py-1 mb-1 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">
               #{t}
             </span>
           {/each}

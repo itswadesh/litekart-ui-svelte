@@ -25,18 +25,16 @@
 </style>
 
 <div
-  class="off w-full h-screen fixed top-0 md:hidden flex flex-col justify-between
-  bg-white">
+  class="fixed top-0 flex flex-col justify-between w-full h-screen bg-white off md:hidden">
   <!-- Header -->
   <div
-    class="sticky md:hidden flex shadow-lg justify-between items-center p-2
-    bg-white">
+    class="sticky flex items-center justify-between p-2 bg-white shadow-lg md:hidden">
     <button
-      class="focus:outline-none flex justify-around items-center"
+      class="flex items-center justify-around focus:outline-none"
       on:click={close}
       aria-label="close">
       <Icon data={times} label="bars" scale={2} />
-      <!-- <i class="fa fa-times text-gray-700 text-2xl" /> -->
+      <!-- <i class="text-2xl text-gray-700 fa fa-times" /> -->
     </button>
     <a href="/" rel="prefetch" class="items-center" aria-label="logo">
       <img
@@ -55,7 +53,7 @@
         <a
           href="/features"
           rel="prefetch"
-          class="px-6 py-3 items-center inline-block"
+          class="items-center inline-block px-6 py-3"
           style="color:#6772e5"
           on:click={close}>
           <svg x="0px" y="0px" width="24" height="24" viewBox="0 0 224 224">
@@ -404,7 +402,7 @@
         <a
           href="/litekart-story"
           rel="prefetch"
-          class="px-6 py-3 flex items-center"
+          class="flex items-center px-6 py-3"
           style="color:#b24592"
           on:click={close}>
           <Icon data={history} class="" label="history" scale={1.5} />
@@ -415,7 +413,7 @@
         <a
           href="/live-projects"
           rel="prefetch"
-          class="px-6 py-3 flex items-center"
+          class="flex items-center px-6 py-3"
           style="color:#24b47e"
           on:click={close}>
           <Icon data={eye} class="" label="code" scale={1.5} />
@@ -426,7 +424,7 @@
         <a
           href="/faq"
           rel="prefetch"
-          class="px-6 py-3 flex items-center"
+          class="flex items-center px-6 py-3"
           style="color:indigo"
           on:click={close}>
           <Icon data={eye} class="" label="code" scale={1.5} />
@@ -437,7 +435,7 @@
         <a
           href="/ecommerce-developer"
           rel="prefetch"
-          class="px-6 py-3 flex items-center"
+          class="flex items-center px-6 py-3"
           style="color:#000"
           on:click={close}>
           <Icon data={code} class="" label="code" scale={1.5} />
@@ -447,12 +445,11 @@
     </ul>
   </div>
   <div
-    class="bg-gray-200 py-3 mt-4 flex justify-center bg-gray-200 shadow border-t
-    ">
+    class="flex justify-center py-3 mt-4 bg-gray-200 border-t shadow ">
     <a
       href="/contact"
       rel="prefetch"
-      class="rounded px-8 py-2 btn-primary mr-2 button">
+      class="px-8 py-2 mr-2 rounded btn-primary button">
       Lets Talk
     </a>
   </div>

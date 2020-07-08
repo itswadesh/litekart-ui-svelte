@@ -74,14 +74,14 @@
 </style>
 
 <!-- https://360.shiprocket.in/ecommerce-website-building/ -->
-<div class="flex flex-col my-6 justify-center">
+<div class="flex flex-col justify-center my-6">
   <!-- 1st section -->
-  <!-- <div class="flex justify-center mb-10 px-8 ">
+  <!-- <div class="flex justify-center px-8 mb-10 ">
     <div class="flex flex-col lg:w-1/2 ">
-      <h1 class="text-gray-700 text-4xl font-semibold mb-3 ">
+      <h1 class="mb-3 text-4xl font-semibold text-gray-700 ">
         Customized Design
       </h1>
-      <h2 class="text-ms font-semibold mb-1 leading-loose">Website:</h2>
+      <h2 class="mb-1 font-semibold leading-loose text-ms">Website:</h2>
       <p>
         Bring your brand to life with carefully developed strategies based on
         your customer profile. We help you develop a website that connects with
@@ -90,14 +90,14 @@
         fulfilling your customers’ expectations.
       </p>
       <br />
-      <h3 class="text-ms font-semibold mb-1">Mobile App:</h3>
+      <h3 class="mb-1 font-semibold text-ms">Mobile App:</h3>
       <p>
         Optimize your e-commerce operations with a mobile app. Sync the app with
         your website to give your customers ‘ONE’ experience at each point of
         their shopping behavior.
       </p>
     </div>
-    <img use:lazyload  src="img/rocket-img-1.png" class=" img mx-8 mb-3 p-6" alt="" />
+    <img use:lazyload  src="img/rocket-img-1.png" class="p-6 mx-8 mb-3  img" alt="" />
   </div> -->
   <!-- 1st section -->
 
@@ -106,24 +106,24 @@
     {#if ix % 2 == 0}
       <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
         <div
-          class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
-          <h2 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h2>
+          class="order-last w-full pr-0 mb-8 lg:order-first lg:w-1/2 lg:pr-12">
+          <h2 id={'h1-' + ix} class="mb-2 text-4xl font-bold">{f.h}</h2>
           <div class="flex leading-loose tracking-wider">{f.data}</div>
           <br />
           {#if f.ul}
-            <ul class=" leading-loose tracking-wider">
+            <ul class="leading-loose tracking-wider ">
               {#each f.ul as li}
                 <li>{li}</li>
               {/each}
             </ul>
           {/if}
         </div>
-        <div class="lg:order-last order-first w-full lg:w-1/2">
+        <div class="order-first w-full lg:order-last lg:w-1/2">
           <img
             use:lazyload
             src={`${CDN}../../img/${f.img}?tr=w-3,h-2`}
             data-src={`${CDN}../../img/${f.img}`}
-            class="img m-auto mb-2"
+            class="m-auto mb-2 img"
             alt="" />
         </div>
       </div>
@@ -131,17 +131,17 @@
     <!-- Right -->
     {#if ix % 2 == 1}
       <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
-        <div class=" w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
+        <div class="w-full pr-0 mb-8  lg:w-1/2 lg:pr-12">
           <img
             use:lazyload
             src={`${CDN}../../img/${f.img}?tr=w-3,h-2`}
             data-src={`${CDN}../../img/${f.img}`}
-            class="img m-auto"
+            class="m-auto img"
             alt="" />
         </div>
-        <div class=" w-full lg:w-1/2">
-          <h2 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h2>
-          <div class="flex leading-loose leading-loose tracking-wider">
+        <div class="w-full  lg:w-1/2">
+          <h2 id={'h1-' + ix} class="mb-2 text-4xl font-bold">{f.h}</h2>
+          <div class="flex leading-loose tracking-wider">
             {f.data}
           </div>
         </div>

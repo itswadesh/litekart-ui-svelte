@@ -113,35 +113,33 @@
     pay for customizations that are specific to your brand" />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <div class=" text-center px-4 lg:px-48 py-8">
-    <h1 class="text-5xl mt-8 text-center font-bold">
+  <div class="px-4 py-8 text-center lg:px-48">
+    <h1 class="mt-8 text-5xl font-bold text-center">
       <span class="underline">Grow</span>
       with us
     </h1>
-    <h2 class="text-xl lg:text-2xl leading-loose mb-8">
+    <h2 class="mb-8 text-xl leading-loose lg:text-2xl">
       Free for developers & startups
     </h2>
     <div class="flex flex-wrap lg:flex-no-wrap ">
       <!-- student 1 -->
-      <div class="w-full lg:w-1/3 p-2 lg:pr-8 lg:pl-8 ">
+      <div class="w-full p-2 lg:w-1/3 lg:pr-8 lg:pl-8 ">
         <div
-          class="bg-gray-100 flex flex-col mb-3 lg:my-12 justify-between
-          border-0 rounded-lg shadow-lg bg-white ">
+          class="flex flex-col justify-between mb-3 bg-gray-100 border-0 rounded-lg shadow-lg lg:my-12 ">
           <div class="bg-white">
-            <h3 class="text-4xl mb-2 font-bold">Free</h3>
-            <h4 class="text-green-500 mb-6">For developers</h4>
+            <h3 class="mb-2 text-4xl font-bold">Free</h3>
+            <h4 class="mb-6 text-green-500">For developers</h4>
           </div>
 
           <div class="text-center ">
             <ul
-              class=" border-b bg-white border-gray-300 flex flex-col
-              justify-center lg:px-12 px-12 pb-3 ">
+              class="flex flex-col justify-center px-12 pb-3 bg-white border-b border-gray-300 lg:px-12">
               {#each p1 as i}
                 <li class="flex items-center text-left">
                   <img
                     src={`${CDN}../../svg/checkblack.svg`}
                     alt=""
-                    class=" h-5 w-5" />
+                    class="w-5 h-5 " />
                   {i}
                 </li>
               {/each}
@@ -149,13 +147,13 @@
           </div>
 
           <p class="m-8 text-2xl">
-            <b class="font-bold text-black text-4xl">$0</b>
+            <b class="text-4xl font-bold text-black">$0</b>
             /month
           </p>
 
           <a
             href="https://github.com/itswadesh/sapper-ecommerce"
-            class="gs-1 text-white rounded shadow-lg m-3 py-3 ">
+            class="py-3 m-3 text-white rounded shadow-lg gs-1 ">
             Download
           </a>
 
@@ -163,31 +161,29 @@
       </div>
       <!-- student 1 -->
       <!-- student 2 -->
-      <div class="w-full lg:w-1/3 p-2 lg:pr-8">
+      <div class="w-full p-2 lg:w-1/3 lg:pr-8">
         <div
-          class=" bg-gray-100 flex flex-col mb-3 lg:my-12 border-0 rounded-lg
-          shadow-lg bg-white ">
+          class="flex flex-col mb-3 bg-white border-0 rounded-lg shadow-lg lg:my-12">
           <div class="bg-white">
-            <h3 class="text-4xl mb-2 font-bold">Free</h3>
-            <h4 class="text-pink-500 mb-4">For Startups</h4>
+            <h3 class="mb-2 text-4xl font-bold">Free</h3>
+            <h4 class="mb-4 text-pink-500">For Startups</h4>
           </div>
-          <div class=" ">
+          <div class="">
             <ul
-              class="border-b border-gray-300 bg-white flex flex-col lg:px-12
-              px-12 pb-3">
+              class="flex flex-col px-12 pb-3 bg-white border-b border-gray-300 lg:px-12">
               <li class="flex items-center my-6 ">
                 <img
                   src={`${CDN}../../svg/checkblue.svg`}
                   alt=""
-                  class="h-5 w-5 " />
+                  class="w-5 h-5 " />
                 Complete Stack Setup
               </li>
               {#each p2 as i}
-                <li class=" flex items-center my-6 text-left ">
+                <li class="flex items-center my-6 text-left ">
                   <img
                     src={`${CDN}../../svg/checkblue.svg`}
                     alt=""
-                    class="h-5 w-5 " />
+                    class="w-5 h-5 " />
                   {i}
                 </li>
               {/each}
@@ -198,32 +194,30 @@
             /month
           </p>
 
-          <a href="/contact" class="gs-2 text-white rounded shadow-lg m-3 py-3">
+          <a href="/contact" class="py-3 m-3 text-white rounded shadow-lg gs-2">
             Get Started
           </a>
         </div>
       </div>
       <!-- student 2 -->
       <!-- student 3 -->
-      <div class="w-full lg:w-1/3 p-2 lg:pr-8">
+      <div class="w-full p-2 lg:w-1/3 lg:pr-8">
         <div
-          class=" bg-gray-100 flex flex-col mb-3 lg:my-12 justify-between
-          text-center border-0 rounded-lg shadow-lg bg-white">
+          class="flex flex-col justify-between mb-3 text-center bg-white border-0 rounded-lg shadow-lg lg:my-12">
           <div class="bg-white">
-            <h3 class="text-4xl mb-2 font-bold">Enterprise</h3>
-            <!-- <h3 class="text-blue-500 text-xl mb-6">$24999.00</h3> -->
+            <h3 class="mb-2 text-4xl font-bold">Enterprise</h3>
+            <!-- <h3 class="mb-6 text-xl text-blue-500">$24999.00</h3> -->
           </div>
           <div class="">
             <ul
-              class="text-gray-600 bg-white border-b border-gray-300 flex
-              flex-col lg:px-12 pb-3 px-12">
+              class="flex flex-col px-12 pb-3 text-gray-600 bg-white border-b border-gray-300 lg:px-12">
               <li class="mb-4 text-red-500">All features of Premium +</li>
               {#each p3 as i}
                 <li class="flex items-center my-6 text-left ">
                   <img
                     src={`${CDN}../../svg/checkpurpel.svg`}
                     alt=""
-                    class="h-5 w-5 " />
+                    class="w-5 h-5 " />
                   {i}
                 </li>
               {/each}
@@ -231,11 +225,11 @@
           </div>
 
           <p class="m-8 text-2xl">
-            <b class="font-extrabold text-black text-4xl">Get a quote</b>
+            <b class="text-4xl font-extrabold text-black">Get a quote</b>
           </p>
           <a
             href="/contact"
-            class="gs-3 text-white rounded shadow-lg m-3 py-3 ">
+            class="py-3 m-3 text-white rounded shadow-lg gs-3 ">
             Get Started
           </a>
         </div>

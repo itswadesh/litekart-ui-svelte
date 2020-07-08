@@ -1,10 +1,10 @@
 <script>
-  import { createEventDispatcher } from 'svelte'
-  const dispatch = createEventDispatcher()
+  import { createEventDispatcher } from "svelte";
+  const dispatch = createEventDispatcher();
   export let count = 10,
-    current = 1
-  count = parseInt(count)
-  $: pages = count > 10 ? 10 : count
+    current = 1;
+  count = parseInt(count);
+  $: pages = count > 10 ? 10 : count;
 </script>
 
 <style>
@@ -15,15 +15,13 @@
 </style>
 
 {#if count > 1}
-  <div class="mx-6 flex flex-col md:flex-row justify-between items-center">
-    <div class="text-gray-500 items-center">Page {current} of {count}</div>
-    <div class="flex-1 flex items-center text-center justify-between w-full">
+  <div class="flex flex-col items-center justify-between mx-6 md:flex-row">
+    <div class="items-center text-gray-500">Page {current} of {count}</div>
+    <div class="flex items-center justify-between flex-1 w-full text-center">
       {#if current > 1}
         <button
           rel="prev"
-          class="lg:mx-5 bg-white hover:bg-gray-100 text-gray-800 font-semibold
-          lg:py-2 p-2 lg:px-4 border border-gray-400 rounded shadow rounded
-          inline-flex items-center"
+          class="inline-flex items-center p-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded shadow lg:mx-5 hover:bg-gray-100 lg:py-2 lg:px-4"
           on:click={() => dispatch('change', current - 1)}>
           <svg
             width="20"
@@ -50,8 +48,7 @@
       <div class="hidden md:block">
         {#each { length: pages } as _, i}
           <button
-            class="py-1 px-2 lg:mx-2 w-8 h-8 rounded-full border
-            hover:border-gray-500"
+            class="w-8 h-8 px-2 py-1 border rounded-full lg:mx-2 hover:border-gray-500"
             class:active={current === i + 1}
             on:click={() => dispatch('change', i + 1)}>
             {i + 1}
@@ -61,9 +58,7 @@
       {#if current < count}
         <button
           rel="next"
-          class="lg:mx-5 bg-white hover:bg-gray-100 text-gray-800 font-semibold
-          lg:py-2 p-2 lg:px-4 border border-gray-400 rounded shadow rounded
-          inline-flex items-center"
+          class="inline-flex items-center p-2 font-semibold text-gray-800 bg-white border border-gray-400 rounded shadow lg:mx-5 hover:bg-gray-100 lg:py-2 lg:px-4"
           on:click={() => dispatch('change', current + 1)}>
           <span>Next</span>
           &nbsp;

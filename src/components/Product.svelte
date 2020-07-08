@@ -33,21 +33,21 @@
 </style>
 
 {#if product}
-  <div class="p-4 w-full md:w-1/2 lg:w-1/3 ">
+  <div class="w-full p-4 md:w-1/2 lg:w-1/3 ">
     <a
       href={product.link}
       rel="prefetch"
-      class="p-8 flex flex-col items-center border rounded-lg shadow-lg ">
+      class="flex flex-col items-center p-8 border rounded-lg shadow-lg ">
       <Icon
         data={product.icon}
-        class="mr-2 mb-4"
+        class="mb-4 mr-2"
         style={`color:${product.color}`}
         label="product.icon"
         scale={5} />
-      <div class=" flex justify-between p-4 ">
+      <div class="flex justify-between p-4 ">
         <div class="flex flex-col text-center">
           <h3 class="text-3xl font-bold">{product.heading}</h3>
-          <div class="text-sm tracking-wider mt-3">{product.content}</div>
+          <div class="mt-3 text-sm tracking-wider">{product.content}</div>
         </div>
       </div>
     </a>

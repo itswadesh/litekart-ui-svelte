@@ -49,23 +49,23 @@
   }
 </script>
 
-<main in:fadeIn out:fadeOut class="lg:mt-16 container mx-auto flex flex-wrap">
-  <div class="w-full lg:w-3/5 p-4 pt-0">
-    <h1 class="mt-0 text-4xl lg:text-5xl mb-2 font-black leading-tight">
+<main in:fadeIn out:fadeOut class="container flex flex-wrap mx-auto lg:mt-16">
+  <div class="w-full p-4 pt-0 lg:w-3/5">
+    <h1 class="mt-0 mb-2 text-4xl font-black leading-tight lg:text-5xl">
       {post.name}
     </h1>
-    <div class="author flex items-center text-xs lg:text-sm">
+    <div class="flex items-center text-xs author lg:text-sm">
       <img
         src={post.author.avatar}
-        class="hidden md:block object-cover w-16 h-16 rounded-full mr-4"
+        class="hidden object-cover w-16 h-16 mr-4 rounded-full md:block"
         alt="" />
-      <div class="font-bold tracking-wide mx-2">
+      <div class="mx-2 font-bold tracking-wide">
         {post.author && post.author.name}
       </div>
-      <div class="text-gray-700 mx-2">{date(post.published_at)}</div>
+      <div class="mx-2 text-gray-700">{date(post.published_at)}</div>
     </div>
     <div class="mb-12">
-      <!-- <h2 class="font-extrabold text-3xl text-gray-900 mt-8 leading-tight">
+      <!-- <h2 class="mt-8 text-3xl font-extrabold leading-tight text-gray-900">
         {post.name}
       </h2> -->
       <div class="my-4 ">
@@ -83,8 +83,7 @@
         <ul class="flex flex-wrap my-4">
           {#each post.tags as f}
             <button
-              class="text-xs border shadow rounded-full mr-2 mb-2 bg-gray-100
-              hover:bg-gray-200 px-4 py-2">
+              class="px-4 py-2 mb-2 mr-2 text-xs bg-gray-100 border rounded-full shadow hover:bg-gray-200">
               {f}
             </button>
           {/each}
@@ -95,26 +94,26 @@
   </div>
   <div class="w-full px-4 lg:w-2/5 lg:pl-8">
     <div class="ml-0 lg:ml-4">
-      <div class="pattern py-4 px-4 text-center">
-        <h3 class="text-3xl my-0 font-bold">Latest Posts</h3>
+      <div class="px-4 py-4 text-center pattern">
+        <h3 class="my-0 text-3xl font-bold">Latest Posts</h3>
       </div>
       <ul>
         {#await getLatestPosts()}
-          <li class="border-b py-4 text-gray-700">
+          <li class="py-4 text-gray-700 border-b">
             <div class="flex items-center">
-              <img class="w-16 h-16 rounded mr-2" src={`/2x1.png`} alt />
-              <div class="text-lg font-bold w-full bg-gray-100">&nbsp;</div>
+              <img class="w-16 h-16 mr-2 rounded" src={`/2x1.png`} alt />
+              <div class="w-full text-lg font-bold bg-gray-100">&nbsp;</div>
             </div>
           </li>
         {:then latestPosts}
           {#each latestPosts as i}
-            <li class="border-b py-4 text-gray-800">
+            <li class="py-4 text-gray-800 border-b">
               <a
                 rel="prefetch"
                 href={`/blog/${i.slug}`}
                 class="flex items-center">
                 <img
-                  class="w-16 h-16 rounded mr-2 object-cover"
+                  class="object-cover w-16 h-16 mr-2 rounded"
                   src={`${i.banner}`}
                   alt />
                 <span class="font-semibold">{i.name}</span>

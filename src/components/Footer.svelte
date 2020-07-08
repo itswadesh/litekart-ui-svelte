@@ -30,9 +30,8 @@
 </style>
 
 <div
-  class="bg-gray-900 justify-between flex flex-wrap px-6 lg:px-24 pt-5 pb-3
-  shadow-lg text-xs text-white">
-  <div class="w-1/2 lg:w-1/4 mb-4">
+  class="flex flex-wrap justify-between px-6 pt-5 pb-3 text-xs text-white bg-gray-900 shadow-lg lg:px-24">
+  <div class="w-1/2 mb-4 lg:w-1/4">
     <h4 class="my-2 text-gray-600">SOCIAL</h4>
     <ul class="leading-loose">
       <li class="">
@@ -42,7 +41,7 @@
           rel="nofollow"
           target="blank"
           aria-label="facebook">
-          <Icon data={facebook} class="text-white w-4 mr-1" label="facebook" />
+          <Icon data={facebook} class="w-4 mr-1 text-white" label="facebook" />
           Facebook
           <!-- <img src="svg/facebook-brands.svg" alt="" /> -->
         </a>
@@ -54,7 +53,7 @@
           href="https://twitter.com/codenx2"
           target="blank"
           aria-label="twitter">
-          <Icon data={twitter} class="text-white w-4 mr-1" label="twitter" />
+          <Icon data={twitter} class="w-4 mr-1 text-white" label="twitter" />
           Twitter
           <!-- <img src="svg/twitter-square-brands.svg" alt="" /> -->
         </a>
@@ -66,7 +65,7 @@
           href="https://github.com/itswadesh"
           target="blank"
           aria-label="github">
-          <Icon data={github} class="text-white w-4 mr-1" label="github" />
+          <Icon data={github} class="w-4 mr-1 text-white" label="github" />
           Github
           <!-- <img src=" svg/github-brands.svg" alt="" /> -->
         </a>
@@ -78,14 +77,14 @@
           href="https://www.youtube.com/user/codenx2"
           target="blank"
           aria-label="youtube">
-          <Icon data={youtube} class="text-white w-4 mr-1" label="youtube" />
+          <Icon data={youtube} class="w-4 mr-1 text-white" label="youtube" />
           Youtube
           <!-- <img src=" svg/github-brands.svg" alt="" /> -->
         </a>
       </li>
     </ul>
   </div>
-  <div class="w-1/2 lg:w-1/4 mb-4">
+  <div class="w-1/2 mb-4 lg:w-1/4">
     <h4 class="my-2 text-gray-600">ABOUT</h4>
     <ul class="leading-loose">
       <li>
@@ -102,7 +101,7 @@
       </li>
     </ul>
   </div>
-  <div class="w-1/2 lg:w-1/4 mb-4">
+  <div class="w-1/2 mb-4 lg:w-1/4">
     <h4 class="my-2 text-gray-600">HELP</h4>
     <ul class="leading-loose">
       <li>
@@ -119,7 +118,7 @@
       </li>
     </ul>
   </div>
-  <div class="w-1/2 lg:w-1/4 mb-4">
+  <div class="w-1/2 mb-4 lg:w-1/4">
     <h4 class="my-2 text-gray-600">POLICY</h4>
     <ul class="leading-loose">
       <li class="">
@@ -136,12 +135,11 @@
       </li>
     </ul>
   </div>
-  <!-- <div class="w-1/2 lg:w-1/4 mb-4">
+  <!-- <div class="w-1/2 mb-4 lg:w-1/4">
     <h4 class="text-white border border-left-1">Mail Us</h4>
     </div> -->
 </div>
 <div
-  class="bg-gray-900 communication text-center text-white py-4 border-t
-  border-gray-500">
+  class="py-4 text-center text-white bg-gray-900 border-t border-gray-500 communication">
   © 2014 - {new Date().getFullYear()} Misiki Technologies.
 </div>

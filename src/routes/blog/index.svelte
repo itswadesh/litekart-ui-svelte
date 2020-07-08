@@ -38,14 +38,14 @@
 
 {#if posts && posts.data}
   <main in:fadeIn out:fadeOut class="mt-18">
-    <div class="pattern p-12">
-      <div class="items-center text-gray-700 text-xl font-hairline my-2">
+    <div class="p-12 pattern">
+      <div class="items-center my-2 text-xl font-hairline text-gray-700">
         <span class="text-3xl font-bold">{posts.count}</span>
         awesome collection articles
       </div>
       <p>Covering ecommerce, business solutions & technology advancements</p>
     </div>
-    <div class="flex flex-wrap justify-center m-2 container mx-auto">
+    <div class="container flex flex-wrap justify-center m-2 mx-auto">
       {#each posts.data as post}
         <BlogPostGrid {post} />
       {/each}

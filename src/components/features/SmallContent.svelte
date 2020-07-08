@@ -691,26 +691,24 @@ ADDITIONAL FEATURES
 CODING / DEVELOPMENT -->
 
 <div class="bg-gray-100 px:8 lg:px-64">
-  <h2 class="text-center text-4xl mt-8 mb-2 font-bold">WHAT’S INCLUDED</h2>
-  <h3 class="text-center text-xl text-gray-900 mb-8 tracking-widest">
+  <h2 class="mt-8 mb-2 text-4xl font-bold text-center">WHAT’S INCLUDED</h2>
+  <h3 class="mb-8 text-xl tracking-widest text-center text-gray-900">
     Get 100+ premium features out of the box with litekart's integrated onetime
     pricing
   </h3>
-  <div class="flex justify-between flex-wrap">
+  <div class="flex flex-wrap justify-between">
     {#each features as f}
-      <div class="p-4 w-full lg:w-1/2">
+      <div class="w-full p-4 lg:w-1/2">
         <div
-          class="border p-2 flex flex-col md:flex-row rounded-lg shadow-md px-6
-          py-8 shadow-md text-center md:text-left bg-white justify-center
-          items-center">
+          class="flex flex-col items-center justify-center p-2 px-6 py-8 text-center bg-white border rounded-lg shadow-md md:flex-row md:text-left">
           <img
             src={`${CDN}../../${f.img}`}
-            class="text-6xl h-12 w-12 md:mr-8"
+            class="w-12 h-12 text-6xl md:mr-8"
             alt="" />
           <!-- <img use:lazyload src="img/rocket.svg" class="flex " alt="" /> -->
           <div class="flex flex-col">
             <h4 class="mb-2 text-xl">{f.key}</h4>
-            <div class="text-ms w-full">{f.val}</div>
+            <div class="w-full text-ms">{f.val}</div>
           </div>
         </div>
       </div>

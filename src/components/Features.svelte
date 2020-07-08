@@ -25,11 +25,10 @@
 </style>
 
 <div
-  class="bg-gray-200 mt-6 text-gray-700 flex justify-center shadow-lg flex-wrap">
-  <div class="scroll flex tracking-wider">
+  class="flex flex-wrap justify-center mt-6 text-gray-700 bg-gray-200 shadow-lg">
+  <div class="flex tracking-wider scroll">
     <div
-      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center
-      items-center ">
+      class="flex flex-col items-center flex-1 px-6 py-4 text-center border-r border-gray-400 ">
       <svg
         aria-hidden="true"
         focusable="false"
@@ -63,8 +62,7 @@
       Cutting-edge Technologies
     </div>
     <div
-      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center
-      items-center ">
+      class="flex flex-col items-center flex-1 px-6 py-4 text-center border-r border-gray-400 ">
       <svg
         aria-hidden="true"
         focusable="false"
@@ -84,8 +82,7 @@
       NodeJS + ES + Microservices
     </div>
     <div
-      class="flex-1 border-r border-gray-400 px-6 py-4 f flex flex-col
-      text-center items-center">
+      class="flex flex-col items-center flex-1 px-6 py-4 text-center border-r border-gray-400 f">
       <svg
         aria-hidden="true"
         focusable="false"
@@ -113,8 +110,7 @@
       Customize it the way you want
     </div>
     <div
-      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center
-      items-center">
+      class="flex flex-col items-center flex-1 px-6 py-4 text-center border-r border-gray-400">
       <svg
         aria-hidden="true"
         focusable="false"
@@ -136,8 +132,7 @@
       Progressive ecommerce app
     </div>
     <div
-      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center
-      items-center">
+      class="flex flex-col items-center flex-1 px-6 py-4 text-center border-r border-gray-400">
       <svg
         aria-hidden="true"
         focusable="false"
@@ -171,8 +166,7 @@
       High on-page SEO
     </div>
     <div
-      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center
-      items-center">
+      class="flex flex-col items-center flex-1 px-6 py-4 text-center border-r border-gray-400">
       <svg
         aria-hidden="true"
         focusable="false"
@@ -199,8 +193,7 @@
       Scalable as well as performant
     </div>
     <div
-      class="flex-1 border-r border-gray-400 px-6 py-4 flex flex-col text-center
-      items-center">
+      class="flex flex-col items-center flex-1 px-6 py-4 text-center border-r border-gray-400">
       <svg
         aria-hidden="true"
         focusable="false"
@@ -232,8 +225,7 @@
     </div>
     <a
       href="/features"
-      class="flex-1 flex flex-col items-center justify-center text-sm p-5 icon
-      underline ">
+      class="flex flex-col items-center justify-center flex-1 p-5 text-sm underline icon ">
       see all 100+
       <br />
       features

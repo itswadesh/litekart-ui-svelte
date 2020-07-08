@@ -9,10 +9,10 @@
   }
 </style>
 
-<div class="flex flex-wrap justify-center mb-0 px-2 lg:px-12 ">
+<div class="flex flex-wrap justify-center px-2 mb-0 lg:px-12 ">
   <!-- blue -->
-  <div class="flex bg-gray-800 flex-col py-12 shadow rounded">
-    <div class="text-white text-center">
+  <div class="flex flex-col py-12 bg-gray-800 rounded shadow">
+    <div class="text-center text-white">
       <h2 class="text-5xl text-white">Performance</h2>
       <p class="mx-2 lg:mx-48">
         A 1-second delay in page load can decrease conversion by 7%. Online
@@ -23,60 +23,55 @@
         PWA in built
       </p>
     </div>
-    <p class="text-center p-12 text-white ">
+    <p class="p-12 text-center text-white ">
       Here are some of the google lighthouse / page speed stats, that proves
       what we say.
     </p>
     <div class="flex flex-wrap justify-around mx-2 lg:mx-48">
       <div
-        class="flex flex-col items-center justify-center center mb-6 text-center
-        text-white">
+        class="flex flex-col items-center justify-center mb-6 text-center text-white center">
         <div
-          class="border-8 border-white w-24 h-24 rounded-full flex
-          justify-center items-center">
-          <h2 class="green text-3xl font-black">91+</h2>
+          class="flex items-center justify-center w-24 h-24 border-8 border-white rounded-full">
+          <h2 class="text-3xl font-black green">91+</h2>
         </div>
         <p class="text-xl">Performance</p>
       </div>
       <div
-        class="flex flex-col items-center center mb-6 text-center text-white">
+        class="flex flex-col items-center mb-6 text-center text-white center">
         <div
-          class="border-8 border-white w-24 h-24 rounded-full flex
-          justify-center items-center">
-          <h2 class="green text-3xl font-black">100</h2>
+          class="flex items-center justify-center w-24 h-24 border-8 border-white rounded-full">
+          <h2 class="text-3xl font-black green">100</h2>
         </div>
         <p class="text-xl">Accessibility</p>
       </div>
       <div
-        class="flex flex-col items-center center mb-6 text-center text-white">
+        class="flex flex-col items-center mb-6 text-center text-white center">
         <div
-          class="border-8 border-white w-24 h-24 rounded-full flex
-          justify-center items-center">
-          <h3 class="green text-3xl font-black">100</h3>
+          class="flex items-center justify-center w-24 h-24 border-8 border-white rounded-full">
+          <h3 class="text-3xl font-black green">100</h3>
         </div>
         <p class="text-xl">Best practices</p>
       </div>
       <div
-        class="flex flex-col items-center center mb-6 text-center text-white">
+        class="flex flex-col items-center mb-6 text-center text-white center">
         <div
-          class="border-8 border-white w-24 h-24 rounded-full flex
-          justify-center items-center">
-          <h3 class="green text-3xl font-black">100</h3>
+          class="flex items-center justify-center w-24 h-24 border-8 border-white rounded-full">
+          <h3 class="text-3xl font-black green">100</h3>
         </div>
         <p class="text-xl">SEO</p>
       </div>
     </div>
   </div>
-  <!-- <div class="flex mt-8 justify-between flex-wrap">
+  <!-- <div class="flex flex-wrap justify-between mt-8">
     <div class="w-full lg:w-1/2">
-      <div class="flex flex-col mb-8 p-6 items-center rounded shadow lg:mr-2">
+      <div class="flex flex-col items-center p-6 mb-8 rounded shadow lg:mr-2">
         <img
           use:lazyload
           src={CDN + '../../img/clicky_logo.png?tr=w-3,h-2'}
           data-src={CDN + '../../img/clicky_logo.png'}
           class="h-12"
           alt="" />
-        <h2 class="primary text-xl my-6 ">
+        <h2 class="my-6 text-xl primary ">
           How Clicky designed an agile and highperformance ecommerce.
         </h2>
         <p class="leading-loose">
@@ -90,15 +85,14 @@
     </div>
     <div class="w-full lg:w-1/2">
       <div
-        class="flex flex-col items-center mb-8 p-6 items-center rounded shadow
-        lg:ml-2">
+        class="flex flex-col items-center p-6 mb-8 rounded shadow lg:ml-2">
         <img
           use:lazyload
           src={CDN + '../../img/tesoro_logo.png?tr=w-3,h-2'}
           data-src={CDN + '../../img/tesoro_logo.png'}
           class="h-12"
           alt="" />
-        <h2 class="primary text-xl my-6">
+        <h2 class="my-6 text-xl primary">
           How Tesoro stays on top with a flexible e-commerce platform.
         </h2>
         <p class="leading-loose">

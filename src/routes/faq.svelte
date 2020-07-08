@@ -176,7 +176,7 @@
 </svelte:head>
 
 <main in:fadeIn out:fadeOut>
-  <h1 class="text-5xl my-8 text-center font-bold">
+  <h1 class="my-8 text-5xl font-bold text-center">
     Frequently Asked
     <span class="underline">Questions</span>
   </h1>

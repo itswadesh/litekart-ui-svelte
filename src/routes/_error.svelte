@@ -8,7 +8,7 @@
 <svelte:head>
   <title>Litekart - {status}</title>
 </svelte:head>
-<div class="my-16 mx-auto lg:mx-48">
+<div class="mx-auto my-16 lg:mx-48">
   <h1 class="text-4xl text-center">{status}-{error.message}</h1>
   {#if dev && error.stack}
     <pre>{error.stack}</pre>

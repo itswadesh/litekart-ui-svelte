@@ -45,14 +45,14 @@
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="bg-gray-100 px:8 lg:px-64">
-    <h1 class="text-5xl mt-8 mb-2 text-center font-bold">
+    <h1 class="mt-8 mb-2 text-5xl font-bold text-center">
       Build using
       <span class="underline">Latest Technologies</span>
     </h1>
-    <h2 class="text-center text-xl text-gray-900 mb-8 tracking-widest">
+    <h2 class="mb-8 text-xl tracking-widest text-center text-gray-900">
       Litekart is always updated with latest technologies
     </h2>
-    <div class="flex justify-center flex-wrap ">
+    <div class="flex flex-wrap justify-center ">
       <div class="w-full">
         <img
           use:lazyload
@@ -61,7 +61,7 @@
           class="mb-12"
           alt="" />
       </div>
-      <!-- <div class="w-full lg:w-1/2 flex items-center ">
+      <!-- <div class="flex items-center w-full lg:w-1/2 ">
         <ul class="text-2xl ">
           <li>
             <span class="font-bold">Nodejs</span>
@@ -84,12 +84,12 @@
     </div>
   </div>
 
-  <div class="border border-gray-400 bg-white p-10 justify-around">
-    <h2 class="text-4xl font-bold text-center mb-6 tracking-widest">
+  <div class="justify-around p-10 bg-white border border-gray-400">
+    <h2 class="mb-6 text-4xl font-bold tracking-widest text-center">
       Hosting Platforms
     </h2>
 
-    <div class="flex text-center flex-wrap justify-center p-4 ">
+    <div class="flex flex-wrap justify-center p-4 text-center ">
       <p class="p-4">
         <img
           use:lazyload

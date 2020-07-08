@@ -21,32 +21,32 @@
   <title>Litekart - Login</title>
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <div class="full flex justify-center">
+  <div class="flex justify-center full">
     <div
-      class="card rounded-lg shadow-lg flex bg-white m-12 pb-12 justify-center ">
+      class="flex justify-center pb-12 m-12 bg-white rounded-lg shadow-lg card ">
       <div class="flex flex-col ">
-        <h1 class="text-center text-gray-600 text-4xl p-12 ">Sign-In</h1>
-        <button class="bg-indigo-500 shadow rounded text-white p-2 m-2 ">
+        <h1 class="p-12 text-4xl text-center text-gray-600 ">Sign-In</h1>
+        <button class="p-2 m-2 text-white bg-indigo-500 rounded shadow ">
           FACEBOOK
         </button>
-        <button class="goo text-white shadow rounded p-2 m-2">GOOGLE</button>
-        <h2 class="text-center text-gray-500 m-6 cursor-pointer">or</h2>
+        <button class="p-2 m-2 text-white rounded shadow goo">GOOGLE</button>
+        <h2 class="m-6 text-center text-gray-500 cursor-pointer">or</h2>
         <input
-          class="mb-4 shadow-2xl border rounded p-2"
+          class="p-2 mb-4 border rounded shadow-2xl"
           type="Email or mobile number "
           placeholder="Email or mobile number"
           size="15"
           maxlength="60" />
         <input
-          class="mb-4 shadow-2xl border rounded p-2"
+          class="p-2 mb-4 border rounded shadow-2xl"
           type="password"
           placeholder="Password"
           size="15"
           maxlength="30" />
-        <button class="submit shadow text-white p-2 rounded">SIGN IN</button>
-        <div class="flex justify-center justify-around">
-          <button class="text-gray-500 p-2">Forget Password</button>
-          <button class="text-gray-500 p-2">Create A New Account</button>
+        <button class="p-2 text-white rounded shadow submit">SIGN IN</button>
+        <div class="flex justify-around">
+          <button class="p-2 text-gray-500">Forget Password</button>
+          <button class="p-2 text-gray-500">Create A New Account</button>
         </div>
       </div>
     </div>

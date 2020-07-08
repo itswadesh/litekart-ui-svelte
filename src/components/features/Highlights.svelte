@@ -113,16 +113,15 @@
   }
 </style>
 
-<div class="flex justify-center lg:mb-10 sticky shadow-lg">
-  <div class="scroll flex justify-start my-2">
+<div class="sticky flex justify-center shadow-lg lg:mb-10">
+  <div class="flex justify-start my-2 scroll">
     {#each features as f, ix}
       <button on:click={() => scrollTo('h1-' + ix)}>
         <div
-          class="f w-32 h-32 m-2 flex flex-col text-gray-700 border
-          hover:shadow-lg border-b-8 text-center items-center p-4 rounded ">
-          <Icon data={f.icon} class=" mb-1" label={f.icon} scale={3} />
+          class="flex flex-col items-center w-32 h-32 p-4 m-2 text-center text-gray-700 border border-b-8 rounded f hover:shadow-lg ">
+          <Icon data={f.icon} class="mb-1 " label={f.icon} scale={3} />
           <!-- <i class={'fa fa-' + f.icon + ' text-4xl mb-1'} /> -->
-          <h2 class="text-ms text-black tracking-wider">{f.data}</h2>
+          <h2 class="tracking-wider text-black text-ms">{f.data}</h2>
         </div>
       </button>
     {/each}

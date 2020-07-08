@@ -29,13 +29,13 @@
   }
 </style>
 
-<div class="my-2 py-12 px-2">
-  <h2 class="text-center text-3xl pb-12 font-bold">
+<div class="px-2 py-12 my-2">
+  <h2 class="pb-12 text-3xl font-bold text-center">
     Here’s how Litekart helps deliver the best sales
   </h2>
-  <div class=" flex justify-between flex-wrap lg:flex-no-wrap ">
+  <div class="flex flex-wrap justify-between  lg:flex-no-wrap">
     <div
-      class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
+      class="flex flex-col justify-center w-1/2 px-3 mb-6 text-center lg:w-1/4">
       <img
         use:lazyload
         src={CDN + '../../img/talent-work.svg?tr=w-3,h-2'}
@@ -46,7 +46,7 @@
       it.
     </div>
     <div
-      class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
+      class="flex flex-col justify-center w-1/2 px-3 mb-6 text-center lg:w-1/4">
       <img
         use:lazyload
         src={CDN + '../../img/get-a-smater.svg?tr=w-3,h-2'}
@@ -56,7 +56,7 @@
       Based on NodeJS, it empowers faster database and file system access.
     </div>
     <div
-      class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
+      class="flex flex-col justify-center w-1/2 px-3 mb-6 text-center lg:w-1/4">
       <img
         use:lazyload
         src={CDN + '../../img/manage-everythinng.svg?tr=w-3,h-2'}
@@ -66,7 +66,7 @@
       Litekart takes advantage of the cloud platforms providing 99.99% uptime.
     </div>
     <div
-      class="w-1/2 lg:w-1/4 flex flex-col justify-center text-center mb-6 px-3">
+      class="flex flex-col justify-center w-1/2 px-3 mb-6 text-center lg:w-1/4">
       <img
         use:lazyload
         src={CDN + '../../img/get-a-clear.svg?tr=w-3,h-2'}
@@ -79,14 +79,14 @@
   <div class="flex justify-center mt-6 ">
     <a
       href="/contact"
-      class="button ml-2 bg-primary mr-5 px-8 py-2 text-white rounded-full">
+      class="px-8 py-2 ml-2 mr-5 text-white rounded-full button bg-primary">
       <span>Get started</span>
     </a>
     <a
       href="https://demo.litekart.in/"
       rel="noopener"
       target="blank"
-      class="button border ml-2 bg-gray-100 py-2 px-8 primary rounded-full">
+      class="px-8 py-2 ml-2 bg-gray-100 border rounded-full button primary">
       <span>Get a Demo</span>
     </a>
   </div>

@@ -156,10 +156,10 @@
 <!-- left section -->
 {#each features as f, ix}
   {#if ix % 2 == 0}
-    <div class="bg flex flex-wrap px-2 lg:px-48 lg:mb-12">
-      <div class="order-last lg:order-first w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
-        <h2 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h2>
-        <div class="flex tracking-wider items-start">
+    <div class="flex flex-wrap px-2 bg lg:px-48 lg:mb-12">
+      <div class="order-last w-full pr-0 mb-8 lg:order-first lg:w-1/2 lg:pr-12">
+        <h2 id={'h1-' + ix} class="mb-2 text-4xl font-bold">{f.h}</h2>
+        <div class="flex items-start tracking-wider">
           <ul class="w-1/2">
             {#each f.data as i, ix}
               {#if ix % 2 == 0}
@@ -176,12 +176,12 @@
           </ul>
         </div>
       </div>
-      <div class="lg:order-last order-first w-full lg:w-1/2">
+      <div class="order-first w-full lg:order-last lg:w-1/2">
         <img
           use:lazyload
           src={`${CDN}../../${f.img}?tr=w-3,h-2`}
           data-src={`${CDN}../../${f.img}`}
-          class="img m-auto"
+          class="m-auto img"
           alt="" />
       </div>
     </div>
@@ -190,16 +190,16 @@
   <!-- right section -->
   {#if ix % 2 == 1}
     <div class="flex flex-wrap px-2 lg:px-48 lg:mb-12">
-      <div class=" w-full lg:w-1/2 pr-0 lg:pr-12 mb-8">
+      <div class="w-full pr-0 mb-8  lg:w-1/2 lg:pr-12">
         <img
           use:lazyload
           src={`${CDN}../../${f.img}?tr=w-3,h-2`}
           data-src={`${CDN}../../${f.img}`}
-          class="img m-auto"
+          class="m-auto img"
           alt="" />
       </div>
-      <div class=" w-full lg:w-1/2">
-        <h2 id={'h1-' + ix} class="text-4xl mb-2 font-bold">{f.h}</h2>
+      <div class="w-full  lg:w-1/2">
+        <h2 id={'h1-' + ix} class="mb-2 text-4xl font-bold">{f.h}</h2>
         <div class="flex tracking-wider">
           <ul class="w-1/2 mx-6">
             {#each f.data as i, ix}

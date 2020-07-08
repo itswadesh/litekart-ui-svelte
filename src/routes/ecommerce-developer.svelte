@@ -214,7 +214,7 @@
 
 <main in:fadeIn out:fadeOut>
   <div class="bg-gray-100 px:8 lg:px-64">
-    <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+    <h1 class="mt-8 mb-16 text-5xl font-bold text-center">
       For
       <span class="underline">Developers</span>
     </h1>
@@ -223,26 +223,24 @@
         <Product product={c} />
       {/each}
     </div>
-    <h2 class="text-center text-4xl mt-8 mb-2 font-bold">WHAT’S INCLUDED</h2>
-    <h2 class="text-center text-xl text-gray-900 mb-8 tracking-widest">
+    <h2 class="mt-8 mb-2 text-4xl font-bold text-center">WHAT’S INCLUDED</h2>
+    <h2 class="mb-8 text-xl tracking-widest text-center text-gray-900">
       Get 100+ premium features out of the box with litekart's integrated
       onetime pricing
     </h2>
-    <div class="flex justify-between flex-wrap">
+    <div class="flex flex-wrap justify-between">
       {#each features as f}
-        <div class="p-4 w-full lg:w-1/2">
+        <div class="w-full p-4 lg:w-1/2">
           <div
-            class="border p-2 flex flex-col md:flex-row rounded-lg shadow-md
-            px-6 py-8 shadow-md text-center md:text-left justify-center
-            items-center">
+            class="flex flex-col items-center justify-center p-2 px-6 py-8 text-center border rounded-lg shadow-md md:flex-row md:text-left">
             <img
               src={`${CDN}../../${f.img}`}
-              class="text-6xl h-12 w-12 md:mr-8"
+              class="w-12 h-12 text-6xl md:mr-8"
               alt="" />
             <!-- <img use:lazyload src="img/rocket.svg" class="flex " alt="" /> -->
             <div class="flex flex-col">
               <h3 class="mb-2 text-xl font-bold">{f.key}</h3>
-              <div class="text-sm tracking-wider w-full">{f.val}</div>
+              <div class="w-full text-sm tracking-wider">{f.val}</div>
             </div>
           </div>
         </div>

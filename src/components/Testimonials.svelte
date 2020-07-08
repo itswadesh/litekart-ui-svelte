@@ -4,14 +4,13 @@
 </script>
 
 <div class="bg-gray-200">
-  <div class="max-w-6xl mx-auto px-8 py-16">
+  <div class="max-w-6xl px-8 py-16 mx-auto">
     <div class="relative">
-      <div class="relative lg:flex rounded-lg shadow-2xl overflow-hidden">
+      <div class="relative overflow-hidden rounded-lg shadow-2xl lg:flex">
         <div
-          class="h-56 lg:h-auto lg:w-5/12 relative flex items-center
-          justify-center">
+          class="relative flex items-center justify-center h-56 lg:h-auto lg:w-5/12">
           <img
-            class="absolute h-full w-full object-cover"
+            class="absolute object-cover w-full h-full"
             use:lazyload
             src={CDN + '../../working-team.jpg?tr=w-3,h-2'}
             data-src={CDN + '../../working-team.jpg'}
@@ -22,7 +21,7 @@
             focusable="false"
             data-prefix="fas"
             data-icon="chart-line"
-            class="relative fa-w-16 fill-current text-white"
+            class="relative text-white fill-current fa-w-16"
             width="200"
             height="120"
             role="img"
@@ -40,20 +39,19 @@
               24-24z" />
           </svg>
         </div>
-        <div class="relative lg:w-7/12 bg-white">
+        <div class="relative bg-white lg:w-7/12">
           <svg
-            class="absolute h-full text-white w-24 -ml-12"
+            class="absolute w-24 h-full -ml-12 text-white"
             fill="currentColor"
             viewBox="0 0 100 100"
             preserveAspectRatio="none">
             <polygon points="50,0 100,0 50,100 0,100" />
           </svg>
           <div
-            class="relative py-12 lg:py-24 px-8 lg:px-16 text-gray-700
-            leading-relaxed">
+            class="relative px-8 py-12 leading-relaxed text-gray-700 lg:py-24 lg:px-16">
             <p>
 
-              <strong class="text-gray-900 font-medium">
+              <strong class="font-medium text-gray-900">
                 The Next Generation of Commerce
               </strong>
               - Get started selling within minutes. Featuring a complete
@@ -72,10 +70,9 @@
       </div>
       <div class="absolute inset-y-0 left-0 lg:flex lg:items-center">
         <button
-          class="mt-24 lg:mt-0 -ml-6 h-12 w-12 rounded-full bg-white p-3
-          shadow-lg">
+          class="w-12 h-12 p-3 mt-24 -ml-6 bg-white rounded-full shadow-lg lg:mt-0">
           <svg
-            class="h-full w-full text-indigo-900"
+            class="w-full h-full text-indigo-900"
             fill="currentColor"
             viewBox="0 0 24 24">
             <path
@@ -86,10 +83,9 @@
       </div>
       <div class="absolute inset-y-0 right-0 lg:flex lg:items-center">
         <button
-          class="mt-24 lg:mt-0 -mr-6 h-12 w-12 rounded-full bg-white p-3
-          shadow-lg">
+          class="w-12 h-12 p-3 mt-24 -mr-6 bg-white rounded-full shadow-lg lg:mt-0">
           <svg
-            class="h-full w-full text-indigo-900"
+            class="w-full h-full text-indigo-900"
             fill="currentColor"
             viewBox="0 0 24 24">
             <path

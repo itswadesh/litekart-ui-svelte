@@ -58,8 +58,8 @@
   <link rel="alternate" hreflang="en" href={`${host}/refund-policy`} />
 </svelte:head>
 <main in:fadeIn out:fadeOut>
-  <div class="hfull mb-16 mx-2 lg:mx-48 leading-loose">
-    <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+  <div class="mx-2 mb-16 leading-loose hfull lg:mx-48">
+    <h1 class="mt-8 mb-16 text-5xl font-bold text-center">
       <span class="underline">Refund</span>
       & Cancellation Policy
     </h1>

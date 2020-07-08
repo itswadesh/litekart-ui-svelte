@@ -353,20 +353,20 @@
 
 <main in:fadeIn out:fadeOut>
   <section id="timeline">
-    <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+    <h1 class="mt-8 mb-16 text-5xl font-bold text-center">
       <span class="underline">Development</span>
       Story
     </h1>
-    <p class="leader px-2 lg:px-64 tracking-widest leading-relaxed">
+    <p class="px-2 leading-relaxed tracking-widest leader lg:px-64">
       It all started 2014 in the name of ShopNx. After 6 years of evolution, the
       software now powers more than 800 stores worldwide
     </p>
     <div class="demo-card-wrapper">
       {#each timeline as t, ix}
         <div class={`rounded-lg demo-card demo-card--step${ix}`}>
-          <div class=" rounded shadow-lg">
+          <div class="rounded shadow-lg ">
             <div class="head">
-              <div class="number-box rounded">
+              <div class="rounded number-box">
                 <span>{t.version}</span>
               </div>
               <h2>

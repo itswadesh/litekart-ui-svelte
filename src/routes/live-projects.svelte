@@ -28,6 +28,20 @@
     //   stats: [232, 94, 320]
     // },
     {
+      heading: `Litekart Grocery is a grocery flavour of litekart ecommerce stack`,
+      data: `The project is written ground up based on cutting edge tech stack of 2020. NodeJS+GraphQL+Typescript+TailwindCSS+MongoDB+Vue makes it very powerfull and robust. Focussed on speed and customization capability.`,
+      img: `grocery.png`,
+      link: `https://grocery.litekart.in/`,
+      stats: [121, 65, 100]
+    },
+    {
+      heading: `Frontendfun`,
+      data: `This is an website for free softwares, scripts, themes and more. Contains 10,000+ free alternative to most of the premium projects. Just download and use as an boilerplate for your own project`,
+      img: `frontendfun.png`,
+      link: `https://www.frontendfun.com/`,
+      stats: [151, 96, 210]
+    },
+    {
       heading: `Misiki started its journey from Litekart`,
       data: `With an innovative idea in mind, Misiki Technologies started their
           journey with Litekart framework. As a food startup they had a
@@ -43,13 +57,6 @@
       img: `hopyshopy.png`,
       link: `https://www.hopyshopy.com/`,
       stats: [166, 92, 200]
-    },
-    {
-      heading: `Frontendfun`,
-      data: `This is an Envato affiliate for software scripts, videos, website themes and more. This website automatically collect and publish data into Frontendfund using Envato API as an affiliate`,
-      img: `frontendfun.png`,
-      link: `https://www.frontendfun.com/`,
-      stats: [151, 96, 210]
     },
     {
       heading: `Arialshop - Ready to use single page ecommerce built using NodeJS & VueJS`,
@@ -117,14 +124,14 @@
 </svelte:head>
 <main in:fadeIn out:fadeOut>
   <div class="mx-2 lg:mx-16 xl:mx-48 xxl:mx-64">
-    <h1 class="text-5xl mt-8 mb-16 text-center font-bold">
+    <h1 class="mt-8 mb-16 text-5xl font-bold text-center">
       <span class="underline">Live</span>
       Projects
     </h1>
     {#each projects as p, ix}
       <div class="flex flex-wrap mb-32">
         <div
-          class="w-full lg:w-2/6 flex justify-center"
+          class="flex justify-center w-full lg:w-2/6"
           class:order-2={ix % 2 == 1}>
           <img
             use:lazyload
@@ -133,51 +140,50 @@
             alt=""
             class="object-cover" />
         </div>
-        <div class="order-1 w-full lg:w-4/6 pt-8 lg:pt-0 px-2 lg:px-24">
+        <div class="order-1 w-full px-2 pt-8 lg:w-4/6 lg:pt-0 lg:px-24">
           <h2
-            class="text-xl lg:text-3xl font-black leading-tight tracking-wide">
+            class="text-xl font-black leading-tight tracking-wide lg:text-3xl">
             {p.heading}
           </h2>
           <p class="mt-8 tracking-widest">{p.data}</p>
-          <div class="my-16 flex justify-center">
-            <div class="stats mr-4 text-center">
+          <div class="flex justify-center my-16">
+            <div class="mr-4 text-center stats">
               <div class="flex items-center justify-center">
                 <Icon
                   data={arrowUp}
-                  class="text-green-500 mr-2"
+                  class="mr-2 text-green-500"
                   label="growth"
                   scale={2} />
-                <div class="text-xl lg:text-6xl font-black">{p.stats[0]}%</div>
+                <div class="text-xl font-black lg:text-6xl">{p.stats[0]}%</div>
               </div>
               <p class="tracking-wider">growth of daily visitors</p>
             </div>
-            <div class="stats mx-4 text-center">
+            <div class="mx-4 text-center stats">
               <div class="flex items-center justify-center">
                 <Icon
                   data={arrowUp}
-                  class="text-green-500 mr-2"
+                  class="mr-2 text-green-500"
                   label="growth"
                   scale={2} />
-                <div class="text-xl lg:text-6xl font-black">{p.stats[1]}%</div>
+                <div class="text-xl font-black lg:text-6xl">{p.stats[1]}%</div>
               </div>
               <p class="tracking-wider">improve in SEO ranking</p>
             </div>
-            <div class="stats ml-4 text-center">
+            <div class="ml-4 text-center stats">
               <div class="flex items-center justify-center">
                 <Icon
                   data={arrowUp}
-                  class="text-green-500 mr-2"
+                  class="mr-2 text-green-500"
                   label="growth"
                   scale={2} />
-                <div class="text-xl lg:text-6xl font-black">{p.stats[2]}%</div>
+                <div class="text-xl font-black lg:text-6xl">{p.stats[2]}%</div>
               </div>
               <p class="tracking-wider">improved loading times</p>
             </div>
           </div>
           <div class="my-24 text-center">
             <a
-              class="inline-block text-center button border rounded-full w-1/2
-              lg:w-1/3 px-auto py-3 bg-primary text-white text-lg"
+              class="inline-block w-1/2 py-3 text-lg text-center text-white border rounded-full button lg:w-1/3 px-auto bg-primary"
               href={p.link}
               target="_blank">
               Live demo

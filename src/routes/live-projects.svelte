@@ -29,7 +29,7 @@
     // },
     {
       heading: `Litekart Grocery is a grocery flavour of litekart ecommerce stack`,
-      data: `The project is written ground up based on cutting edge tech stack of 2020. NodeJS+GraphQL+Typescript+TailwindCSS+MongoDB+Vue makes it very powerfull and robust. Focussed on speed and customization capability.`,
+      data: `The project is written ground up based on cutting edge tech stack of 2020. NodeJS | GraphQL | Typescript | TailwindCSS | MongoDB | Vue makes it very powerfull and robust. Focussed on speed and customization capability.`,
       img: `grocery.png`,
       link: `https://grocery.litekart.in/`,
       stats: [121, 65, 100]
